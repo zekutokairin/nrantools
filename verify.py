@@ -4,24 +4,33 @@ from tempfile import TemporaryDirectory
 
 from wand import image
 
+# TODO: Do we even need this? ArcadeManager doesn't seem to convert at all
+import dds
+
 # New Retro Arcade:Neon Content directory
 BASE_DIRECTORY = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content"
 CSV_FIRSTLINE = "Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
 
 # Make sure it's the right directory
+"""
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadeCartridges.xml"))
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadeMachines.xml"))
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadeMusic.xml"))
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadePosters.xml"))
+"""
 
+# TODO: move config to separate file
 NES_COLOR = "#525151"
 SNES_COLOR = "#E5E5E5"
 GENESIS_COLOR = "#000000"
 
-# TODO: Create if doesn't exist
-OUTPUT_DIRECTORY = "output"
+NES_CORE = "bnes_retrocore.dll"
 
-ROMTYPES = ['nes','smc','sfc','md','gb','gbc','gba']
+OUTPUT_DIRECTORY = "Content"
+if not os.path.exists(OUTPUT_DIRECTORY):
+    os.mkdir(OUTPUT_DIRECTORY)
+
+ROMTYPES = ['nes','smc','sfc','md','gen','gb','gbc','gba']
 IMAGETYPES = ['png','gif','jpg']
 
 def checkCartDirectory(path):
@@ -47,36 +56,45 @@ def checkCartDirectory(path):
                     if len(maybe_coverart) == 0:
                         continue
 
+                    # We found it
                     if len(maybe_coverart) == 2:
                         # The list should contain the rom and the art, remove the rom
                         maybe_coverart.remove(f)
-                        #Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                        # Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                         # Mega Man 2 (USA).nes,bnes_libretro.dll,Mega Man 2 (NES),output.dds,#333333,Console,CartridgeTable1,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                         l = []
                         line = ""
+                        """
+                        if "," in f:
+                            # FIXME we may be able to just put it in quotes?
+                            raise Exception("There is a game name with comma! This will screw things up, please rename %s" % f)
+                        """
+
                         if f.endswith(".nes"):
-                            l = [f, "bsnes_retrocore.dll", name, maybe_coverart[0],"#1F1F1F","","","Yes"] 
-                            line = ','.join(l)+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
-                            print(line)
+                            core = NES_CORE
+                            color = NES_COLOR
+
+                        elif f.endswith(".smc") or f.endswith(".sfc"):
+                            pass
+
+                        elif f.endswith(".md") or f.endswith(".gen"):
+                            pass
+
+                        else:
+                            raise UnsupportedOperationException("Error processing %s" % f)
+                        l = ["\"" + f +"\"", core, name, "\"" + maybe_coverart[0]+"\"",color,"#1F1F1F","","","Yes"]
+                        line = ','.join(l)+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n"
                         csv += line
-                        csv += "\n"
+                        break
 
                         #print("%s:%s" % (f, maybe_coverart[0]))
-                        break
 
     return csv
 
-def ytBacklog():
-    # get user playlist public/unlinked
-    # return list of urls to write into CSV
-    pass
-
 if __name__ == "__main__":
-    cartridge_xml = CSV_FIRSTLINE + "\n"
-    # TODO: Create --delete option that deletes Carts, Tapes, and Posters not
-    #       in the user's content directory
+    cartridge_xml = ""
     cartridge_xml += checkCartDirectory(os.path.join("..","NES"))
     #r = checkCartDirectory(os.path.join("..","SNES"))
-    with open("ArcadeCartridges.xml",'w') as cartfile:
+    with open("cartridge_list.csv",'w') as cartfile:
         cartfile.write(cartridge_xml)
     
