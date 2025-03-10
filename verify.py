@@ -8,10 +8,11 @@ from wand import image
 import dds
 
 # New Retro Arcade:Neon Content directory
-BASE_DIRECTORY = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content"
+CONTENT_DIRECTORY = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content"
 CSV_FIRSTLINE = "Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
 
 # Make sure it's the right directory
+# FIXME I don't think we need this anymore
 """
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadeCartridges.xml"))
 assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadeMachines.xml"))
@@ -25,10 +26,18 @@ SNES_COLOR = "#E5E5E5"
 GENESIS_COLOR = "#000000"
 
 NES_CORE = "bnes_retrocore.dll"
+SNES_CORE = "bsnes_performance_libretro.dll"
+MD_CORE = "picodrive_libretro.dll"
+
 
 OUTPUT_DIRECTORY = "Content"
+CART_DIRECTORY = os.path.join(OUTPUT_DIRECTORY, "Cartridges")
+
 if not os.path.exists(OUTPUT_DIRECTORY):
     os.mkdir(OUTPUT_DIRECTORY)
+if not os.path.exists(CART_DIRECTORY):
+    os.mkdir(CART_DIRECTORY)
+
 
 ROMTYPES = ['nes','smc','sfc','md','gen','gb','gbc','gba']
 IMAGETYPES = ['png','gif','jpg']
@@ -85,6 +94,22 @@ def checkCartDirectory(path):
                         l = ["\"" + f +"\"", core, name, "\"" + maybe_coverart[0]+"\"",color,"#1F1F1F","","","Yes"]
                         line = ','.join(l)+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n"
                         csv += line
+
+
+                        # Copy ROM
+                        src = os.path.join(root,f)
+                        dest = os.path.join(CART_DIRECTORY,f)
+                        shutil.copyfile(src, dest)
+
+                        # Copy Coverart
+                        src = os.path.join(root,maybe_coverart[0])
+                        dest = os.path.join(CART_DIRECTORY,maybe_coverart[0])
+                        shutil.copyfile(src, dest)
+
+
+                        import code
+                        #code.interact(local=locals())
+
                         break
 
                         #print("%s:%s" % (f, maybe_coverart[0]))
