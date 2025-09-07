@@ -23,12 +23,11 @@ assert os.path.exists(os.path.join(BASE_DIRECTORY,"ArcadePosters.xml"))
 # TODO: move config to separate file
 NES_COLOR = "#525151"
 SNES_COLOR = "#E5E5E5"
-GENESIS_COLOR = "#000000"
+MD_COLOR = "#000000"
 
-NES_CORE = "bnes_retrocore.dll"
+NES_CORE =  "bnes_retrocore.dll"
 SNES_CORE = "bsnes_performance_libretro.dll"
-MD_CORE = "picodrive_libretro.dll"
-
+MD_CORE =   "picodrive_libretro.dll"
 
 OUTPUT_DIRECTORY = "Content"
 CART_DIRECTORY = os.path.join(OUTPUT_DIRECTORY, "Cartridges")
@@ -41,6 +40,17 @@ if not os.path.exists(CART_DIRECTORY):
 
 ROMTYPES = ['nes','smc','sfc','md','gen','gb','gbc','gba']
 IMAGETYPES = ['png','gif','jpg']
+
+# List of ROM objects
+ROMS = []
+
+class ROM:
+    def __init__(self, Game, Core, GameName, Texture, Colour):
+        self.Game = Game
+        self.Core = Core
+        self.GameName = GameName
+        self.Texture = Texture
+        self.Colour = Colour
 
 def checkCartDirectory(path):
     cart_dict = {}
@@ -66,9 +76,11 @@ def checkCartDirectory(path):
                         continue
 
                     # We found it
+                    # FIXME: possible bug if it doesn't exist??
                     if len(maybe_coverart) == 2:
                         # The list should contain the rom and the art, remove the rom
                         maybe_coverart.remove(f)
+
                         # Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                         # Mega Man 2 (USA).nes,bnes_libretro.dll,Mega Man 2 (NES),output.dds,#333333,Console,CartridgeTable1,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                         l = []
@@ -91,12 +103,15 @@ def checkCartDirectory(path):
 
                         else:
                             raise UnsupportedOperationException("Error processing %s" % f)
-                        l = ["\"" + f +"\"", core, name, "\"" + maybe_coverart[0]+"\"",color,"#1F1F1F","","","Yes"]
-                        line = ','.join(l)+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n"
+                        l = ["\""+f+"\"", core, "\""+name+"\"", "\""+
+                        maybe_coverart[0]+"\"",color,"Console","","Yes"]
+                        line = ','.join(l)+ "\n"
+                        #line = ','.join(l)+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n"
                         csv += line
 
 
                         # Copy ROM
+                        # FIXME: make rom path
                         src = os.path.join(root,f)
                         dest = os.path.join(CART_DIRECTORY,f)
                         shutil.copyfile(src, dest)
@@ -106,20 +121,25 @@ def checkCartDirectory(path):
                         dest = os.path.join(CART_DIRECTORY,maybe_coverart[0])
                         shutil.copyfile(src, dest)
 
+                        # Add to ROMS global
+                        game =
+                        ROM(Game=f,Core=core,GameName=name,Texture=maybe_coverart[0],Colour=color)
 
                         import code
                         #code.interact(local=locals())
 
                         break
 
-                        #print("%s:%s" % (f, maybe_coverart[0]))
-
     return csv
 
 if __name__ == "__main__":
     cartridge_xml = ""
     cartridge_xml += checkCartDirectory(os.path.join("..","NES"))
-    #r = checkCartDirectory(os.path.join("..","SNES"))
+    # TODO: test NES carts before we move on
+    #cartridge_xml += checkCartDirectory(os.path.join("..","SNES"))
+    #cartridge_xml += checkCartDirectory(os.path.join("..","Genesis"))
     with open("cartridge_list.csv",'w') as cartfile:
         cartfile.write(cartridge_xml)
-    
+
+
+    # Posters

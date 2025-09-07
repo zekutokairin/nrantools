@@ -10,3 +10,7 @@ From working install, steps to take:
 
 # (Optional) Remove assorted trash
 ## in New Retro Arcade Neon\NewRetroArcade\Saved\Config\WindowsNoEditor directory, open GameUserSettings and remove trash
+
+## Potential problem: if we're generating completely correct CSVs and Arcade
+Manager still doesn't like them, there's not much else to do besides make our
+own XMLs?
