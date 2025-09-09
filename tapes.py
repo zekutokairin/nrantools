@@ -6,9 +6,12 @@ import itertools
 
 URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 
-TMPFILE = "D://transfar//urls.txt"
+t = tempfile.NamedTemporaryFile(delete=False)
+#TMPFILE = "D://transfar//urls.txt"
+TMPFILE = t.name
+print(t.name)
 
-#with tempfile.NamedTemporaryFile(delete_on_close=False) as fp:
+#with ) as fp:
 subprocess.run(['yt-dlp','--flat-playlist','-i','--print-to-file','title,url',TMPFILE,URL])
 
 """
