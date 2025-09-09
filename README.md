@@ -6,6 +6,11 @@ Scripts for importing and maintaining your personal arcade in N:RAN
 - Copy in Dado Pack
 - Replace `NewRetroArcade\Plugins\VlcMedia\ThirdParty\real-youtube-dl` with 64 bit yt-dlp
 
+- Check if it gets the layout from the .ini file:
+Q: How do I pick a layout as default?
+A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HERE] to GameUserSettings.ini or by adding -ArcadeLayout=[LAYOUT NAME HERE] as a launch option. You can also launch directly into a layout in the Arcade Builder by right clicking on it.
+- I THINK carts, etc. need to be defined in the json file and then specified in the XML or Vice Versa
+
 # Notes
 ## Tapes
 - The actual XML to load things is the ArcadeTapes.xml
