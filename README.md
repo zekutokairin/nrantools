@@ -14,17 +14,16 @@ Scripts for importing and maintaining your personal arcade in N:RAN
     - `Content/UserMedia.json` is where the tapes/VHS data is stored
 - Check what version of VLC works with local videos
 
-# Tested working
-- 
+# Tested working (After Dado pack)
+- Arcade
+- SNES
+- Gamebro 
 
 # Needs Testing
 - NES
 - Genesis
 
-
-
 # Problems
-
 
 ===================================
 # Potential solutions
