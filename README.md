@@ -19,6 +19,15 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
     - `Content/UserMedia.json` is where the tapes/VHS data is stored
 - Check what version of VLC works with local videos
 
+## Configs
+- Create XML files for cartridges
+    - Tapes: from list of files and radio stations
+    - Cartridges: from ROM list and cover arts
+    - Arcades: from ROM list and side art and banner
+- GameUserSettings
+    - Set Layout file
+    - Turn off trash
+
 # Tested working (After Dado pack)
 - Arcade
 - SNES
