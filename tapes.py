@@ -6,6 +6,10 @@ import itertools
 
 URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 
+# TODO: Theory, build database of entries into json, THEN add them in the Layout?
+# Lists of radio stations:
+#   https://asiadreamradio.torontocast.stream/stations/newstream.html
+
 def ytBacklog(playlist_url):
     # get user playlist public/unlinked
     # return list of urls to write into CSV
@@ -28,6 +32,7 @@ def ytBacklog(playlist_url):
     return backlog
 
 if __name__ == "__main__":
+    # TODO: Radio Stations
     yt_videos = ytBacklog(URL)
     import code
     code.interact(local=locals())

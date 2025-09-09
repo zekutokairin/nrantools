@@ -1,0 +1,7 @@
+Japan Hits,https://cast1.torontocast.com:2120/stream,
+J-Pop Powerplay,https://kathy.torontocast.com:3560/stream,
+J-Pop Powerplay Kawaii,https://kathy.torontocast.com:3060/stream,
+J-Pop Sakura 懐かしい,https://cast1.torontocast.com:2170/stream,
+J-Rock Powerplay,https://kathy.torontocast.com:3340/stream,
+J-Club Hip Hop,https://kathy.torontocast.com:3350/stream,
+Jazz Sakura,https://kathy.torontocast.com:3330/stream,
