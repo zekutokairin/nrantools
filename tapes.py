@@ -24,6 +24,9 @@ def parseMusicFile():
             #code.interact(local=locals())
             tape_id = "Tape"+ hashlib.md5(url.encode('utf-8')).hexdigest()
             print("%s:%s:%s" % (tape_id,name,url))
+            musictapes.append({"ID":tape_id,"Name":name,"URL":url})
+    
+    return musictapes
         
     """
     with open(MEDIAFILE) as fp:
@@ -56,7 +59,7 @@ def writeUserMedia(music_dict,video_dict):
 
 if __name__ == "__main__":
     # TODO: Radio Stations
-    music_dict = parseMusicFile()
-    #vhs_dict = parseVideoTapes(URL)
+    musictapes = parseMusicFile()
+    vhstapes = parseVideoTapes(URL)
     import code
-    #code.interact(local=locals())
+    code.interact(local=locals())
