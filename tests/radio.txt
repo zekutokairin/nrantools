@@ -5,3 +5,4 @@ J-Pop Sakura 懐かしい,https://cast1.torontocast.com:2170/stream
 J-Rock Powerplay,https://kathy.torontocast.com:3340/stream
 J-Club Hip Hop,https://kathy.torontocast.com:3350/stream
 Jazz Sakura,https://kathy.torontocast.com:3330/stream
+Rainwave Game Music,https://rainwave.cc/game

@@ -13,10 +13,9 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 # Notes
 ## Tapes
-- The actual XML to load things is the ArcadeTapes.xml
-    - Parse them with a Python library:
-        - xml? lxml?
-    - `Content/UserMedia.json` is where the tapes/VHS data is stored
+- If a layout is not specified in GameUserSettings.ini, it pulls straight from ArcadeTapes.xml
+- If a layout IS specified, it goes to that .layout which is a JSON file
+    - `Content/UserMedia.json` is where the tapes/VHS data is stored (I think this is just for ArcadeManager maybe??)
 - Check what version of VLC works with local videos
 
 ## Configs
@@ -32,12 +31,19 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 - Arcade
 - SNES
 - Gamebro 
+- VHS (Youtube)
+- Music Tapes (http)
 
 # Needs Testing
 - NES
 - Genesis
+- VHS (Local video)
+- VHS (Remote file share)
+- Music Tapes (https appears to not work)
 
 # Problems
+- Automate fixing GameUserSettings.ini
+
 
 ===================================
 # Potential solutions
