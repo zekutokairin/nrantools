@@ -20,9 +20,8 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
         - Is this just the database where things are eventually taken to the xml?
         - Does the layout file use the json rather than the XML or something?
 - If a layout is not specified in GameUserSettings.ini, it pulls straight from ArcadeTapes.xml
-- If a layout IS specified, it goes to that .layout which is a JSON file
+    - If a layout IS specified, it goes to that .layout which is a JSON file
     - `Content/UserMedia.json` is where the tapes/VHS data is stored (I think this is just for ArcadeManager maybe??)
-- Check what version of VLC works with local videos
 
 ## Configs
 - Create XML files for cartridges
