@@ -17,6 +17,8 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
     - Parse them with a Python library:
         - xml? lxml?
     - `Content/UserMedia.json` is where the tapes/VHS data is stored
+        - Is this just the database where things are eventually taken to the xml?
+        - Does the layout file use the json rather than the XML or something?
 - Check what version of VLC works with local videos
 
 ## Configs
