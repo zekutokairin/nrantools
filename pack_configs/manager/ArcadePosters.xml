@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadePosters>
+  <PosterConsoleWallRight Texture="Poster_LostBoys.dds" />
+  <PosterConsoleWallLeft Texture="Poster_NightmareOnElmStreet.dds" />
+  <PosterBackWall1 Texture="world-cup-trophy1.dds" />
+  <PosterBackWall2 Texture="Poster-Beverly-Hills-Cop.dds" />
+  <PosterBackWall3 Texture="BigLebowski.dds" />
+  <PosterBackWall4 Texture="Poster_TheFly.dds" />
+  <PosterBackWall5 Texture="Poster_TheThing.dds" />
+  <PosterLeftWall1 Texture="VirtualBoy.dds" />
+  <PosterLeftWall2 Texture="Poster_HeavyMetal.dds" />
+  <PosterLeftWall3 Texture="VR_Troopers.dds" />
+  <PosterHorizontal Texture="Poster_ET_horz.dds" />
+</ArcadePosters>

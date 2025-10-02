@@ -1,0 +1,42 @@
+[
+	{
+		"ID": "PosterEldenRing",
+		"Texture": "PosterEldenRing.jpg"
+	},
+	{
+		"ID": "PosterMonsterHunter",
+		"Texture": "PosterMonsterHunter.jpg"
+	},
+	{
+		"ID": "PosterAnimalCrossing",
+		"Texture": "PosterAnimalCrossing.jpg"
+	},
+	{
+		"ID": "PosterKiki",
+		"Texture": "PosterKiki.jpg"
+	},
+	{
+		"ID": "PosterKungPow",
+		"Texture": "PosterKungPow.jpg"
+	},
+	{
+		"ID": "PosterOuterWilds",
+		"Texture": "PosterOuterWilds.png"
+	},
+	{
+		"ID": "PosterPokemon",
+		"Texture": "PosterPokemon.jpg"
+	},
+	{
+		"ID": "PosterSomnium",
+		"Texture": "PosterSomnium.jpg"
+	},
+	{
+		"ID": "PosterWattson",
+		"Texture": "PosterWattson.jpg"
+	},
+	{
+		"ID": "PosterZelda",
+		"Texture": "PosterZelda.jpg"
+	}
+]

@@ -1,0 +1,197 @@
+[
+	{
+		"ID": "TapeRainwave",
+		"Name": "GAME TUNES",
+		"URL": "http://allstream.rainwave.cc/all.mp3"
+	},
+	{
+		"ID": "TapeVocaloid",
+		"Name": "VOCALOID",
+		"URL": "http://curiosity.shoutca.st:8019/stream"
+	},
+	{
+		"ID": "TapeAnime",
+		"Name": "ANIME",
+		"URL": "http://exclusive.streamafrica.net/listen/anime/radio.mp3"
+	},
+	{
+		"ID": "TapeJpop",
+		"Name": "J-POP",
+		"URL": "http://kathy.torontocast.com:3060/;"
+	},
+	{
+		"ID": "TapeKpop",
+		"Name": "K-POP",
+		"URL": "http://kpopreplay.radioca.st//stream"
+	},
+	{
+		"ID": "TapeEurodance",
+		"Name": "EURODANCE",
+		"URL": "http://149.56.175.167:5429/stream/1/"
+	},
+	{
+		"ID": "TapeJetsetradio",
+		"Name": "JET SET RADIO",
+		"URL": "http://node-32.zeno.fm/b0p8zs67vuhvv?zs=Udz7LTNrQS-TTm0fDSolxQ&rj-tok=AAABgjZQ5EwAmdrh8ssHVs4ocQ&rj-ttl=5"
+	},
+	{
+		"ID": "TapeNightcore",
+		"Name": "NIGHTCORE",
+		"URL": "http://node-21.zeno.fm/vr95tuwdzs8uv?zs=tG64pLHBT_ugpHXhXvUqgA&rj-tok=AAABgjZNgswANZzJaU9Hu0bQdw&rj-ttl=5"
+	},
+	{
+		"ID": "TapeAnimalcrossing",
+		"Name": "ANIMAL CROSSING",
+		"URL": "http://node-20.zeno.fm/vy3s3epqwxhvv?zs=8Oza7TsbTvW-N1f83ZRuxQrj-tok=AAABgjZNgswANZzJaU9Hu0bQdw&rj-ttl=5"
+	},
+	{
+		"ID": "TapeMinecraft",
+		"Name": "MINECRAFT",
+		"URL": "http://node-18.zeno.fm/f5nyg9m7568uv?zs=MXDU06L5QHGIXb9g4W6NRw&rj-tok=AAABgjZ5YRwANcesz4o5MtInQg&rj-ttl=5"
+	},
+	{
+		"ID": "TapeVaporwave",
+		"Name": "VAPORWAVE",
+		"URL": "http://radio.plaza.one/mp3"
+	},
+	{
+		"ID": "TapePokemon",
+		"Name": "POKEMON",
+		"URL": "http://node-01.zeno.fm/9zavsthfxxhvv?zs=YjPw-6sCT_-3PLsw2NSz1Q&rj-tok=AAABgjiJO7oACWaI4qyX1swmXA&rj-ttl=5"
+	},
+	{
+		"ID": "TapeZelda",
+		"Name": "ZELDA",
+		"URL": "http://node-12.zeno.fm/cak9zw8fxxhvv?zs=YLlIG9tjR7W1WjcZFrHU6A&rj-tok=AAABgjiKQscAIjX0Ds3gXVvL7w&rj-ttl=5"
+	},
+	{
+		"ID": "TapeSonic",
+		"Name": "SONIC",
+		"URL": "http://node-31.zeno.fm/t951hb8fxxhvv?zs=L-Gz4BOfQIGBTlHpKbYX4w&rj-tok=AAABgjiK0LQAx76FuGpbI-aHSw&rj-ttl=5"
+	},
+	{
+		"ID": "TapeUndertale",
+		"Name": "UNDERTALE",
+		"URL": "http://node-04.zeno.fm/006a7hdgxxhvv?zs=sJGqvViKSJKMpCDyzGxyZg&rj-tok=AAABgjiLNpcACu98qtk18z0DcQ&rj-ttl=5"
+	},
+	{
+		"ID": "TapeMonsterhunter",
+		"Name": "MONSTER HUNTER",
+		"URL": "http://node-10.zeno.fm/v91eke5fxxhvv?zs=A4bfLT7bRc6HnUov2A7IIA&rj-tok=AAABgjiLlIkA_wxELeSWc6uUGQ&rj-ttl=5"
+	},
+	{
+		"ID": "TapeFinalfantasy",
+		"Name": "FINAL FANTASY",
+		"URL": "http://finalfantasystation.com:8000/stream"
+	},
+	{
+		"ID": "TapeAltrock",
+		"Name": "ALT ROCK",
+		"URL": "http://strm112.1.fm/x_mobile_mp3?aw_0_req.gdpr=true"
+	},
+	{
+		"ID": "TapeCelticrock",
+		"Name": "CELTIC ROCK",
+		"URL": "http://n03.radiojar.com/gfawybbz1ehvv?rj-ttl=5&rj-tok=AAABgjsJ6VkAV_MIa8yxFYwU-g"
+	},
+	{
+		"ID": "TapeMario",
+		"Name": "MARIO",
+		"URL": "http://node-11.zeno.fm/qtfz2umnxxhvv?zs=y4sTQ3BvSyuStTDGFv0Tbw&rj-tok=AAABgjuxcWcA_Yrd7jVJnWa5_Q&rj-ttl=5"
+	},
+	{
+		"ID": "Tape80s",
+		"Name": "80'S",
+		"URL": "http://strm112.1.fm/back280s_mobile_mp3?aw_0_req.gdpr=true"
+	},
+	{
+		"ID": "Tape90sparty",
+		"Name": "90'S PARTY",
+		"URL": "http://strm112.1.fm/partyzone90s_mobile_mp3?aw_0_req.gdpr=true"
+	},
+	{
+		"ID": "TapeLofi",
+		"Name": "LO-FI",
+		"URL": "http://node-27.zeno.fm/xq8ubvrxbphvv?zs=XquU25RYSFWb8rp5TxU7NA&rj-tok=AAABgjzzq3UAMPzUpcDDRZOTzQ&rj-ttl=5"
+	},
+	{
+		"ID": "VHSTapeDeer",
+		"Name": "...in deer air, tonight",
+		"URL": "https://www.youtube.com/watch?v=2ft954vXPa4"
+	},
+	{
+		"ID": "VHSTapeImmaBee",
+		"Name": "I'm a Bee",
+		"URL": "https://www.youtube.com/watch?v=SyPjwxHxbus"
+	},
+	{
+		"ID": "VHSTapeNumberone",
+		"Name": "We are Number One",
+		"URL": "https://www.youtube.com/watch?v=PfYnvDL0Qcw"
+	},
+	{
+		"ID": "VHSTapeCyborg",
+		"Name": "Racism",
+		"URL": "https://www.youtube.com/watch?v=Rc-Jh3Oe0Gc"
+	},
+	{
+		"ID": "VHSTapeDrake",
+		"Name": "Where's the door?",
+		"URL": "https://www.youtube.com/watch?v=1IP3qWqedHs"
+	},
+	{
+		"ID": "VHSTapeClimatechange",
+		"Name": "Climate Change",
+		"URL": "https://www.youtube.com/watch?v=lIVRVTjbJ5Y"
+	},
+	{
+		"ID": "VHSTapeGamecube",
+		"Name": "Normal GameCube Startup",
+		"URL": "https://www.youtube.com/watch?v=ARTzw4VEenU"
+	},
+	{
+		"ID": "VHSTapeCutest",
+		"Name": "Cutest thing",
+		"URL": "https://www.youtube.com/watch?v=ZwM5zmm-nkM"
+	},
+	{
+		"ID": "VHSTapeTunnelsnakes",
+		"Name": "Tunnel Snakes",
+		"URL": "https://www.youtube.com/watch?v=S0ximxe4XtU"
+	},
+	{
+		"ID": "VHSTapeWednesday",
+		"Name": "Wednesday",
+		"URL": "https://www.youtube.com/watch?v=Oct2xKMGOno"
+	},
+	{
+		"ID": "TapeDoom",
+		"Name": "DOOM",
+		"URL": "http://node-33.zeno.fm/hf2kk5xcyxhvv?zs=GKjyIydLTRC8mGL6f1TzVQ&rj-tok=AAABgj1rcM4Awd6zPAEdaBgyMQ&rj-ttl=5"
+	},
+	{
+		"ID": "TapeEurobeat",
+		"Name": "EUROBEAT DRIFTING",
+		"URL": "http://node-24.zeno.fm/1x773h7cyxhvv?zs=8aTh1ZjlS4mboMCi223w8w&rj-tok=AAABgj2FSuQAXKcUlD7pXWe31A&rj-ttl=5"
+	},
+	{
+		"ID": "TapeDubstep",
+		"Name": "DUBSTEP",
+		"URL": "http://50.117.1.60/stream/1/"
+	},
+	{
+		"ID": "TapeGerman",
+		"Name": "GERMAN ROCK",
+		"URL": "http://radioofdevils.stream.laut.fm/radioofdevils?t302=2022-07-27_15-43-16&uuid=38cd4ba2-3f44-4ec4-94c5-a17182db16e6"
+	},
+	{
+		"ID": "TapeTerarria",
+		"Name": "TERRARIA",
+		"URL": "http://node-14.zeno.fm/w6tkks0gyxhvv?zs=Ms6xGTJjS5amcq-Hv47-0w&rj-tok=AAABgkBJPdwAo4sLlmOQYNdbVQ&rj-ttl=5"
+	},
+	{
+		"ID": "TapeChiptune",
+		"Name": "CHIPTUNE",
+		"URL": "http://chipstream.rainwave.cc/chiptune.mp3"
+	}
+]

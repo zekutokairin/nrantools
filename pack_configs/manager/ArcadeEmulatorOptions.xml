@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmulatorOptions>
+	<mame_auto_save value="disabled" />
+	<mame_boot_to_osd value="disabled"/>
+	<mame_throttle value="disabled"/>
+	<mame_cheats_enable value="enabled"/>
+	<mame_hide_warnings value="enabled"/>
+	<mame_hide_nagscreen value="enabled"/>
+	<mame_hide_infoscreen value="enabled"/>
+	<mame2014_auto_save value="disabled" />
+	<mame2014_boot_to_osd value="disabled"/>
+	<mame2014_throttle value="disabled"/>
+	<mame2014_cheats_enable value="enabled"/>
+	<mame2014_hide_warnings value="enabled"/>
+	<mame2014_hide_nagscreen value="enabled"/>
+	<mame2014_hide_infoscreen value="enabled"/>
+	<desmume_screens_layout value="top only" />
+</EmulatorOptions>

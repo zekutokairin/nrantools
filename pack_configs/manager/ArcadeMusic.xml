@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeTapes>
+  <!--Cassette Tapes-->
+  <Tape1 Name="DCC Radio" URL="dccradio" />
+  <Tape2 Name="SHAZBOT SYNDICATE" URL="http://108.178.13.122:8311/stream" />
+  <Tape3 Name="ABNORMALLY DEAD AIR" URL="http://199.101.51.168:8006" />
+  <Tape4 Name="NEW YORK CLASSIC ROCK" URL="http://listen.radionomy.com:80/NewYorkClassicRock" />
+  <Tape5 Name="GANKED.ME RADIO" URL="http://ganked.me:8000/stream" />
+  <Tape6 Name="MUSIK.TRAP" URL="http://95.141.24.35:80" />
+  <Tape7 Name="PROGROCK.COM" URL="http://184.154.185.181:8000" />
+  <Tape8 Name="SDX SYNTH EXPERIENCE" URL="http://78.70.63.116:8000" />
+  <Tape9 Name="EURODANCE" URL="http://172.82.138.34:16470" />
+  <Tape10 Name="1.FM CLASSIC ROCK" URL="http://185.33.22.15:11093" />
+  <Tape11 Name="DNBHEAVEN" URL="http://94.23.23.97:5972" />
+  <Tape12 Name="METAL POWER" URL="http://listen.radionomy.com/MetalPower" />
+  <Tape13 Name="DARKSYNTHRADIO" URL="http://laut.fm/darksynthradio" />
+  <Tape14 Name="181.FM AWESOME 80S" URL="http://198.50.155.189:8005" />
+  <Tape15 Name="DEATHTHRASH" URL="http://listen.radionomy.com/Death-Thrash--Heavy-Metal" />
+  <Tape16 Name="DRIVERADIO.BE" URL="http://streaming.radionomy.com/DRIVE" />
+  <Tape17 Name="NOISE.FM" URL="http://noisefm.ru:8000/play" />
+  <Tape18 Name="PROG PALACE" URL="http://206.217.215.59:80" />
+  <Tape19 Name="1.FM ABSOLUTE 90S" URL="http://185.33.21.112:1101" />
+  <Tape20 Name="ALT NATION RADIO" URL="http://listen.radionomy.com:80/AlternativeNationRadio" />
+  <Tape21 Name="BASSDRIVE" URL="http://50.7.70.66:8200" />
+  <Tape22 Name="DISCOMANIA" URL="http://176.9.39.43:7030" />
+  <Tape23 Name="1 HITS 80S" URL="http://listen.radionomy.com:80/1HITS80s" />
+  <Tape24 Name="MOROW" URL="http://stream.morow.com:8080/morow_med.mp3" />
+  <Tape25 Name="DEATH.FM" URL="http://162.213.197.52:80" />
+  <Tape26 Name="181.FM ALTERNATIVE 90S" URL="http://108.61.73.115:14052" />
+  <Tape27 Name="DANCEWAVE" URL="http://stream.dancewave.online:8080/dance.mp3" />
+  <Tape28 Name="204 THE HITZ" URL="http://206.190.150.92:8329" />
+  <Tape29 Name="CDNX INDIE ROCK" URL="http://216.120.247.102:8136" />
+  <!--VHS Tapes-->
+  <VHSTape1 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape2 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape3 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape4 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape5 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape6 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape7 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape8 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape9 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <VHSTape10 Name="NRA NEON" URL="https://www.youtube.com/watch?v=S3ls5BYKmtc" />
+  <!--Radio Stations (Feel free to add more, 8..9..10 etc. Radio will automatically find them.)-->
+  <RadioStation1 Name="DCC RADIO" URL="dccradio" />
+  <RadioStation2 Name="DRIVE RADIO" URL="http://streaming.radionomy.com/DRIVE" />
+  <RadioStation3 Name="OUTRUN RADIO" URL="http://streaming.radionomy.com/OUTRUNRadio" />
+  <RadioStation4 Name="RADIO.80S FOREVER" URL="http://192.240.97.67:8085/listen.pls" />
+  <RadioStation5 Name="PANORAMA80" URL="http://laut.fm/panorama80" />
+  <RadioStation6 Name="HEAVY METAL" URL="http://s3.radioheart.ru:8015/radio-metal" />
+  <RadioStation7 Name="INDUSTRIAL DARKWAVE" URL="http://88.198.5.162:8000/listen.pls" />
+  <RadioStation8 Name="MULTI TRANCE" URL="http://stream.easy2manager.com:8004/listen.pls" />
+  <RadioStation9 Name="CLASSICAL" URL="http://streaming.radionomy.com/abacusfm-mozart-symphony" />
+</ArcadeTapes>

@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeMachines>
+  <ArcadeMachineGameConsole>
+    <Core>bsnes_performance_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusic>attractmusic.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutDefault</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Colour="#FFFFFF" />
+    <ArtSidePanel Colour="#FFFFFF" />
+  </ArcadeMachineGameConsole>
+  <ArcadeMachine0>
+    <Game>svc.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNeoGeoMVS-TypeB</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_NeoGeo_SVCChaos.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NeoGeo_Side.dds" Colour="" />
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame1</GameImage>
+    <GameMusic>1.mp3</GameMusic>
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine0>
+  <ArcadeMachine1>
+    <Game>atarifb.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame2</GameImage>
+    <GameMusic>2.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutAtariFootball</ButtonLayout>
+    <ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Atari Football Front.dds" Colour="" />
+    <ArtSidePanel Texture="" Colour="#000000" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine1>
+  <ArcadeMachine2>
+    <Game>DOOM1.WAD</Game>
+    <Core>prboom_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame3</GameImage>
+    <GameMusic>3.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutSinglePlayer</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_Doom_Front.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_Doom_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine2>
+  <ArcadeMachine3>
+    <Game>batmanfr.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame4</GameImage>
+    <GameMusic>4.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Batman Forever Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Batman Forever Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine3>
+  <ArcadeMachine4>
+    <Game>DOOM1.WAD</Game>
+    <Core>prboom_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame5</GameImage>
+    <GameMusic>5.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutSinglePlayer</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_Doom_Front.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_Doom_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine4>
+  <ArcadeMachine5>
+    <Game>starcas.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame6</GameImage>
+    <GameMusic>6.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutStarCastle</ButtonLayout>
+    <ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Star Castle Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Star Castle Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine5>
+  <ArcadeMachine6>
+    <Game>targ.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame7</GameImage>
+    <GameMusic>7.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutBluBallz</ButtonLayout>
+    <ButtonColour AB="#FFFF00" XY="#0000FF" SS="#000000" />
+    <ArtFrontPanel Texture="Targ Normal Front.dds" Colour="" />
+    <ArtSidePanel Texture="" Colour="#000000" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine6>
+  <ArcadeMachine7>
+    <Game>blktiger.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame8</GameImage>
+    <GameMusic>8.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Black Tiger Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Black Tiger Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine7>
+  <ArcadeMachine8>
+    <Game>eprom.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame9</GameImage>
+    <GameMusic>9.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Escape From the Planet of the Robot Monsters Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Escape From the Planet of the Robot Monsters Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine8>
+  <ArcadeMachine9>
+    <Game>smgolf.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame10</GameImage>
+    <GameMusic>10.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNintendoVS</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#0000FF" SS="#0000FF" />
+    <ArtFrontPanel Texture="Arcade_Golf_NintendoVS_Front.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NintendoVS_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine9>
+  <ArcadeMachine10>
+    <Game>spacduel.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame11</GameImage>
+    <GameMusic>11.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutSpaceDuel</ButtonLayout>
+    <ButtonColour AB="#00FF00" XY="#00FF00" SS="#00FF00" />
+    <ArtFrontPanel Texture="Space Duel Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Space Duel Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine10>
+  <ArcadeMachine11>
+    <Game>mpatrol.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame12</GameImage>
+    <GameMusic>12.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutMoonPatrol</ButtonLayout>
+    <ButtonColour AB="#f32dff" XY="#f32dff" SS="#dbd527" />
+    <ArtFrontPanel Texture="Arcade_MoonPatrol.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_MoonPatrol_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine11>
+  <ArcadeMachine12>
+    <Game>crusnusa.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame13</GameImage>
+    <GameMusic>13.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutOutrun</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FF0000" SS="#0000FF" />
+    <ArtFrontPanel Texture="Arcade_Crusnusa.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_crusnusa_side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine12>
+  <ArcadeMachine13>
+    <Game>sharrier.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame14</GameImage>
+    <GameMusic>14.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>
+    </ButtonLayout>
+    <ButtonColour AB="" XY="" SS="" />
+    <ArtFrontPanel Texture="Space Harrier Cabinet Front.dds" Colour="" />
+    <ArtSidePanel Colour="" Texture="Space Harrier Cabinet Side.dds" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine13>
+  <ArcadeMachine14>
+    <Game>atetris.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame15</GameImage>
+    <GameMusic>15.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#b30000" XY="#b30000" SS="#0036ff" />
+    <ArtFrontPanel Texture="Arcade_Tetris.dds" Colour="" />
+    <ArtSidePanel Texture="" Colour="#00026c" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine14>
+  <ArcadeMachine15>
+    <Game>nbahangt.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame16</GameImage>
+    <GameMusic>16.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNBAHangTime</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="NBA Hangtime Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="NBA Hangtime Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine15>
+  <ArcadeMachine16>
+    <Game>spnchout.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame17</GameImage>
+    <GameMusic>17.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Super Punch Out Cabinet Front.dds" Colour="" />
+    <ArtSidePanel Texture="Super Punch Out Cabinet Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine16>
+  <ArcadeMachine17>
+    <Game>machridr.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame18</GameImage>
+    <GameMusic>18.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNintendoVS</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#0000FF" SS="#0000FF" />
+    <ArtFrontPanel Texture="Arcade_MachRider_NintendoVS_Front.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NintendoVS_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine17>
+  <ArcadeMachine18>
+    <Game>sonicwi2.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame19</GameImage>
+    <GameMusic>19.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNeoGeoMVS-TypeB</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_NeoGeo_AeroFighters2.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NeoGeo_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine18>
+  <ArcadeMachine19>
+    <Game>arkanoid.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame20</GameImage>
+    <GameMusic>20.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutArkanoidNew</ButtonLayout>
+    <ButtonColour AB="#800000" XY="#000000" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arkanoid Cabinet Front.dds" Colour="" />
+    <ArtSidePanel Texture="Arkanoid Cabinet Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine19>
+  <ArcadeMachine20>
+    <Game>panic.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame21</GameImage>
+    <GameMusic>21.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Space Panic Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Space Panic Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine20>
+  <ArcadeMachine21>
+    <Game>esb.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame22</GameImage>
+    <GameMusic>22.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>
+    </ButtonLayout>
+    <ButtonColour AB="" XY="" SS="" />
+    <ArtFrontPanel Texture="Empire Strikes Back Cabinet Normal Face.dds" Colour="" />
+    <ArtSidePanel Texture="Empire Strikes Back Cabinet Normal Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine21>
+  <ArcadeMachine22>
+    <Game>fatfury2.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame23</GameImage>
+    <GameMusic>23.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNeoGeoMVS-TypeB</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_NeoGeo_FatalFury2.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NeoGeo_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine22>
+  <ArcadeMachine23>
+    <Game>cyberlip.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame24</GameImage>
+    <GameMusic>24.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNeoGeoMVS-TypeB</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_NeoGeo_Cyberlip.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NeoGeo_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachine23>
+  <ArcadeMachineDisabled>
+    <Game>aburner2.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>aburner2.dds</GameImage>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutTetris</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Colour="#FFFFFF" Texture="" />
+    <ArtSidePanel Colour="#FFFFFF" Texture="" />
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineDisabled>
+  <ArcadeMachineNewRetroEmulator>
+    <Core>mame_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusic>attractmusic.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutBasic</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Colour="#FFFFFF" />
+    <ArtSidePanel Colour="#FFFFFF" />
+  </ArcadeMachineNewRetroEmulator>
+  <ArcadeMachineSpecial1>
+    <Game>spoopers</Game>
+    <Core>
+    </Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>
+    </GameImage>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutSpoopers</ButtonLayout>
+    <ButtonColour AB="#8000FF" XY="#400080" SS="#8000FF" />
+    <ArtFrontPanel Texture="T_Spoopers_Board.dds" Colour="" />
+    <ArtSidePanel Texture="T_Spoopers_Machine.dds" Colour="" />
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineSpecial1>
+  <ArcadeMachineSpecial2>
+    <Game>bombjack.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame26</GameImage>
+    <GameMusic>26.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutBombJackSpecial</ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Texture="Bomb Jack Special Front.dds" Colour="" />
+    <ArtSidePanel Texture="Bomb Jack Special Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachineSpecial2>
+  <ArcadeMachineSpecial3>
+    <Game>spoopers</Game>
+    <Core>
+    </Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>
+    </GameImage>
+    <GameMusic>
+    </GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutSpoopers</ButtonLayout>
+    <ButtonColour AB="#8000FF" XY="#400080" SS="#8000FF" />
+    <ArtFrontPanel Texture="T_Spoopers_Board.dds" Colour="" />
+    <ArtSidePanel Texture="T_Spoopers_Machine.dds" Colour="" />
+    <GameMusicVolume>0</GameMusicVolume>
+  </ArcadeMachineSpecial3>
+  <ArcadeMachineSpecial4>
+    <Game>galaga.zip</Game>
+    <Core>mame_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame28</GameImage>
+    <GameMusic>28.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutGalaga</ButtonLayout>
+    <ButtonColour AB="#F30000" XY="#000000" SS="#FCFF00" />
+    <ArtFrontPanel Texture="Arcade_Galaga.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_Galaga_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachineSpecial4>
+  <ArcadeMachineFPS1>
+    <Game>kof96.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame30</GameImage>
+    <GameMusic>30.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutNeoGeoMVS-TypeB</ButtonLayout>
+    <ButtonColour AB="#FF0000" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Texture="Arcade_NeoGeo_KOF96.dds" Colour="" />
+    <ArtSidePanel Texture="Arcade_NeoGeo_Side.dds" Colour="" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachineFPS1>
+  <ArcadeMachineFPS2>
+    <Game>gridlee.zip</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameImage>GridFrame31</GameImage>
+    <GameMusic>31.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutPhallicOrder</ButtonLayout>
+    <ButtonColour AB="#F8FD1C" XY="#FFFFFF" SS="#D50000" />
+    <ArtFrontPanel Texture="Gridlee Normal Front.dds" Colour="" />
+    <ArtSidePanel Texture="" Colour="#000000" />
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachineFPS2>
+  <ArcadeMachineFPS3>
+    <Game>fpsgame3</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutGoldenAxe</ButtonLayout>
+    <ButtonColour AB="#27D700" XY="#27D700" SS="#27D700" />
+    <ArtFrontPanel Colour="#000000" Texture="" />
+    <ArtSidePanel Colour="#000000" Texture="" />
+    <GameImage>
+    </GameImage>
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineFPS3>
+  <ArcadeMachineFPS4>
+    <Game>fpsgame4</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutGoldenAxe</ButtonLayout>
+    <ButtonColour AB="#B2A900" XY="#B2A900" SS="#B2A900" />
+    <ArtFrontPanel Colour="#000000" Texture="" />
+    <ArtSidePanel Colour="#000000" Texture="" />
+    <GameImage>
+    </GameImage>
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineFPS4>
+  <ArcadeMachineFPS5>
+    <Game>fpsgame5</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutGoldenAxe</ButtonLayout>
+    <ButtonColour AB="#B2007C" XY="#B2007C" SS="#B2007C" />
+    <ArtFrontPanel Colour="#000000" Texture="" />
+    <ArtSidePanel Colour="#000000" Texture="" />
+    <GameImage>
+    </GameImage>
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineFPS5>
+  <ArcadeMachineFPS6>
+    <Game>fpsgame6</Game>
+    <Core>mame2014_libretro.dll</Core>
+    <GameVolume>1.5</GameVolume>
+    <GameMusicVolume>0</GameMusicVolume>
+    <ScreenType>Pixel</ScreenType>
+    <ButtonLayout>LayoutGoldenAxe</ButtonLayout>
+    <ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+    <ArtFrontPanel Colour="#000000" Texture="" />
+    <ArtSidePanel Colour="#000000" Texture="" />
+    <GameImage>
+    </GameImage>
+    <GameMusic>
+    </GameMusic>
+  </ArcadeMachineFPS6>
+  <ArcadeMachineLightgun>
+    <Game>jpark.zip</Game>
+    <Core>mame_libretro.dll</Core>
+    <GameImage>GridFrame29</GameImage>
+    <GameMusic>29.mp3</GameMusic>
+    <ScreenType>Pixel</ScreenType>
+    <LightgunCalibration>122, 150</LightgunCalibration>
+    <ButtonLayout>
+    </ButtonLayout>
+    <ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+    <ArtFrontPanel Colour="" Texture="Arcade_JurassicPark_Lightgun.dds" />
+    <ArtSidePanel Colour="" Texture="Arcade_JurassicPark_Lightgun.dds" />
+    <GameVolume>1.5</GameVolume>
+    <GameMusicVolume>1</GameMusicVolume>
+  </ArcadeMachineLightgun>
+</ArcadeMachines>

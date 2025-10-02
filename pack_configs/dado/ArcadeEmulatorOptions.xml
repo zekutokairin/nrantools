@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmulatorOptions>
+ <mame2014_hide_nagscreen value="enabled" />
+ <mame2014_hide_infoscreen value="enabled" />
+ <mame2014_hide_warnings value="enabled" />
+ <mame2015_hide_nagscreen value="enabled" />
+ <mame2015_hide_infoscreen value="enabled" />
+ <mame2015_hide_warnings value="enabled" />
+ <mame_hide_nagscreen value="enabled" />
+ <mame_hide_infoscreen value="enabled" />
+ <mame_hide_warnings value="enabled" />
+ <mamelightgun_hide_nagscreen value="enabled" />
+ <mamelightgun_hide_infoscreen value="enabled" />
+ <mamelightgun_hide_warnings value="enabled" />
+</EmulatorOptions>

@@ -46,8 +46,13 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 - VHS (Remote file share)
 - Music Tapes (https appears to not work)
 
-# Problems
+# Quality of Life
 - Automate fixing GameUserSettings.ini
+    - Removing trash, etc.
+# Problems
+- Testing with Haikyuu ep1 resulted in no audio
+    - MKV with multiple audio tracks AAC, but why did NONE play?
+    - Mad Men Ep 5 also tested, multiple audio tracks seem to break it
 
 
 ===================================
@@ -56,16 +61,14 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 # Download latest retroarch core nightlies
 
-
 # Need to double check these
 - Latest vlc core to avoid dll warnings?
+    - Just updating yt-dlp was enough for youtube
+    - If we need a newer VLC plugin core, that may require more work
 - Try disabling more ASLR settings
+     - I don't think these are necessary
 - Try Genesis Plus GX core?
+- In GameUserSettings, what is emulatormode = EM_BALANCED? Is there a performance?
 
 # (Optional) Remove assorted trash
 ## in New Retro Arcade Neon\NewRetroArcade\Saved\Config\WindowsNoEditor directory, open GameUserSettings and remove trash
-
-
-## Potential problem: if we're generating completely correct CSVs and Arcade
-Manager still doesn't like them, there's not much else to do besides make our
-own XMLs?

@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArcadeButtonLayouts>
+<LayoutDefault>
+		<Joystick		Type="0"	Location="42.833260,18.797689,112.759445"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_A					Location="43.479866,-18.979969,112.765198"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_B					Location="43.481689,-26.243526,112.765198"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Start				Location="51.691059,19.285746,99.862366"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Select				Location="51.827999,13.235891,99.890289"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_X					Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Y					Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+	</LayoutDefault>
+<Layout1942	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="46.425903,-0.182323,111.287643"	/>
+		<Button_A					Location="45.568939,-14.826750,111.732925"	/>
+		<Button_B					Location="45.568916,15.093685,111.725235"	/>
+		<Button_Start				Location="42.644089,25.659576,113.192413"	Scale="1.0"		/>
+		<Button_Select				Location="42.644165,-25.942680,113.217834"	Scale="1.0"		/>
+		
+	</Layout1942>
+<Layout1942_Special>
+		<Joystick  Type="0"  Location="44.032,24.019,111.032"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.032,8.505,111.032"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.032,3.458,111.032"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="42.645,31.682,111.750"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="47.032,31.682,109.500"    Rotation="-28,0,0"  Scale="1.0"/>
+	</Layout1942_Special>
+<Layout720>
+		<Joystick  Type="0"  Location="43.166,1.146,112.935"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="35.832,-16.885,116.871"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="32.563,-25.431,118.625"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.474,26.056,118.672"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.567,16.885,117.013"    Rotation="-29,0,0"  Scale="1.0"/>
+	</Layout720>
+<LayoutAirWolf	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.364857,25.002430,114.886749"	Scale="1.1,1.19,0.95"	/>
+		<Button_A					Location="43.064037,12.948794,113.140221"	/>
+		<Button_B					Location="43.065811,5.476492,113.140221"	/>
+		<Button_Start				Location="51.690247,22.789143,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="51.827415,14.870827,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+	</LayoutAirWolf>
+<LayoutAlienSyndrome	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="44.357410,24.228764,112.070236"	/>
+		<Button_A					Location="44.230293,13.083140,112.460175"	Scale="1.0"		/>
+		<Button_B					Location="44.230812,6.773304,112.460175"	Scale="1.0"		/>
+		<Button_Start				Location="35.767075,20.668659,117.114029"	Scale="0.78"	/>
+		<Button_Select				Location="35.766026,15.435713,117.114029"	Scale="0.78"	/>
+	</LayoutAlienSyndrome>
+<LayoutAlienSyndromeNew>
+		<Joystick  Type="0"  Location="44.491,25.744,112.224"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.491,15.53,112.224"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.274,20.115,116.634"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.274,13.966,116.634"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutAlienSyndromeNew>
+<LayoutAlteredBeast>
+		<Joystick  Type="0"  Location="40.692,24.285,114.263"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.129,10.839,115.638"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="44.400,14.279,112.240"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="44.400,7.296,112.240"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,21.783,100.67"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-21.992,100.67"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutAlteredBeast>
+<LayoutAPB>
+		<Joystick		Type="1"	Location="52.584816,0,99.263519"	Rotation="-1.401428,180.0,0.278"		Scale="1.29,1.29,1.29"	/>
+		<Button_A  Location="34.506,23.763,117.582"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="34.506,-23.034,117.582"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="34.948,30.955,117.345"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="34.948,-30.33,117.345"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutAPB>
+<LayoutArabian>
+		<Joystick  Type="0"  Location="43.343,-0.208,112.841"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.985,14.175,114.642"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.985,-14.592,114.642"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.804,25.639,116.349"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="42.106,25.848,113.504"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutArabian>
+<LayoutArkanoid	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="47.366585,0.598748,110.613747"	/>
+		<Button_A					Location="40.736897,-17.945101,114.284218"	Scale="1.25"	/>
+		<Button_B					Location="40.736389,17.882244,114.284645"	Scale="1.25"	/>
+		<Button_Start				Location="46.000099,28.927509,111.000000"	/>
+		<Button_Select				Location="45.999966,-28.204998,111.000000"	/>
+	</LayoutArkanoid>
+<LayoutArkanoidNew>
+		<Joystick  Type="3"  Location="46.650,0.460,109.530"  Rotation="-29.25,0,0"  Scale="1.85"/>
+		<Button_A  Location="41.222,17.823,113.978"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.222,-17.718,113.978"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.688,21.887,115.875"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="37.688,-21.887,115.875"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutArkanoidNew>
+<LayoutAsteroids	Parent="LayoutDefault"	>
+		<Joystick		Type="4"	Location="41.670036,10.403602,113.801926"	/>
+		<Button_A					Location="41.316479,-13.340088,114.017731"	Scale="1.1"		/>
+		<Button_B					Location="41.317390,-7.477968,114.017731"	Scale="1.1"		/>
+		<Button_Start				Location="33.000290,3.866347,118.255165"	Scale="0.88"	/>
+		<Button_Select				Location="32.999359,-3.655537,118.255165"	Scale="0.88"	/>
+		<Button_X					Location="46.044121,-0.075016,111.366432"	/>
+		<Button_Y					Location="40.309708,-19.999977,110.928131"	/>
+		</LayoutAsteroids>
+<LayoutAsteroidsDeluxe>
+		<Joystick  Type="4"  Location="36.185,8.755,116.681"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="36.185,-6.149,116.681"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="36.274,-10.839,116.634"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.009,25.431,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.808,25.431,114.737"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutAsteroidsDeluxe>
+<LayoutAtariFootball>
+		<Joystick  Type="3"  Location="44.05,18.656,112.461"  Rotation="-29,0,0"  Scale="2.0"/>
+		<Button_Start  Location="36.627,3.752,116.444"     Rotation="-29,0,0"  Scale="0.84,0.84,1.0"/>
+		<Button_Select  Location="36.627,-10.214,116.444"    Rotation="-29,0,0"  Scale="0.84,0.84,1.0"/>
+	</LayoutAtariFootball>
+<LayoutBadlands>
+	<Joystick  Type="1"  Location="46.745,24.307,104.073"  Rotation="-28.4,194.0,12.278"  Scale="1.2"/>
+	<Button_A  Location="39.466,32.057,114.974"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="47.466,10.623,110.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_X  Location="39.466,-31.202,114.974"      Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Y  Location="47.466,-10.11,110.897"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutBadlands>
+<LayoutBagman>
+		<Joystick  Type="0"  Location="40.78,0.625,114.216"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.808,20.637,114.737"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.897,-19.699,114.69"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.808,26.473,114.737"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.897,-26.056,114.69"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutBagman>
+<LayoutBankPanic>
+		<Joystick  Type="0"  Location="40.515,-0.521,114.358"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="35.39,21.366,117.108"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="35.302,16.468,117.155"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="35.302,12.09,117.155"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="35.302,-12.194,117.155"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.213,-16.676,117.203"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.213,-21.366,117.203"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutBankPanic>
+<LayoutBattlezone>
+		<Joystick  Type="0"  Location="41.752,7.4,113.694"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.575,-8.025,113.789"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.575,20.22,113.789"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutBattlezone>
+<LayoutBerzerk	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.331741,0.184385,114.461212"	Scale="0.99,0.99,0.87"	/>
+		<Button_A					Location="40.404186,9.280710,114.556885"	Scale="1.05"	/>
+		<Button_B					Location="40.404274,-8.965351,114.556885"	Scale="1.05"	/>
+		<Button_Start				Location="35.935204,-19.484190,116.824966"	Scale="0.94"	/>
+		<Button_Select				Location="35.935230,-26.320728,116.824966"	Scale="0.94"	/>
+	</LayoutBerzerk>
+<LayoutBionicc>
+		<Joystick  Type="0"  Location="43.431,11.361,112.793"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.343,-7.296,112.841"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="52.25,36.479,85.206"    Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.013,-25.327,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="47.407,-25.223,110.659"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutBionicc>
+<LayoutBlackWidow>
+		<Joystick  Type="0"  Location="43.078,15.634,112.983"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.343,-14.07,112.841"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="47.319,32.727,110.707"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="51.295,32.727,108.573"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutBlackWidow>
+<LayoutBombJack>
+		<Joystick	Type="0"	Location="39.3,14.4,115.3"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A	Location="39.3,-5.3,115.3"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Start	Location="34.0,-30.0,118.0"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="39.5,-30.0,115.25"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+	</LayoutBombJack>	
+<LayoutBombJackSpecial>
+		<Joystick	Type="0"	Location="46.2,10.1,109.75"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A	Location="46.2,-5.75,109.75"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_Start	Location="42.25,-25.0,112.4"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_Select	Location="46.25,-25.0,109.75"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+	</LayoutBombJackSpecial>
+<LayoutBubbleBobble	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000008,12.000010,114.030807"	/>
+		<Button_A					Location="41.000004,-5.000008,114.178650"	/>
+		<Button_B					Location="41.000034,-15.000006,114.166290"	/>
+		<Button_Start				Location="45.999985,-9.999994,110.813004"	/>
+		<Button_Select				Location="46.000015,-19.999990,110.834000"	/>
+		</LayoutBubbleBobble>
+<LayoutBurgerTimeSpecial>
+		<Joystick	Type="0"	Location="47.000000,0.700000,109.659515"	Scale="0.99,0.99,0.87" />
+		<Button_A	Location="46.900000,16.280710,109.556885"	Scale="1.05"	/>
+		<Button_B	Location="46.900000,-14.965351,109.556885"	Scale="1.05"	/>
+		<Button_Start	Location="43.500000,-22.500000,111.824966"	Scale="0.94"	/>
+		<Button_Select	Location="43.500000,-27.500000,111.824966"	Scale="0.94"	/>
+	</LayoutBurgerTimeSpecial>
+<LayoutCabal>
+		<Joystick  Type="3"  Location="40.077,16.889,113.205"  Rotation="-29,0,0"  Scale="1.7"/>
+		<Button_A  Location="40.527,-31.068,114.205"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_B  Location="40.527,1.583,114.205"    Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_X  Location="40.527,-25.752,114.205"      Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Y  Location="40.527,6.705,114.205"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Start  Location="37.688,31.306,115.675"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Select  Location="41.699,31.306,113.584"    Rotation="-29,0,0"  Scale="1.2"/>
+	</LayoutCabal>
+<LayoutCaptainCommando>
+		<Joystick  Type="0"  Location="35.567,28.975,117.013"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="33.534,-6.149,118.103"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="33.269,-21.366,118.246"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.269,20.011,118.246"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="33.534,6.67,118.103"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCaptainCommando>
+<LayoutCarnival>
+		<Joystick  Type="4"  Location="42.194,11.569,113.457"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.873,-9.068,112.556"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,16.468,103.144"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-16.572,103.144"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutCarnival>
+<LayoutCentipede>
+		<Joystick  Type="3"  Location="40.603,-6.149,114.31"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="36.274,8.442,116.634"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.92,16.363,116.823"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.631,16.468,114.832"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCentipede>
+<LayoutChoplifter>
+		<Joystick  Type="0"  Location="40.78,1.563,114.216"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.045,12.924,114.073"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="40.78,-12.403,114.216"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.009,34.603,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="40.957,34.603,114.121"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutChoplifter>
+<LayoutCircusCharlie_Special>
+		<Joystick  Type="0"  Location="46.29,1.028,109.79"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.129,11.495,109.879"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="46.129,-9.813,109.879"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_X  Location="0,-50.935,0"      Rotation="0,0,0"  Scale="1.0"/>
+		<Button_Y  Location="0,-50.935,0"     Rotation="0,0,0"  Scale="1.0"/>
+		<Button_Start  Location="42.258,-28.879,112.008"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.065,-28.879,108.815"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutCircusCharlie_Special>
+<LayoutCommando>
+		<Joystick  Type="0"  Location="44.668,0.938,112.129"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.487,10.527,113.836"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.487,-20.845,113.836"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="41.399,17.927,113.884"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="41.575,-13.237,113.789"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.929,31.476,113.599"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="45.552,31.58,111.655"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCommando>	
+<LayoutContra_Special>
+		<Joystick  Type="0"  Location="46.29,1.028,109.79"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.129,11.495,109.879"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="46.129,-9.813,109.879"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_X  Location="0,-50.935,0"      Rotation="0,0,0"  Scale="1.0"/>
+		<Button_Y  Location="0,-50.935,0"     Rotation="0,0,0"  Scale="1.0"/>
+		<Button_Start  Location="42.258,-28.879,112.008"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.065,-28.879,108.815"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutContra_Special>
+<LayoutCrazyClimber>
+		<Button_A  Location="42.724,13.341,113.172"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.813,-15.113,113.125"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40.692,28.245,114.263"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="44.668,28.037,112.129"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCrazyClimber>
+<LayoutCrimeFighters>
+		<Joystick  Type="0"  Location="45.463,24.076,111.703"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.789,15.008,110.991"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="43.431,10.839,112.793"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="46.877,6.983,110.944"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCrimeFighters>
+<LayoutCrystalCastles	Parent="LayoutDefault"	>
+		<Joystick  Type="3"  Location="41.575,0.104,113.789"  Rotation="-29,0,0"  Scale="2.3"/>
+		<Button_A  Location="35.037,24.389,117.297"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="35.037,-24.285,117.297"    Rotation="-29,0,0"  Scale="1.0"/>		
+	</LayoutCrystalCastles>
+<LayoutCyberbots>
+		<Joystick  Type="0"  Location="44.491,30.642,112.224"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.877,23.972,110.944"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.901,14.175,113.078"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="42.901,23.763,113.078"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="42.989,19.073,113.03"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutCyberbots>
+<LayoutDefender	Parent="LayoutDefault"	>
+		<Joystick		Type="2"	Location="35.587399,22.961136,116.468628"	/>
+		<Button_A					Location="35.664307,-23.489601,117.024849"	Scale="0.899"	/>
+		<Button_B					Location="35.664295,-18.431637,117.024849"	Scale="0.899"	/>
+		<Button_Start				Location="35.081589,4.993959,117.364670"	Scale="0.92"	/>
+		<Button_Select				Location="39.336155,-14.021476,115.115372"	Scale="0.99"	/>
+		<Button_X					Location="40.012646,16.673386,114.767578"	Scale="0.94"	/>
+		<Button_Y					Location="46.351074,-0.070877,111.236000"	Scale="0.89"	/>
+	</LayoutDefender>
+<LayoutDigDug>
+		<Joystick  Type="0"  Location="39.985,-1.042,114.642"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="36.274,14.487,116.634"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="36.274,-16.468,116.634"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.269,26.577,118.246"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="38.483,26.577,115.448"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDigDug>
+<LayoutDiscOfTron>
+		<Joystick  Type="0"  Location="43.961,-15.321,112.509"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.869,15.53,114.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="38.659,-1.668,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDiscOfTron>
+<LayoutDonkeyKong>
+		<Joystick  Type="0"  Location="41.200,12.215,114.168"  Rotation="-29,0,0"  Scale="0.9"/>
+		<Button_A  Location="35.700,-18.890,117.155"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.700,-0.750,117.155"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.700,-5.732,117.155"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDonkeyKong>
+<LayoutDonkeyKongJR>
+		<Joystick  Type="0"  Location="42.017,14.904,113.552"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="35.655,-18.552,116.966"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="35.655,-27.411,116.966"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.832,0.417,116.871"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.832,-7.504,116.871"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDonkeyKongJR>
+<LayoutDonkeyKong3>
+		<Joystick  Type="0"  Location="40.515,12.299,114.358"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.808,-14.07,114.737"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.009,0.313,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.097,-5.732,116.728"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDonkeyKong3>
+<LayoutDoubleDragon>
+		<Joystick  Type="0"  Location="42.975,21.837,113.172"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.350,3.725,112.414"     Rotation="-29,0,0"  Scale="0.95"/>
+		<Button_X  Location="44.350,12.194,112.414"      Rotation="-29,0,0"  Scale="0.95"/>
+		<Button_Y  Location="41.560,8.000,113.931"     Rotation="-29,0,0"  Scale="0.95"/>
+		<Button_Start  Location="34.845,3.800,117.34"     Rotation="-29,0,0"  Scale="1.05"/>
+		<Button_Select  Location="34.845,-1.459,117.34"    Rotation="-29,0,0"  Scale="1.05"/>
+	</LayoutDoubleDragon>
+<LayoutDragonSpirit>
+		<Joystick  Type="0"  Location="40.427,0.104,114.405"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.129,17.093,115.638"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.218,-16.259,115.591"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="35.213,22.721,117.203"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="35.478,-21.992,117.06"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="30.707,35.124,119.621"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="30.795,30.642,119.573"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDragonSpirit>
+<LayoutEagle>
+		<Joystick  Type="4"  Location="38.748,14.175,115.306"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.748,-10.527,115.306"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.418,-26.786,117.629"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="41.575,-26.786,113.789"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutEagle>
+<LayoutElevator	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="43.000004,0.7500003,111.250000"	/>	
+		<Button_A					Location="41.25,-12.00000,111.7500000"	/>
+		<Button_B					Location="41.25,-22.00000,111.750000"	/>
+		<Button_X					Location="41.25,13.00000,111.750000"	/>
+		<Button_Y					Location="41.25,22.500000,111.750000"	/>
+		<Button_Start				Location="50.750000,12.000000,101.000000"	Rotation="-65.4,180.0,-180.0"	Scale="1.0"		/>
+		<Button_Select				Location="50.750000,-10.000000,101.000000"	Rotation="-65.4,180.0,-180.0"	Scale="1.0"		/>
+	</LayoutElevator>
+<LayoutExerion>
+		<Joystick		Type="0"	Location="45.25,0.9,112.35"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_A		Location="45.25,-15.5,112.35"		Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_B		Location="45.25,-21.5,112.35"		Rotation="-29.0,0.0,0.0"	Scale="1.0"/>	
+		<Button_Start	Location="52.25,8.8,101.0"			Rotation="-90.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="52.25,-9.25,101.0"		Rotation="-90.0,0.0,0.0"	Scale="1.0"/>		
+	</LayoutExerion>
+<LayoutExerionSpecial>
+		<Joystick		Type="0"	Location="47.2,1.5,109.2"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_A		Location="47.2,-14.25,109.2"	Rotation="-28.0,0.0,0.0"		Scale="1.0"/>
+		<Button_B		Location="47.2,-19.8,109.2"	Rotation="-28.0,0.0,0.0"		Scale="1.0"/>	
+		<Button_Start	Location="50.45,9.5,99.5"		Rotation="-65.4,180.0,-180.0"	Scale="1.0"/>
+		<Button_Select	Location="50.45,-8.1,99.5"		Rotation="-65.4,180.0,-180.0"	Scale="1.0"/>		
+	</LayoutExerionSpecial>
+<LayoutExpressRaider>
+		<Joystick  Type="0"  Location="43.784,0.104,112.603"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.64,10.214,111.608"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.64,-10.11,111.608"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="45.287,21.887,111.797"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="45.728,-20.428,111.56"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.832,4.794,116.871"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.832,-3.439,116.871"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutExpressRaider>
+<LayoutFlappyBird	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="45.000000,0.844910,110.323112"	Rotation="-28.0,0.0,0.0"		Scale="0.82"	/>
+		<Button_A					Location="47.617912,-11.007689,109.100006"	Rotation="-28.0,0.0,0.0"		Scale="0.78"	/>
+		<Button_B					Location="43.049316,-21.610657,107.330688"	/>
+		<Button_Start				Location="42.703491,-13.610044,111.712555"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="43.049316,-21.610657,107.330688"	/>
+		</LayoutFlappyBird>
+<LayoutFoodFight>
+		<Joystick  Type="0"  Location="42.371,0.208,113.362"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.659,15.321,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.483,-15.425,115.448"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutFoodFight>
+<LayoutFrogger	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.434132,-1.011391,114.445923"	/>
+		<Button_A					Location="51.551678,23.859711,102.286316"	Rotation="-88.0,-180.0,180.0"	/>
+		<Button_B					Location="51.525612,7.449884,102.361343"	Rotation="-88.0,-180.0,180.0"	/>
+		<Button_Start				Location="35.546619,29.634895,117.110947"	/>
+		<Button_Select				Location="35.546631,22.323040,117.145386"	/>
+	</LayoutFrogger>
+<LayoutFroggerSpecial>
+		<Joystick  Type="0"  Location="42.581,-0.28,111.831"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="48.387,18.785,108.371"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.387,3.645,108.371"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutFroggerSpecial>
+<LayoutGalaga	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.849125,13.950179,111.601761"	Rotation="-28.0,0.0,0.0"		Scale="0.89"	/>
+		<Button_A					Location="42.058826,-5.475508,111.781265"	Rotation="-28.0,0.0,0.0"		Scale="0.98"		/>
+		<Button_B					Location="39.869011,-13.733271,109.536110"	Rotation="-28.0,0.0,0.0"		Scale="0.98"		/>
+		<Button_Start				Location="41.497078,-25.222069,111.971909"	Rotation="-28.0,0.0,0.0"		Scale="0.94"		/>
+		<Button_Select				Location="48.056480,-25.306877,108.535263"	Rotation="-28.0,0.0,0.0"		Scale="0.94"		/>
+	</LayoutGalaga>
+<LayoutGalaga88>
+		<Joystick  Type="0"  Location="41.929,0.417,113.599"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.631,15.946,114.832"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.808,-15.113,114.737"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.892,32.101,116.302"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.892,27.828,116.302"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutGalaga88>
+<LayoutGalaxian>
+		<Joystick  Type="0"  Location="37.776,16.676,115.828"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="37.688,-5.732,115.875"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.39,-29.6,117.108"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="45.64,-29.808,111.608"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutGalaxian>
+<LayoutGauntlet	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="39.191761,19.331957,115.105240"	Scale="0.82,0.82,0.78"	/>
+		<Button_A					Location="45.339909,-10.409649,111.720718"	Scale="0.9"	 />
+		<Button_B					Location="39.415638,-15.925427,115.013100"	Scale="0.9"	 />
+		<Button_Start				Location="51.690773,10.439520,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_Select				Location="51.828041,-9.750534,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+	</LayoutGauntlet>
+<LayoutGauntlet2_Special>
+		<Joystick  Type="0"  Location="40.968,17.29,112.718"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.226,22.336,114.226"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.935,24.953,112.185"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutGauntlet2_Special>
+<LayoutGNG	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.075211,16.680298,114.689697"	/>
+		<Button_A					Location="35.133408,5.131886,117.400299"	Scale="1.25"	/>
+		<Button_B					Location="35.133438,-5.354871,117.400299"	Scale="1.25"	/>
+		<Button_Start				Location="35.585857,-17.433109,116.468414"	Scale="1.25"	/>
+		<Button_Select				Location="35.733334,-23.464581,116.460686"	Scale="1.25"	/>
+	</LayoutGNG>
+<LayoutGhoulsNGhost>
+		<Joystick  Type="0"  Location="43.343,0.104,112.841"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.078,13.445,112.983"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.724,-14.07,113.172"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40.338,31.893,114.453"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="44.403,31.789,112.272"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutGhoulsNGhost>
+<LayoutGiJoe>
+		<Joystick  Type="0"  Location="42.5,29.711391,114.6"  Rotation="-29.0,0.0,0.0" />
+		<Button_A  Location="41.4,20.452,114.286316"  Rotation="-29.0,0.0,0.0"	/>
+		<Button_B  Location="44.3,17.92884,112.661343"  Rotation="-29.0,0.0,0.0" />
+	</LayoutGiJoe>
+<LayoutGoldenAxe	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="45.860703,18.645552,111.606293"	/>
+		<Button_A					Location="45.312027,3.090731,111.829544"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_B					Location="45.311844,-3.999073,111.829544"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Start				Location="52.268120,18.585115,102.477753"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="52.267464,10.520880,102.477753"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_X					Location="43.940895,-15.497347,112.630722"	Rotation="-29.0,0.0,0.0"		Scale="0.9"		/>
+		<Button_Y					Location="43.941372,-23.524090,112.630722"	Rotation="-29.0,0.0,0.0"		Scale="0.9"		/>
+	</LayoutGoldenAxe>
+<LayoutGorfSpecial>
+		<Joystick	Type="0"	Location="44.0,0.0,111.5"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Start	Location="41.5,-18.0,112.8"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="47.5,-18.0,109.1"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+	</LayoutGorfSpecial>
+<LayoutGravitar>
+		<Button_A  Location="36.953,15.321,116.133"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="36.953,10.735,116.133"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_X  Location="35.699,-6.254,116.791"      Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Y  Location="35.092,-10.839,117.071"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="32.865,30.546,117.919"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Select  Location="43.338,-4.106,112.714"    Rotation="-29,0,0"  Scale="1.1"/>
+	</LayoutGravitar>
+<LayoutGyruss_Special>
+		<Joystick  Type="0"  Location="45.323,12.617,110.323"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.161,-9.439,110.411"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.935,-18.224,112.185"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="46.774,-18.224,109.524"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutGyruss_Special>
+<LayoutHeavyBarrel>
+		<Joystick Type="0" Location="41.882,-0.104,113.794" Rotation="-29,0,0" Scale="1.1"/>
+   		<Button_A Location="37.491,20.22,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_B Location="37.491,-20.099,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_X Location="37.491,-13.211,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Y Location="37.491,13.237,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Start Location="37.491,32.418,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Select Location="43.454,32.418,112.408" Rotation="-29,0,0" Scale="1.3"/>
+	</LayoutHeavyBarrel>
+<LayoutHypersportsSpecial>
+		<Button_A  Location="49.516,23.084,108.016"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="49.516,15.047,108.016"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_X  Location="45.484,16.916,110.234"      Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.742,8.879,114.492"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="37.581,2.897,114.581"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutHypersportsSpecial>
+<LayoutIkariWarriors>
+		<Joystick  Type="0"  Location="42.417,17.880,113.552"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="49.616,10.527,109.390"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="49.616,4.586,109.390"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="42.813,30.33,113.090"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="46.347,26.056,111.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.013,4.377,115.134"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.013,-4.273,115.134"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutIkariWarriors>
+<LayoutIndianaJones>
+		<Joystick  Type="0"  Location="43.608,0,112.698"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.989,21.158,113.03"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="43.254,-21.262,112.888"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutIndianaJones>
+<LayoutInthehunt>
+		<Joystick  Type="0"  Location="39.631,25.118,114.832"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.491,20.22,112.224"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.491,-15.008,112.224"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="39.631,15.217,114.832"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="39.543,-20.011,114.879"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.772,30.225,117.44"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.772,-25.014,117.44"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutInthehunt>
+<LayoutJoust	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000103,24.522335,114.000031"	Scale="1.05,1.05,0.9"	/>
+		<Button_A					Location="41.657776,14.433823,113.809792"	Scale="0.899"	/>
+		<Button_B					Location="41.680618,-25.060881,113.856148"	Scale="0.899"	/>
+		<Button_Start				Location="45.969788,5.269148,111.482925"	Scale="0.78"	/>
+		<Button_Select				Location="45.968544,-4.178640,111.482925"	Scale="0.78"	/>
+	</LayoutJoust>
+<LayoutJungleHunt>
+		<Joystick  Type="0"  Location="44.226,-0.625,112.366"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.013,24.076,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.543,-20.115,114.879"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,11.048,101.392"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-10.423,101.495"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutJungleHunt>
+<LayoutJungleKing>
+		<Joystick  Type="0"  Location="42.106,-0.104,113.504"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="37.864,22.408,115.78"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="37.776,-22.825,115.828"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,10.006,102.526"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-11.152,102.423"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutJungleKing>
+<LayoutKangaroo>
+		<Joystick		Type="0"	Location="41.8,0.0,114.2"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A		Location="38.2,14.0,115.8"		Rotation="-29.0,0.0,0.0"	Scale="1.2"/>
+		<Button_B		Location="38.2,-13.5,115.8"	Rotation="-29.0,0.0,0.0"	Scale="1.2"/>		
+		<Button_Start	Location="35.0,25.0,117.5"		Rotation="-29.0,0.0,0.0"	Scale="0.6"/>
+		<Button_Select	Location="40.0,25.0,115.0"		Rotation="-29.0,0.0,0.0"	Scale="0.6"/>
+	</LayoutKangaroo>
+<LayoutKangarooSpecial>
+		<Joystick		Type="0"	Location="48.5,1.0,108.5"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_A		Location="46.0,10.0,109.95"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_B		Location="46.0,-8.0,109.95"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_Start	Location="44.5,16.5,111.0"		Rotation="-28.0,0.0,0.0"	Scale="0.6"/>
+		<Button_Select	Location="47.5,16.5,109.1"		Rotation="-28.0,0.0,0.0"	Scale="0.6"/>		
+	</LayoutKangarooSpecial>
+<LayoutKarateChamp>
+		<Joystick  Type="0"  Location="41.222,29.704,113.978"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.045,12.507,114.073"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="41.134,-12.507,114.026"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="41.134,-30.225,114.026"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.563,2.293,118.625"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="32.651,-2.71,118.578"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutKarateChamp>
+<LayoutKillerInstinct2>
+		<Joystick  Type="0"  Location="40.338,25.014,114.453"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.664,15.738,113.741"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.664,10.839,113.741"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="38.925,15.425,115.211"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.836,10.839,115.259"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.153,19.594,117.772"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.153,-13.132,117.772"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutKillerInstinct2>
+<LayoutKrull>
+		<Joystick  Type="0"  Location="39.455,19.594,114.927"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.631,-19.594,114.832"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.362,3.023,116.586"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.539,-3.439,116.491"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutKrull>
+<LayoutKungFuMaster>
+		<Joystick  Type="0"  Location="41.134,0,114.026"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.013,13.132,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.013,-12.924,115.164"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="39.013,19.49,115.164"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="39.013,-19.49,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.864,32.206,115.78"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="41.929,32.206,113.599"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutKungFuMaster>
+<LayoutLegendOfKage>
+		<Joystick  Type="0"  Location="43.343,-0.625,112.841"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.431,20.637,112.793"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="43.431,15.113,112.793"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="43.078,-16.363,112.983"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="43.078,-21.575,112.983"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.278,26.369,115.022"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.696,26.369,112.651"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLegendOfKage>
+<LayoutLockNChase>
+		<Joystick  Type="0"  Location="36.716,16.989,116.397"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="37.069,-17.197,116.207"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.981,-26.369,116.254"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="41.575,-26.369,113.789"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLockNChase>
+<LayoutLodeRunner>
+		<Joystick  Type="0"  Location="41.399,0.208,113.884"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.218,21.262,115.591"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="43.254,14.175,112.888"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="43.254,-13.862,112.888"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.306,-20.741,115.543"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.213,7.608,117.203"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.037,-6.983,117.297"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLodeRunner>
+<LayoutLooping>
+		<Joystick  Type="0"  Location="42.371,23.346,113.362"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.106,-13.028,113.504"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.017,-20.428,113.552"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="38.041,-27.62,115.685"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="46.259,-27.62,111.276"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLooping>
+<LayoutLunarLander>
+		<Joystick  Type="0"  Location="26.466,36.583,121.897"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.961,24.91,112.509"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="43.961,17.718,112.509"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="35.478,27.307,117.06"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="35.567,15.425,117.013"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="43.784,-29.913,112.603"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.506,-31.997,117.582"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLunarLander>
+<LayoutLunarRescue>
+		<Joystick  Type="0"  Location="44.933,-0.938,111.987"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.668,22.93,112.129"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.933,-25.223,111.987"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="38.748,-23.972,115.306"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="38.748,-28.454,115.306"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutLunarRescue>
+<LayoutMadPlanets>
+		<Joystick  Type="0"  Location="38.659,-13.028,115.353"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.306,20.115,115.543"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.125,6.254,117.25"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.125,0.104,117.25"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutMadPlanets>
+<LayoutMakeTrax>
+		<Joystick  Type="0"  Location="39.455,-0.417,114.927"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.278,-15.842,115.022"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.19,-22.617,115.069"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutMakeTrax>
+<LayoutMainEvent>
+		<Joystick  Type="0"  Location="34.86,26.786,117.392"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.515,30.642,114.358"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.72,22.408,114.784"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutMainEvent>
+<LayoutMarbleMadness>
+		<Joystick  Type="3"  Location="44.05,18.656,112.461"  Rotation="-29,0,0"  Scale="2.0"/>
+		<Button_Start  Location="36.627,3.752,116.444"     Rotation="-29,0,0"  Scale="0.84,0.84,1.0"/>
+		<Button_Select  Location="36.627,-10.214,116.444"    Rotation="-29,0,0"  Scale="0.84,0.84,1.0"/>
+	</LayoutMarbleMadness>
+<LayoutMetalSlug	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.833260,18.797689,112.759445"	/>
+		<Button_A					Location="43.479866,-18.979969,112.765198"	/>
+		<Button_B					Location="43.481689,-26.243526,112.765198"	/>
+		<Button_Start				Location="51.691059,19.285746,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_Select				Location="51.827999,13.235891,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_X					Location="35.287651,-18.804516,117.236984"	Scale="0.95"	 />
+		<Button_Y					Location="35.289162,-26.309776,117.236984"	Scale="0.95"	 />
+	</LayoutMetalSlug>
+<LayoutMissileCommand	Parent="LayoutDefault"	>
+		<Joystick		Type="3"	Location="40.542004,-16.384399,114.510590"	Scale="2.3"	/>
+		<Button_A					Location="35.050850,26.153343,116.834198"	Scale="1.05"	/>
+		<Button_B					Location="35.050858,21.194407,116.834198"	Scale="1.05"	/>
+		<Button_Start				Location="33.566032,-8.795370,118.356987"	Scale="0.84,0.84,1.0"	 />
+		<Button_Select				Location="33.566025,-24.196136,118.356987"	Scale="0.84,0.84,1.0"	 />
+		<Button_X					Location="35.051071,16.036251,116.834198"	Scale="1.05"	 />
+		<Button_Y					Location="36.701805,-19.999939,111.627274"	Scale="1.2"	 />
+	</LayoutMissileCommand>
+<LayoutMoonPatrol	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="47.431187,0.088528,110.659515"	Rotation="-29.0,0.0,0.0"		Scale="1.25"	/>
+		<Button_A					Location="43.600353,17.776188,112.716217"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_B					Location="43.599243,26.993530,112.716217"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Start				Location="39.203472,-17.604836,115.107712"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Select				Location="39.203346,-25.956856,115.107712"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+	</LayoutMoonPatrol>
+<LayoutMortalKombat	Parent="LayoutDefault"	>
+		<Joystick	Type="0"	Location="42.5,8,114.25"	/>
+		<Button_Y	Location="39.8,-1,115.2"	Scale="1.0" />
+		<Button_B	Location="44.2,-1,113.1"	Scale="1.0" />
+		<Button_X	Location="39.8,-9.5,115.2"	Scale="1.0" />
+		<Button_A	Location="44.2,-9.5,113"	Scale="1.0" />
+		<Button_Start	Location="32.8,4,118.4"	Scale="1.0" />
+		<Button_Select	Location="42,-5.25,114.0"	Scale="1.0" />	
+	</LayoutMortalKombat>
+<LayoutMK2>
+		<Joystick  Type="0"  Location="43.343,23.242,112.841"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.64,14.07,111.608"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.728,5.003,111.56"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="40.78,14.175,114.216"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="40.869,5.003,114.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.506,18.865,117.582"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.343,9.693,112.841"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutMK2>	
+<LayoutNarc	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.950000,25.210500,113.750000"	Scale="1.0"	/>
+		<Button_A					Location="42.900000,14.000000,113.140221"	Scale="0.98"	/>
+		<Button_B					Location="42.900000,5.476492,113.140221"	Scale="0.98"	/>
+		<Button_Start				Location="35.080000,18.080000,117.400000"	Scale="0.97"	/>
+		<Button_Select				Location="35.767075,10.668659,113.114029"		Scale="1.0"		/>
+		<Button_X					Location="39.700000,09.800000,114.900000"	Scale="0.98"	/>
+	</LayoutNarc>
+<LayoutNBAJamTE>
+		<Joystick  Type="0"  Location="39.543,28.975,114.879"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.459,24.285,113.315"     Rotation="-29,0,0"  Scale=".8"/>
+		<Button_B  Location="43.961,21.679,112.509"    Rotation="-29,0,0"  Scale=".8"/>
+		<Button_X  Location="44.933,27.515,111.987"      Rotation="-29,0,0"  Scale=".8"/>
+		<Button_Start  Location="33.534,21.262,118.103"     Rotation="-29,0,0"  Scale=".8"/>
+	</LayoutNBAJamTE>
+<LayoutNBAHangTime>
+		<Joystick  Type="0"  Location="46.7,28.141,111.039"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.198,21.783,111.845"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="46.612,16.239,111.086"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="50.235,23.138,109.142"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40.692,20.532,114.263"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutNBAHangTime>
+<LayoutNeoGeoMVS-TypeA   Parent="LayoutDefault"  >
+		<Joystick       Type="0"    Location="42.55,  25.2,  112.9"   />
+		<Button_Start  Location="32.9, 30.6, 118.2"   />
+		<Button_Select  Location="32.9,  3.9,  118.2"   />
+		<Button_A  Location="42.55,  17.2,  112.9" />
+		<Button_X  Location="38.4,  13.2,  115.1"  />
+		<Button_B Location="38.4,  8.7,  115.1"  />
+		<Button_Y Location="38.4,  4.2,  115.1"  />
+	</LayoutNeoGeoMVS-TypeA>
+<LayoutNeoGeoMVS-TypeB   Parent="LayoutDefault"  >
+		<Joystick       Type="0"    Location="43.55,  25.2,  112.9"   />
+		<Button_Start  Location="32.9, 30.6, 118.2" Scale="0.9"   />
+		<Button_Select  Location="32.9,  3.9,  118.2" Scale="0.9"   />
+		<Button_A  Location="45.4,  16.4,  111.6" Scale="0.9" />
+		<Button_X  Location="42.9,  12.4,  113" Scale="0.9"  />
+		<Button_B Location="42.0,  7.9,  113.3" Scale="0.9"  />
+		<Button_Y Location="42.0,  3.2,  113.3" Scale="0.9"  />
+	</LayoutNeoGeoMVS-TypeB>
+<LayoutNibbler>
+		<Joystick  Type="0"  Location="39.808,0.104,114.737"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.069,-26.161,116.207"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.519,-26.161,112.746"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutNibbler>	
+<LayoutNibbler_Special>
+		<Joystick  Type="0"  Location="45.806,0.28,110.056"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="43.548,-20.28,111.298"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.71,-20.093,108.46"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutNibbler_Special>
+<LayoutNintendoVS	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000008,10.000010,114.030807"	/>		
+		<Button_A					Location="39.0,-2.000008,115.0"	/>
+		<Button_B					Location="39.0,-9.000006,115.0"	/>
+		<Button_Start				Location="32.5,2.0,118.5"	/>
+		<Button_Select				Location="39.203346,-25.956856,110.107712"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>		
+	</LayoutNintendoVS>
+<LayoutNintendo>
+		<Joystick  Type="0"  Location="40.338,19.49,114.453"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.813,-18.448,113.315"     Rotation="-29,0,0"  Scale="1.5"/>
+		<Button_B  Location="42.813,-10.944,113.267"    Rotation="-29,0,0"  Scale="1.5"/>
+		<Button_Start  Location="42.999,-1.355,113.172"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="42.999,7.087,113.125"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutNintendo>
+<LayoutOmegaRace>
+		<Joystick  Type="0"  Location="39.366,13.966,114.974"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="34.33,-11.465,117.677"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="34.33,-16.572,117.677"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.72,-35.541,114.784"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="42.459,-35.541,113.315"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutOmegaRace>
+<LayoutOutrun	Parent="LayoutDefault"	>
+		<Joystick		Type="1"	Location="52.584816,-8.499195,99.263519"	Rotation="-1.401428,180.0,0.278"		Scale="1.29,1.29,1.29"	/>
+		<Button_A					Location="41.227501,26.572065,114.277451"	/>
+		<Button_B					Location="41.307938,19.667187,114.236145"	/>
+		<Button_Start				Location="46.479012,23.423214,111.000000"	/>
+		<Button_Select				Location="46.453037,15.584266,111.000000"	/>
+	</LayoutOutrun>
+<LayoutPacLand>
+		<Joystick  Type="0"  Location="42.547,1.459,113.267"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.459,21.783,113.315"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.459,-17.718,113.315"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.125,-24.285,117.25"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.037,-31.476,117.297"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPacLand>
+<LayoutPacman	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="44.894592,1.591703,110.186234"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_A					Location="41.965565,-11.594401,111.397324"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_B					Location="44.237057,-16.923286,110.405167"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_Start				Location="41.619301,-26.215710,111.768600"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="48.137089,-26.215702,108.620331"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+	</LayoutPacman>
+<LayoutPac-Mania>
+		<Joystick  Type="0"  Location="43.194,-0.253,113.172"  Rotation="-29,0,0"  Scale="1.35"/>
+		<Button_A  Location="40.332,14.75,114.347"     Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_B  Location="40.332,-15.34,114.347"    Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_Start  Location="32.386,31.163,118.72"     Rotation="-29,0,0"  Scale="0.95"/>
+		<Button_Select  Location="32.386,26.89,118.72"    Rotation="-29,0,0"  Scale="0.95"/>
+	</LayoutPac-Mania>
+<LayoutPaperboy	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="43.364857,-0.002430,112.886749"	Scale="1.1,1.19,0.95"	/>
+		<Button_A					Location="43.064037,-14.948794,113.140221"	/>
+		<Button_B					Location="43.065811,-24.476492,113.140221"	/>
+		<Button_Start				Location="51.690247,22.789143,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="51.827415,14.870827,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+	</LayoutPaperboy>
+<LayoutPaperboyNew>
+		<Joystick  Type="0"  Location="45.287,0.938,111.797"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.784,-14.696,112.603"     Rotation="-29,0,0"  Scale="0.8"/>
+		<Button_B  Location="43.784,-24.076,112.603"    Rotation="-29,0,0"  Scale="0.8"/>
+	</LayoutPaperboyNew>
+<LayoutPengo>
+		<Joystick  Type="0"  Location="41.399,0.104,113.884"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.455,27.203,114.927"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.543,-28.037,114.879"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,15.425,102.01"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-14.8,102.01"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutPengo>
+<LayoutPepperII>
+		<Joystick  Type="0"  Location="46.163,0.004,111.703"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="46.163,14.921,111.703"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="46.163,-14.713,111.703"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPepperII>
+<LayoutPhoenix>
+		<Joystick  Type="4"  Location="44.226,17.197,112.366"  Rotation="-29,0,0"  Scale="0.8"/>
+		<Button_A  Location="44.226,-5.941,112.366"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.315,-11.882,112.319"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40.869,-25.118,114.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="47.761,-25.118,110.47"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPhoenix>
+<LayoutPleiades>
+		<Button_A  Location="40.869,20.532,114.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.045,14.279,114.073"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="41.134,-5.837,114.026"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="41.134,-12.09,114.026"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.539,-24.389,116.491"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.078,-24.493,112.983"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPleiades>
+<LayoutPlotting>
+		<Joystick		Type="0"	Location="42.00,21.00,114.00"		Rotation="-29.0,0.0,0.0"	/>				
+		<Button_A				Location="42.00,11.00,114.00"		Rotation="-29.0,0.0,0.0"	/>
+		<Button_B				Location="42.00,11.00,110.00"		Rotation="-29.0,0.0,0.0"	/>
+		<Button_Start				Location="35.00,2.00,117.50"		Rotation="-29.0,0.0,0.0"	Scale="0.50"/>
+		<Button_Select				Location="35.00,-2.00,117.50"		Rotation="-29.0,0.0,0.0"	Scale="0.50"/>
+	</LayoutPlotting>
+<LayoutPolePosition>
+		<Joystick  Type="1"  Location="52.584976,16.468,99.263519"  Rotation="-1.4,180,0.278"  Scale="1.2"/>
+		<Button_A  Location="39.900,-8.025,114.800"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="48.865,-8.025,109.940"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="47.142,-24.076,110.802"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPolePosition>
+<LayoutPopeye>
+		<Joystick  Type="0"  Location="41.664,13.549,113.741"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="34.506,-18.969,117.582"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.888,0,117.914"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="33.888,-5.211,117.914"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPopeye>
+<LayoutPopeye_Special>
+		<Joystick  Type="0"  Location="45,13.551,110.5"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.839,-17.477,113.339"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40,0.654,113.25"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="40,-4.206,113.25"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutPopeye_Special>
+<LayoutPrimalRage>
+		<Joystick  Type="0"  Location="46.17,25.639,111.323"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.668,15.113,112.129"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.668,10.214,112.129"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="50.231,14.904,108.849"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="50.054,10.11,108.849"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.33,0.73,117.677"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPrimalRage>
+<LayoutQBert	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="44.055672,3.631472,110.895752"	Rotation="-28.0,0.0,0.0"		Scale="1.13"	/>
+		<Button_A					Location="51.645439,27.113331,102.632660"	Rotation="-65.4,180.0,-180.0"	Scale="0.88"	/>
+		<Button_B					Location="51.645546,17.402115,102.632660"	Rotation="-65.4,180.0,-180.0"	Scale="0.88"	/>
+		<Button_Start				Location="39.263073,33.891651,113.374725"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="45.286934,33.918594,110.117935"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+	</LayoutQBert>
+<LayoutQix>
+		<Joystick  Type="0"  Location="46.082,16.676,111.371"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.841,-10.839,113.647"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.017,-18.135,113.552"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="0,0,0"      Rotation="0,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,9.589,100.773"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-9.901,100.876"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutQix>
+<LayoutRaidenDX>
+		<Joystick  Type="0"  Location="40.338,30.121,114.453"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.338,24.91,114.453"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="40.338,20.741,114.453"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="40.338,16.572,114.453"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.534,4.794,118.103"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRaidenDX>
+<LayoutRallyX>
+		<Joystick  Type="0"  Location="42.194,0.104,113.457"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="31.237,-17.927,119.336"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="31.06,-28.975,119.431"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRallyX>
+<LayoutRampage>
+		<Joystick  Type="0"  Location="38.571,27.932,115.401"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.869,20.428,114.168"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.659,16.885,115.353"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRampage>
+<LayoutRastan>
+		<Joystick  Type="0"  Location="40.245,-0.004,114.542"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.394,-13.775,115.596"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.394,-20.942,115.596"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.16,16.969,118.292"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="37.92,16.969,115.584"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRastan>
+<LayoutRedBaron>
+		<Joystick  Type="0"  Location="39.101,0.625,115.116"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.013,12.403,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRedBaron>
+<LayoutRenegade>
+		<Joystick  Type="0"  Location="43.343,0,112.641"  Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_A  Location="43.503,-11.301,112.641"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="43.503,-24.953,112.641"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_X  Location="38.218,-18.144,115.391"      Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="38.218,26.69,115.391"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Select  Location="38.218,19.494,115.391"    Rotation="-29,0,0"  Scale="1.1"/>
+	</LayoutRenegade>
+<LayoutRidgeRacer>
+		<Joystick		Type="1"	Location="52.584816,0,99.263519"	Rotation="-1.401428,180.0,0.278"		Scale="1.29,1.29,1.29"	/>
+		<Button_A  Location="34.506,-5,117.582"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="34.506,-23.034,117.582"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="34.506,5,117.582"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="34.948,-30.33,117.345"     Rotation="-29,0,0"  Scale="1.0"/>		
+	</LayoutRidgeRacer>
+<LayoutRipOff>
+		<Joystick  Type="4"  Location="26.466,36.583,121.897"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="35.478,-9.589,117.06"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="35.478,-14.383,117.06"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="35.567,-23.138,117.013"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="35.567,-28.141,117.013"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.478,-0.313,117.06"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.631,-0.417,114.832"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRipOff>
+<LayoutRobocop	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.999981,18.639351,114.308838"	/>
+		<Button_A					Location="41.006878,4.352285,114.169342"	/>
+		<Button_B					Location="40.999996,-9.743658,114.135666"	/>
+		<Button_Start				Location="46.007862,-22.892002,110.773499"	Rotation="-29.0,0.0,0.0"	Scale="1.1"		/>
+		<Button_Select				Location="46.013069,-28.620646,110.806732"	Rotation="-29.0,0.0,0.0"	Scale="1.1"		/>
+	</LayoutRobocop>
+<LayoutRobocopNew>
+		<Joystick Type="0" Location="41.882,-0.104,113.794" Rotation="-29,0,0" Scale="1.1"/>
+   		<Button_A Location="37.491,20.22,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_B Location="37.491,-20.099,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_X Location="37.491,-13.211,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Y Location="37.491,13.237,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Start Location="37.491,32.418,115.77" Rotation="-29,0,0" Scale="1.3"/>
+		<Button_Select Location="43.454,32.418,112.408" Rotation="-29,0,0" Scale="1.3"/>
+	</LayoutRobocopNew>
+<LayoutRobotron2084>
+		<Joystick  Type="0"  Location="39.985,15.008,114.642"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.631,-15.113,114.832"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.009,-29.496,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="42.282,-29.392,113.409"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRobotron2084>
+<LayoutRocNRope>
+		<Joystick  Type="0"  Location="44.58,14.487,112.177"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.58,0.104,112.177"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.58,-14.07,112.177"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="40.25,-28.141,114.5"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.468,-28.245,110.091"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutRocNRope>
+<LayoutSaintDragon>
+		<Joystick  Type="0"  Location="42.953,-0.148,113.125"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.170,12.557,112.73"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_B  Location="43.170,-12.824,112.73"    Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Start  Location="35.073,6.73,117.003"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Select  Location="35.073,-6.907,117.003"    Rotation="-29,0,0"  Scale="1.2"/>
+	</LayoutSaintDragon>
+<LayoutSalamander>
+		<Joystick  Type="0"  Location="41.841,24.597,113.647"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="34.683,16.155,117.487"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="34.772,10.735,117.44"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSalamander>
+<LayoutSarge>
+		<Joystick  Type="0"  Location="26.466,36.583,121.897"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.659,24.389,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.134,12.09,114.026"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="41.31,-12.507,113.931"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.659,-24.597,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.948,31.789,117.345"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.86,-31.893,117.392"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSarge>
+<LayoutSatansHollow>
+		<Joystick  Type="0"  Location="43.078,-0.313,112.983"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.659,15.217,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.394,-15.113,115.496"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.627,-28.037,116.444"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="41.575,-28.037,113.789"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSatansHollow>
+<LayoutScramble>
+		<Joystick  Type="0"  Location="40.692,0.208,114.263"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.101,27.411,115.116"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="39.101,22.2,115.116"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.278,-21.992,115.022"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.366,-27.099,114.974"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutScramble>
+<LayoutSilkworm>
+		<Joystick  Type="0"  Location="41.300,25.639,113.826"  Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_A  Location="41.300,15.425,113.826"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="41.300,-20.03,113.826"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_X  Location="41.300,10.106,113.826"      Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Y  Location="41.300,-25.444,113.826"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="52.20,10.106,102.201"     Rotation="-90,0,0"  Scale="1.1"/>
+		<Button_Select  Location="52.20,-10.327,102.201"    Rotation="-90,0,0"  Scale="1.1"/>
+	</LayoutSilkworm>
+<LayoutSimpsons	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.213478,8.383509,113.700470"	Scale="1.4"		/>
+		<Button_A					Location="45.992962,2.361881,111.426666"	Scale="1.0"		/>
+		<Button_B					Location="45.992966,-6.954828,111.426666"	Scale="1.0"		/>
+		<Button_Start				Location="35.766266,25.746141,117.114029"	Scale="0.79"	/>
+		<Button_Select				Location="35.766121,16.416271,117.114029"	Scale="0.79"	/>
+		<Button_X					Location="38.124596,-16.298857,115.504639"	Scale="1.04"	/>
+		<Button_Y					Location="38.244591,-25.134920,115.859756"	Scale="1.04"	/>
+	</LayoutSimpsons>
+<LayoutShinobi	Parent="LayoutDefault"	>
+		<Joystick	Type="0"	Location="40.000008,19.000010,115.030807"	/>
+		<Button_A	Location="42.000004,-07.300000,114.178650"	/>
+		<Button_B	Location="40.500000,-12.500000,115.166290"	/>
+		<Button_Start	Location="34.800000,-30.500000,117.900000"	/>
+		<Button_Select	Location="40.000000,-19.999990,114.834000"	/>
+	</LayoutShinobi>
+<LayoutSinistar>
+		<Joystick		Type="0"	Location="41.9,0.0,114.1"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_A		Location="40.5,21.5,114.75"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_B		Location="40.5,-21.5,114.75"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_X		Location="44.75,15.5,112.6"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Y		Location="44.75,-15.25,112.6"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>		
+		<Button_Start	Location="37.5,13.9,116.25"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="37.5,-13.75,116.25"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+	</LayoutSinistar>
+<LayoutSinistarSpecial>
+		<Joystick		Type="0"	Location="47.25,1.25,109.2"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A		Location="46.0,16.5,109.6"		Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_B		Location="46.0,-13.75,109.6"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_X		Location="49.1,12.25,108.25"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_Y		Location="49.1,-9.75,108.25"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>	
+		<Button_Start	Location="44.25,11.0,111.0"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>
+		<Button_Select	Location="44.25,-8.5,111.0"	Rotation="-28.0,0.0,0.0"	Scale="0.94"/>		
+	</LayoutSinistarSpecial>
+<LayoutSmashTV>
+		<Joystick  Type="0"  Location="45.552,25.848,111.655"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.728,8.755,111.56"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.366,16.885,114.974"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.278,-16.78,115.022"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSmashTV>
+<LayoutSolarQuest>
+		<Button_A  Location="36.759,17.823,116.491"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="37.209,12.403,115.922"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_X  Location="41.322,7.917,113.978"      Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Y  Location="41.322,-7.604,113.978"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="37.209,-11.646,115.922"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Select  Location="36.759,-17.151,116.444"    Rotation="-29,0,0"  Scale="1.1"/>
+	</LayoutSolarQuest>
+<LayoutSolarWarrior>
+		<Joystick  Type="0"  Location="42.282,1.772,113.409"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.78,-4.899,114.216"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="40.78,-8.963,114.216"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="40.692,7.713,114.263"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="40.692,12.299,114.263"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,7.087,95.825"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-4.69,95.825"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutSolarWarrior>
+<LayoutSpaceDuel>
+		<Button_A  Location="36.892,30.955,116.302"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="37.688,26.577,115.875"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="38.041,13.758,115.685"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.129,8.963,115.638"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="43.608,17.823,112.698"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.608,-0.104,112.698"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSpaceDuel>
+<LayoutSpaceFirebird_Special>
+		<Button_A Location="47.742,-26.075,108.992" Rotation="-28,0,0" Scale="0.9"/>
+		<Button_B Location="47.742,-20.841,108.992" Rotation="-28,0,0" Scale="0.9"/>
+		<Button_X Location="47.742,27.383,108.992" Rotation="-28,0,0" Scale="0.9"/>
+		<Button_Y Location="47.742,21.963,108.992" Rotation="-28,0,0" Scale="0.9"/>
+		<Button_Start Location="51.546,16.916,101.776" Rotation="-65.4,180,-180" Scale="0.9"/>
+		<Button_Select Location="51.546,-15.794,101.776" Rotation="-65.4,180,-180" Scale="0.9"/>
+	</LayoutSpaceFirebird_Special>
+<LayoutSpaceFury>
+		<Button_A  Location="37.688,27.92,115.675"     Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_B  Location="37.688,22.708,115.675"    Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_X  Location="37.688,-22.217,115.675"      Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_Y  Location="37.688,-27.841,115.675"     Rotation="-29,0,0"  Scale="1.15"/>
+		<Button_Start  Location="51.95,17.565,103.77"     Rotation="-90,0,0"  Scale="1.15"/>
+		<Button_Select  Location="51.95,-17.872,103.77"    Rotation="-90,0,0"  Scale="1.15"/>
+	</LayoutSpaceFury>
+<LayoutSpaceInvaders	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="36.479462,21.049744,116.590874"	/>
+		<Button_A					Location="36.406952,-9.757443,116.528351"	Scale="1.25"	/>
+		<Button_B					Location="34.233032,-29.752256,114.306427"	Scale="1.25"	/>
+		<Button_Start				Location="36.450012,-21.022278,116.695946"	Scale="1.25"		/>
+		<Button_Select				Location="43.571838,-20.947754,112.767715"	Scale="1.25"		/>
+	   </LayoutSpaceInvaders>
+<LayoutSpaceInvDeluxe>
+		<Joystick  Type="2"  Location="36.716,12.82,116.397"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.399,-6.045,113.884"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.274,-21.262,116.634"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.274,-30.121,116.634"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSpaceInvDeluxe>
+<LayoutSpyHunter_Special>
+		<Joystick  Type="1"  Location="49.516,3.832,100"  Rotation="-1.4,180,0.278"  Scale="1.0"/>
+		<Button_B  Location="50.484,-26.822,107.484"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSpyHunter_Special>
+<LayoutStarCastle>
+		<Button_A  Location="36.539,8.755,116.491"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="36.539,4.169,116.491"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_X  Location="36.539,-4.377,116.491"      Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Y  Location="36.539,-9.068,116.491"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="36.539,29.496,116.491"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Select  Location="36.539,24.701,116.491"    Rotation="-29,0,0"  Scale="1.1"/>
+	</LayoutStarCastle>
+<LayoutStreetFighter1>
+		<Joystick  Type="0"  Location="41.500,21.900,114.026"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.00,13.708,114.0"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.00,9.226,114.0"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="45.875,13.708,111.40"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="45.875,9.226,111.40"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.00,4.754,114.0"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="45.875,4.754,111.40"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutStreetFighter1>
+<LayoutStreetFighter	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000008,12.000010,114.030807"	/>
+		<Button_A					Location="41.000004,-5.000008,114.178650"	/>
+		<Button_B					Location="41.000034,-15.000006,114.166290"	/>
+		<Button_Start				Location="45.592575,28.887199,111.482544"	/>
+		<Button_Select				Location="45.564243,21.593822,111.000000"	/>
+		<Button_X					Location="45.999985,-9.999994,110.813004"	/>
+		<Button_Y					Location="46.000275,-20.024817,110.834000"	/>
+	</LayoutStreetFighter>
+<LayoutSF2CE>
+		<Joystick  Type="0"  Location="44.845,24.806,112.034"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.524,16.989,111.134"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="46.524,12.924,111.134"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="42.989,17.093,113.03"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="42.989,12.924,113.03"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="39.013,3.127,115.164"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="39.013,-3.439,115.164"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSF2CE>
+<LayoutSuperMarioBros>
+		<Joystick  Type="0"  Location="40.692,23.346,114.263"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.78,13.132,114.216"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="35.567,32.414,117.013"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="35.478,26.682,117.06"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSuperMarioBros>
+<LayoutSuperPacMan>
+		<Joystick  Type="0"  Location="46.000,1.000,110.000"  Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_A  Location="46.613,17.29,109.613"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_B  Location="46.613,-15.607,109.613"    Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Start  Location="42.419,-22.523,111.919"     Rotation="-28,0,0"  Scale="1.0"/>
+		<Button_Select  Location="42.419,-28.131,111.919"    Rotation="-28,0,0"  Scale="1.0"/>
+	</LayoutSuperPacMan>
+<LayoutSuperPuzzleFighter2Turbo> 
+		<Joystick Type="0"	Location="40.8,7.5,114.6" 	Rotation="-29.0,0.0,0.0" 	Scale="1.0"/>
+		<Button_A 		Location="38.8,-0.9,115.7" 		Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+		<Button_B 		Location="42.75,-0.9,113.7" 	Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+		<Button_X 		Location="38.8,-5.3,115.7" 		Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+		<Button_Y 		Location="42.75,-5.3,113.7" 	Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+		<Button_Start 	Location="38.8,-10.3,115.7" 	Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+		<Button_Select 	Location="42.75,-10.3,113.7" 	Rotation="-29.0,0.0,0.0" 	Scale="0.9"/>
+	</LayoutSuperPuzzleFighter2Turbo>
+<LayoutTacScan>
+		<Button_A  Location="38.659,17.406,115.353"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.748,-17.927,115.306"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="38.659,23.242,115.353"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.571,-23.972,115.401"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,18.969,103.454"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-19.699,103.351"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutTacScan>
+<LayoutTailGunner>
+		<Joystick  Type="0"  Location="40.515,-0.938,114.358"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="37.069,12.194,116.207"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="37.069,-14.696,116.207"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="37.069,-19.49,116.207"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="36.892,17.093,116.302"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="26.466,36.583,121.897"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTailGunner>
+<LayoutTapper>
+		<Joystick  Type="0"  Location="39.631,9.485,114.832"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.073,-12.507,114.595"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.828,-26.786,118.483"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="37.069,-26.786,116.207"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTapper>
+<LayoutTempest>
+		<Joystick  Type="4"  Location="36.716,-13.445,116.397"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="33.446,14.279,118.151"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.64,7.817,111.608"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.004,31.268,118.388"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="45.64,31.059,111.608"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTempest>
+<LayoutTerraCresta>
+		<Joystick  Type="0"  Location="39.985,-0.208,114.642"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="37.776,11.882,115.828"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="37.953,-12.09,115.733"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="37.246,19.386,116.112"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="37.334,-19.386,116.065"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTerraCresta>
+<LayoutTetris	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000004,12.000003,114.175606"	/>
+		<Button_A					Location="41.000015,-5.000000,114.087280"	/>
+		<Button_B					Location="41.000004,-14.999997,114.074333"	/>
+		<Button_Start				Location="51.690247,22.789143,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="51.827415,14.870827,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+	</LayoutTetris>
+<LayoutTimber>
+		<Joystick  Type="0"  Location="39.808,23.659,114.737"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.897,10.527,114.69"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.418,-15.946,117.629"     Rotation="-29,0,0"  Scale="0.6"/>
+		<Button_Select  Location="34.506,-20.532,117.582"    Rotation="-29,0,0"  Scale="0.6"/>
+	</LayoutTimber>
+<LayoutTimePilot>
+		<Joystick  Type="0"  Location="45.64,15.842,111.608"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="45.817,-16.155,111.513"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.31,-27.932,113.931"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="48.291,-27.932,110.185"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTimePilot>
+<LayoutTinStar>
+	<Joystick  Type="0"  Location="43.961,-8.025,112.509"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.873,17.823,112.556"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.017,-21.262,113.552"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,10.006,102.423"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-9.901,102.423"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutTinStar>
+<LayoutToobin>
+		<Button_A  Location="42.547,26.682,113.267"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="37.864,25.014,115.78"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="42.636,11.882,113.22"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="37.864,13.654,115.78"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="47.054,19.386,110.849"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutToobin>
+<LayoutTrackAndField>
+		<Button_A  Location="38.925,22.93,115.211"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="38.748,-22.825,115.306"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="43.696,28.87,112.651"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="43.431,17.197,112.793"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.153,9.901,117.772"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.153,3.231,117.772"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTrackAndField>
+<LayoutTron>
+		<Joystick  Type="0"  Location="39.985,-14.696,114.642"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="39.72,14.175,114.784"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.33,4.169,117.677"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.241,-2.293,117.724"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTron>
+<LayoutTurtles	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.639046,15.058195,113.344208"	Scale="1.25"	/>
+		<Button_A					Location="42.862942,0.642000,113.071945"	Scale="1.25"	/>
+		<Button_B					Location="42.863541,-8.102731,113.071945"	Scale="1.25"	/>
+		<Button_Start				Location="35.818214,4.810525,116.711227"	Scale="1.25"	/>
+		<Button_Select				Location="35.865631,-4.009804,116.687820"	Scale="1.25"	/>
+	</LayoutTurtles>
+<LayoutTurtlesInTime>
+		<Joystick  Type="0"  Location="44.05,31.372,112.461"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.05,25.014,112.461"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.05,19.386,112.461"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.86,15.738,117.392"     Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutTurtlesInTime>
+<LayoutTurboOutRun>
+		<Joystick  Type="1"  Location="52.701,-0.15,96.158"  Rotation="-43.401428,180.0,0.278"  Scale="1.6,1.6,1.6"/>
+		<Button_Start  Location="47.803,30.946,109.952"     Rotation="-29,0,0"  Scale="0.9"/>
+		<Button_Select  Location="37.631,31.059,113.432"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="41.475,-29.284,113.791"      Rotation="-28,3,0"  Scale="0.8"/>
+		<Button_Y  Location="45.342,-29.22,111.609"     Rotation="-28,3,0"  Scale="0.8"/>
+	</LayoutTurboOutRun>
+<LayoutTutankham>
+		<Joystick	Type="0"	Location="41.25,20.1,114.4"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A	Location="41.25,-9.8,114.4"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_X	Location="41.25,-20.25,114.4"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Start	Location="41.25,3.75,114.4"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="41.25,-2.8,114.4"	Rotation="-29.0,0.0,0.0"	Scale="1.0"/>
+	</LayoutTutankham>	
+<LayoutTutankhamSpecial>
+		<Joystick	Type="0"	Location="47.8,20.1,109.0"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_A	Location="47.8,-8.9,109.0"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_X	Location="47.8,-19.0,109.0"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Start	Location="47.8,3.1,109.0"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+		<Button_Select	Location="47.8,-2.0,109.0"	Rotation="-28.0,0.0,0.0"	Scale="1.0"/>
+	</LayoutTutankhamSpecial>
+<LayoutTwoCrude>
+		<Joystick  Type="0"  Location="40.692,24.285,114.263"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.129,10.839,115.638"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="44.400,14.279,112.240"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="44.400,7.296,112.240"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,21.783,100.67"     Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutTwoCrude>
+<LayoutUMK3>
+		<Joystick  Type="0"  Location="43.696,23.138,112.651"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="49.263,18.135,109.664"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.64,13.966,111.608"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="40.957,14.175,114.121"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="43.431,9.485,112.793"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="45.728,4.794,111.56"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="41.134,4.794,114.026"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutUMK3>
+<LayoutUndercoverCops>
+		<Joystick  Type="0"  Location="42.282,27.515,113.409"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="38.925,13.654,115.211"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.11,13.549,111.892"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="36.185,8.859,116.681"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="42.282,9.068,113.409"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.599,3.961,115.922"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="43.961,3.961,112.509"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutUndercoverCops>
+<LayoutVanguard>
+		<Joystick  Type="0"  Location="41.841,12.194,113.647"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.929,-8.963,113.599"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.022,-12.611,111.94"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="39.101,-12.507,115.116"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="42.106,-15.946,113.504"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.599,-31.997,115.922"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="44.403,-31.893,112.272"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutVanguard>
+<LayoutVendetta>
+		<Joystick  Type="0"  Location="42.459,14.696,113.315"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="44.315,7.192,112.319"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="45.198,2.918,111.845"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutVendetta>
+<LayoutVenture>
+		<Joystick  Type="0"  Location="43.254,1.042,112.888"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="43.431,-26.994,112.793"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.362,16.155,116.586"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="45.375,15.842,111.75"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutVenture>
+<LayoutViolentStorm>
+		<Joystick Type="0" Location="44.491,-0.104,112.224" Rotation="-29,0,0" Scale="1.0"/>
+		<Button_A Location="44.58,-10.11,112.177" Rotation="-29,0,0" Scale="1.0"/>
+		<Button_X Location="44.58,-15.321,112.177" Rotation="-29,0,0" Scale="1.0"/>
+		<Button_Start Location="34.86,30.121,117.392" Rotation="-29,0,0" Scale="1.0"/>
+	</LayoutViolentStorm>
+<LayoutWacko>
+		<Joystick  Type="3"  Location="40.603,0.417,114.31"  Rotation="-29,0,0"  Scale="2.0"/>
+		<Button_A  Location="39.897,20.428,114.69"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="40.25,-19.177,114.5"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.916,-14.175,118.435"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="33.004,-27.932,118.388"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutWacko>
+<LayoutWizardOfWor>
+		<Joystick  Type="0"  Location="41.575,-27.62,113.789"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.487,-12.715,113.836"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.575,30.434,113.789"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.418,-4.794,117.629"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="34.418,2.501,117.629"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutWizardOfWor>
+<LayoutWBML>
+		<Joystick  Type="0"  Location="41.385,24.070,114.121"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.400,14.050,114.160"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="41.400,9.000,114.160"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="36.804,-16.100,116.449"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.804,-21.158,116.449"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutWBML>
+<LayoutWrestlemania>
+		<Joystick  Type="0"  Location="40.427,23.138,114.405"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.194,14.175,113.457"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.106,5.107,113.504"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="38.748,13.966,115.306"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.836,5.003,115.259"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="34.418,18.865,117.629"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="40.603,9.589,114.31"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutWrestlemania>
+<LayoutXevious>
+		<Joystick  Type="0"  Location="44.138,-0.417,112.414"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.25,11.569,114.5"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="40.957,-12.299,114.121"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="37.511,15.53,115.97"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="38.306,-16.259,115.543"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="37.069,28.349,116.207"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="37.157,22.513,116.159"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutXevious>
+<LayoutYiArKungFu>
+		<Joystick  Type="0"  Location="42.652,-0.104,113.694"  Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_A  Location="45.091,23.555,111.624"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_B  Location="45.091,-23.503,111.624"    Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_X  Location="45.091,17.614,111.724"      Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Y  Location="45.091,-17.623,111.724"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Start  Location="33.699,5.062,117.746"     Rotation="-29,0,0"  Scale="1.2"/>
+		<Button_Select  Location="33.699,-5.062,117.746"    Rotation="-29,0,0"  Scale="1.2"/>
+	</LayoutYiArKungFu>
+<LayoutZaxxon>
+		<Joystick  Type="0"  Location="40.78,-0.313,114.216"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="36.274,23.763,116.634"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="36.097,-24.18,116.728"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,18.135,102.113"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-18.761,102.01"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutZaxxon>
+<LayoutZooKeeper>
+		<Joystick  Type="4"  Location="42.901,-0.521,113.078"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="48.026,22.513,110.328"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="47.672,-22.825,110.517"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,9.172,103.041"     Rotation="-90,0,0"  Scale="1.0"/>
+		<Button_Select  Location="52.25,-9.901,103.247"    Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutZooKeeper>
+<LayoutSinglePlayer>
+		<Joystick  Type="0"  Location="39.101,26.161,115.116"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="35.744,17.51,116.918"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="35.655,10.527,116.966"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="39.455,17.51,114.927"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="39.543,10.735,114.879"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="33.358,3.544,118.198"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="33.446,-3.231,118.151"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutSinglePlayer>
+<LayoutAlienBoom	Parent="LayoutDefault"	>
+		<Joystick		Type="4"	Location="41.670036,10.403602,113.801926"	/>
+		<Button_A					Location="41.316479,-13.340088,114.017731"	Scale="1.1"		/>
+		<Button_B					Location="41.317390,-7.477968,114.017731"	Scale="1.1"		/>
+		<Button_Start				Location="33.000290,3.866347,118.255165"	Scale="0.88"	/>
+		<Button_Select				Location="32.999359,-3.655537,118.255165"	Scale="0.88"	/>
+		<Button_X					Location="46.044121,-0.075016,111.366432"	/>
+		<Button_Y					Location="40.309708,-19.999977,110.928131"	/>
+	</LayoutAlienBoom>
+<LayoutAxeWar	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="45.860703,18.645552,111.606293"	/>
+		<Button_A					Location="45.312027,3.090731,111.829544"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_B					Location="45.311844,-3.999073,111.829544"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Start				Location="52.268120,18.585115,102.477753"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="52.267464,10.520880,102.477753"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_X					Location="43.940895,-15.497347,112.630722"	Rotation="-29.0,0.0,0.0"		Scale="0.9"		/>
+		<Button_Y					Location="43.941372,-23.524090,112.630722"	Rotation="-29.0,0.0,0.0"		Scale="0.9"		/>
+	</LayoutAxeWar>
+<LayoutBerzork	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.331741,0.184385,114.461212"	Scale="0.99,0.99,0.87"	/>
+		<Button_A					Location="40.404186,9.280710,114.556885"	Scale="1.05"	/>
+		<Button_B					Location="40.404274,-8.965351,114.556885"	Scale="1.05"	/>
+		<Button_Start				Location="35.935204,-19.484190,116.824966"	Scale="0.94"	/>
+		<Button_Select				Location="35.935230,-26.320728,116.824966"	Scale="0.94"	/>
+	</LayoutBerzork>
+<LayoutBlocker	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000004,12.000003,114.175606"	/>
+		<Button_A					Location="41.000015,-5.000000,114.087280"	/>
+		<Button_B					Location="41.000004,-14.999997,114.074333"	/>
+		<Button_Start				Location="51.690247,22.789143,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="51.827415,14.870827,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+	</LayoutBlocker>
+<LayoutBluBallz	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="47.366585,0.598748,110.613747"	/>
+		<Button_A					Location="40.736897,-17.945101,114.284218"	Scale="1.25"	/>
+		<Button_B					Location="40.736389,17.882244,114.284645"	Scale="1.25"	/>
+		<Button_Start				Location="46.000099,28.927509,111.000000"	/>
+		<Button_Select				Location="45.999966,-28.204998,111.000000"	/>
+	</LayoutBluBallz>
+<LayoutChase	Parent="LayoutDefault"	>
+		<Joystick		Type="1"	Location="52.584976,-10.018208,99.263519"	Rotation="-1.4,180,0.278"		Scale="1.29"	/>
+		<Button_A					Location="44.845612,30.148365,112.173172"	/>
+		<Button_B					Location="44.846497,20.904831,112.173172"	/>
+		<Button_Start				Location="51.690247,27.770229,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_Select				Location="51.827530,20.137396,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_X					Location="37.785797,25.549343,115.934067"	Scale="1.0"	 />
+		<Button_Y					Location="37.785431,17.265444,115.934067"	Scale="1.0"	 />
+	</LayoutChase>
+<LayoutDefendor	Parent="LayoutDefault"	>
+		<Joystick		Type="2"	Location="35.587399,22.961136,116.468628"	/>
+		<Button_A					Location="35.664307,-23.489601,117.024849"	Scale="0.899"	/>
+		<Button_B					Location="35.664295,-18.431637,117.024849"	Scale="0.899"	/>
+		<Button_Start				Location="35.081589,4.993959,117.364670"	Scale="0.92"	/>
+		<Button_Select				Location="39.336155,-14.021476,115.115372"	Scale="0.99"	/>
+		<Button_X					Location="40.012646,16.673386,114.767578"	Scale="0.94"	/>
+		<Button_Y					Location="46.351074,-0.070877,111.236000"	Scale="0.89"	/>
+	</LayoutDefendor>
+<LayoutDubbleTrubble	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000008,12.000010,114.030807"	/>
+		<Button_A					Location="41.000004,-5.000008,114.178650"	/>
+		<Button_B					Location="41.000034,-15.000006,114.166290"	/>
+		<Button_Start				Location="45.999985,-9.999994,110.813004"	/>
+		<Button_Select				Location="46.000015,-19.999990,110.834000"	/>
+	</LayoutDubbleTrubble>
+<LayoutFastcar	Parent="LayoutDefault"	>
+		<Joystick		Type="1"	Location="52.584816,-8.499195,99.263519"	Rotation="-1.401428,180.0,0.278"		Scale="1.29,1.29,1.29"	/>
+		<Button_A					Location="41.227501,26.572065,114.277451"	/>
+		<Button_B					Location="41.307938,19.667187,114.236145"	/>
+		<Button_Start				Location="46.479012,23.423214,111.000000"	/>
+		<Button_Select				Location="46.453037,15.584266,111.000000"	/>
+	</LayoutFastcar>
+<LayoutFragger	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.434132,-1.011391,114.445923"	/>
+		<Button_A					Location="51.551678,23.859711,102.286316"	Rotation="-88.0,-180.0,180.0"	/>
+		<Button_B					Location="51.525612,7.449884,102.361343"	Rotation="-88.0,-180.0,180.0"	/>
+		<Button_Start				Location="35.546619,29.634895,117.110947"	/>
+		<Button_Select				Location="35.546631,22.323040,117.145386"	/>
+	</LayoutFragger>
+<LayoutGlove	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="39.191761,19.331957,115.105240"	Scale="0.82,0.82,0.78"	/>
+		<Button_A					Location="45.339909,-10.409649,111.720718"	Scale="0.9"	 />
+		<Button_B					Location="39.415638,-15.925427,115.013100"	Scale="0.9"	 />
+		<Button_Start				Location="51.690773,10.439520,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_Select				Location="51.828041,-9.750534,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+	</LayoutGlove>
+<LayoutHelKid	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="44.055672,3.631472,110.895752"	Rotation="-28.0,0.0,0.0"		Scale="1.13"	/>
+		<Button_A					Location="51.645439,27.113331,102.632660"	Rotation="-65.4,180.0,-180.0"	Scale="0.88"	/>
+		<Button_B					Location="51.645546,17.402115,102.632660"	Rotation="-65.4,180.0,-180.0"	Scale="0.88"	/>
+		<Button_Start				Location="39.263073,33.891651,113.374725"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="45.286934,33.918594,110.117935"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+	</LayoutHelKid>
+<LayoutIronSnail	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.833260,18.797689,112.759445"	/>
+		<Button_A					Location="43.479866,-18.979969,112.765198"	/>
+		<Button_B					Location="43.481689,-26.243526,112.765198"	/>
+		<Button_Start				Location="51.691059,19.285746,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_Select				Location="51.827999,13.235891,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"	 />
+		<Button_X					Location="35.287651,-18.804516,117.236984"	Scale="0.95"	 />
+		<Button_Y					Location="35.289162,-26.309776,117.236984"	Scale="0.95"	 />
+	</LayoutIronSnail>
+<LayoutJouster	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000103,24.522335,114.000031"	Scale="1.05,1.05,0.9"	/>
+		<Button_A					Location="41.657776,14.433823,113.809792"	Scale="0.899"	/>
+		<Button_B					Location="41.680618,-25.060881,113.856148"	Scale="0.899"	/>
+		<Button_Start				Location="45.969788,5.269148,111.482925"	Scale="0.78"	/>
+		<Button_Select				Location="45.968544,-4.178640,111.482925"	Scale="0.78"	/>
+	</LayoutJouster>
+<LayoutPacmens	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="44.894592,1.591703,110.186234"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_A					Location="41.965565,-11.594401,111.397324"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_B					Location="44.237057,-16.923286,110.405167"	Rotation="-28.0,0.0,0.0"		/>
+		<Button_Start				Location="41.619301,-26.215710,111.768600"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="48.137089,-26.215702,108.620331"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+	</LayoutPacmens>
+<LayoutGNG	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.075211,16.680298,114.689697"	/>
+		<Button_A					Location="35.133408,5.131886,117.400299"	Scale="1.25"	/>
+		<Button_B					Location="35.133438,-5.354871,117.400299"	Scale="1.25"	/>
+		<Button_Start				Location="35.585857,-17.433109,116.468414"	Scale="1.25"	/>
+		<Button_Select				Location="35.733334,-23.464581,116.460686"	Scale="1.25"	/>
+	</LayoutGNG>
+<LayoutRaccoonPatrol	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="47.431187,0.088528,110.659515"	Rotation="-29.0,0.0,0.0"		Scale="1.25"	/>
+		<Button_A					Location="43.600353,17.776188,112.716217"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_B					Location="43.599243,26.993530,112.716217"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Start				Location="39.203472,-17.604836,115.107712"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+		<Button_Select				Location="39.203346,-25.956856,115.107712"	Rotation="-29.0,0.0,0.0"		Scale="1.2"		/>
+	</LayoutRaccoonPatrol>
+<LayoutRobertCop	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="40.999981,18.639351,114.308838"	/>
+		<Button_A					Location="41.006878,4.352285,114.169342"	/>
+		<Button_B					Location="40.999996,-9.743658,114.135666"	/>
+		<Button_Start				Location="46.007862,-22.892002,110.773499"	Rotation="-29.0,0.0,0.0"	Scale="1.1"		/>
+		<Button_Select				Location="46.013069,-28.620646,110.806732"	Rotation="-29.0,0.0,0.0"	Scale="1.1"		/>
+	</LayoutRobertCop>
+<LayoutRoadSquab	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="41.000008,12.000010,114.030807"	/>
+		<Button_A					Location="41.000004,-5.000008,114.178650"	/>
+		<Button_B					Location="41.000034,-15.000006,114.166290"	/>
+		<Button_Start				Location="45.592575,28.887199,111.482544"	/>
+		<Button_Select				Location="45.564243,21.593822,111.000000"	/>
+		<Button_X					Location="45.999985,-9.999994,110.813004"	/>
+		<Button_Y					Location="46.000275,-20.024817,110.834000"	/>
+	</LayoutRoadSquab>
+<LayoutSpaceCabs	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="36.479462,21.049744,116.590874"	/>
+		<Button_A					Location="36.406952,-9.757443,116.528351"	Scale="1.25"	/>
+		<Button_B					Location="34.233032,-29.752256,114.306427"	Scale="1.25"	/>
+		<Button_Start				Location="36.450012,-21.022278,116.695946"	Scale="1.25"		/>
+		<Button_Select				Location="43.571838,-20.947754,112.767715"	Scale="1.25"		/>
+	</LayoutSpaceCabs>
+<LayoutSpoopers	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="45.000000,1.375910,110.323112"	Rotation="-28.0,0.0,0.0"		Scale="0.82"	/>
+		<Button_A					Location="47.617912,-11.007689,109.100006"	Rotation="-28.0,0.0,0.0"		Scale="0.78"	/>
+		<Button_B					Location="43.049316,-21.610657,107.330688"	/>
+		<Button_Start				Location="42.703491,-13.610044,111.712555"	Rotation="-28.0,0.0,0.0"		Scale="0.94"	/>
+		<Button_Select				Location="43.049316,-21.610657,107.330688"	/>
+	</LayoutSpoopers>	
+<LayoutStarstreet	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.849125,13.950179,111.601761"	Rotation="-28.0,0.0,0.0"		Scale="0.89"	/>
+		<Button_A					Location="42.058826,-5.475508,111.781265"	Rotation="-28.0,0.0,0.0"		Scale="0.98"		/>
+		<Button_B					Location="39.869011,-13.733271,109.536110"	Rotation="-28.0,0.0,0.0"		Scale="0.98"		/>
+		<Button_Start				Location="41.497078,-25.222069,111.971909"	Rotation="-28.0,0.0,0.0"		Scale="0.94"		/>
+		<Button_Select				Location="48.056480,-25.306877,108.535263"	Rotation="-28.0,0.0,0.0"		Scale="0.94"		/>
+	</LayoutStarstreet>
+<LayoutYellowPeople	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="42.213478,8.383509,113.700470"	Scale="1.4"		/>
+		<Button_A					Location="45.992962,2.361881,111.426666"	Scale="1.0"		/>
+		<Button_B					Location="45.992966,-6.954828,111.426666"	Scale="1.0"		/>
+		<Button_Start				Location="35.766266,25.746141,117.114029"	Scale="0.79"	/>
+		<Button_Select				Location="35.766121,16.416271,117.114029"	Scale="0.79"	/>
+		<Button_X					Location="38.124596,-16.298857,115.504639"	Scale="1.04"	/>
+		<Button_Y					Location="38.244591,-25.134920,115.859756"	Scale="1.04"	/>
+	</LayoutYellowPeople>
+<LayoutYobbo	Parent="LayoutDefault"	>
+		<Joystick		Type="0"	Location="43.364857,-0.002430,112.886749"	Scale="1.1,1.19,0.95"	/>
+		<Button_A					Location="43.064037,-14.948794,113.140221"	/>
+		<Button_B					Location="43.065811,-24.476492,113.140221"	/>
+		<Button_Start				Location="51.690247,22.789143,99.862366"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+		<Button_Select				Location="51.827415,14.870827,99.890289"	Rotation="-88.0,-180.0,180.0"	Scale="1.0"		/>
+	</LayoutYobbo>	
+	<LayoutMikie>
+		<Joystick  Type="0"  Location="40.438,23.315,114.453"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="40.252,-3.618,114.407"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_B  Location="40.252,-11.261,114.407"    Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Start  Location="35.558,-27.077,116.96"     Rotation="-29,0,0"  Scale="1.1"/>
+		<Button_Select  Location="43.543,-27.077,112.441"    Rotation="-29,0,0"  Scale="1.1"/>
+	</LayoutMikie>
+	<LayoutDragonsLair>
+		<Joystick  Type="0"  Location="43.166,0.104,112.935"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.989,-18.761,113.03"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="43.078,18.969,112.983"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="26.466,36.583,121.897"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Y  Location="26.466,36.583,121.897"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="41.664,31.685,113.741"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="47.231,31.58,110.754"    Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutDragonsLair>
+	<LayoutPowerDrift>
+		<Joystick Type="1" Location="52.701,-0.15,96.158"	Rotation="-43.401428,180.0,0.278"  Scale="1.5,1.5,1.5"/>
+		<Button_Start  	Location="47.803,30.946,109.952" Rotation="-29,0,0"  Scale="0.9"/>
+		<Button_Select  Location="37.631,31.059,113.432" Rotation="-29,0,0"  Scale="1.0"/>
+	</LayoutPowerDrift>
+<LayoutBosconian>
+	<Joystick  Type="0"  Location="41.929,0.313,113.599"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="41.929,19.803,113.599"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="41.929,-19.177,113.599"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="36.539,-23.034,116.491"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="36.539,-31.997,116.491"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutBosconian>
+<LayoutMappy>
+	<Joystick  Type="0"  Location="42.813,-0.208,113.125"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="42.282,18.656,113.409"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="42.282,-19.177,113.409"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="37.422,-23.242,116.017"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="37.422,-29.079,116.017"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutMappy>
+<LayoutMotos>
+	<Joystick  Type="0"  Location="43.519,-0.313,112.746"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="43.519,13.758,112.746"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="42.459,-20.115,113.315"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="42.459,-27.307,113.315"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutMotos>
+<LayoutPacMania>
+	<Joystick  Type="0"  Location="44.403,-0.208,112.272"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="41.617,14.8,113.836"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="41.617,-15.321,113.836"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="32.750,31.163,118.483"     Rotation="-29,0,0"  Scale="0.6"/>
+	<Button_Select  Location="32.750,26.89,118.483"    Rotation="-29,0,0"  Scale="0.6"/>
+</LayoutPacMania>
+<LayoutPepsiman>
+		<Joystick		Type="0"	Location="47.366585,0.598748,110.613747"	   Rotation="-29,0,0"/>
+		<Button_A					Location="40.736897,-17.945101,114.284218"	Scale="1.25"	   Rotation="-29,0,0"/>
+		<Button_B					Location="40.736389,17.882244,114.284645"	Scale="1.25"	   Rotation="-29,0,0"/>
+		<Button_X				Location="46.000099,28.927509,111.000000"	   Rotation="-29,0,0"/>
+		<Button_Y				Location="45.999966,-28.204998,111.000000"	   Rotation="-29,0,0"/>
+		<Button_Start  Location="36.539,-23.034,116.491"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.539,-31.997,116.491"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutPepsiman>
+<LayoutXeviousv2>
+	<Joystick  Type="0"  Location="40.0,-0.100,114.69"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="36.097,18.239,116.728"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="40.097,12.299,114.69"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_X  Location="40.097,-12.299,114.69"      Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Y  Location="36.097,-18.239,116.728"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="36.009,26.785,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="36.009,23.555,116.776"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutXeviousv2>
+<Layout2on2OpenIce>
+		<Joystick  Type="0"  Location="39.808,30.225,114.737"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.399,25.223,113.884"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.315,22.408,112.319"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="45.11,28.037,111.892"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.828,21.47,118.483"     Rotation="-29,0,0"  Scale="1.0"/>
+	</Layout2on2OpenIce>
+<Layout2on2OpenIce>
+		<Joystick  Type="0"  Location="39.808,30.225,114.737"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="41.399,25.223,113.884"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="44.315,22.408,112.319"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_X  Location="45.11,28.037,111.892"      Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="32.828,21.47,118.483"     Rotation="-29,0,0"  Scale="1.0"/>
+	</Layout2on2OpenIce>
+<LayoutNewAPB>
+		<Joystick	Type="1"	Location="51.40,0.00,100.00"	Rotation="-30.,180,0.0"		Scale="1.35"/>
+		<Button_A  			Location="43.50,27.25,112.75"	Rotation="-29,0,0"		Scale="1.0"/>
+		<Button_B  			Location="43.50,-27.25,112.75"	Rotation="-29,0,0"		Scale="1.0"/>
+		<Button_Start  			Location="42.75,22.50,113.25"	Rotation="-29,0,0"		Scale="1.0"/>
+		<Button_Select  		Location="42.75,-22.60,113.25"	Rotation="-29,0,0"		Scale="1.0"/>
+	</LayoutNewAPB>
+
+<LayoutTempleofDoom>
+		<Joystick  Type="0"  Location="43.431,0.104,112.793"  Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_A  Location="42.547,20.949,113.267"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_B  Location="42.547,-21.158,113.267"    Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Start  Location="52.25,-14.279,95.103"     Rotation="-90,0,0"  Scale="1.0"/>
+	</LayoutTempleofDoom>
+</ArcadeButtonLayouts>

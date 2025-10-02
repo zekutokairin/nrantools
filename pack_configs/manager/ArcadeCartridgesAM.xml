@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeCartridges>
+  <!--SNES, NES and Genesis Games-->
+  <CartridgeDefault Game="Road Rash II (USA Europe) (v1.2).md" Core="picodrive_libretro.dll" GameName="Road Rash 2" Texture="GEN-Road-Rash-2.dds" Colour="#000000" />
+  <CartridgeTable1 Game="Arkanoid - Doh It Again (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Arkanoid - Doh it again" Texture="snes Arkanoid - Doh it again.dds" Colour="#FFFFFF" />
+  <CartridgeTable2 Game="Addams Family The (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="The Addams Family" Texture="SNES-The-Addams-Family.dds" Colour="#FFFFFF" />
+  <CartridgeShelfRight1 Game="Street Fighter II - The World Warrior (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Street Fighter 2" Texture="SNES-Street-Fighter-2.dds" Colour="#FFFFFF" />
+  <CartridgeShelfRight2 Game="Breath of Fire II (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Breath of Fire II" Texture="BoF 2 Cart.dds" Colour="#FFFFFF" />
+  <CartridgeShelfRight3 Game="Shadowrun (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Shadowrun" Texture="SNES-Shadowrun.dds" Colour="#FFFFFF" />
+  <CartridgeShelfRight4 Game="Dr. Mario (Japan USA) (Rev A).nes" Core="bnes_libretro.dll" GameName="Dr Mario (NES)" Texture="DrMario.dds" Colour="#333333" />
+  <CartridgeShelfRight5 Game="Road Rash 3 (USA Europe).md" Core="picodrive_libretro.dll" GameName="Road Rash 3" Texture="GEN-Road-Rash-3.dds" Colour="#000000" />
+  <CartridgeShelfRight6 Game="Castlevania - Aria of Sorrow (USA).gba" Core="mgba_libretro.dll" GameName="Castlevania : Aria of Sorrow" Texture="GBA-Castlvania-AoS.dds" Colour="#2F4F4F" />
+  <CartridgeShelfRight7 Game="Super Castlevania IV (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Castlevania IV" Texture="SNES-Castlevania-IV.dds" Colour="#FFFFFF" />
+  <CartridgeShelfLeft1 Game="Rival Turf (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Rival Turf!" Texture="SNES-Rival-Turf.dds" Colour="#FFFFFF" />
+  <CartridgeShelfLeft2 Game="Primal Rage (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Primal Rage" Texture="snes_PrimalRage.dds" Colour="#FFFFFF" />
+  <CartridgeShelfLeft3 Game="Road Rash (USA Europe).md" Core="picodrive_libretro.dll" GameName="Road Rash" Texture="GEN-Road-Rash.dds" Colour="#FFFFFF" />
+  <CartridgeShelfLeft4 Game="supermariobros.nes" Core="bnes_libretro.dll" GameName="Super Mario Bros (NES)" Texture="nes_supermario.dds" Colour="#333333" />
+  <CartridgeShelfLeft5 Game="F-Zero (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="F-Zero" Texture="snes_fzero.dds" Colour="#FFFFFF" />
+  <CartridgeShelfLeft6 Game="Metroid Fusion (USA Australia).gba" Core="mgba_libretro.dll" GameName="Metroid : Fusion" Texture="GBA-Metroid-Fusion.dds" Colour="#2F4F4F" />
+  <CartridgeShelfLeft7 Game="Mega Man 3 (USA).nes" Core="bnes_libretro.dll" GameName="Mega Man 3 (NES)" Texture="Megaman3.dds" Colour="#333333" />
+  <CartridgeTable Game="Final Fantasy II (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Final Fantasy II" Texture="FF 2 Cart.dds" Colour="#FFFFFF" />
+  <!--Gamebro Games-->
+  <Gamebro1 Game="castlevania.gb" Core="gambatte_libretro.dll" GameName="Castlevania" Texture="" Colour="" />
+  <Gamebro2 Game="battletoads.gb" Core="gambatte_libretro.dll" GameName="Battletoads" Texture="" Colour="" />
+  <Gamebro3 Game="kirbydreamland2.gb" Core="gambatte_libretro.dll" GameName="Kirby Dreamland 2" Texture="" Colour="" />
+  <Gamebro4 Game="tmntgb.gb" Core="gambatte_libretro.dll" GameName="Teenage Mutant Ninja Turtles" Texture="" Colour="" />
+  <Gamebro5 Game="pokemonred.gb" Core="gambatte_libretro.dll" GameName="Pokemon Red" Texture="" Colour="" />
+  <Gamebro6 Game="donkeykong.gb" Core="gambatte_libretro.dll" GameName="Donkey Kong" Texture="" Colour="" />
+  <Gamebro7 Game="mortalkombat.gb" Core="gambatte_libretro.dll" GameName="Mortal Kombat" Texture="" Colour="" />
+  <Gamebro8 Game="battletoadsdd.gb" Core="gambatte_libretro.dll" GameName="Battletoads DD" Texture="" Colour="" />
+  <Gamebro9 Game="supermarioland.gb" Core="gambatte_libretro.dll" GameName="Super Mario Land" Texture="" Colour="" />
+  <Gamebro10 Game="tmntgb.gb" Core="gpsp_libretro.dll" GameName="" Texture="" Colour="" />
+</ArcadeCartridges>
