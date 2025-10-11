@@ -4,6 +4,20 @@ from datetime import datetime
 from textual.app import App, ComposeResult
 from textual.widgets import Digits
 
+# TODO:
+"""
+- Display status of UserGameSettings.ini file
+- Display current parsed:
+    - VHS Tapes
+    - Cartridges
+    - Gameboys
+"""
+
+# Future TODO:
+"""
+- Display status of Cassette Tapes
+"""
+
 class ClockApp(App):
     CSS = """
     Screen { align: center middle; }
