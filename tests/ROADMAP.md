@@ -1,5 +1,5 @@
 New Retro Arcade: Neon Test Suite
-
+- The game DOES allow relative paths for artwork, etc. so we can define those in the config
 - TODO: Can we programmatically tell Steam to Verify Local Files?
     - This would create a "known bad" baseline to start modding 
 

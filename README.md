@@ -12,6 +12,9 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 - I THINK carts, etc. need to be defined in the json file and then specified in the XML or Vice Versa
 
 # Notes
+- ArcadeLayout can be None or a specified Layout
+- GameMusicVolume is for the the attract, I think between 0 and 1. BUT, sometimes values in between aren't working right?
+
 ## Tapes
 - The actual XML to load things is the ArcadeTapes.xml
     - Parse them with a Python library:
