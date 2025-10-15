@@ -25,6 +25,7 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 - If a layout is not specified in GameUserSettings.ini, it pulls straight from ArcadeTapes.xml
     - If a layout IS specified, it goes to that .layout which is a JSON file
     - `Content/UserMedia.json` is where the tapes/VHS data is stored (I think this is just for ArcadeManager maybe??)
+        - Or does ArcadeManager just use the CSV files?
 
 ## Configs
 - Create XML files for cartridges
@@ -53,10 +54,10 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 - Automate fixing GameUserSettings.ini
     - Removing trash, etc.
 # Problems
-- Testing with Haikyuu ep1 resulted in no audio
+- Video files with more than one audio track have no audio in VHS mode
+    - Testing with Haikyuu ep1 resulted in no audio
     - MKV with multiple audio tracks AAC, but why did NONE play?
     - Mad Men Ep 5 also tested, multiple audio tracks seem to break it
-
 
 ===================================
 # Potential solutions

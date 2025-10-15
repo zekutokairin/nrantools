@@ -20,7 +20,6 @@ vhsNames = ['VHSTape1', 'VHSTape3', 'VHSTape4', 'VHSTape5', 'VHSTape6', 'VHSTape
 # Lists of radio stations:
 #   https://asiadreamradio.torontocast.stream/stations/newstream.html
 
-
 def parseMusicFile():
     musictapes = []
     with open(MUSICFILE, encoding='utf-8') as fp:
@@ -39,7 +38,10 @@ def parseMusicFile():
         # TODO: finish returning the dictionary here
     """
 
-def parseVideoTapes(playlist_url):
+def parseVideoTapes(list_file):
+    pass
+
+def parseYTPlaylist(playlist_url):
     # With the given Youtube playlist, return a dictionary with keys ID, Name, URL
     t = tempfile.NamedTemporaryFile(delete=False)
     TMPFILE = t.name
@@ -64,7 +66,7 @@ def writeUserMedia(music_dict,video_dict):
 
 if __name__ == "__main__":
     musictapes = parseMusicFile()
-    vhstapes = parseVideoTapes(URL)
+    #vhstapes = parseYTPlaylist(URL)
     usermedia_json = None
     with open(USERMEDIAFILE) as fp:
         usermedia_json = json.load(fp)
