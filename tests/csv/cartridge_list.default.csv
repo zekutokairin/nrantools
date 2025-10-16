@@ -1,0 +1,876 @@
+Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No)
+supermarioland.gb,gambatte_libretro.dll,Super Mario Land,,,Gamebro,,Yes
+donkeykong.gb,gambatte_libretro.dll,Donkey Kong,,,Gamebro,,Yes
+kirbydreamland2.gb,gambatte_libretro.dll,Kirby Dreamland 2,,,Gamebro,,Yes
+pokemonred.gb,gambatte_libretro.dll,Pokemon Red,,,Gamebro,,Yes
+battletoads.gb,gambatte_libretro.dll,Battletoads,,,Gamebro,,Yes
+battletoadsdd.gb,gambatte_libretro.dll,Battletoads DD,,,Gamebro,,Yes
+mortalkombat.gb,gambatte_libretro.dll,Mortal Kombat,,,Gamebro,,Yes
+ninjagaiden.gb,gambatte_libretro.dll,Ninja Gaiden,,,Gamebro,,Yes
+castlevania.gb,gambatte_libretro.dll,Castlevania,,,Gamebro,,Yes
+tmntgb.gb,gambatte_libretro.dll,Teenage Mutant Ninja Turtles,,,Gamebro,,Yes
+supermarioworld.smc,bsnes_performance_libretro.dll,Super Mario World,snes_mario.dds,#FFFFFF,Console,,Yes
+zamn.smc,bsnes_performance_libretro.dll,Zombies Ate My Neighbors,snes_zamn.dds,#3FFF00,Console,,Yes
+chronotrigger.smc,bsnes_performance_libretro.dll,Chrono Trigger,snes_chrono.dds,#FFFFFF,Console,,Yes
+starfox.smc,bsnes_performance_libretro.dll,Star Fox,snes_starfox.dds,#FFFFFF,Console,,Yes
+superbomberman2.smc,bsnes_performance_libretro.dll,Super Bomberman II,snes_bomberman.dds,#FFFFFF,Console,,Yes
+sonic.gen,picodrive_libretro.dll,Sonic (SEGA),gen_sonic.dds,#020202,Console,,Yes
+powerrangers.smc,bsnes_performance_libretro.dll,Mighty Morphin Power Rangers,snes_powerrangers.dds,#FFFFFF,Console,,Yes
+earthwormjim.smc,bsnes_performance_libretro.dll,Earthworm Jim,snes_earthwormjim.dds,#FFFFFF,Console,,Yes
+ninjagaiden.smc,bsnes_performance_libretro.dll,Ninja Gaiden Trilogy,snes_ninjagaiden.dds,#FFFFFF,Console,,Yes
+batmanreturns.smc,bsnes_performance_libretro.dll,Batman Returns,snes_batman.dds,#FFFFFF,Console,,Yes
+supermetroid.smc,bsnes_performance_libretro.dll,Super Metroid,snes_supermetroid.dds,#FFFFFF,Console,,Yes
+supermariobros.nes,bnes_libretro.dll,Super Mario Bros (NES),nes_supermario.dds,#333333,Console,,Yes
+streetsofrage2.gen,picodrive_libretro.dll,Streets of Rage II (SEGA),gen_streetsofrage.dds,#020202,Console,,Yes
+superpunchout.smc,bsnes_performance_libretro.dll,Punch Out!,snes_punchout.dds,#FFFFFF,Console,,Yes
+supercontra.nes,bnes_libretro.dll,Super Contra (NES),nes_contra.dds,#333333,Console,,Yes
+Mega Man 2 (USA).nes,bnes_libretro.dll,Mega Man 2 (NES),nes_megaman.dds,#333333,Console,,Yes
+robocop2.nes,bnes_libretro.dll,RoboCop 2 (NES),nes_robocop2.dds,#333333,Console,,Yes
+Dr. Mario (Japan USA) (Rev A).nes,bnes_libretro.dll,Dr Mario (NES),DrMario.dds,#333333,Console,,Yes
+Mega Man 3 (USA).nes,bnes_libretro.dll,Mega Man 3 (NES),Megaman3.dds,#333333,Console,,Yes
+Sky Kid (USA).nes,bnes_libretro.dll,Sky Kid (NES),SkyKid.dds,#333333,Console,,Yes
+Breath of Fire II (USA).sfc,bsnes_performance_libretro.dll,Breath of Fire II,BoF 2 Cart.dds,#FFFFFF,Console,,Yes
+Excitebike (Japan USA).nes,bnes_libretro.dll,Excite Bike (NES),Excitebike Cart.dds,#333333,Console,,Yes
+"Donkey Kong Country 2 - Diddys Kong Quest (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,Donkey Kong Country 2,Donkey Kong Country 2 Cart.dds,#FFFFFF,Console,,Yes
+Final Fantasy II (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy II,FF 2 Cart.dds,#FFFFFF,Console,,Yes
+Final Fantasy (USA).nes,bnes_libretro.dll,Final Fantasy (NES),Final Fantasy Cart.dds,#333333,Console,,Yes
+Final Fantasy III (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy III,FF 3 Cart.dds,#FFFFFF,Console,,Yes
+Final Fight 3 (USA).sfc,bsnes_performance_libretro.dll,Final Fight 3,Final Fight 3 Cart.dds,#FFFFFF,Console,,Yes
+Gradius III (USA).sfc,bsnes_performance_libretro.dll,Gradius III,Gradius III Cart.dds,#FFFFFF,Console,,Yes
+Legend of the Mystical Ninja The (USA).sfc,bsnes_performance_libretro.dll,Mystical Ninja,Mystical Ninja.dds,#FFFFFF,Console,,Yes
+Ogre Battle - The March of the Black Queen (USA).sfc,bsnes_performance_libretro.dll,Ogre Battle,Ogre Battle Cart.dds,#FFFFFF,Console,,Yes
+Rock n' Roll Racing (USA).sfc,bsnes_performance_libretro.dll,Rock n Roll Racing,Rock n Roll Racing Cart.dds,#FFFFFF,Console,,Yes
+Secret of Mana (USA).sfc,bsnes_performance_libretro.dll,Secret of Mana,Secret of Mana.dds,#FFFFFF,Console,,Yes
+"Legend of Zelda, The - A Link to the Past (USA).sfc",bsnes_performance_libretro.dll,Zelda A Link to the Past,cartridge_snes_legendofzeldaalinktothepast.dds,#FFFFFF,Console,,Yes
+Super Mario Bros 3 (USA) (Rev A).nes,bnes_libretro.dll,Super Mario 3 (NES),nes_Mario3.dds,#333333,Console,,Yes
+Arkanoid - Doh It Again (USA).sfc,bsnes_performance_libretro.dll,Arkanoid - Doh it again,snes Arkanoid - Doh it again.dds,#FFFFFF,Console,,Yes
+Tetris Battle Gaiden (Japan).sfc,bsnes_performance_libretro.dll,Battle Tetris Gaiden,snes_battletetrisGaiden.dds,#FFFFFF,Console,,Yes
+Contra III - The Alien Wars (USA).sfc,bsnes_performance_libretro.dll,Contra III,snes_Contra3.dds,#FFFFFF,Console,,Yes
+F-Zero (USA).sfc,bsnes_performance_libretro.dll,F-Zero,snes_fzero.dds,#FFFFFF,Console,,Yes
+Ken Griffey Jr. Presents Major League Baseball (USA).sfc,bsnes_performance_libretro.dll,Ken Griffey Jr MLB,snes_KenGriffeyJrMLB.dds,#FFFFFF,Console,,Yes
+Super Mario RPG - Legend of the Seven Stars (USA).sfc,bsnes_performance_libretro.dll,Super Mario RPG,snes_mariorpg.dds,#FFFFFF,Console,,Yes
+Primal Rage (USA).sfc,bsnes_performance_libretro.dll,Primal Rage,snes_PrimalRage.dds,#FFFFFF,Console,,Yes
+Super Ghouls n Ghosts (USA).sfc,bsnes_performance_libretro.dll,Super Ghouls n Ghosts,snes_SuperGnG.dds,#FFFFFF,Console,,Yes
+Castlevania - Harmony of Dissonance (USA).gba,mgba_libretro.dll,Castlevania : Harmony of Dissonance,GBA-Castlevania-Hod.dds,#2F4F4F,Console,,Yes
+Castlevania - Aria of Sorrow (USA).gba,mgba_libretro.dll,Castlevania : Aria of Sorrow,GBA-Castlvania-AoS.dds,#2F4F4F,Console,,Yes
+Metroid Fusion (USA Australia).gba,mgba_libretro.dll,Metroid : Fusion,GBA-Metroid-Fusion.dds,#2F4F4F,Console,,Yes
+Metroid - Zero Mission (USA).gba,mgba_libretro.dll,Metroid : Zero Mission,GBA-Metroid-ZM.dds,#2F4F4F,Console,,Yes
+Road Rash (USA Europe).md,picodrive_libretro.dll,Road Rash,GEN-Road-Rash.dds,#FFFFFF,Console,,Yes
+Road Rash II (USA Europe) (v1.2).md,picodrive_libretro.dll,Road Rash 2,GEN-Road-Rash-2.dds,#000000,Console,,Yes
+Road Rash 3 (USA Europe).md,picodrive_libretro.dll,Road Rash 3,GEN-Road-Rash-3.dds,#000000,Console,,Yes
+Super Castlevania IV (USA).sfc,bsnes_performance_libretro.dll,Castlevania IV,SNES-Castlevania-IV.dds,#FFFFFF,Console,,Yes
+Rival Turf (USA).sfc,bsnes_performance_libretro.dll,Rival Turf!,SNES-Rival-Turf.dds,#FFFFFF,Console,,Yes
+Shadowrun (USA).sfc,bsnes_performance_libretro.dll,Shadowrun,SNES-Shadowrun.dds,#FFFFFF,Console,,Yes
+Street Fighter II - The World Warrior (USA).sfc,bsnes_performance_libretro.dll,Street Fighter 2,SNES-Street-Fighter-2.dds,#FFFFFF,Console,,Yes
+Addams Family The (USA).sfc,bsnes_performance_libretro.dll,The Addams Family,SNES-The-Addams-Family.dds,#FFFFFF,Console,,Yes
+Aladdin (USA).sfc,bsnes_performance_libretro.dll,Aladdin,cartridge_snes_aladdin.dds,#FFFFFF,Console,,Yes
+Arcade's Greatest Hits - The Atari Collection 1 (USA).sfc,bsnes_performance_libretro.dll,Arcades Greatest Hits 1,cartridge_snes_arcadesgreatesthitstheataricollection1.dds,#FFFFFF,Console,,Yes
+Axelay (USA).sfc,bsnes_performance_libretro.dll,Axelay,cartridge_snes_axelay.dds,#FFFFFF,Console,,Yes
+Donkey Kong Country (USA).sfc,bsnes_performance_libretro.dll,Donkey Kong Country,cartridge_snes_donkeykongcountry.dds,#FFFFFF,Console,,Yes
+"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,Donkey Kong Country 2,cartridge_snes_donkeykongcountry2dixiekongsdoubletrouble.dds,#FFFFFF,Console,,Yes
+Doom (USA).sfc,bsnes_performance_libretro.dll,Doom,cartridge_snes_doom.dds,#FFFFFF,Console,,Yes
+Final Fantasy II (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy II,cartridge_snes_finalfantasyII.dds,#FFFFFF,Console,,Yes
+Final Fantasy III (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy III,cartridge_snes_finalfantasyIII.dds,#FFFFFF,Console,,Yes
+Final Fight (USA).sfc,bsnes_performance_libretro.dll,Final Fight,cartridge_snes_finalfight.dds,#FFFFFF,Console,,Yes
+Final Fight 2 (USA).sfc,bsnes_performance_libretro.dll,Final Fight 2,cartridge_snes_finalfight2.dds,#FFFFFF,Console,,Yes
+Final Fight Guy (USA).sfc,bsnes_performance_libretro.dll,Final Fight Guy,cartridge_snes_finalfightguy.dds,#FFFFFF,Console,,Yes
+Frogger (USA).sfc,bsnes_performance_libretro.dll,Frogger,cartridge_snes_frogger.dds,#FFFFFF,Console,,Yes
+Killer Instinct (USA).sfc,bsnes_performance_libretro.dll,Killer Instinct,cartridge_snes_killerinstinct.dds,#FFFFFF,Console,,Yes
+"Lion King, The (USA).sfc",bsnes_performance_libretro.dll,Lion King,cartridge_snes_lionking.dds,#FFFFFF,Console,,Yes
+"Magical Quest Starring Mickey Mouse, The (USA).sfc",bsnes_performance_libretro.dll,Magical Quest Staring Mickey Mouse,cartridge_snes_magicalqueststaringmickeymouse.dds,#FFFFFF,Console,,Yes
+Megaman VII (USA).sfc,bsnes_performance_libretro.dll,Mega Man 7,cartridge_snes_megaman7.dds,#FFFFFF,Console,,Yes
+Megaman X (USA).sfc,bsnes_performance_libretro.dll,Mega Man X,cartridge_snes_megamanx.dds,#FFFFFF,Console,,Yes
+Megaman X2 (USA).sfc,bsnes_performance_libretro.dll,Mega Man X2,cartridge_snes_megamanx2.dds,#FFFFFF,Console,,Yes
+Megaman X3 (USA).sfc,bsnes_performance_libretro.dll,Mega Man X3,cartridge_snes_megamanx3.dds,#FFFFFF,Console,,Yes
+Mortal Kombat (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat,cartridge_snes_mortalkombat.dds,#FFFFFF,Console,,Yes
+Mortal Kombat 3 (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat 3,cartridge_snes_mortalkombat3.dds,#FFFFFF,Console,,Yes
+Mortal Kombat II (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat II,cartridge_snes_mortalkombatII.dds,#FFFFFF,Console,,Yes
+Ms. Pac-Man (USA).sfc,bsnes_performance_libretro.dll,MS Pac-Man,cartridge_snes_mspacman.dds,#FFFFFF,Console,,Yes
+NBA Jam (USA).sfc,bsnes_performance_libretro.dll,NBA Jam,cartridge_snes_nbajam.dds,#FFFFFF,Console,,Yes
+NBA Jam - Tournament Edition (USA).sfc,bsnes_performance_libretro.dll,NBA Jam Tournament Edition,cartridge_snes_nbajamtournamentedition.dds,#FFFFFF,Console,,Yes
+Pac-Man 2 - The New Adventures (USA).sfc,bsnes_performance_libretro.dll,Pac-Man 2 The New Adventures,cartridge_snes_pacman2thenewadventures.dds,#FFFFFF,Console,,Yes
+Pilotwings (USA).sfc,bsnes_performance_libretro.dll,Pilotwings,cartridge_snes_pilotwings.dds,#FFFFFF,Console,,Yes
+RoboCop 3 (USA).sfc,bsnes_performance_libretro.dll,Robocop 3,cartridge_snes_robocop3.dds,#FFFFFF,Console,,Yes
+RoboCop versus The Terminator (USA).sfc,bsnes_performance_libretro.dll,Robocop vs Terminator,cartridge_snes_robocopvsterminator.dds,#FFFFFF,Console,,Yes
+Secret of Mana (USA).sfc,bsnes_performance_libretro.dll,Secret of Mana,cartridge_snes_secretofmana.dds,#FFFFFF,Console,,Yes
+SimCity (USA).sfc,bsnes_performance_libretro.dll,SimCity,cartridge_snes_simcity.dds,#FFFFFF,Console,,Yes
+SimCity 2000 (USA).sfc,bsnes_performance_libretro.dll,SimCity 2000,cartridge_snes_simcity2000.dds,#FFFFFF,Console,,Yes
+Space Invaders - The Original Game (USA).sfc,bsnes_performance_libretro.dll,Space Invaders,cartridge_snes_spaceinvaders.dds,#FFFFFF,Console,,Yes
+Star Fox (USA).sfc,bsnes_performance_libretro.dll,Star Fox,cartridge_snes_starfox.dds,#FFFFFF,Console,,Yes
+Street Fighter Alpha 2 (USA).sfc,bsnes_performance_libretro.dll,Street Fighter Alpha 2,cartridge_snes_streetfighteralpha2.dds,#FFFFFF,Console,,Yes
+Street Fighter II - The World Warrior (USA).sfc,bsnes_performance_libretro.dll,Street Fighter 2,cartridge_snes_streetfighterII.dds,#FFFFFF,Console,,Yes
+Street Fighter II Turbo - Hyper Fighting (USA).sfc,bsnes_performance_libretro.dll,Street Fighter 2 Turbo,cartridge_snes_streetfighterIIturbo.dds,#FFFFFF,Console,,Yes
+Super Castlevania IV (USA).sfc,bsnes_performance_libretro.dll,Supercastlevaniaiv,cartridge_snes_supercastlevaniaiv.dds,#FFFFFF,Console,,Yes
+Super Ghouls'n Ghosts (USA).sfc,bsnes_performance_libretro.dll,Super Ghouls n Ghosts,cartridge_snes_superghoulsnghosts.dds,#FFFFFF,Console,,Yes
+Super Mario All-Stars (USA).sfc,bsnes_performance_libretro.dll,Super Mario All Stars,cartridge_snes_supermarioallstars.dds,#FFFFFF,Console,,Yes
+Super Mario Kart (USA).sfc,bsnes_performance_libretro.dll,Super Mario Kart,cartridge_snes_supermariokart.dds,#FFFFFF,Console,,Yes
+Super Mario RPG - Legend of the Seven Stars (USA).sfc,bsnes_performance_libretro.dll,Super Mario RPG Legend of the Seven Stars,cartridge_snes_supermariorpglegendofthesevenstars.dds,#FFFFFF,Console,,Yes
+Super Mario World (USA).sfc,bsnes_performance_libretro.dll,Super Mario World,cartridge_snes_supermarioworld.dds,#FFFFFF,Console,,Yes
+Super Mario World 2 - Yoshi's Island (USA).sfc,bsnes_performance_libretro.dll,Super Mario World 2 Yoshi Island,cartridge_snes_supermarioworld2yoshisisland.dds,#FFFFFF,Console,,Yes
+Super Scope 6 (USA).sfc,bsnes_performance_libretro.dll,Super Scope 6,cartridge_snes_superscope6.dds,#FFFFFF,Console,,Yes
+Super Street Fighter II - The New Challengers (USA).sfc,bsnes_performance_libretro.dll,Super Street Fighter II,cartridge_snes_superstreetfighterII.dds,#FFFFFF,Console,,Yes
+Wolfenstein 3D (USA).sfc,bsnes_performance_libretro.dll,Wolfenstein 3D,cartridge_snes_wolfenstein3d.dds,#FFFFFF,Console,,Yes
+2020 Super Baseball (USA).sfc,bsnes_performance_libretro.dll,2020 Super Baseball (USA).sfc,2020_super_baseball_usa.dds,#FFFFFF,Console,,Yes
+3 Ninjas Kick Back (USA).sfc,bsnes_performance_libretro.dll,3 Ninjas Kick Back (USA).sfc,3_ninjas_kick_back_usa.dds,#FFFFFF,Console,,Yes
+"7th Saga, The (USA).sfc",bsnes_performance_libretro.dll,"7th Saga, The (USA).sfc",7th_saga_the_usa.dds,#FFFFFF,Console,,Yes
+90 Minutes - European Prime Goal (Europe).sfc,bsnes_performance_libretro.dll,90 Minutes - European Prime Goal (Europe).sfc,90_minutes_-_european_prime_goal_europe.dds,#FFFFFF,Console,,Yes
+AAAHH!!! Real Monsters (USA).sfc,bsnes_performance_libretro.dll,AAAHH!!! Real Monsters (USA).sfc,aaahh_real_monsters_usa.dds,#FFFFFF,Console,,Yes
+ABC Monday Night Football (USA).sfc,bsnes_performance_libretro.dll,ABC Monday Night Football (USA).sfc,abc_monday_night_football_usa.dds,#FFFFFF,Console,,Yes
+ACME Animation Factory (USA).sfc,bsnes_performance_libretro.dll,ACME Animation Factory (USA).sfc,acme_animation_factory_usa.dds,#FFFFFF,Console,,Yes
+ActRaiser 2 (USA).sfc,bsnes_performance_libretro.dll,ActRaiser 2 (USA).sfc,actraiser_2_usa.dds,#FFFFFF,Console,,Yes
+ActRaiser (USA).sfc,bsnes_performance_libretro.dll,ActRaiser (USA).sfc,actraiser_usa.dds,#FFFFFF,Console,,Yes
+"Addams Family, The - Pugsley's Scavenger Hunt (USA).sfc",bsnes_performance_libretro.dll,"Addams Family, The - Pugsley's Scavenger Hunt (USA).sfc",addams_family_the_-_pugsleys_scavenger_hunt_usa.dds,#FFFFFF,Console,,Yes
+"Addams Family, The (USA).sfc",bsnes_performance_libretro.dll,"Addams Family, The (USA).sfc",addams_family_the_usa.dds,#FFFFFF,Console,,Yes
+"Addams Family Values (USA) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Addams Family Values (USA) (En,Fr,De).sfc",addams_family_values_usa.dds,#FFFFFF,Console,,Yes
+"Adventures of Batman & Robin, The (USA).sfc",bsnes_performance_libretro.dll,"Adventures of Batman & Robin, The (USA).sfc",adventures_of_batman_&_robin_the_usa.dds,#FFFFFF,Console,,Yes
+"Adventures of Dr. Franken, The (USA).sfc",bsnes_performance_libretro.dll,"Adventures of Dr. Franken, The (USA).sfc",adventures_of_dr_franken_the_usa.dds,#FFFFFF,Console,,Yes
+"Adventures of Kid Kleets, The (USA) (En,Fr,Es).sfc",bsnes_performance_libretro.dll,"Adventures of Kid Kleets, The (USA) (En,Fr,Es).sfc",adventures_of_kid_kleets_the_usa.dds,#FFFFFF,Console,,Yes
+"Adventures of Rocky and Bullwinkle and Friends, The (USA).sfc",bsnes_performance_libretro.dll,"Adventures of Rocky and Bullwinkle and Friends, The (USA).sfc",adventures_of_rocky_and_bullwinkle_and_friends_the_usa.dds,#FFFFFF,Console,,Yes
+Adventures of Yogi Bear (USA).sfc,bsnes_performance_libretro.dll,Adventures of Yogi Bear (USA).sfc,adventures_of_yogi_bear_usa.dds,#FFFFFF,Console,,Yes
+Aerobiz Supersonic (USA).sfc,bsnes_performance_libretro.dll,Aerobiz Supersonic (USA).sfc,aerobiz_supersonic_usa.dds,#FFFFFF,Console,,Yes
+Aerobiz (USA).sfc,bsnes_performance_libretro.dll,Aerobiz (USA).sfc,aerobiz_usa.dds,#FFFFFF,Console,,Yes
+Aero Fighters (USA).sfc,bsnes_performance_libretro.dll,Aero Fighters (USA).sfc,aero_fighters_usa.dds,#FFFFFF,Console,,Yes
+Aero the Acro-Bat 2 (USA).sfc,bsnes_performance_libretro.dll,Aero the Acro-Bat 2 (USA).sfc,aero_the_acro-bat_2_usa.dds,#FFFFFF,Console,,Yes
+Aero the Acro-Bat (USA).sfc,bsnes_performance_libretro.dll,Aero the Acro-Bat (USA).sfc,aero_the_acro-bat_usa.dds,#FFFFFF,Console,,Yes
+Air Cavalry (USA).sfc,bsnes_performance_libretro.dll,Air Cavalry (USA).sfc,air_cavalry_usa.dds,#FFFFFF,Console,,Yes
+Aladdin (USA).sfc,bsnes_performance_libretro.dll,Aladdin (USA).sfc,aladdin_usa.dds,#FFFFFF,Console,,Yes
+Alien 3 (USA).sfc,bsnes_performance_libretro.dll,Alien 3 (USA).sfc,alien_3_usa.dds,#FFFFFF,Console,,Yes
+Alien vs. Predator (USA).sfc,bsnes_performance_libretro.dll,Alien vs. Predator (USA).sfc,alien_vs_predator_usa.dds,#FFFFFF,Console,,Yes
+Al Unser Jr.'s Road to the Top (USA).sfc,bsnes_performance_libretro.dll,Al Unser Jr.'s Road to the Top (USA).sfc,al_unser_jrs_road_to_the_top_usa.dds,#FFFFFF,Console,,Yes
+American Gladiators (USA).sfc,bsnes_performance_libretro.dll,American Gladiators (USA).sfc,american_gladiators_usa.dds,#FFFFFF,Console,,Yes
+"American Tail, An - Fievel Goes West (USA).sfc",bsnes_performance_libretro.dll,"American Tail, An - Fievel Goes West (USA).sfc",american_tail_an_-_fievel_goes_west_usa.dds,#FFFFFF,Console,,Yes
+Andre Agassi Tennis (USA).sfc,bsnes_performance_libretro.dll,Andre Agassi Tennis (USA).sfc,andre_agassi_tennis_usa.dds,#FFFFFF,Console,,Yes
+Animaniacs (USA).sfc,bsnes_performance_libretro.dll,Animaniacs (USA).sfc,animaniacs_usa.dds,#FFFFFF,Console,,Yes
+Arcade's Greatest Hits - The Atari Collection 1 (USA).sfc,bsnes_performance_libretro.dll,Arcade's Greatest Hits - The Atari Collection 1 (USA).sfc,arcades_greatest_hits_-_the_atari_collection_1_usa.dds,#FFFFFF,Console,,Yes
+Williams Arcade's Greatest Hits (USA).sfc,bsnes_performance_libretro.dll,Williams Arcade's Greatest Hits (USA).sfc,arcades_greatest_hits_usa.dds,#FFFFFF,Console,,Yes
+Arcana (USA).sfc,bsnes_performance_libretro.dll,Arcana (USA).sfc,arcana_usa.dds,#FFFFFF,Console,,Yes
+Archer MacLean's Dropzone (E) [!].smc,bsnes_performance_libretro.dll,Archer MacLean's Dropzone (E) [!].smc,archer_macleans_super_dropzone_europe.dds,#FFFFFF,Console,,Yes
+Ardy Lightfoot (USA).sfc,bsnes_performance_libretro.dll,Ardy Lightfoot (USA).sfc,ardy_lightfoot_usa.dds,#FFFFFF,Console,,Yes
+Arkanoid - Doh It Again (USA).sfc,bsnes_performance_libretro.dll,Arkanoid - Doh It Again (USA).sfc,arkanoid_-_doh_it_again_usa.dds,#FFFFFF,Console,,Yes
+Art of Fighting (USA).sfc,bsnes_performance_libretro.dll,Art of Fighting (USA).sfc,art_of_fighting_usa.dds,#FFFFFF,Console,,Yes
+Air Strike Patrol (USA).sfc,bsnes_performance_libretro.dll,Air Strike Patrol (USA).sfc,asp_-_air_strike_patrol_usa.dds,#FFFFFF,Console,,Yes
+"Asterix & Obelix (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Asterix & Obelix (Europe) (En,Fr,De,Es).sfc",asterix_&_obelix_europe.dds,#FFFFFF,Console,,Yes
+"Asterix (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Asterix (Europe) (En,Fr,De,Es).sfc",asterix_europe.dds,#FFFFFF,Console,,Yes
+Axelay (USA).sfc,bsnes_performance_libretro.dll,Axelay (USA).sfc,axelay_usa.dds,#FFFFFF,Console,,Yes
+Ballz 3D (USA).sfc,bsnes_performance_libretro.dll,Ballz 3D (USA).sfc,ballz_3d_-_fighting_at_its_ballziest_usa.dds,#FFFFFF,Console,,Yes
+Barbie Super Model (USA).sfc,bsnes_performance_libretro.dll,Barbie Super Model (USA).sfc,barbie_super_model_usa.dds,#FFFFFF,Console,,Yes
+Barkley Shut Up and Jam! (USA).sfc,bsnes_performance_libretro.dll,Barkley Shut Up and Jam! (USA).sfc,barkley_shut_up_and_jam_usa.dds,#FFFFFF,Console,,Yes
+Bassin's Black Bass (USA).sfc,bsnes_performance_libretro.dll,Bassin's Black Bass (USA).sfc,bassins_black_bass_usa.dds,#FFFFFF,Console,,Yes
+BASS Masters Classic - Pro Edition (USA).sfc,bsnes_performance_libretro.dll,BASS Masters Classic - Pro Edition (USA).sfc,bass_masters_classic_-_pro_edition_usa.dds,#FFFFFF,Console,,Yes
+BASS Masters Classic (USA).sfc,bsnes_performance_libretro.dll,BASS Masters Classic (USA).sfc,bass_masters_classic_usa.dds,#FFFFFF,Console,,Yes
+Batman Forever (USA).sfc,bsnes_performance_libretro.dll,Batman Forever (USA).sfc,batman_forever_usa.dds,#FFFFFF,Console,,Yes
+Batman Returns (USA).sfc,bsnes_performance_libretro.dll,Batman Returns (USA).sfc,batman_returns_usa.dds,#FFFFFF,Console,,Yes
+Battletoads & Double Dragon - The Ultimate Team (USA).sfc,bsnes_performance_libretro.dll,Battletoads & Double Dragon - The Ultimate Team (USA).sfc,battletoads_&_double_dragon_usa.dds,#FFFFFF,Console,,Yes
+Battletoads in Battlemaniacs (USA).sfc,bsnes_performance_libretro.dll,Battletoads in Battlemaniacs (USA).sfc,battletoads_in_battlemaniacs_usa.dds,#FFFFFF,Console,,Yes
+Battle Blaze (USA).sfc,bsnes_performance_libretro.dll,Battle Blaze (USA).sfc,battle_blaze_usa.dds,#FFFFFF,Console,,Yes
+Battle Cars (USA).sfc,bsnes_performance_libretro.dll,Battle Cars (USA).sfc,battle_cars_usa.dds,#FFFFFF,Console,,Yes
+Battle Clash (USA).sfc,bsnes_performance_libretro.dll,Battle Clash (USA).sfc,battle_clash_usa.dds,#FFFFFF,Console,,Yes
+Battle Grand Prix (USA).sfc,bsnes_performance_libretro.dll,Battle Grand Prix (USA).sfc,battle_grand_prix_usa.dds,#FFFFFF,Console,,Yes
+Bazooka Blitzkrieg (USA).sfc,bsnes_performance_libretro.dll,Bazooka Blitzkrieg (USA).sfc,bazooka_blitzkrieg_usa.dds,#FFFFFF,Console,,Yes
+Beauty and the Beast (USA).sfc,bsnes_performance_libretro.dll,Beauty and the Beast (USA).sfc,beauty_and_the_beast_usa.dds,#FFFFFF,Console,,Yes
+Beavis and Butt-Head (USA).sfc,bsnes_performance_libretro.dll,Beavis and Butt-Head (USA).sfc,beavis_and_butt-head_usa.dds,#FFFFFF,Console,,Yes
+Bebe's Kids (USA).sfc,bsnes_performance_libretro.dll,Bebe's Kids (USA).sfc,bebes_kids_usa.dds,#FFFFFF,Console,,Yes
+Beethoven's 2nd - The Ultimate Canine Caper! (USA).sfc,bsnes_performance_libretro.dll,Beethoven's 2nd - The Ultimate Canine Caper! (USA).sfc,beethoven_-_the_ultimate_canine_caper_usa.dds,#FFFFFF,Console,,Yes
+Best of the Best - Championship Karate (USA).sfc,bsnes_performance_libretro.dll,Best of the Best - Championship Karate (USA).sfc,best_of_the_best_-_championship_karate_usa.dds,#FFFFFF,Console,,Yes
+Big Sky Trooper (USA).sfc,bsnes_performance_libretro.dll,Big Sky Trooper (USA).sfc,big_sky_trooper_usa.dds,#FFFFFF,Console,,Yes
+Biker Mice from Mars (USA).sfc,bsnes_performance_libretro.dll,Biker Mice from Mars (USA).sfc,biker_mice_from_mars_usa.dds,#FFFFFF,Console,,Yes
+Bill Laimbeer's Combat Basketball (USA).sfc,bsnes_performance_libretro.dll,Bill Laimbeer's Combat Basketball (USA).sfc,bill_laimbeers_combat_basketball_usa.dds,#FFFFFF,Console,,Yes
+Bill Walsh College Football (USA).sfc,bsnes_performance_libretro.dll,Bill Walsh College Football (USA).sfc,bill_walsh_college_football_usa.dds,#FFFFFF,Console,,Yes
+Bio Metal (USA).sfc,bsnes_performance_libretro.dll,Bio Metal (USA).sfc,biometal_usa.dds,#FFFFFF,Console,,Yes
+Blackthorne (USA).sfc,bsnes_performance_libretro.dll,Blackthorne (USA).sfc,blackthorne_usa.dds,#FFFFFF,Console,,Yes
+"Blues Brothers, The (USA).sfc",bsnes_performance_libretro.dll,"Blues Brothers, The (USA).sfc",blues_brothers_the_usa.dds,#FFFFFF,Console,,Yes
+B.O.B. (USA).sfc,bsnes_performance_libretro.dll,B.O.B. (USA).sfc,bob_usa.dds,#FFFFFF,Console,,Yes
+Bonkers (USA).sfc,bsnes_performance_libretro.dll,Bonkers (USA).sfc,bonkers_usa.dds,#FFFFFF,Console,,Yes
+Boogerman - A Pick and Flick Adventure (USA).sfc,bsnes_performance_libretro.dll,Boogerman - A Pick and Flick Adventure (USA).sfc,boogerman_-_a_pick_and_flick_adventure_usa.dds,#FFFFFF,Console,,Yes
+Boxing Legends of the Ring (USA).sfc,bsnes_performance_libretro.dll,Boxing Legends of the Ring (USA).sfc,boxing_legends_of_the_ring_usa.dds,#FFFFFF,Console,,Yes
+"Brainies, The (USA).sfc",bsnes_performance_libretro.dll,"Brainies, The (USA).sfc",brainies_the_usa.dds,#FFFFFF,Console,,Yes
+Brain Lord (USA).sfc,bsnes_performance_libretro.dll,Brain Lord (USA).sfc,brain_lord_usa.dds,#FFFFFF,Console,,Yes
+Bram Stoker's Dracula (USA).sfc,bsnes_performance_libretro.dll,Bram Stoker's Dracula (USA).sfc,bram_stokers_dracula_usa.dds,#FFFFFF,Console,,Yes
+Brandish (USA).sfc,bsnes_performance_libretro.dll,Brandish (USA).sfc,brandish_usa.dds,#FFFFFF,Console,,Yes
+Brawl Brothers (USA).sfc,bsnes_performance_libretro.dll,Brawl Brothers (USA).sfc,brawl_brothers_usa.dds,#FFFFFF,Console,,Yes
+BreakThru! (USA).sfc,bsnes_performance_libretro.dll,BreakThru! (USA).sfc,breakthru_usa.dds,#FFFFFF,Console,,Yes
+Breath of Fire II (USA).sfc,bsnes_performance_libretro.dll,Breath of Fire II (USA).sfc,breath_of_fire_ii_usa.dds,#FFFFFF,Console,,Yes
+Breath of Fire (USA).sfc,bsnes_performance_libretro.dll,Breath of Fire (USA).sfc,breath_of_fire_usa.dds,#FFFFFF,Console,,Yes
+Brett Hull Hockey '95 (USA).sfc,bsnes_performance_libretro.dll,Brett Hull Hockey '95 (USA).sfc,brett_hull_hockey_95_usa.dds,#FFFFFF,Console,,Yes
+Brett Hull Hockey (USA).sfc,bsnes_performance_libretro.dll,Brett Hull Hockey (USA).sfc,brett_hull_hockey_usa.dds,#FFFFFF,Console,,Yes
+"Bronkie the Bronchiasaurus (USA) (En,Es).sfc",bsnes_performance_libretro.dll,"Bronkie the Bronchiasaurus (USA) (En,Es).sfc",bronkie_the_bronchiasaurus_usa.dds,#FFFFFF,Console,,Yes
+Brunswick World Tournament of Champions (USA).sfc,bsnes_performance_libretro.dll,Brunswick World Tournament of Champions (USA).sfc,brunswick_world_tournament_of_champions_usa.dds,#FFFFFF,Console,,Yes
+Brutal - Paws of Fury (USA).sfc,bsnes_performance_libretro.dll,Brutal - Paws of Fury (USA).sfc,brutal_-_paws_of_fury_usa.dds,#FFFFFF,Console,,Yes
+Bubsy II (USA).sfc,bsnes_performance_libretro.dll,Bubsy II (USA).sfc,bubsy_ii_usa.dds,#FFFFFF,Console,,Yes
+Bubsy in Claws Encounters of the Furred Kind (USA).sfc,bsnes_performance_libretro.dll,Bubsy in Claws Encounters of the Furred Kind (USA).sfc,bubsy_in_claws_encounters_of_the_furred_kind_usa.dds,#FFFFFF,Console,,Yes
+Bugs Bunny in Rabbit Rampage (USA).sfc,bsnes_performance_libretro.dll,Bugs Bunny in Rabbit Rampage (USA).sfc,bugs_bunny_-_rabbit_rampage_usa.dds,#FFFFFF,Console,,Yes
+Bulls vs Blazers and the NBA Playoffs (USA).sfc,bsnes_performance_libretro.dll,Bulls vs Blazers and the NBA Playoffs (USA).sfc,bulls_vs_blazers_and_the_nba_playoffs_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Bust-A-Move (USA).sfc,bsnes_performance_libretro.dll,Bust-A-Move (USA).sfc,bust-a-move_usa.dds,#FFFFFF,Console,,Yes
+Cacoma Knight in Bizyland (USA).sfc,bsnes_performance_libretro.dll,Cacoma Knight in Bizyland (USA).sfc,cacoma_knight_in_bizyland_usa.dds,#FFFFFF,Console,,Yes
+California Games II (USA).sfc,bsnes_performance_libretro.dll,California Games II (USA).sfc,california_games_ii_usa.dds,#FFFFFF,Console,,Yes
+Cal Ripken Jr. Baseball (USA).sfc,bsnes_performance_libretro.dll,Cal Ripken Jr. Baseball (USA).sfc,cal_ripken_jr_baseball_usa.dds,#FFFFFF,Console,,Yes
+Cannondale Cup (USA).sfc,bsnes_performance_libretro.dll,Cannondale Cup (USA).sfc,cannondale_cup_usa.dds,#FFFFFF,Console,,Yes
+Cannon Fodder (Europe).sfc,bsnes_performance_libretro.dll,Cannon Fodder (Europe).sfc,cannon_fodder_europe.dds,#FFFFFF,Console,,Yes
+Capcom's MVP Football (USA).sfc,bsnes_performance_libretro.dll,Capcom's MVP Football (USA).sfc,capcoms_mvp_football_usa.dds,#FFFFFF,Console,,Yes
+Capcom's Soccer Shootout (USA).sfc,bsnes_performance_libretro.dll,Capcom's Soccer Shootout (USA).sfc,capcoms_soccer_shootout_usa.dds,#FFFFFF,Console,,Yes
+Captain America and the Avengers (USA).sfc,bsnes_performance_libretro.dll,Captain America and the Avengers (USA).sfc,captain_america_and_the_avengers_usa.dds,#FFFFFF,Console,,Yes
+Captain Commando (USA).sfc,bsnes_performance_libretro.dll,Captain Commando (USA).sfc,captain_commando_usa.dds,#FFFFFF,Console,,Yes
+"Captain Novolin (USA) (En,Fr,Es).sfc",bsnes_performance_libretro.dll,"Captain Novolin (USA) (En,Fr,Es).sfc",captain_novolin_usa.dds,#FFFFFF,Console,,Yes
+Carrier Aces (USA).sfc,bsnes_performance_libretro.dll,Carrier Aces (USA).sfc,carrier_aces_usa.dds,#FFFFFF,Console,,Yes
+Casper (USA).sfc,bsnes_performance_libretro.dll,Casper (USA).sfc,casper_usa.dds,#FFFFFF,Console,,Yes
+Castlevania - Dracula X (USA).sfc,bsnes_performance_libretro.dll,Castlevania - Dracula X (USA).sfc,castlevania_-_dracula_x_usa.dds,#FFFFFF,Console,,Yes
+Championship Pool (USA).sfc,bsnes_performance_libretro.dll,Championship Pool (USA).sfc,championship_pool_usa.dds,#FFFFFF,Console,,Yes
+"Championship Soccer '94 (USA) (En,Fr,De,It).sfc",bsnes_performance_libretro.dll,"Championship Soccer '94 (USA) (En,Fr,De,It).sfc",championship_soccer_94_usa.dds,#FFFFFF,Console,,Yes
+"Champions World Class Soccer (USA) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Champions World Class Soccer (USA) (En,Fr,De,Es).sfc",champions_-_world_class_soccer_usa.dds,#FFFFFF,Console,,Yes
+"Chessmaster, The (USA).sfc",bsnes_performance_libretro.dll,"Chessmaster, The (USA).sfc",chessmaster_the_usa.dds,#FFFFFF,Console,,Yes
+Chester Cheetah - Too Cool to Fool (USA).sfc,bsnes_performance_libretro.dll,Chester Cheetah - Too Cool to Fool (USA).sfc,chester_cheetah_-_too_cool_to_fool_usa.dds,#FFFFFF,Console,,Yes
+Chester Cheetah - Wild Wild Quest (USA).sfc,bsnes_performance_libretro.dll,Chester Cheetah - Wild Wild Quest (USA).sfc,chester_cheetah_-_wild_wild_quest_usa.dds,#FFFFFF,Console,,Yes
+Choplifter III - Rescue Survive (USA).sfc,bsnes_performance_libretro.dll,Choplifter III - Rescue Survive (USA).sfc,choplifter_iii_-_rescue_&_survive_usa.dds,#FFFFFF,Console,,Yes
+Chrono Trigger (USA).sfc,bsnes_performance_libretro.dll,Chrono Trigger (USA).sfc,chrono_trigger_usa.dds,#FFFFFF,Console,,Yes
+Chuck Rock (USA).sfc,bsnes_performance_libretro.dll,Chuck Rock (USA).sfc,chuck_rock_usa.dds,#FFFFFF,Console,,Yes
+Civilization (USA).sfc,bsnes_performance_libretro.dll,Civilization (USA).sfc,civilization_usa.dds,#FFFFFF,Console,,Yes
+Claymates (USA).sfc,bsnes_performance_libretro.dll,Claymates (USA).sfc,claymates_usa.dds,#FFFFFF,Console,,Yes
+Clay Fighter - Tournament Edition (USA).sfc,bsnes_performance_libretro.dll,Clay Fighter - Tournament Edition (USA).sfc,clay_fighter_-_tournament_edition_usa.dds,#FFFFFF,Console,,Yes
+Clay Fighter 2 - Judgment Clay (USA).sfc,bsnes_performance_libretro.dll,Clay Fighter 2 - Judgment Clay (USA).sfc,clay_fighter_2_-_judgment_clay_usa.dds,#FFFFFF,Console,,Yes
+Clay Fighter (USA).sfc,bsnes_performance_libretro.dll,Clay Fighter (USA).sfc,clay_fighter_usa.dds,#FFFFFF,Console,,Yes
+Cliffhanger (USA).sfc,bsnes_performance_libretro.dll,Cliffhanger (USA).sfc,cliffhanger_usa.dds,#FFFFFF,Console,,Yes
+Clue (USA).sfc,bsnes_performance_libretro.dll,Clue (USA).sfc,clue_usa.dds,#FFFFFF,Console,,Yes
+College Football USA '97 - The Road to New Orleans (USA).sfc,bsnes_performance_libretro.dll,College Football USA '97 - The Road to New Orleans (USA).sfc,college_football_usa_97_-_the_road_to_new_orleans_usa.dds,#FFFFFF,Console,,Yes
+College Slam (USA).sfc,bsnes_performance_libretro.dll,College Slam (USA).sfc,college_slam_usa.dds,#FFFFFF,Console,,Yes
+"Combatribes, The (USA).sfc",bsnes_performance_libretro.dll,"Combatribes, The (USA).sfc",combatribes_the_usa.dds,#FFFFFF,Console,,Yes
+Congo's Caper (USA).sfc,bsnes_performance_libretro.dll,Congo's Caper (USA).sfc,congos_caper_usa.dds,#FFFFFF,Console,,Yes
+Contra III - The Alien Wars (USA).sfc,bsnes_performance_libretro.dll,Contra III - The Alien Wars (USA).sfc,contra_iii_-_the_alien_wars_usa.dds,#FFFFFF,Console,,Yes
+Cool Spot (USA).sfc,bsnes_performance_libretro.dll,Cool Spot (USA).sfc,cool_spot_usa.dds,#FFFFFF,Console,,Yes
+Cool World (USA).sfc,bsnes_performance_libretro.dll,Cool World (USA).sfc,cool_world_usa.dds,#FFFFFF,Console,,Yes
+CutThroat Island (USA).sfc,bsnes_performance_libretro.dll,CutThroat Island (USA).sfc,cutthroat_island_usa.dds,#FFFFFF,Console,,Yes
+Cybernator (USA).sfc,bsnes_performance_libretro.dll,Cybernator (USA).sfc,cybernator_usa.dds,#FFFFFF,Console,,Yes
+Cyber Spin (USA).sfc,bsnes_performance_libretro.dll,Cyber Spin (USA).sfc,cyber_spin_usa.dds,#FFFFFF,Console,,Yes
+D-Force (USA).sfc,bsnes_performance_libretro.dll,D-Force (USA).sfc,d-force_usa.dds,#FFFFFF,Console,,Yes
+Daffy Duck - The Marvin Missions (USA).sfc,bsnes_performance_libretro.dll,Daffy Duck - The Marvin Missions (USA).sfc,daffy_duck_-_the_marvin_missions_usa.dds,#FFFFFF,Console,,Yes
+Darius Twin (USA).sfc,bsnes_performance_libretro.dll,Darius Twin (USA).sfc,darius_twin_usa.dds,#FFFFFF,Console,,Yes
+David Crane's Amazing Tennis (USA).sfc,bsnes_performance_libretro.dll,David Crane's Amazing Tennis (USA).sfc,david_cranes_amazing_tennis_usa.dds,#FFFFFF,Console,,Yes
+Daze Before Christmas (Europe).sfc,bsnes_performance_libretro.dll,Daze Before Christmas (Europe).sfc,daze_before_christmas_europe.dds,#FFFFFF,Console,,Yes
+"Death and Return of Superman, The (USA).sfc",bsnes_performance_libretro.dll,"Death and Return of Superman, The (USA).sfc",death_and_return_of_superman_the_usa.dds,#FFFFFF,Console,,Yes
+Demolition Man (USA).sfc,bsnes_performance_libretro.dll,Demolition Man (USA).sfc,demolition_man_usa.dds,#FFFFFF,Console,,Yes
+Demon's Crest (USA).sfc,bsnes_performance_libretro.dll,Demon's Crest (USA).sfc,demons_crest_usa.dds,#FFFFFF,Console,,Yes
+Dennis the Menace (USA).sfc,bsnes_performance_libretro.dll,Dennis the Menace (USA).sfc,dennis_the_menace_usa.dds,#FFFFFF,Console,,Yes
+Desert Strike - Return to the Gulf (USA).sfc,bsnes_performance_libretro.dll,Desert Strike - Return to the Gulf (USA).sfc,desert_strike_-_return_to_the_gulf_usa.dds,#FFFFFF,Console,,Yes
+Dig & Spike Volleyball (USA).sfc,bsnes_performance_libretro.dll,Dig & Spike Volleyball (USA).sfc,dig_&_spike_volleyball_usa.dds,#FFFFFF,Console,,Yes
+Dino City (USA).sfc,bsnes_performance_libretro.dll,Dino City (USA).sfc,dino_city_usa.dds,#FFFFFF,Console,,Yes
+"Dino Dini's Soccer! (Europe) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Dino Dini's Soccer! (Europe) (En,Fr,De).sfc",dino_dinis_soccer_europe.dds,#FFFFFF,Console,,Yes
+"Dirt Racer (Europe) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Dirt Racer (Europe) (En,Fr,De).sfc",dirt_racer_europe.dds,#FFFFFF,Console,,Yes
+Dirt Trax FX (USA).sfc,bsnes_performance_libretro.dll,Dirt Trax FX (USA).sfc,dirt_trax_fx_usa.dds,#FFFFFF,Console,,Yes
+"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).sfc",donkey_kong_country_2_-_diddys_kong_quest_usa_rev_1.dds,#FFFFFF,Console,,Yes
+"Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,"Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc",donkey_kong_country_3_-_dixie_kongs_double_trouble_usa.dds,#FFFFFF,Console,,Yes
+Donkey Kong Country (USA) (Competition Edition).sfc,bsnes_performance_libretro.dll,Donkey Kong Country (USA) (Competition Edition).sfc,donkey_kong_country_usa_competition_edition.dds,#FFFFFF,Console,,Yes
+Donkey Kong Country (USA).sfc,bsnes_performance_libretro.dll,Donkey Kong Country (USA).sfc,donkey_kong_country_usa_rev_2.dds,#FFFFFF,Console,,Yes
+Doomsday Warrior (USA).sfc,bsnes_performance_libretro.dll,Doomsday Warrior (USA).sfc,doomsday_warrior_usa.dds,#FFFFFF,Console,,Yes
+Doom Troopers (USA).sfc,bsnes_performance_libretro.dll,Doom Troopers (USA).sfc,doom_troopers_usa.dds,#FFFFFF,Console,,Yes
+Doom (USA).sfc,bsnes_performance_libretro.dll,Doom (USA).sfc,doom_usa.dds,#FFFFFF,Console,,Yes
+Double Dragon V - The Shadow Falls (USA).sfc,bsnes_performance_libretro.dll,Double Dragon V - The Shadow Falls (USA).sfc,double_dragon_v_-_the_shadow_falls_usa.dds,#FFFFFF,Console,,Yes
+Dragon's Lair (USA).sfc,bsnes_performance_libretro.dll,Dragon's Lair (USA).sfc,dragons_lair_usa.dds,#FFFFFF,Console,,Yes
+Dragon - The Bruce Lee Story (USA).sfc,bsnes_performance_libretro.dll,Dragon - The Bruce Lee Story (USA).sfc,dragon_-_the_bruce_lee_story_usa.dds,#FFFFFF,Console,,Yes
+Dragon View (USA).sfc,bsnes_performance_libretro.dll,Dragon View (USA).sfc,dragon_view_usa.dds,#FFFFFF,Console,,Yes
+Drakkhen (USA).sfc,bsnes_performance_libretro.dll,Drakkhen (USA).sfc,drakkhen_usa.dds,#FFFFFF,Console,,Yes
+Dream TV (USA).sfc,bsnes_performance_libretro.dll,Dream TV (USA).sfc,dream_tv_usa.dds,#FFFFFF,Console,,Yes
+"Duel, The - Test Drive II (USA).sfc",bsnes_performance_libretro.dll,"Duel, The - Test Drive II (USA).sfc",duel_the_-_test_drive_ii_usa.dds,#FFFFFF,Console,,Yes
+Dungeon Master (USA).sfc,bsnes_performance_libretro.dll,Dungeon Master (USA).sfc,dungeon_master_usa.dds,#FFFFFF,Console,,Yes
+EarthBound (USA).sfc,bsnes_performance_libretro.dll,EarthBound (USA).sfc,earthbound_usa.dds,#FFFFFF,Console,,Yes
+Earthworm Jim 2 (USA).sfc,bsnes_performance_libretro.dll,Earthworm Jim 2 (USA).sfc,earthworm_jim_2_usa.dds,#FFFFFF,Console,,Yes
+Earthworm Jim (USA).sfc,bsnes_performance_libretro.dll,Earthworm Jim (USA).sfc,earthworm_jim_usa.dds,#FFFFFF,Console,,Yes
+Super Earth Defense Force (USA).sfc,bsnes_performance_libretro.dll,Super Earth Defense Force (USA).sfc,earth_defense_force_usa.dds,#FFFFFF,Console,,Yes
+Eek! The Cat (USA).sfc,bsnes_performance_libretro.dll,Eek! The Cat (USA).sfc,eek_the_cat_usa.dds,#FFFFFF,Console,,Yes
+Elite Soccer (USA).sfc,bsnes_performance_libretro.dll,Elite Soccer (USA).sfc,elite_soccer_usa.dds,#FFFFFF,Console,,Yes
+Emmitt Smith Football (USA).sfc,bsnes_performance_libretro.dll,Emmitt Smith Football (USA).sfc,emmitt_smith_football_usa.dds,#FFFFFF,Console,,Yes
+Equinox (USA).sfc,bsnes_performance_libretro.dll,Equinox (USA).sfc,equinox_usa.dds,#FFFFFF,Console,,Yes
+ESPN Baseball Tonight (USA).sfc,bsnes_performance_libretro.dll,ESPN Baseball Tonight (USA).sfc,espn_baseball_tonight_usa.dds,#FFFFFF,Console,,Yes
+ESPN National Hockey Night (USA).sfc,bsnes_performance_libretro.dll,ESPN National Hockey Night (USA).sfc,espn_national_hockey_night_usa.dds,#FFFFFF,Console,,Yes
+ESPN Speedworld (USA).sfc,bsnes_performance_libretro.dll,ESPN Speedworld (USA).sfc,espn_speedworld_usa.dds,#FFFFFF,Console,,Yes
+ESPN Sunday Night NFL (USA).sfc,bsnes_performance_libretro.dll,ESPN Sunday Night NFL (USA).sfc,espn_sunday_night_nfl_usa.dds,#FFFFFF,Console,,Yes
+E.V.O. - Search for Eden (USA).sfc,bsnes_performance_libretro.dll,E.V.O. - Search for Eden (USA).sfc,evo_-_search_for_eden_usa.dds,#FFFFFF,Console,,Yes
+Extra Innings (USA).sfc,bsnes_performance_libretro.dll,Extra Innings (USA).sfc,extra_innings_usa.dds,#FFFFFF,Console,,Yes
+Eye of the Beholder (USA).sfc,bsnes_performance_libretro.dll,Eye of the Beholder (USA).sfc,eye_of_the_beholder_usa.dds,#FFFFFF,Console,,Yes
+F-Zero (USA).sfc,bsnes_performance_libretro.dll,F-Zero (USA).sfc,f-zero_usa.dds,#FFFFFF,Console,,Yes
+F1 Pole Position (USA).sfc,bsnes_performance_libretro.dll,F1 Pole Position (USA).sfc,f1_pole_position_usa.dds,#FFFFFF,Console,,Yes
+F1 ROC - Race of Champions (USA).sfc,bsnes_performance_libretro.dll,F1 ROC - Race of Champions (USA).sfc,f1_roc_-_race_of_champions_usa.dds,#FFFFFF,Console,,Yes
+F1 ROC II - Race of Champions (USA).sfc,bsnes_performance_libretro.dll,F1 ROC II - Race of Champions (USA).sfc,f1_roc_ii_-_race_of_champions_usa.dds,#FFFFFF,Console,,Yes
+F1 World Championship Edition (Europe).sfc,bsnes_performance_libretro.dll,F1 World Championship Edition (Europe).sfc,f1_world_championship_edition_europe.dds,#FFFFFF,Console,,Yes
+Faceball 2000 (USA).sfc,bsnes_performance_libretro.dll,Faceball 2000 (USA).sfc,faceball_2000_usa.dds,#FFFFFF,Console,,Yes
+Family Dog (USA).sfc,bsnes_performance_libretro.dll,Family Dog (USA).sfc,family_dog_usa.dds,#FFFFFF,Console,,Yes
+Family Feud (USA).sfc,bsnes_performance_libretro.dll,Family Feud (USA).sfc,family_feud_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Fatal Fury 2 (USA).sfc,bsnes_performance_libretro.dll,Fatal Fury 2 (USA).sfc,fatal_fury_2_usa.dds,#FFFFFF,Console,,Yes
+Fatal Fury Special (USA).sfc,bsnes_performance_libretro.dll,Fatal Fury Special (USA).sfc,fatal_fury_special_usa.dds,#FFFFFF,Console,,Yes
+Fatal Fury (USA).sfc,bsnes_performance_libretro.dll,Fatal Fury (USA).sfc,fatal_fury_usa.dds,#FFFFFF,Console,,Yes
+"FIFA '98 - Road to World Cup (Europe) (En,Fr,De,Es,It,Sv).sfc",bsnes_performance_libretro.dll,"FIFA '98 - Road to World Cup (Europe) (En,Fr,De,Es,It,Sv).sfc",fifa_98_-_road_to_world_cup_europe.dds,#FFFFFF,Console,,Yes
+FIFA International Soccer (USA).sfc,bsnes_performance_libretro.dll,FIFA International Soccer (USA).sfc,fifa_international_soccer_usa.dds,#FFFFFF,Console,,Yes
+"FIFA Soccer '96 (USA) (En,Fr,De,Es,It,Sv).sfc",bsnes_performance_libretro.dll,"FIFA Soccer '96 (USA) (En,Fr,De,Es,It,Sv).sfc",fifa_soccer_96_usa.dds,#FFFFFF,Console,,Yes
+"FIFA '97 - Gold Edition (USA) (En,Fr,De,Es,It,Sv).sfc",bsnes_performance_libretro.dll,"FIFA '97 - Gold Edition (USA) (En,Fr,De,Es,It,Sv).sfc",fifa_soccer_97_-_gold_edition_usa.dds,#FFFFFF,Console,,Yes
+Fighter's History (USA) (Rev A).sfc,bsnes_performance_libretro.dll,Fighter's History (USA) (Rev A).sfc,fighters_history_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Final Fantasy - Mystic Quest (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy - Mystic Quest (USA).sfc,final_fantasy_-_mystic_quest_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Final Fantasy III (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy III (USA).sfc,final_fantasy_iii_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Final Fantasy II (USA).sfc,bsnes_performance_libretro.dll,Final Fantasy II (USA).sfc,final_fantasy_ii_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Final Fight 2 (USA).sfc,bsnes_performance_libretro.dll,Final Fight 2 (USA).sfc,final_fight_2_usa.dds,#FFFFFF,Console,,Yes
+Final Fight 3 (USA).sfc,bsnes_performance_libretro.dll,Final Fight 3 (USA).sfc,final_fight_3_usa.dds,#FFFFFF,Console,,Yes
+Final Fight Guy (USA).sfc,bsnes_performance_libretro.dll,Final Fight Guy (USA).sfc,final_fight_guy_usa.dds,#FFFFFF,Console,,Yes
+Final Fight (USA).sfc,bsnes_performance_libretro.dll,Final Fight (USA).sfc,final_fight_usa.dds,#FFFFFF,Console,,Yes
+Firepower 2000 (USA).sfc,bsnes_performance_libretro.dll,Firepower 2000 (USA).sfc,firepower_2000_usa.dds,#FFFFFF,Console,,Yes
+Fire Striker (USA).sfc,bsnes_performance_libretro.dll,Fire Striker (USA).sfc,fire_striker_usa.dds,#FFFFFF,Console,,Yes
+First Samurai (USA).sfc,bsnes_performance_libretro.dll,First Samurai (USA).sfc,first_samurai_usa.dds,#FFFFFF,Console,,Yes
+"Flashback - The Quest for Identity (USA) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Flashback - The Quest for Identity (USA) (En,Fr,De).sfc",flashback_-_the_quest_for_identity_usa.dds,#FFFFFF,Console,,Yes
+"Flintstones, The - The Treasure of Sierra Madrock (USA).sfc",bsnes_performance_libretro.dll,"Flintstones, The - The Treasure of Sierra Madrock (USA).sfc",flintstones_the_-_the_treasure_of_sierra_madrock_usa.dds,#FFFFFF,Console,,Yes
+"Flintstones, The (USA) (En,Fr,De,Es,It).sfc",bsnes_performance_libretro.dll,"Flintstones, The (USA) (En,Fr,De,Es,It).sfc",flintstones_the_usa.dds,#FFFFFF,Console,,Yes
+Football Fury (USA).sfc,bsnes_performance_libretro.dll,Football Fury (USA).sfc,football_fury_usa.dds,#FFFFFF,Console,,Yes
+Foreman For Real (USA).sfc,bsnes_performance_libretro.dll,Foreman For Real (USA).sfc,foreman_for_real_usa.dds,#FFFFFF,Console,,Yes
+Frank Thomas Big Hurt Baseball (USA).sfc,bsnes_performance_libretro.dll,Frank Thomas Big Hurt Baseball (USA).sfc,frank_thomas_big_hurt_baseball_usa.dds,#FFFFFF,Console,,Yes
+Frantic Flea (USA).sfc,bsnes_performance_libretro.dll,Frantic Flea (USA).sfc,frantic_flea_usa.dds,#FFFFFF,Console,,Yes
+Frogger (USA).sfc,bsnes_performance_libretro.dll,Frogger (USA).sfc,frogger_usa.dds,#FFFFFF,Console,,Yes
+Full Throttle Racing (USA).sfc,bsnes_performance_libretro.dll,Full Throttle Racing (USA).sfc,full_throttle_-_all-american_racing_usa.dds,#FFFFFF,Console,,Yes
+Fun 'n Games (USA).sfc,bsnes_performance_libretro.dll,Fun 'n Games (USA).sfc,fun_n_games_usa.dds,#FFFFFF,Console,,Yes
+Gemfire (USA).sfc,bsnes_performance_libretro.dll,Gemfire (USA).sfc,gemfire_usa.dds,#FFFFFF,Console,,Yes
+Genghis Khan II - Clan of the Gray Wolf (USA).sfc,bsnes_performance_libretro.dll,Genghis Khan II - Clan of the Gray Wolf (USA).sfc,genghis_khan_ii_-_clan_of_the_gray_wolf_usa.dds,#FFFFFF,Console,,Yes
+George Foreman's KO Boxing (USA).sfc,bsnes_performance_libretro.dll,George Foreman's KO Boxing (USA).sfc,george_foremans_ko_boxing_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Ghoul Patrol (USA).sfc,bsnes_performance_libretro.dll,Ghoul Patrol (USA).sfc,ghoul_patrol_usa.dds,#FFFFFF,Console,,Yes
+Gods (USA).sfc,bsnes_performance_libretro.dll,Gods (USA).sfc,gods_usa.dds,#FFFFFF,Console,,Yes
+Goof Troop (USA).sfc,bsnes_performance_libretro.dll,Goof Troop (USA).sfc,goof_troop_usa.dds,#FFFFFF,Console,,Yes
+GP-1 - Part II (USA).sfc,bsnes_performance_libretro.dll,GP-1 - Part II (USA).sfc,gp-1_-_part_ii_usa.dds,#FFFFFF,Console,,Yes
+GP-1 (USA).sfc,bsnes_performance_libretro.dll,GP-1 (USA).sfc,gp-1_usa.dds,#FFFFFF,Console,,Yes
+Gradius III (USA).sfc,bsnes_performance_libretro.dll,Gradius III (USA).sfc,gradius_iii_usa.dds,#FFFFFF,Console,,Yes
+"Great Circus Mystery Starring Mickey & Minnie, The (USA).sfc",bsnes_performance_libretro.dll,"Great Circus Mystery Starring Mickey & Minnie, The (USA).sfc",great_circus_mystery_starring_mickey_&_minnie_the_usa.dds,#FFFFFF,Console,,Yes
+"Great Waldo Search, The (USA).sfc",bsnes_performance_libretro.dll,"Great Waldo Search, The (USA).sfc",great_waldo_search_the_usa.dds,#FFFFFF,Console,,Yes
+Gunforce - Battle Fire Engulfed Terror Island (USA).sfc,bsnes_performance_libretro.dll,Gunforce - Battle Fire Engulfed Terror Island (USA).sfc,gunforce_-_battle_fire_engulfed_terror_island_usa.dds,#FFFFFF,Console,,Yes
+HAL's Hole in One Golf (USA).sfc,bsnes_performance_libretro.dll,HAL's Hole in One Golf (USA).sfc,hals_hole_in_one_golf_usa.dds,#FFFFFF,Console,,Yes
+Hammerlock Wrestling (USA).sfc,bsnes_performance_libretro.dll,Hammerlock Wrestling (USA).sfc,hammerlock_wrestling_usa.dds,#FFFFFF,Console,,Yes
+HardBall III (USA).sfc,bsnes_performance_libretro.dll,HardBall III (USA).sfc,hardball_iii_usa.dds,#FFFFFF,Console,,Yes
+Harley's Humongous Adventure (USA).sfc,bsnes_performance_libretro.dll,Harley's Humongous Adventure (USA).sfc,harleys_humongous_adventure_usa.dds,#FFFFFF,Console,,Yes
+Harvest Moon (USA).sfc,bsnes_performance_libretro.dll,Harvest Moon (USA).sfc,harvest_moon_usa.dds,#FFFFFF,Console,,Yes
+Head-On Soccer (USA).sfc,bsnes_performance_libretro.dll,Head-On Soccer (USA).sfc,head-on_soccer_usa.dds,#FFFFFF,Console,,Yes
+Hebereke's Popoitto (Europe).sfc,bsnes_performance_libretro.dll,Hebereke's Popoitto (Europe).sfc,heberekes_popoitto_europe.dds,#FFFFFF,Console,,Yes
+Hebereke's Popoon (Europe).sfc,bsnes_performance_libretro.dll,Hebereke's Popoon (Europe).sfc,heberekes_popoon_europe.dds,#FFFFFF,Console,,Yes
+Hit the Ice (USA).sfc,bsnes_performance_libretro.dll,Hit the Ice (USA).sfc,hit_the_ice_usa.dds,#FFFFFF,Console,,Yes
+Home Alone 2 - Lost in New York (USA).sfc,bsnes_performance_libretro.dll,Home Alone 2 - Lost in New York (USA).sfc,home_alone_2_-_lost_in_new_york_usa.dds,#FFFFFF,Console,,Yes
+Home Alone (USA).sfc,bsnes_performance_libretro.dll,Home Alone (USA).sfc,home_alone_usa.dds,#FFFFFF,Console,,Yes
+Home Improvement (USA).sfc,bsnes_performance_libretro.dll,Home Improvement (USA).sfc,home_improvement_usa.dds,#FFFFFF,Console,,Yes
+Hook (USA).sfc,bsnes_performance_libretro.dll,Hook (USA).sfc,hook_usa.dds,#FFFFFF,Console,,Yes
+"Humans, The (Europe).sfc",bsnes_performance_libretro.dll,"Humans, The (Europe).sfc",humans_the_europe.dds,#FFFFFF,Console,,Yes
+Hungry Dinosaurs (Europe).sfc,bsnes_performance_libretro.dll,Hungry Dinosaurs (Europe).sfc,hungry_dinosaurs_europe.dds,#FFFFFF,Console,,Yes
+"Hunt for Red October, The (USA).sfc",bsnes_performance_libretro.dll,"Hunt for Red October, The (USA).sfc",hunt_for_red_october_the_usa.dds,#FFFFFF,Console,,Yes
+Hurricanes (USA).sfc,bsnes_performance_libretro.dll,Hurricanes (USA).sfc,hurricanes_usa.dds,#FFFFFF,Console,,Yes
+HyperZone (USA).sfc,bsnes_performance_libretro.dll,HyperZone (USA).sfc,hyperzone_usa.dds,#FFFFFF,Console,,Yes
+Hyper V-Ball (USA).sfc,bsnes_performance_libretro.dll,Hyper V-Ball (USA).sfc,hyper_v-ball_usa.dds,#FFFFFF,Console,,Yes
+"Ignition Factor, The (USA).sfc",bsnes_performance_libretro.dll,"Ignition Factor, The (USA).sfc",ignition_factor_the_usa.dds,#FFFFFF,Console,,Yes
+Illusion of Gaia (USA).sfc,bsnes_performance_libretro.dll,Illusion of Gaia (USA).sfc,illusion_of_gaia_usa.dds,#FFFFFF,Console,,Yes
+Imperium (USA).sfc,bsnes_performance_libretro.dll,Imperium (USA).sfc,imperium_usa.dds,#FFFFFF,Console,,Yes
+Incantation (USA).sfc,bsnes_performance_libretro.dll,Incantation (USA).sfc,incantation_usa.dds,#FFFFFF,Console,,Yes
+"Incredible Crash Dummies, The (USA).sfc",bsnes_performance_libretro.dll,"Incredible Crash Dummies, The (USA).sfc",incredible_crash_dummies_the_usa.dds,#FFFFFF,Console,,Yes
+"Incredible Hulk, The (USA).sfc",bsnes_performance_libretro.dll,"Incredible Hulk, The (USA).sfc",incredible_hulk_the_usa.dds,#FFFFFF,Console,,Yes
+Indiana Jones' Greatest Adventures (USA).sfc,bsnes_performance_libretro.dll,Indiana Jones' Greatest Adventures (USA).sfc,indiana_jones_greatest_adventures_usa.dds,#FFFFFF,Console,,Yes
+Inindo - Way of the Ninja (USA).sfc,bsnes_performance_libretro.dll,Inindo - Way of the Ninja (USA).sfc,inindo_-_way_of_the_ninja_usa.dds,#FFFFFF,Console,,Yes
+Inspector Gadget (USA).sfc,bsnes_performance_libretro.dll,Inspector Gadget (USA).sfc,inspector_gadget_usa.dds,#FFFFFF,Console,,Yes
+International Superstar Soccer Deluxe (USA).sfc,bsnes_performance_libretro.dll,International Superstar Soccer Deluxe (USA).sfc,international_superstar_soccer_deluxe_usa.dds,#FFFFFF,Console,,Yes
+International Superstar Soccer (USA).sfc,bsnes_performance_libretro.dll,International Superstar Soccer (USA).sfc,international_superstar_soccer_usa.dds,#FFFFFF,Console,,Yes
+International Tennis Tour (USA).sfc,bsnes_performance_libretro.dll,International Tennis Tour (USA).sfc,international_tennis_tour_usa.dds,#FFFFFF,Console,,Yes
+"Irem Skins Game, The (USA).sfc",bsnes_performance_libretro.dll,"Irem Skins Game, The (USA).sfc",irem_skins_game_the_usa.dds,#FFFFFF,Console,,Yes
+"Itchy & Scratchy Game, The (USA).sfc",bsnes_performance_libretro.dll,"Itchy & Scratchy Game, The (USA).sfc",itchy_&_scratchy_game_the_usa.dds,#FFFFFF,Console,,Yes
+Izzy's Quest for the Olympic Rings (USA).sfc,bsnes_performance_libretro.dll,Izzy's Quest for the Olympic Rings (USA).sfc,izzys_quest_for_the_olympic_rings_usa.dds,#FFFFFF,Console,,Yes
+Jack Nicklaus Golf (USA).sfc,bsnes_performance_libretro.dll,Jack Nicklaus Golf (USA).sfc,jack_nicklaus_golf_usa.dds,#FFFFFF,Console,,Yes
+James Bond Jr. (USA).sfc,bsnes_performance_libretro.dll,James Bond Jr. (USA).sfc,james_bond_jr_usa.dds,#FFFFFF,Console,,Yes
+Jammit (USA).sfc,bsnes_performance_libretro.dll,Jammit (USA).sfc,jammit_usa.dds,#FFFFFF,Console,,Yes
+Jelly Boy (Europe).sfc,bsnes_performance_libretro.dll,Jelly Boy (Europe).sfc,jelly_boy_europe.dds,#FFFFFF,Console,,Yes
+Jeopardy! - Deluxe Edition (USA).sfc,bsnes_performance_libretro.dll,Jeopardy! - Deluxe Edition (USA).sfc,jeopardy_-_deluxe_edition_usa.dds,#FFFFFF,Console,,Yes
+Jeopardy! - Sports Edition (USA).sfc,bsnes_performance_libretro.dll,Jeopardy! - Sports Edition (USA).sfc,jeopardy_-_sports_edition_usa.dds,#FFFFFF,Console,,Yes
+Jeopardy! (USA).sfc,bsnes_performance_libretro.dll,Jeopardy! (USA).sfc,jeopardy_usa.dds,#FFFFFF,Console,,Yes
+"Jetsons, The - Invasion of the Planet Pirates (USA).sfc",bsnes_performance_libretro.dll,"Jetsons, The - Invasion of the Planet Pirates (USA).sfc",jetsons_the_-_invasion_of_the_planet_pirates_usa.dds,#FFFFFF,Console,,Yes
+Jimmy Connors Pro Tennis Tour (USA).sfc,bsnes_performance_libretro.dll,Jimmy Connors Pro Tennis Tour (USA).sfc,jimmy_connors_pro_tennis_tour_usa.dds,#FFFFFF,Console,,Yes
+Jimmy Houston's Bass Tournament U.S.A. (USA).sfc,bsnes_performance_libretro.dll,Jimmy Houston's Bass Tournament U.S.A. (USA).sfc,jimmy_houstons_bass_tournament_usa_usa.dds,#FFFFFF,Console,,Yes
+Jim Lee's WildC.A.T.S - Covert Action Teams (USA).sfc,bsnes_performance_libretro.dll,Jim Lee's WildC.A.T.S - Covert Action Teams (USA).sfc,jim_lees_wildcats_-_covert_action_teams_usa.dds,#FFFFFF,Console,,Yes
+Jim Power - The Lost Dimension in 3D (USA).sfc,bsnes_performance_libretro.dll,Jim Power - The Lost Dimension in 3D (USA).sfc,jim_power_-_the_lost_dimension_in_3d_usa.dds,#FFFFFF,Console,,Yes
+Joe & Mac 2 - Lost in the Tropics (USA).sfc,bsnes_performance_libretro.dll,Joe & Mac 2 - Lost in the Tropics (USA).sfc,joe_&_mac_2_-_lost_in_the_tropics_usa.dds,#FFFFFF,Console,,Yes
+Joe & Mac (USA).sfc,bsnes_performance_libretro.dll,Joe & Mac (USA).sfc,joe_&_mac_usa.dds,#FFFFFF,Console,,Yes
+John Madden Football '93 (USA).sfc,bsnes_performance_libretro.dll,John Madden Football '93 (USA).sfc,john_madden_football_93_usa_rev_1.dds,#FFFFFF,Console,,Yes
+John Madden Football (USA).sfc,bsnes_performance_libretro.dll,John Madden Football (USA).sfc,john_madden_football_usa.dds,#FFFFFF,Console,,Yes
+J.R.R. Tolkien's The Lord of the Rings - Volume One (USA).sfc,bsnes_performance_libretro.dll,J.R.R. Tolkien's The Lord of the Rings - Volume One (USA).sfc,jrr_tolkiens_the_lord_of_the_rings_-_volume_1_usa.dds,#FFFFFF,Console,,Yes
+Judge Dredd (USA).sfc,bsnes_performance_libretro.dll,Judge Dredd (USA).sfc,judge_dredd_usa.dds,#FFFFFF,Console,,Yes
+"Jungle Book, The (USA).sfc",bsnes_performance_libretro.dll,"Jungle Book, The (USA).sfc",jungle_book_the_usa.dds,#FFFFFF,Console,,Yes
+Jungle Strike (USA).sfc,bsnes_performance_libretro.dll,Jungle Strike (USA).sfc,jungle_strike_usa.dds,#FFFFFF,Console,,Yes
+"Jurassic Park II - The Chaos Continues (USA) (En,Fr,De,It).sfc",bsnes_performance_libretro.dll,"Jurassic Park II - The Chaos Continues (USA) (En,Fr,De,It).sfc",jurassic_park_ii_-_the_chaos_continues_usa.dds,#FFFFFF,Console,,Yes
+Jurassic Park (USA).sfc,bsnes_performance_libretro.dll,Jurassic Park (USA).sfc,jurassic_park_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Justice League Task Force (USA).sfc,bsnes_performance_libretro.dll,Justice League Task Force (USA).sfc,justice_league_task_force_usa.dds,#FFFFFF,Console,,Yes
+Kablooey (USA).sfc,bsnes_performance_libretro.dll,Kablooey (USA).sfc,kablooey_usa.dds,#FFFFFF,Console,,Yes
+Kawasaki Caribbean Challenge (USA).sfc,bsnes_performance_libretro.dll,Kawasaki Caribbean Challenge (USA).sfc,kawasaki_caribbean_challenge_usa.dds,#FFFFFF,Console,,Yes
+Kawasaki Superbike Challenge (USA).sfc,bsnes_performance_libretro.dll,Kawasaki Superbike Challenge (USA).sfc,kawasaki_superbike_challenge_usa.dds,#FFFFFF,Console,,Yes
+Kendo Rage (USA).sfc,bsnes_performance_libretro.dll,Kendo Rage (USA).sfc,kendo_rage_usa.dds,#FFFFFF,Console,,Yes
+Ken Griffey Jr.'s Winning Run (USA).sfc,bsnes_performance_libretro.dll,Ken Griffey Jr.'s Winning Run (USA).sfc,ken_griffey_jrs_winning_run_usa.dds,#FFFFFF,Console,,Yes
+Ken Griffey Jr. Presents Major League Baseball (USA).sfc,bsnes_performance_libretro.dll,Ken Griffey Jr. Presents Major League Baseball (USA).sfc,ken_griffey_jr_presents_major_league_baseball_usa.dds,#FFFFFF,Console,,Yes
+Kevin Keegan's Player Manager (Europe).sfc,bsnes_performance_libretro.dll,Kevin Keegan's Player Manager (Europe).sfc,kevin_keegans_player_manager_europe.dds,#FFFFFF,Console,,Yes
+"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It).sfc",bsnes_performance_libretro.dll,"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It).sfc",kick_off_3_-_european_challenge_europe.dds,#FFFFFF,Console,,Yes
+Kick Off (Europe).sfc,bsnes_performance_libretro.dll,Kick Off (Europe).sfc,kick_off_europe.dds,#FFFFFF,Console,,Yes
+Kid Klown in Crazy Chase (USA).sfc,bsnes_performance_libretro.dll,Kid Klown in Crazy Chase (USA).sfc,kid_klown_in_crazy_chase_usa.dds,#FFFFFF,Console,,Yes
+Killer Instinct (USA).sfc,bsnes_performance_libretro.dll,Killer Instinct (USA).sfc,killer_instinct_usa_rev_1.dds,#FFFFFF,Console,,Yes
+King Arthur's World (USA).sfc,bsnes_performance_libretro.dll,King Arthur's World (USA).sfc,king_arthurs_world_usa.dds,#FFFFFF,Console,,Yes
+King Arthur & The Knights of Justice (USA).sfc,bsnes_performance_libretro.dll,King Arthur & The Knights of Justice (USA).sfc,king_arthur_&_the_knights_of_justice_usa.dds,#FFFFFF,Console,,Yes
+"King of Dragons, The (USA).sfc",bsnes_performance_libretro.dll,"King of Dragons, The (USA).sfc",king_of_dragons_the_usa.dds,#FFFFFF,Console,,Yes
+King of the Monsters 2 (USA).sfc,bsnes_performance_libretro.dll,King of the Monsters 2 (USA).sfc,king_of_the_monsters_2_usa.dds,#FFFFFF,Console,,Yes
+King of the Monsters (USA).sfc,bsnes_performance_libretro.dll,King of the Monsters (USA).sfc,king_of_the_monsters_usa.dds,#FFFFFF,Console,,Yes
+Kirby's Avalanche (USA).sfc,bsnes_performance_libretro.dll,Kirby's Avalanche (USA).sfc,kirbys_avalanche_usa.dds,#FFFFFF,Console,,Yes
+Kirby's Dream Course (USA).sfc,bsnes_performance_libretro.dll,Kirby's Dream Course (USA).sfc,kirbys_dream_course_usa.dds,#FFFFFF,Console,,Yes
+Kirby's Dream Land 3 (USA).sfc,bsnes_performance_libretro.dll,Kirby's Dream Land 3 (USA).sfc,kirbys_dream_land_3_usa.dds,#FFFFFF,Console,,Yes
+Kirby Super Star (USA).sfc,bsnes_performance_libretro.dll,Kirby Super Star (USA).sfc,kirby_super_star_usa.dds,#FFFFFF,Console,,Yes
+Knights of the Round (USA).sfc,bsnes_performance_libretro.dll,Knights of the Round (USA).sfc,knights_of_the_round_usa.dds,#FFFFFF,Console,,Yes
+Krusty's Super Fun House (USA).sfc,bsnes_performance_libretro.dll,Krusty's Super Fun House (USA).sfc,krustys_super_fun_house_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Kyle Petty's No Fear Racing (USA).sfc,bsnes_performance_libretro.dll,Kyle Petty's No Fear Racing (USA).sfc,kyle_pettys_no_fear_racing_usa.dds,#FFFFFF,Console,,Yes
+Lagoon (USA).sfc,bsnes_performance_libretro.dll,Lagoon (USA).sfc,lagoon_usa.dds,#FFFFFF,Console,,Yes
+Lamborghini - American Challenge (USA).sfc,bsnes_performance_libretro.dll,Lamborghini - American Challenge (USA).sfc,lamborghini_american_challenge_usa.dds,#FFFFFF,Console,,Yes
+Last Action Hero (USA).sfc,bsnes_performance_libretro.dll,Last Action Hero (USA).sfc,last_action_hero_usa.dds,#FFFFFF,Console,,Yes
+"Lawnmower Man, The (USA).sfc",bsnes_performance_libretro.dll,"Lawnmower Man, The (USA).sfc",lawnmower_man_the_usa.dds,#FFFFFF,Console,,Yes
+"Legend of the Mystical Ninja, The (USA).sfc",bsnes_performance_libretro.dll,"Legend of the Mystical Ninja, The (USA).sfc",legend_of_the_mystical_ninja_the_usa.dds,#FFFFFF,Console,,Yes
+"Legend of Zelda, The - A Link to the Past (USA).sfc",bsnes_performance_libretro.dll,"Legend of Zelda, The - A Link to the Past (USA).sfc",legend_of_zelda_the_-_a_link_to_the_past_usa.dds,#FFFFFF,Console,,Yes
+Legend (USA).sfc,bsnes_performance_libretro.dll,Legend (USA).sfc,legend_usa.dds,#FFFFFF,Console,,Yes
+Lemmings 2 - The Tribes (USA).sfc,bsnes_performance_libretro.dll,Lemmings 2 - The Tribes (USA).sfc,lemmings_2_-_the_tribes_usa.dds,#FFFFFF,Console,,Yes
+Lemmings (USA).sfc,bsnes_performance_libretro.dll,Lemmings (USA).sfc,lemmings_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Lester the Unlikely (USA).sfc,bsnes_performance_libretro.dll,Lester the Unlikely (USA).sfc,lester_the_unlikely_usa.dds,#FFFFFF,Console,,Yes
+Lethal Enforcers (USA).sfc,bsnes_performance_libretro.dll,Lethal Enforcers (USA).sfc,lethal_enforcers_usa.dds,#FFFFFF,Console,,Yes
+Lethal Weapon (USA).sfc,bsnes_performance_libretro.dll,Lethal Weapon (USA).sfc,lethal_weapon_usa.dds,#FFFFFF,Console,,Yes
+Liberty or Death (USA).sfc,bsnes_performance_libretro.dll,Liberty or Death (USA).sfc,liberty_or_death_usa.dds,#FFFFFF,Console,,Yes
+"Lion King, The (USA).sfc",bsnes_performance_libretro.dll,"Lion King, The (USA).sfc",lion_king_the_usa.dds,#FFFFFF,Console,,Yes
+Lock On (USA).sfc,bsnes_performance_libretro.dll,Lock On (USA).sfc,lock_on_usa.dds,#FFFFFF,Console,,Yes
+Looney Tunes B-Ball (USA).sfc,bsnes_performance_libretro.dll,Looney Tunes B-Ball (USA).sfc,looney_tunes_b-ball_usa.dds,#FFFFFF,Console,,Yes
+"Lost Vikings II, The (USA).sfc",bsnes_performance_libretro.dll,"Lost Vikings II, The (USA).sfc",lost_vikings_2_usa.dds,#FFFFFF,Console,,Yes
+"Lost Vikings, The (USA).sfc",bsnes_performance_libretro.dll,"Lost Vikings, The (USA).sfc",lost_vikings_the_usa.dds,#FFFFFF,Console,,Yes
+Lucky Luke (Europe).sfc,bsnes_performance_libretro.dll,Lucky Luke (Europe).sfc,lucky_luke_europe.dds,#FFFFFF,Console,,Yes
+Lufia & The Fortress of Doom (USA).sfc,bsnes_performance_libretro.dll,Lufia & The Fortress of Doom (USA).sfc,lufia_&_the_fortress_of_doom_usa.dds,#FFFFFF,Console,,Yes
+Lufia II - Rise of the Sinistrals (USA).sfc,bsnes_performance_libretro.dll,Lufia II - Rise of the Sinistrals (USA).sfc,lufia_ii_-_rise_of_the_sinistrals_usa.dds,#FFFFFF,Console,,Yes
+Madden NFL '94 (USA).sfc,bsnes_performance_libretro.dll,Madden NFL '94 (USA).sfc,madden_nfl_94_usa.dds,#FFFFFF,Console,,Yes
+Madden NFL '95 (USA).sfc,bsnes_performance_libretro.dll,Madden NFL '95 (USA).sfc,madden_nfl_95_usa.dds,#FFFFFF,Console,,Yes
+Madden NFL '96 (USA).sfc,bsnes_performance_libretro.dll,Madden NFL '96 (USA).sfc,madden_nfl_96_usa.dds,#FFFFFF,Console,,Yes
+Madden NFL '97 (USA).sfc,bsnes_performance_libretro.dll,Madden NFL '97 (USA).sfc,madden_nfl_97_usa.dds,#FFFFFF,Console,,Yes
+Madden NFL '98 (USA).sfc,bsnes_performance_libretro.dll,Madden NFL '98 (USA).sfc,madden_nfl_98_usa.dds,#FFFFFF,Console,,Yes
+"Magical Quest Starring Mickey Mouse, The (USA).sfc",bsnes_performance_libretro.dll,"Magical Quest Starring Mickey Mouse, The (USA).sfc",magical_quest_starring_mickey_mouse_the_usa.dds,#FFFFFF,Console,,Yes
+Magic Boy (USA).sfc,bsnes_performance_libretro.dll,Magic Boy (USA).sfc,magic_boy_usa.dds,#FFFFFF,Console,,Yes
+Magic Sword (USA).sfc,bsnes_performance_libretro.dll,Magic Sword (USA).sfc,magic_sword_usa.dds,#FFFFFF,Console,,Yes
+Manchester United Championship Soccer (Europe).sfc,bsnes_performance_libretro.dll,Manchester United Championship Soccer (Europe).sfc,manchester_united_championship_soccer_europe.dds,#FFFFFF,Console,,Yes
+Mario's Early Years! - Fun with Letters (USA).sfc,bsnes_performance_libretro.dll,Mario's Early Years! - Fun with Letters (USA).sfc,marios_early_years_-_fun_with_letters_usa.dds,#FFFFFF,Console,,Yes
+Mario's Early Years! - Fun with Numbers (USA).sfc,bsnes_performance_libretro.dll,Mario's Early Years! - Fun with Numbers (USA).sfc,marios_early_years_-_fun_with_numbers_usa.dds,#FFFFFF,Console,,Yes
+Mario's Early Years! - Preschool Fun (USA).sfc,bsnes_performance_libretro.dll,Mario's Early Years! - Preschool Fun (USA).sfc,marios_early_years_-_preschool_fun_usa.dds,#FFFFFF,Console,,Yes
+Mario's Time Machine (USA).sfc,bsnes_performance_libretro.dll,Mario's Time Machine (USA).sfc,marios_time_machine_usa.dds,#FFFFFF,Console,,Yes
+Mario is Missing! (USA).sfc,bsnes_performance_libretro.dll,Mario is Missing! (USA).sfc,mario_is_missing_usa.dds,#FFFFFF,Console,,Yes
+"Mario Paint (Japan, USA).sfc",bsnes_performance_libretro.dll,"Mario Paint (Japan, USA).sfc",mario_paint_japan_usa.dds,#FFFFFF,Console,,Yes
+"Marko's Magic Football (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Marko's Magic Football (Europe) (En,Fr,De,Es).sfc",markos_magic_football_europe.dds,#FFFFFF,Console,,Yes
+Mark Davis' The Fishing Master (USA).sfc,bsnes_performance_libretro.dll,Mark Davis' The Fishing Master (USA).sfc,mark_davis_the_fishing_master_usa.dds,#FFFFFF,Console,,Yes
+Marvel Super Heroes - War of the Gems (USA).sfc,bsnes_performance_libretro.dll,Marvel Super Heroes - War of the Gems (USA).sfc,marvel_super_heroes_-_war_of_the_gems_usa.dds,#FFFFFF,Console,,Yes
+Mary Shelley's Frankenstein (USA).sfc,bsnes_performance_libretro.dll,Mary Shelley's Frankenstein (USA).sfc,mary_shelleys_frankenstein_usa.dds,#FFFFFF,Console,,Yes
+"Mask, The (USA).sfc",bsnes_performance_libretro.dll,"Mask, The (USA).sfc",mask_the_usa.dds,#FFFFFF,Console,,Yes
+Math Blaster - Episode One (USA).sfc,bsnes_performance_libretro.dll,Math Blaster - Episode One (USA).sfc,math_blaster_-_episode_1_usa.dds,#FFFFFF,Console,,Yes
+Maui Mallard in Cold Shadow (USA).sfc,bsnes_performance_libretro.dll,Maui Mallard in Cold Shadow (USA).sfc,maui_mallard_in_cold_shadow_usa.dds,#FFFFFF,Console,,Yes
+Mecarobot Golf (USA).sfc,bsnes_performance_libretro.dll,Mecarobot Golf (USA).sfc,mecarobot_golf_usa.dds,#FFFFFF,Console,,Yes
+Mechwarrior 3050 (USA).sfc,bsnes_performance_libretro.dll,Mechwarrior 3050 (USA).sfc,mechwarrior_3050_usa.dds,#FFFFFF,Console,,Yes
+Mechwarrior (USA).sfc,bsnes_performance_libretro.dll,Mechwarrior (USA).sfc,mechwarrior_usa.dds,#FFFFFF,Console,,Yes
+"Mega lo Mania (Europe) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Mega lo Mania (Europe) (En,Fr,De).sfc",mega_lo_mania_europe.dds,#FFFFFF,Console,,Yes
+Megaman VII (USA).sfc,bsnes_performance_libretro.dll,Megaman VII (USA).sfc,mega_man_7_usa.dds,#FFFFFF,Console,,Yes
+Megaman's Soccer (USA).sfc,bsnes_performance_libretro.dll,Megaman's Soccer (USA).sfc,mega_man_soccer_usa.dds,#FFFFFF,Console,,Yes
+Megaman X2 (USA).sfc,bsnes_performance_libretro.dll,Megaman X2 (USA).sfc,mega_man_x2_usa.dds,#FFFFFF,Console,,Yes
+Megaman X3 (USA).sfc,bsnes_performance_libretro.dll,Megaman X3 (USA).sfc,mega_man_x3_usa.dds,#FFFFFF,Console,,Yes
+Megaman X (USA).sfc,bsnes_performance_libretro.dll,Megaman X (USA).sfc,mega_man_x_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Metal Combat - Falcon's Revenge (USA).sfc,bsnes_performance_libretro.dll,Metal Combat - Falcon's Revenge (USA).sfc,metal_combat_-_falcons_revenge_usa.dds,#FFFFFF,Console,,Yes
+Metal Marines (USA).sfc,bsnes_performance_libretro.dll,Metal Marines (USA).sfc,metal_marines_usa.dds,#FFFFFF,Console,,Yes
+Metal Morph (USA).sfc,bsnes_performance_libretro.dll,Metal Morph (USA).sfc,metal_morph_usa.dds,#FFFFFF,Console,,Yes
+Metal Warriors (USA).sfc,bsnes_performance_libretro.dll,Metal Warriors (USA).sfc,metal_warriors_usa.dds,#FFFFFF,Console,,Yes
+Michael Andretti's IndyCar Challenge (USA).sfc,bsnes_performance_libretro.dll,Michael Andretti's IndyCar Challenge (USA).sfc,michael_andrettis_indycar_challenge_usa.dds,#FFFFFF,Console,,Yes
+Michael Jordan - Chaos in the Windy City (USA).sfc,bsnes_performance_libretro.dll,Michael Jordan - Chaos in the Windy City (USA).sfc,michael_jordan_-_chaos_in_the_windy_city_usa.dds,#FFFFFF,Console,,Yes
+Mickey's Ultimate Challenge (USA).sfc,bsnes_performance_libretro.dll,Mickey's Ultimate Challenge (USA).sfc,mickeys_ultimate_challenge_usa.dds,#FFFFFF,Console,,Yes
+Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).sfc,bsnes_performance_libretro.dll,Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).sfc,mickey_mania_-_the_timeless_adventures_of_mickey_mouse_usa.dds,#FFFFFF,Console,,Yes
+Micro Machines 2 - Turbo Tournament (Europe).sfc,bsnes_performance_libretro.dll,Micro Machines 2 - Turbo Tournament (Europe).sfc,micro_machines_2_-_turbo_tournament_europe.dds,#FFFFFF,Console,,Yes
+Micro Machines (USA).sfc,bsnes_performance_libretro.dll,Micro Machines (USA).sfc,micro_machines_usa.dds,#FFFFFF,Console,,Yes
+Mighty Max (USA).sfc,bsnes_performance_libretro.dll,Mighty Max (USA).sfc,mighty_max_usa.dds,#FFFFFF,Console,,Yes
+Mighty Morphin Power Rangers - The Fighting Edition (USA).sfc,bsnes_performance_libretro.dll,Mighty Morphin Power Rangers - The Fighting Edition (USA).sfc,mighty_morphin_power_rangers_-_the_fighting_edition_usa.dds,#FFFFFF,Console,,Yes
+Mighty Morphin Power Rangers - The Movie (USA).sfc,bsnes_performance_libretro.dll,Mighty Morphin Power Rangers - The Movie (USA).sfc,mighty_morphin_power_rangers_-_the_movie_usa.dds,#FFFFFF,Console,,Yes
+Mighty Morphin Power Rangers (USA).sfc,bsnes_performance_libretro.dll,Mighty Morphin Power Rangers (USA).sfc,mighty_morphin_power_rangers_usa.dds,#FFFFFF,Console,,Yes
+Might and Magic III - Isles of Terra (USA).sfc,bsnes_performance_libretro.dll,Might and Magic III - Isles of Terra (USA).sfc,might_and_magic_iii_-_isles_of_terra_usa.dds,#FFFFFF,Console,,Yes
+MLBPA Baseball (USA).sfc,bsnes_performance_libretro.dll,MLBPA Baseball (USA).sfc,mlbpa_baseball_usa.dds,#FFFFFF,Console,,Yes
+Mohawk & Headphone Jack (USA).sfc,bsnes_performance_libretro.dll,Mohawk & Headphone Jack (USA).sfc,mohawk_&_headphone_jack_usa.dds,#FFFFFF,Console,,Yes
+Monopoly (USA).sfc,bsnes_performance_libretro.dll,Monopoly (USA).sfc,monopoly_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Mortal Kombat 3 (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat 3 (USA).sfc,mortal_kombat_3_usa.dds,#FFFFFF,Console,,Yes
+Mortal Kombat II (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat II (USA).sfc,mortal_kombat_ii_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Mortal Kombat (USA).sfc,bsnes_performance_libretro.dll,Mortal Kombat (USA).sfc,mortal_kombat_usa.dds,#FFFFFF,Console,,Yes
+Mr. Do! (USA).sfc,bsnes_performance_libretro.dll,Mr. Do! (USA).sfc,mr_do_usa.dds,#FFFFFF,Console,,Yes
+"Mr Nutz (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,"Mr Nutz (USA) (En,Fr).sfc",mr_nutz_usa.dds,#FFFFFF,Console,,Yes
+Ms. Pac-Man (USA).sfc,bsnes_performance_libretro.dll,Ms. Pac-Man (USA).sfc,ms_pac-man_usa.dds,#FFFFFF,Console,,Yes
+Musya (USA).sfc,bsnes_performance_libretro.dll,Musya (USA).sfc,musya_usa.dds,#FFFFFF,Console,,Yes
+Natsume Championship Wrestling (USA).sfc,bsnes_performance_libretro.dll,Natsume Championship Wrestling (USA).sfc,natsume_championship_wrestling_usa.dds,#FFFFFF,Console,,Yes
+NBA All-Star Challenge (USA).sfc,bsnes_performance_libretro.dll,NBA All-Star Challenge (USA).sfc,nba_all-star_challenge_usa.dds,#FFFFFF,Console,,Yes
+NBA Give 'n Go (USA).sfc,bsnes_performance_libretro.dll,NBA Give 'n Go (USA).sfc,nba_give_n_go_usa.dds,#FFFFFF,Console,,Yes
+NBA Hang Time (USA).sfc,bsnes_performance_libretro.dll,NBA Hang Time (USA).sfc,nba_hang_time_usa.dds,#FFFFFF,Console,,Yes
+NBA Jam - Tournament Edition (USA).sfc,bsnes_performance_libretro.dll,NBA Jam - Tournament Edition (USA).sfc,nba_jam_-_tournament_edition_usa.dds,#FFFFFF,Console,,Yes
+NBA Jam (USA).sfc,bsnes_performance_libretro.dll,NBA Jam (USA).sfc,nba_jam_usa_rev_1.dds,#FFFFFF,Console,,Yes
+NBA Live '95 (USA).sfc,bsnes_performance_libretro.dll,NBA Live '95 (USA).sfc,nba_live_95_usa.dds,#FFFFFF,Console,,Yes
+NBA Live '96 (USA).sfc,bsnes_performance_libretro.dll,NBA Live '96 (USA).sfc,nba_live_96_usa.dds,#FFFFFF,Console,,Yes
+NBA Live '97 (USA).sfc,bsnes_performance_libretro.dll,NBA Live '97 (USA).sfc,nba_live_97_usa.dds,#FFFFFF,Console,,Yes
+NBA Live '98 (USA).sfc,bsnes_performance_libretro.dll,NBA Live '98 (USA).sfc,nba_live_98_usa.dds,#FFFFFF,Console,,Yes
+NBA Showdown (USA).sfc,bsnes_performance_libretro.dll,NBA Showdown (USA).sfc,nba_showdown_usa.dds,#FFFFFF,Console,,Yes
+NCAA Basketball (USA).sfc,bsnes_performance_libretro.dll,NCAA Basketball (USA).sfc,ncaa_basketball_usa_rev_1.dds,#FFFFFF,Console,,Yes
+NCAA Final Four Basketball (USA).sfc,bsnes_performance_libretro.dll,NCAA Final Four Basketball (USA).sfc,ncaa_final_four_basketball_usa.dds,#FFFFFF,Console,,Yes
+NCAA Football (USA).sfc,bsnes_performance_libretro.dll,NCAA Football (USA).sfc,ncaa_football_usa.dds,#FFFFFF,Console,,Yes
+Newman-Haas IndyCar Racing featuring Nigel Mansell (USA).sfc,bsnes_performance_libretro.dll,Newman-Haas IndyCar Racing featuring Nigel Mansell (USA).sfc,newman-haas_indycar_featuring_nigel_mansell_usa.dds,#FFFFFF,Console,,Yes
+Uncharted Waters - New Horizons (USA).sfc,bsnes_performance_libretro.dll,Uncharted Waters - New Horizons (USA).sfc,new_horizons_usa.dds,#FFFFFF,Console,,Yes
+NFL Football (USA).sfc,bsnes_performance_libretro.dll,NFL Football (USA).sfc,nfl_football_usa.dds,#FFFFFF,Console,,Yes
+NFL Quarterback Club '96 (USA).sfc,bsnes_performance_libretro.dll,NFL Quarterback Club '96 (USA).sfc,nfl_quarterback_club_96_usa.dds,#FFFFFF,Console,,Yes
+NFL Quarterback Club (USA).sfc,bsnes_performance_libretro.dll,NFL Quarterback Club (USA).sfc,nfl_quarterback_club_usa.dds,#FFFFFF,Console,,Yes
+NHLPA Hockey '93 (USA).sfc,bsnes_performance_libretro.dll,NHLPA Hockey '93 (USA).sfc,nhlpa_hockey_93_usa.dds,#FFFFFF,Console,,Yes
+NHL '94 (USA).sfc,bsnes_performance_libretro.dll,NHL '94 (USA).sfc,nhl_94_usa.dds,#FFFFFF,Console,,Yes
+NHL '95 (USA).sfc,bsnes_performance_libretro.dll,NHL '95 (USA).sfc,nhl_95_usa.dds,#FFFFFF,Console,,Yes
+NHL '96 (USA).sfc,bsnes_performance_libretro.dll,NHL '96 (USA).sfc,nhl_96_usa.dds,#FFFFFF,Console,,Yes
+NHL '97 (USA).sfc,bsnes_performance_libretro.dll,NHL '97 (USA).sfc,nhl_97_usa.dds,#FFFFFF,Console,,Yes
+NHL '98 (USA).sfc,bsnes_performance_libretro.dll,NHL '98 (USA).sfc,nhl_98_usa.dds,#FFFFFF,Console,,Yes
+"NHL Stanley Cup (USA) (En,Fr).sfc",bsnes_performance_libretro.dll,"NHL Stanley Cup (USA) (En,Fr).sfc",nhl_stanley_cup_usa.dds,#FFFFFF,Console,,Yes
+Nickelodeon GUTS (USA).sfc,bsnes_performance_libretro.dll,Nickelodeon GUTS (USA).sfc,nickelodeon_guts_usa.dds,#FFFFFF,Console,,Yes
+Nigel Mansell's World Championship Racing (USA).sfc,bsnes_performance_libretro.dll,Nigel Mansell's World Championship Racing (USA).sfc,nigel_mansells_world_championship_racing_usa.dds,#FFFFFF,Console,,Yes
+"Ninjawarriors, The (USA).sfc",bsnes_performance_libretro.dll,"Ninjawarriors, The (USA).sfc",ninjawarriors_the_usa.dds,#FFFFFF,Console,,Yes
+Ninja Gaiden Trilogy (USA).sfc,bsnes_performance_libretro.dll,Ninja Gaiden Trilogy (USA).sfc,ninja_gaiden_trilogy_usa.dds,#FFFFFF,Console,,Yes
+Nobunaga's Ambition - Lord of Darkness (USA).sfc,bsnes_performance_libretro.dll,Nobunaga's Ambition - Lord of Darkness (USA).sfc,nobunagas_ambition_-_lord_of_darkness_usa.dds,#FFFFFF,Console,,Yes
+Nobunaga's Ambition (USA).sfc,bsnes_performance_libretro.dll,Nobunaga's Ambition (USA).sfc,nobunagas_ambition_usa.dds,#FFFFFF,Console,,Yes
+Nolan Ryan's Baseball (USA).sfc,bsnes_performance_libretro.dll,Nolan Ryan's Baseball (USA).sfc,nolan_ryans_baseball_usa.dds,#FFFFFF,Console,,Yes
+Nosferatu (USA).sfc,bsnes_performance_libretro.dll,Nosferatu (USA).sfc,nosferatu_usa.dds,#FFFFFF,Console,,Yes
+No Escape (USA).sfc,bsnes_performance_libretro.dll,No Escape (USA).sfc,no_escape_usa.dds,#FFFFFF,Console,,Yes
+Obitus (USA).sfc,bsnes_performance_libretro.dll,Obitus (USA).sfc,obitus_usa.dds,#FFFFFF,Console,,Yes
+Ogre Battle - The March of the Black Queen (USA).sfc,bsnes_performance_libretro.dll,Ogre Battle - The March of the Black Queen (USA).sfc,ogre_battle_-_the_march_of_the_black_queen_usa.dds,#FFFFFF,Console,,Yes
+Olympic Summer Games (USA).sfc,bsnes_performance_libretro.dll,Olympic Summer Games (USA).sfc,olympic_summer_games_usa.dds,#FFFFFF,Console,,Yes
+On the Ball (USA).sfc,bsnes_performance_libretro.dll,On the Ball (USA).sfc,on_the_ball_usa.dds,#FFFFFF,Console,,Yes
+Operation Europe - Path to Victory 1939-45 (USA).sfc,bsnes_performance_libretro.dll,Operation Europe - Path to Victory 1939-45 (USA).sfc,operation_europe_-_path_to_victory_1939-45_usa.dds,#FFFFFF,Console,,Yes
+Operation Logic Bomb (USA).sfc,bsnes_performance_libretro.dll,Operation Logic Bomb (USA).sfc,operation_logic_bomb_usa.dds,#FFFFFF,Console,,Yes
+James Pond 3 - Operation Starfish (Europe).sfc,bsnes_performance_libretro.dll,James Pond 3 - Operation Starfish (Europe).sfc,operation_starfi5h_europe.dds,#FFFFFF,Console,,Yes
+Operation Thunderbolt (USA).sfc,bsnes_performance_libretro.dll,Operation Thunderbolt (USA).sfc,operation_thunderbolt_usa.dds,#FFFFFF,Console,,Yes
+Oscar (USA).sfc,bsnes_performance_libretro.dll,Oscar (USA).sfc,oscar_usa.dds,#FFFFFF,Console,,Yes
+Outlander (USA).sfc,bsnes_performance_libretro.dll,Outlander (USA).sfc,outlander_usa.dds,#FFFFFF,Console,,Yes
+Out of This World (USA).sfc,bsnes_performance_libretro.dll,Out of This World (USA).sfc,out_of_this_world_usa.dds,#FFFFFF,Console,,Yes
+Out to Lunch (USA).sfc,bsnes_performance_libretro.dll,Out to Lunch (USA).sfc,out_to_lunch_usa.dds,#FFFFFF,Console,,Yes
+Pac-Attack (USA).sfc,bsnes_performance_libretro.dll,Pac-Attack (USA).sfc,pac-attack_usa.dds,#FFFFFF,Console,,Yes
+Pac-in-Time (USA).sfc,bsnes_performance_libretro.dll,Pac-in-Time (USA).sfc,pac-in-time_usa.dds,#FFFFFF,Console,,Yes
+Pac-Man 2 - The New Adventures (USA).sfc,bsnes_performance_libretro.dll,Pac-Man 2 - The New Adventures (USA).sfc,pac-man_2_-_the_new_adventures_usa.dds,#FFFFFF,Console,,Yes
+"Packy & Marlon (USA) (En,Fr,Es).sfc",bsnes_performance_libretro.dll,"Packy & Marlon (USA) (En,Fr,Es).sfc",packy_&_marlon_usa.dds,#FFFFFF,Console,,Yes
+"Pagemaster, The (USA).sfc",bsnes_performance_libretro.dll,"Pagemaster, The (USA).sfc",pagemaster_the_usa.dds,#FFFFFF,Console,,Yes
+Paladin's Quest (USA).sfc,bsnes_performance_libretro.dll,Paladin's Quest (USA).sfc,paladins_quest_usa.dds,#FFFFFF,Console,,Yes
+Paperboy 2 (USA).sfc,bsnes_performance_libretro.dll,Paperboy 2 (USA).sfc,paperboy_2_usa.dds,#FFFFFF,Console,,Yes
+Parodius - Non-Sense Fantasy (Europe).sfc,bsnes_performance_libretro.dll,Parodius - Non-Sense Fantasy (Europe).sfc,parodius_europe.dds,#FFFFFF,Console,,Yes
+"Peace Keepers, The (USA).sfc",bsnes_performance_libretro.dll,"Peace Keepers, The (USA).sfc",peace_keepers_the_usa.dds,#FFFFFF,Console,,Yes
+PGA European Tour (USA).sfc,bsnes_performance_libretro.dll,PGA European Tour (USA).sfc,pga_european_tour_usa.dds,#FFFFFF,Console,,Yes
+PGA Tour '96 (USA).sfc,bsnes_performance_libretro.dll,PGA Tour '96 (USA).sfc,pga_tour_96_usa.dds,#FFFFFF,Console,,Yes
+PGA Tour Golf (USA).sfc,bsnes_performance_libretro.dll,PGA Tour Golf (USA).sfc,pga_tour_golf_usa.dds,#FFFFFF,Console,,Yes
+Phalanx - The Enforce Fighter A-144 (USA).sfc,bsnes_performance_libretro.dll,Phalanx - The Enforce Fighter A-144 (USA).sfc,phalanx_-_the_enforce_fighter_a-144_usa.dds,#FFFFFF,Console,,Yes
+Phantom 2040 (USA).sfc,bsnes_performance_libretro.dll,Phantom 2040 (USA).sfc,phantom_2040_usa.dds,#FFFFFF,Console,,Yes
+Pieces (USA).sfc,bsnes_performance_libretro.dll,Pieces (USA).sfc,pieces_usa.dds,#FFFFFF,Console,,Yes
+Pilotwings (USA).sfc,bsnes_performance_libretro.dll,Pilotwings (USA).sfc,pilotwings_usa.dds,#FFFFFF,Console,,Yes
+Pinball Dreams (USA).sfc,bsnes_performance_libretro.dll,Pinball Dreams (USA).sfc,pinball_dreams_usa.dds,#FFFFFF,Console,,Yes
+Pinball Fantasies (USA).sfc,bsnes_performance_libretro.dll,Pinball Fantasies (USA).sfc,pinball_fantasies_usa.dds,#FFFFFF,Console,,Yes
+Pink Panther in Pink Goes to Hollywood (USA).sfc,bsnes_performance_libretro.dll,Pink Panther in Pink Goes to Hollywood (USA).sfc,pink_goes_to_hollywood_usa.dds,#FFFFFF,Console,,Yes
+Pinocchio (USA).sfc,bsnes_performance_libretro.dll,Pinocchio (USA).sfc,pinocchio_usa.dds,#FFFFFF,Console,,Yes
+"Pirates of Dark Water, The (USA).sfc",bsnes_performance_libretro.dll,"Pirates of Dark Water, The (USA).sfc",pirates_of_dark_water_the_usa.dds,#FFFFFF,Console,,Yes
+Pit-Fighter (USA).sfc,bsnes_performance_libretro.dll,Pit-Fighter (USA).sfc,pit-fighter_usa.dds,#FFFFFF,Console,,Yes
+Pitfall - The Mayan Adventure (USA).sfc,bsnes_performance_libretro.dll,Pitfall - The Mayan Adventure (USA).sfc,pitfall_-_the_mayan_adventure_usa.dds,#FFFFFF,Console,,Yes
+Plok! (USA).sfc,bsnes_performance_libretro.dll,Plok! (USA).sfc,plok_usa.dds,#FFFFFF,Console,,Yes
+Pocky & Rocky 2 (USA).sfc,bsnes_performance_libretro.dll,Pocky & Rocky 2 (USA).sfc,pocky_&_rocky_2_usa.dds,#FFFFFF,Console,,Yes
+Pocky & Rocky (USA).sfc,bsnes_performance_libretro.dll,Pocky & Rocky (USA).sfc,pocky_&_rocky_usa.dds,#FFFFFF,Console,,Yes
+Pop'n TwinBee - Rainbow Bell Adventures (Europe).sfc,bsnes_performance_libretro.dll,Pop'n TwinBee - Rainbow Bell Adventures (Europe).sfc,popn_twinbee_-_rainbow_bell_adventures_europe.dds,#FFFFFF,Console,,Yes
+Pop'n TwinBee (Europe).sfc,bsnes_performance_libretro.dll,Pop'n TwinBee (Europe).sfc,popn_twinbee_europe.dds,#FFFFFF,Console,,Yes
+Populous II - Trials of the Olympian Gods (Europe).sfc,bsnes_performance_libretro.dll,Populous II - Trials of the Olympian Gods (Europe).sfc,populous_ii_-_trials_of_the_olympian_gods_europe.dds,#FFFFFF,Console,,Yes
+Populous (USA).sfc,bsnes_performance_libretro.dll,Populous (USA).sfc,populous_usa.dds,#FFFFFF,Console,,Yes
+Porky Pig's Haunted Holiday (USA).sfc,bsnes_performance_libretro.dll,Porky Pig's Haunted Holiday (USA).sfc,porky_pigs_haunted_holiday_usa.dds,#FFFFFF,Console,,Yes
+PowerMonger (Europe).sfc,bsnes_performance_libretro.dll,PowerMonger (Europe).sfc,powermonger_europe.dds,#FFFFFF,Console,,Yes
+"Power Drive (Europe) (En,Fr,De,Es,Pt).sfc",bsnes_performance_libretro.dll,"Power Drive (Europe) (En,Fr,De,Es,Pt).sfc",power_drive_europe.dds,#FFFFFF,Console,,Yes
+Power Instinct (USA).sfc,bsnes_performance_libretro.dll,Power Instinct (USA).sfc,power_instinct_usa.dds,#FFFFFF,Console,,Yes
+Power Moves (USA).sfc,bsnes_performance_libretro.dll,Power Moves (USA).sfc,power_moves_usa.dds,#FFFFFF,Console,,Yes
+Power Piggs of the Dark Age (USA).sfc,bsnes_performance_libretro.dll,Power Piggs of the Dark Age (USA).sfc,power_piggs_of_the_dark_age_usa.dds,#FFFFFF,Console,,Yes
+Power Rangers Zeo - Battle Racers (USA).sfc,bsnes_performance_libretro.dll,Power Rangers Zeo - Battle Racers (USA).sfc,power_rangers_zeo_-_battle_racers_usa.dds,#FFFFFF,Console,,Yes
+Prehistorik Man (USA).sfc,bsnes_performance_libretro.dll,Prehistorik Man (USA).sfc,prehistorik_man_usa.dds,#FFFFFF,Console,,Yes
+Primal Rage (USA).sfc,bsnes_performance_libretro.dll,Primal Rage (USA).sfc,primal_rage_usa.dds,#FFFFFF,Console,,Yes
+Prince of Persia 2 - The Shadow & The Flame (USA).sfc,bsnes_performance_libretro.dll,Prince of Persia 2 - The Shadow & The Flame (USA).sfc,prince_of_persia_2_-_the_shadow_&_the_flame_usa.dds,#FFFFFF,Console,,Yes
+Prince of Persia (USA).sfc,bsnes_performance_libretro.dll,Prince of Persia (USA).sfc,prince_of_persia_usa.dds,#FFFFFF,Console,,Yes
+Pro Quarterback (USA).sfc,bsnes_performance_libretro.dll,Pro Quarterback (USA).sfc,pro_quarterback_usa.dds,#FFFFFF,Console,,Yes
+Pro Sport Hockey (USA).sfc,bsnes_performance_libretro.dll,Pro Sport Hockey (USA).sfc,pro_sport_hockey_usa.dds,#FFFFFF,Console,,Yes
+Pacific Theater of Operations (USA).sfc,bsnes_performance_libretro.dll,Pacific Theater of Operations (USA).sfc,pto_-_pacific_theater_of_operations_usa.dds,#FFFFFF,Console,,Yes
+Pacific Theater of Operations II (USA).sfc,bsnes_performance_libretro.dll,Pacific Theater of Operations II (USA).sfc,pto_ii_-_pacific_theater_of_operations_usa.dds,#FFFFFF,Console,,Yes
+Push-Over (USA).sfc,bsnes_performance_libretro.dll,Push-Over (USA).sfc,push-over_usa.dds,#FFFFFF,Console,,Yes
+Putty Squad (Europe).sfc,bsnes_performance_libretro.dll,Putty Squad (Europe).sfc,putty_squad_europe.dds,#FFFFFF,Console,,Yes
+Q-bert 3 (USA).sfc,bsnes_performance_libretro.dll,Q-bert 3 (USA).sfc,q-bert_3_usa.dds,#FFFFFF,Console,,Yes
+R-Type III - The Third Lightning (USA).sfc,bsnes_performance_libretro.dll,R-Type III - The Third Lightning (USA).sfc,r-type_iii_-_the_third_lightning_usa.dds,#FFFFFF,Console,,Yes
+Race Drivin' (USA).sfc,bsnes_performance_libretro.dll,Race Drivin' (USA).sfc,race_drivin_usa.dds,#FFFFFF,Console,,Yes
+Radical Rex (USA).sfc,bsnes_performance_libretro.dll,Radical Rex (USA).sfc,radical_rex_usa.dds,#FFFFFF,Console,,Yes
+Raiden Trad (USA).sfc,bsnes_performance_libretro.dll,Raiden Trad (USA).sfc,raiden_trad_usa.dds,#FFFFFF,Console,,Yes
+Rampart (USA).sfc,bsnes_performance_libretro.dll,Rampart (USA).sfc,rampart_usa.dds,#FFFFFF,Console,,Yes
+Ranma 1-2 - Hard Battle (USA).sfc,bsnes_performance_libretro.dll,Ranma 1-2 - Hard Battle (USA).sfc,ranma_1-2_-_hard_battle_usa.dds,#FFFFFF,Console,,Yes
+"Rap Jam - Volume One (USA) (En,Fr,Es).sfc",bsnes_performance_libretro.dll,"Rap Jam - Volume One (USA) (En,Fr,Es).sfc",rap_jam_-_volume_one_usa.dds,#FFFFFF,Console,,Yes
+Realm (USA).sfc,bsnes_performance_libretro.dll,Realm (USA).sfc,realm_usa.dds,#FFFFFF,Console,,Yes
+Redline F-1 Racer (USA).sfc,bsnes_performance_libretro.dll,Redline F-1 Racer (USA).sfc,redline_f-1_racer_usa.dds,#FFFFFF,Console,,Yes
+Relief Pitcher (USA).sfc,bsnes_performance_libretro.dll,Relief Pitcher (USA).sfc,relief_pitcher_usa.dds,#FFFFFF,Console,,Yes
+"Ren & Stimpy Show, The - Buckeroos! (USA).sfc",bsnes_performance_libretro.dll,"Ren & Stimpy Show, The - Buckeroos! (USA).sfc",ren_&_stimpy_show_the_-_buckeroos_usa.dds,#FFFFFF,Console,,Yes
+"Ren & Stimpy Show, The - Fire Dogs (USA).sfc",bsnes_performance_libretro.dll,"Ren & Stimpy Show, The - Fire Dogs (USA).sfc",ren_&_stimpy_show_the_-_fire_dogs_usa.dds,#FFFFFF,Console,,Yes
+"Ren & Stimpy Show, The - Time Warp (USA).sfc",bsnes_performance_libretro.dll,"Ren & Stimpy Show, The - Time Warp (USA).sfc",ren_&_stimpy_show_the_-_time_warp_usa.dds,#FFFFFF,Console,,Yes
+"Ren & Stimpy Show, The - Veediots! (USA).sfc",bsnes_performance_libretro.dll,"Ren & Stimpy Show, The - Veediots! (USA).sfc",ren_&_stimpy_show_the_-_veediots_usa.dds,#FFFFFF,Console,,Yes
+Revolution X (USA).sfc,bsnes_performance_libretro.dll,Revolution X (USA).sfc,revolution_x_usa.dds,#FFFFFF,Console,,Yes
+Rex Ronan - Experimental Surgeon (USA).sfc,bsnes_performance_libretro.dll,Rex Ronan - Experimental Surgeon (USA).sfc,rex_ronan_-_experimental_surgeon_usa.dds,#FFFFFF,Console,,Yes
+Riddick Bowe Boxing (USA).sfc,bsnes_performance_libretro.dll,Riddick Bowe Boxing (USA).sfc,riddick_bowe_boxing_usa.dds,#FFFFFF,Console,,Yes
+Rise of the Phoenix (USA).sfc,bsnes_performance_libretro.dll,Rise of the Phoenix (USA).sfc,rise_of_the_phoenix_usa.dds,#FFFFFF,Console,,Yes
+Rise of the Robots (USA).sfc,bsnes_performance_libretro.dll,Rise of the Robots (USA).sfc,rise_of_the_robots_usa.dds,#FFFFFF,Console,,Yes
+Rival Turf (USA).sfc,bsnes_performance_libretro.dll,Rival Turf (USA).sfc,rival_turf_usa.dds,#FFFFFF,Console,,Yes
+Road Riot 4WD (USA).sfc,bsnes_performance_libretro.dll,Road Riot 4WD (USA).sfc,road_riot_4wd_usa.dds,#FFFFFF,Console,,Yes
+Road Runner's Death Valley Rally (USA).sfc,bsnes_performance_libretro.dll,Road Runner's Death Valley Rally (USA).sfc,road_runners_death_valley_rally_usa.dds,#FFFFFF,Console,,Yes
+RoboCop 3 (USA).sfc,bsnes_performance_libretro.dll,RoboCop 3 (USA).sfc,robocop_3_usa.dds,#FFFFFF,Console,,Yes
+RoboCop versus The Terminator (USA).sfc,bsnes_performance_libretro.dll,RoboCop versus The Terminator (USA).sfc,robocop_versus_the_terminator_usa.dds,#FFFFFF,Console,,Yes
+Robotrek (USA).sfc,bsnes_performance_libretro.dll,Robotrek (USA).sfc,robotrek_usa.dds,#FFFFFF,Console,,Yes
+"Rocketeer, The (USA).sfc",bsnes_performance_libretro.dll,"Rocketeer, The (USA).sfc",rocketeer_the_usa.dds,#FFFFFF,Console,,Yes
+Rocko's Modern Life - Spunky's Dangerous Day (USA).sfc,bsnes_performance_libretro.dll,Rocko's Modern Life - Spunky's Dangerous Day (USA).sfc,rockos_modern_life_-_spunkys_dangerous_day_usa.dds,#FFFFFF,Console,,Yes
+Rocky Rodent (USA).sfc,bsnes_performance_libretro.dll,Rocky Rodent (USA).sfc,rocky_rodent_usa.dds,#FFFFFF,Console,,Yes
+Rock n' Roll Racing (USA).sfc,bsnes_performance_libretro.dll,Rock n' Roll Racing (USA).sfc,rock_n_roll_racing_usa.dds,#FFFFFF,Console,,Yes
+Roger Clemens' MVP Baseball (USA).sfc,bsnes_performance_libretro.dll,Roger Clemens' MVP Baseball (USA).sfc,roger_clemens_mvp_baseball_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Romance of the Three Kingdoms III - Dragon of Destiny (USA).sfc,bsnes_performance_libretro.dll,Romance of the Three Kingdoms III - Dragon of Destiny (USA).sfc,romance_of_the_three_kingdoms_iii_-_dragon_of_destiny_usa.dds,#FFFFFF,Console,,Yes
+Romance of the Three Kingdoms II (USA).sfc,bsnes_performance_libretro.dll,Romance of the Three Kingdoms II (USA).sfc,romance_of_the_three_kingdoms_ii_usa.dds,#FFFFFF,Console,,Yes
+Romance of the Three Kingdoms IV - Wall of Fire (USA).sfc,bsnes_performance_libretro.dll,Romance of the Three Kingdoms IV - Wall of Fire (USA).sfc,romance_of_the_three_kingdoms_iv_-_wall_of_fire_usa.dds,#FFFFFF,Console,,Yes
+RPM Racing (U).smc,bsnes_performance_libretro.dll,RPM Racing (U).smc,rpm_racing_usa.dds,#FFFFFF,Console,,Yes
+Run Saber (USA).sfc,bsnes_performance_libretro.dll,Run Saber (USA).sfc,run_saber_usa.dds,#FFFFFF,Console,,Yes
+Samurai Shodown (USA).sfc,bsnes_performance_libretro.dll,Samurai Shodown (USA).sfc,samurai_shodown_usa.dds,#FFFFFF,Console,,Yes
+Saturday Night Slam Masters (USA).sfc,bsnes_performance_libretro.dll,Saturday Night Slam Masters (USA).sfc,saturday_night_slam_masters_usa.dds,#FFFFFF,Console,,Yes
+Scooby-Doo Mystery (USA).sfc,bsnes_performance_libretro.dll,Scooby-Doo Mystery (USA).sfc,scooby-doo_mystery_usa.dds,#FFFFFF,Console,,Yes
+SeaQuest DSV (USA).sfc,bsnes_performance_libretro.dll,SeaQuest DSV (USA).sfc,seaquest_dsv_usa.dds,#FFFFFF,Console,,Yes
+Secret of Evermore (USA).sfc,bsnes_performance_libretro.dll,Secret of Evermore (USA).sfc,secret_of_evermore_usa.dds,#FFFFFF,Console,,Yes
+Secret of Mana (USA).sfc,bsnes_performance_libretro.dll,Secret of Mana (USA).sfc,secret_of_mana_usa.dds,#FFFFFF,Console,,Yes
+Shadowrun (USA).sfc,bsnes_performance_libretro.dll,Shadowrun (USA).sfc,shadowrun_usa.dds,#FFFFFF,Console,,Yes
+Shanghai II - Dragon's Eye (USA).sfc,bsnes_performance_libretro.dll,Shanghai II - Dragon's Eye (USA).sfc,shanghai_ii_-_dragons_eye_usa.dds,#FFFFFF,Console,,Yes
+Shaq Fu (USA).sfc,bsnes_performance_libretro.dll,Shaq Fu (USA).sfc,shaq_fu_usa.dds,#FFFFFF,Console,,Yes
+Shien's Revenge (USA).sfc,bsnes_performance_libretro.dll,Shien's Revenge (USA).sfc,shiens_revenge_usa.dds,#FFFFFF,Console,,Yes
+Side Pocket (USA).sfc,bsnes_performance_libretro.dll,Side Pocket (USA).sfc,side_pocket_usa.dds,#FFFFFF,Console,,Yes
+SimAnt (USA).sfc,bsnes_performance_libretro.dll,SimAnt (USA).sfc,simant_usa.dds,#FFFFFF,Console,,Yes
+SimCity 2000 (USA).sfc,bsnes_performance_libretro.dll,SimCity 2000 (USA).sfc,simcity_2000_usa.dds,#FFFFFF,Console,,Yes
+SimCity (USA).sfc,bsnes_performance_libretro.dll,SimCity (USA).sfc,simcity_usa.dds,#FFFFFF,Console,,Yes
+SimEarth - The Living Planet (USA).sfc,bsnes_performance_libretro.dll,SimEarth - The Living Planet (USA).sfc,simearth_-_the_living_planet_usa.dds,#FFFFFF,Console,,Yes
+"Simpsons, The - Bart's Nightmare (USA).sfc",bsnes_performance_libretro.dll,"Simpsons, The - Bart's Nightmare (USA).sfc",simpsons_the_-_barts_nightmare_usa.dds,#FFFFFF,Console,,Yes
+Sink or Swim (USA).sfc,bsnes_performance_libretro.dll,Sink or Swim (USA).sfc,sink_or_swim_usa.dds,#FFFFFF,Console,,Yes
+Skuljagger - Revolt of the Westicans (USA).sfc,bsnes_performance_libretro.dll,Skuljagger - Revolt of the Westicans (USA).sfc,skuljagger_-_revolt_of_the_westicans_usa.dds,#FFFFFF,Console,,Yes
+Skyblazer (USA).sfc,bsnes_performance_libretro.dll,Skyblazer (USA).sfc,skyblazer_usa.dds,#FFFFFF,Console,,Yes
+Smart Ball (USA).sfc,bsnes_performance_libretro.dll,Smart Ball (USA).sfc,smart_ball_usa.dds,#FFFFFF,Console,,Yes
+Smash Tennis (Europe).sfc,bsnes_performance_libretro.dll,Smash Tennis (Europe).sfc,smash_tennis_europe.dds,#FFFFFF,Console,,Yes
+"Smurfs, The (Europe) (En,Fr,De,Es,It).sfc",bsnes_performance_libretro.dll,"Smurfs, The (Europe) (En,Fr,De,Es,It).sfc",smurfs_the_europe.dds,#FFFFFF,Console,,Yes
+"Smurfs 2, The (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Smurfs 2, The (Europe) (En,Fr,De,Es).sfc",smurfs_travel_the_world_the_europe.dds,#FFFFFF,Console,,Yes
+Snow White in Happily Ever After (USA).sfc,bsnes_performance_libretro.dll,Snow White in Happily Ever After (USA).sfc,snow_white_in_happily_ever_after_usa.dds,#FFFFFF,Console,,Yes
+Soldiers of Fortune (USA).sfc,bsnes_performance_libretro.dll,Soldiers of Fortune (USA).sfc,soldiers_of_fortune_usa.dds,#FFFFFF,Console,,Yes
+Sonic Blast Man II (USA).sfc,bsnes_performance_libretro.dll,Sonic Blast Man II (USA).sfc,sonic_blast_man_ii_usa.dds,#FFFFFF,Console,,Yes
+Sonic Blast Man (USA).sfc,bsnes_performance_libretro.dll,Sonic Blast Man (USA).sfc,sonic_blast_man_usa.dds,#FFFFFF,Console,,Yes
+SOS (USA).sfc,bsnes_performance_libretro.dll,SOS (USA).sfc,sos_usa.dds,#FFFFFF,Console,,Yes
+Soul Blazer (USA).sfc,bsnes_performance_libretro.dll,Soul Blazer (USA).sfc,soul_blazer_usa.dds,#FFFFFF,Console,,Yes
+Space Ace (USA).sfc,bsnes_performance_libretro.dll,Space Ace (USA).sfc,space_ace_usa.dds,#FFFFFF,Console,,Yes
+Space Football - One on One (USA).sfc,bsnes_performance_libretro.dll,Space Football - One on One (USA).sfc,space_football_-_one_on_one_usa.dds,#FFFFFF,Console,,Yes
+Space Invaders - The Original Game (USA).sfc,bsnes_performance_libretro.dll,Space Invaders - The Original Game (USA).sfc,space_invaders_-_the_original_game_usa.dds,#FFFFFF,Console,,Yes
+Space Megaforce (USA).sfc,bsnes_performance_libretro.dll,Space Megaforce (USA).sfc,space_megaforce_usa.dds,#FFFFFF,Console,,Yes
+Spanky's Quest (USA).sfc,bsnes_performance_libretro.dll,Spanky's Quest (USA).sfc,spankys_quest_usa.dds,#FFFFFF,Console,,Yes
+Sparkster (USA).sfc,bsnes_performance_libretro.dll,Sparkster (USA).sfc,sparkster_usa.dds,#FFFFFF,Console,,Yes
+Spawn (USA).sfc,bsnes_performance_libretro.dll,Spawn (USA).sfc,spawn_usa.dds,#FFFFFF,Console,,Yes
+Spectre (USA).sfc,bsnes_performance_libretro.dll,Spectre (USA).sfc,spectre_usa.dds,#FFFFFF,Console,,Yes
+Speedy Gonzales in Los Gatos Bandidos (USA).sfc,bsnes_performance_libretro.dll,Speedy Gonzales in Los Gatos Bandidos (USA).sfc,speedy_gonzales_-_los_gatos_bandidos_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Speed Racer (USA).sfc,bsnes_performance_libretro.dll,Speed Racer (USA).sfc,speed_racer_in_my_most_dangerous_adventures_usa.dds,#FFFFFF,Console,,Yes
+Spider-Man & Venom - Maximum Carnage (USA).sfc,bsnes_performance_libretro.dll,Spider-Man & Venom - Maximum Carnage (USA).sfc,spider-man-venom_-_maximum_carnage_usa.dds,#FFFFFF,Console,,Yes
+Spider-Man and the X-Men in Arcade's Revenge (USA).sfc,bsnes_performance_libretro.dll,Spider-Man and the X-Men in Arcade's Revenge (USA).sfc,spider-man-x-men_-_arcades_revenge_usa.dds,#FFFFFF,Console,,Yes
+Spider-Man (USA).sfc,bsnes_performance_libretro.dll,Spider-Man (USA).sfc,spider-man_usa.dds,#FFFFFF,Console,,Yes
+Spindizzy Worlds (USA).sfc,bsnes_performance_libretro.dll,Spindizzy Worlds (USA).sfc,spindizzy_worlds_usa.dds,#FFFFFF,Console,,Yes
+"Spirou (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Spirou (Europe) (En,Fr,De,Es).sfc",spirou_europe.dds,#FFFFFF,Console,,Yes
+"Sporting News Power Baseball, The (USA).sfc",bsnes_performance_libretro.dll,"Sporting News Power Baseball, The (USA).sfc",sporting_news_power_baseball_the_usa.dds,#FFFFFF,Console,,Yes
+Sports Illustrated Championship Football & Baseball (USA).sfc,bsnes_performance_libretro.dll,Sports Illustrated Championship Football & Baseball (USA).sfc,sports_illustrated_championship_football_&_baseball_usa.dds,#FFFFFF,Console,,Yes
+Stargate (USA).sfc,bsnes_performance_libretro.dll,Stargate (USA).sfc,stargate_usa.dds,#FFFFFF,Console,,Yes
+Star Fox 2.smc,bsnes_performance_libretro.dll,Star Fox 2.smc,star_fox_usa_rev_2.dds,#FFFFFF,Console,,Yes
+Star Fox (USA) (Super Weekend Competition).sfc,bsnes_performance_libretro.dll,Star Fox (USA) (Super Weekend Competition).sfc,star_fox_usa_super_weekend_competition.dds,#FFFFFF,Console,,Yes
+Star Trek - Deep Space Nine - Crossroads of Time (USA).sfc,bsnes_performance_libretro.dll,Star Trek - Deep Space Nine - Crossroads of Time (USA).sfc,star_trek_-_deep_space_nine_-_crossroads_of_time_usa.dds,#FFFFFF,Console,,Yes
+Star Trek - Starfleet Academy (USA).sfc,bsnes_performance_libretro.dll,Star Trek - Starfleet Academy (USA).sfc,star_trek_-_starfleet_academy_-_starship_bridge_simulator_usa.dds,#FFFFFF,Console,,Yes
+Star Trek - The Next Generation - Future's Past (USA).sfc,bsnes_performance_libretro.dll,Star Trek - The Next Generation - Future's Past (USA).sfc,star_trek_-_the_next_generation_-_futures_past_usa.dds,#FFFFFF,Console,,Yes
+Steel Talons (USA).sfc,bsnes_performance_libretro.dll,Steel Talons (USA).sfc,steel_talons_usa.dds,#FFFFFF,Console,,Yes
+Sterling Sharpe End 2 End (USA).sfc,bsnes_performance_libretro.dll,Sterling Sharpe End 2 End (USA).sfc,sterling_sharpe_-_end_2_end_usa.dds,#FFFFFF,Console,,Yes
+Stone Protectors (USA).sfc,bsnes_performance_libretro.dll,Stone Protectors (USA).sfc,stone_protectors_usa.dds,#FFFFFF,Console,,Yes
+Street Combat (USA).sfc,bsnes_performance_libretro.dll,Street Combat (USA).sfc,street_combat_usa.dds,#FFFFFF,Console,,Yes
+Street Fighter Alpha 2 (USA).sfc,bsnes_performance_libretro.dll,Street Fighter Alpha 2 (USA).sfc,street_fighter_alpha_2_usa.dds,#FFFFFF,Console,,Yes
+Street Fighter II Turbo - Hyper Fighting (USA).sfc,bsnes_performance_libretro.dll,Street Fighter II Turbo - Hyper Fighting (USA).sfc,street_fighter_ii_turbo_usa.dds,#FFFFFF,Console,,Yes
+Street Fighter II - The World Warrior (USA).sfc,bsnes_performance_libretro.dll,Street Fighter II - The World Warrior (USA).sfc,street_fighter_ii_usa.dds,#FFFFFF,Console,,Yes
+Street Hockey '95 (USA).sfc,bsnes_performance_libretro.dll,Street Hockey '95 (USA).sfc,street_hockey_95_usa.dds,#FFFFFF,Console,,Yes
+Street Racer (USA).sfc,bsnes_performance_libretro.dll,Street Racer (USA).sfc,street_racer_usa.dds,#FFFFFF,Console,,Yes
+Strike Gunner S.T.G (USA).sfc,bsnes_performance_libretro.dll,Strike Gunner S.T.G (USA).sfc,strike_gunner_stg_usa.dds,#FFFFFF,Console,,Yes
+Stunt Race FX (USA).sfc,bsnes_performance_libretro.dll,Stunt Race FX (USA).sfc,stunt_race_fx_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Sunset Riders (USA).sfc,bsnes_performance_libretro.dll,Sunset Riders (USA).sfc,sunset_riders_usa.dds,#FFFFFF,Console,,Yes
+Super Adventure Island II (USA).sfc,bsnes_performance_libretro.dll,Super Adventure Island II (USA).sfc,super_adventure_island_ii_usa.dds,#FFFFFF,Console,,Yes
+Super Adventure Island (USA).sfc,bsnes_performance_libretro.dll,Super Adventure Island (USA).sfc,super_adventure_island_usa.dds,#FFFFFF,Console,,Yes
+Super Alfred Chicken (USA).sfc,bsnes_performance_libretro.dll,Super Alfred Chicken (USA).sfc,super_alfred_chicken_usa.dds,#FFFFFF,Console,,Yes
+"Super Aquatic Games, The (USA).sfc",bsnes_performance_libretro.dll,"Super Aquatic Games, The (USA).sfc",super_aquatic_games_starring_the_aquabats_the_usa.dds,#FFFFFF,Console,,Yes
+Super Baseball Simulator 1.000 (USA).sfc,bsnes_performance_libretro.dll,Super Baseball Simulator 1.000 (USA).sfc,super_baseball_simulator_1000_usa.dds,#FFFFFF,Console,,Yes
+Super Bases Loaded 3 - License to Steal (USA).sfc,bsnes_performance_libretro.dll,Super Bases Loaded 3 - License to Steal (USA).sfc,super_bases_loaded_3_-_license_to_steal_usa.dds,#FFFFFF,Console,,Yes
+Super Bases Loaded II (USA).sfc,bsnes_performance_libretro.dll,Super Bases Loaded II (USA).sfc,super_bases_loaded_ii_usa.dds,#FFFFFF,Console,,Yes
+Super Bases Loaded (USA).sfc,bsnes_performance_libretro.dll,Super Bases Loaded (USA).sfc,super_bases_loaded_usa.dds,#FFFFFF,Console,,Yes
+Super Batter Up (USA).sfc,bsnes_performance_libretro.dll,Super Batter Up (USA).sfc,super_batter_up_usa.dds,#FFFFFF,Console,,Yes
+Super Battleship (USA).sfc,bsnes_performance_libretro.dll,Super Battleship (USA).sfc,super_battleship_usa.dds,#FFFFFF,Console,,Yes
+Super Battletank - War in the Gulf (USA).sfc,bsnes_performance_libretro.dll,Super Battletank - War in the Gulf (USA).sfc,super_battletank_-_war_in_the_gulf_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Battletank 2 (USA).sfc,bsnes_performance_libretro.dll,Super Battletank 2 (USA).sfc,super_battletank_2_usa.dds,#FFFFFF,Console,,Yes
+Super Black Bass (USA).sfc,bsnes_performance_libretro.dll,Super Black Bass (USA).sfc,super_black_bass_usa.dds,#FFFFFF,Console,,Yes
+Super Bomberman 2 (USA).sfc,bsnes_performance_libretro.dll,Super Bomberman 2 (USA).sfc,super_bomberman_2_usa.dds,#FFFFFF,Console,,Yes
+Super Bomberman 3 (Europe).sfc,bsnes_performance_libretro.dll,Super Bomberman 3 (Europe).sfc,super_bomberman_3_europe.dds,#FFFFFF,Console,,Yes
+Super Bomberman (USA).sfc,bsnes_performance_libretro.dll,Super Bomberman (USA).sfc,super_bomberman_usa.dds,#FFFFFF,Console,,Yes
+Super Bonk (USA).sfc,bsnes_performance_libretro.dll,Super Bonk (USA).sfc,super_bonk_usa.dds,#FFFFFF,Console,,Yes
+Super Bowling (USA).sfc,bsnes_performance_libretro.dll,Super Bowling (USA).sfc,super_bowling_usa.dds,#FFFFFF,Console,,Yes
+Super Buster Bros (USA).sfc,bsnes_performance_libretro.dll,Super Buster Bros (USA).sfc,super_buster_bros_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Caesars Palace (USA).sfc,bsnes_performance_libretro.dll,Super Caesars Palace (USA).sfc,super_caesars_palace_usa.dds,#FFFFFF,Console,,Yes
+Super Castlevania IV (USA).sfc,bsnes_performance_libretro.dll,Super Castlevania IV (USA).sfc,super_castlevania_iv_usa.dds,#FFFFFF,Console,,Yes
+Super Chase H.Q. (USA).sfc,bsnes_performance_libretro.dll,Super Chase H.Q. (USA).sfc,super_chase_hq_usa.dds,#FFFFFF,Console,,Yes
+Super Conflict - The Mideast (USA).sfc,bsnes_performance_libretro.dll,Super Conflict - The Mideast (USA).sfc,super_conflict_-_the_mideast_usa.dds,#FFFFFF,Console,,Yes
+Super Double Dragon (USA).sfc,bsnes_performance_libretro.dll,Super Double Dragon (USA).sfc,super_double_dragon_usa.dds,#FFFFFF,Console,,Yes
+Super Ghouls'n Ghosts (USA).sfc,bsnes_performance_libretro.dll,Super Ghouls'n Ghosts (USA).sfc,super_ghoulsn_ghosts_usa.dds,#FFFFFF,Console,,Yes
+Super Goal! (U).smc,bsnes_performance_libretro.dll,Super Goal! (U).smc,super_goal_2_usa.dds,#FFFFFF,Console,,Yes
+Super Godzilla (USA).sfc,bsnes_performance_libretro.dll,Super Godzilla (USA).sfc,super_godzilla_usa.dds,#FFFFFF,Console,,Yes
+Super High Impact (USA).sfc,bsnes_performance_libretro.dll,Super High Impact (USA).sfc,super_high_impact_usa.dds,#FFFFFF,Console,,Yes
+Super Ice Hockey (Europe).sfc,bsnes_performance_libretro.dll,Super Ice Hockey (Europe).sfc,super_ice_hockey_europe.dds,#FFFFFF,Console,,Yes
+Super International Cricket (Europe).sfc,bsnes_performance_libretro.dll,Super International Cricket (Europe).sfc,super_international_cricket_europe.dds,#FFFFFF,Console,,Yes
+Super James Pond (USA).sfc,bsnes_performance_libretro.dll,Super James Pond (USA).sfc,super_james_pond_usa.dds,#FFFFFF,Console,,Yes
+Super Mario All-Stars (USA).sfc,bsnes_performance_libretro.dll,Super Mario All-Stars (USA).sfc,super_mario_all-stars_usa.dds,#FFFFFF,Console,,Yes
+Super Mario Kart (USA).sfc,bsnes_performance_libretro.dll,Super Mario Kart (USA).sfc,super_mario_kart_usa.dds,#FFFFFF,Console,,Yes
+Super Mario RPG - Legend of the Seven Stars (USA).sfc,bsnes_performance_libretro.dll,Super Mario RPG - Legend of the Seven Stars (USA).sfc,super_mario_rpg_-_legend_of_the_seven_stars_usa.dds,#FFFFFF,Console,,Yes
+Super Mario World 2 - Yoshi's Island (USA).sfc,bsnes_performance_libretro.dll,Super Mario World 2 - Yoshi's Island (USA).sfc,super_mario_world_2_-_yoshis_island_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Mario World (USA).sfc,bsnes_performance_libretro.dll,Super Mario World (USA).sfc,super_mario_world_usa.dds,#FFFFFF,Console,,Yes
+"Super Metroid (Japan, USA) (En,Ja).sfc",bsnes_performance_libretro.dll,"Super Metroid (Japan, USA) (En,Ja).sfc",super_metroid_japan_usa.dds,#FFFFFF,Console,,Yes
+Super Morph (Europe).sfc,bsnes_performance_libretro.dll,Super Morph (Europe).sfc,super_morph_europe.dds,#FFFFFF,Console,,Yes
+Super Ninja Boy (USA).sfc,bsnes_performance_libretro.dll,Super Ninja Boy (USA).sfc,super_ninja_boy_usa.dds,#FFFFFF,Console,,Yes
+Super Nova (USA).sfc,bsnes_performance_libretro.dll,Super Nova (USA).sfc,super_nova_usa.dds,#FFFFFF,Console,,Yes
+Super Off Road - The Baja (USA).sfc,bsnes_performance_libretro.dll,Super Off Road - The Baja (USA).sfc,super_off_road_-_the_baja_usa.dds,#FFFFFF,Console,,Yes
+Super Off Road (USA).sfc,bsnes_performance_libretro.dll,Super Off Road (USA).sfc,super_off_road_usa.dds,#FFFFFF,Console,,Yes
+Super Pinball - Behind the Mask (USA).sfc,bsnes_performance_libretro.dll,Super Pinball - Behind the Mask (USA).sfc,super_pinball_-_behind_the_mask_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Play Action Football (USA).sfc,bsnes_performance_libretro.dll,Super Play Action Football (USA).sfc,super_play_action_football_usa.dds,#FFFFFF,Console,,Yes
+Super Punch-Out!! (USA).sfc,bsnes_performance_libretro.dll,Super Punch-Out!! (USA).sfc,super_punch-out_usa.dds,#FFFFFF,Console,,Yes
+Super Putty (USA).sfc,bsnes_performance_libretro.dll,Super Putty (USA).sfc,super_putty_usa.dds,#FFFFFF,Console,,Yes
+Super R-Type (USA).sfc,bsnes_performance_libretro.dll,Super R-Type (USA).sfc,super_r-type_usa.dds,#FFFFFF,Console,,Yes
+Super R.B.I. Baseball (USA).sfc,bsnes_performance_libretro.dll,Super R.B.I. Baseball (USA).sfc,super_rbi_baseball_usa.dds,#FFFFFF,Console,,Yes
+Super Scope 6 (USA).sfc,bsnes_performance_libretro.dll,Super Scope 6 (USA).sfc,super_scope_6_usa.dds,#FFFFFF,Console,,Yes
+Super Slam Dunk (USA).sfc,bsnes_performance_libretro.dll,Super Slam Dunk (USA).sfc,super_slam_dunk_usa.dds,#FFFFFF,Console,,Yes
+Super Slapshot (USA).sfc,bsnes_performance_libretro.dll,Super Slapshot (USA).sfc,super_slap_shot_usa.dds,#FFFFFF,Console,,Yes
+Super Smash T.V. (USA).sfc,bsnes_performance_libretro.dll,Super Smash T.V. (USA).sfc,super_smash_tv_usa.dds,#FFFFFF,Console,,Yes
+Super Soccer Champ (USA).sfc,bsnes_performance_libretro.dll,Super Soccer Champ (USA).sfc,super_soccer_champ_usa.dds,#FFFFFF,Console,,Yes
+Super Soccer (USA).sfc,bsnes_performance_libretro.dll,Super Soccer (USA).sfc,super_soccer_usa.dds,#FFFFFF,Console,,Yes
+"Super Solitaire (USA) (En,Fr,De,Es,It).sfc",bsnes_performance_libretro.dll,"Super Solitaire (USA) (En,Fr,De,Es,It).sfc",super_solitaire_usa.dds,#FFFFFF,Console,,Yes
+Super Star Wars - Return of the Jedi (USA).sfc,bsnes_performance_libretro.dll,Super Star Wars - Return of the Jedi (USA).sfc,super_star_wars_-_return_of_the_jedi_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Star Wars - The Empire Strikes Back (USA).sfc,bsnes_performance_libretro.dll,Super Star Wars - The Empire Strikes Back (USA).sfc,super_star_wars_-_the_empire_strikes_back_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Star Wars (USA).sfc,bsnes_performance_libretro.dll,Super Star Wars (USA).sfc,super_star_wars_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Super Street Fighter II - The New Challengers (USA).sfc,bsnes_performance_libretro.dll,Super Street Fighter II - The New Challengers (USA).sfc,super_street_fighter_ii_usa.dds,#FFFFFF,Console,,Yes
+Super Strike Eagle (USA).sfc,bsnes_performance_libretro.dll,Super Strike Eagle (USA).sfc,super_strike_eagle_usa.dds,#FFFFFF,Console,,Yes
+Super Tennis (USA).sfc,bsnes_performance_libretro.dll,Super Tennis (USA).sfc,super_tennis_usa.dds,#FFFFFF,Console,,Yes
+Super Troll Islands (USA).sfc,bsnes_performance_libretro.dll,Super Troll Islands (USA).sfc,super_troll_islands_usa.dds,#FFFFFF,Console,,Yes
+Super Turrican 2 (USA).sfc,bsnes_performance_libretro.dll,Super Turrican 2 (USA).sfc,super_turrican_2_usa.dds,#FFFFFF,Console,,Yes
+Super Turrican (USA).sfc,bsnes_performance_libretro.dll,Super Turrican (USA).sfc,super_turrican_usa.dds,#FFFFFF,Console,,Yes
+Super Valis IV (USA).sfc,bsnes_performance_libretro.dll,Super Valis IV (USA).sfc,super_valis_iv_usa.dds,#FFFFFF,Console,,Yes
+Super Widget (USA).sfc,bsnes_performance_libretro.dll,Super Widget (USA).sfc,super_widget_usa.dds,#FFFFFF,Console,,Yes
+Suzuka 8 Hours (USA).sfc,bsnes_performance_libretro.dll,Suzuka 8 Hours (USA).sfc,suzuka_8_hours_usa.dds,#FFFFFF,Console,,Yes
+SWAT Kats - The Radical Squadron (USA).sfc,bsnes_performance_libretro.dll,SWAT Kats - The Radical Squadron (USA).sfc,swat_kats_-_the_radical_squadron_usa.dds,#FFFFFF,Console,,Yes
+Syndicate (USA).sfc,bsnes_performance_libretro.dll,Syndicate (USA).sfc,syndicate_usa.dds,#FFFFFF,Console,,Yes
+Syvalion (Europe).sfc,bsnes_performance_libretro.dll,Syvalion (Europe).sfc,syvalion_europe.dds,#FFFFFF,Console,,Yes
+T2 - The Arcade Game (USA).sfc,bsnes_performance_libretro.dll,T2 - The Arcade Game (USA).sfc,t2_-_the_arcade_game_usa.dds,#FFFFFF,Console,,Yes
+Taz-Mania (USA).sfc,bsnes_performance_libretro.dll,Taz-Mania (USA).sfc,taz-mania_usa_rev_1.dds,#FFFFFF,Console,,Yes
+Tecmo Secret of the Stars (USA).sfc,bsnes_performance_libretro.dll,Tecmo Secret of the Stars (USA).sfc,tecmo_secret_of_the_stars_usa.dds,#FFFFFF,Console,,Yes
+Tecmo Super Baseball (USA).sfc,bsnes_performance_libretro.dll,Tecmo Super Baseball (USA).sfc,tecmo_super_baseball_usa.dds,#FFFFFF,Console,,Yes
+Tecmo Super Bowl III - Final Edition (USA).sfc,bsnes_performance_libretro.dll,Tecmo Super Bowl III - Final Edition (USA).sfc,tecmo_super_bowl_iii_-_final_edition_usa.dds,#FFFFFF,Console,,Yes
+Tecmo Super Bowl II - Special Edition (USA).sfc,bsnes_performance_libretro.dll,Tecmo Super Bowl II - Special Edition (USA).sfc,tecmo_super_bowl_ii_-_special_edition_usa.dds,#FFFFFF,Console,,Yes
+Tecmo Super Bowl (USA).sfc,bsnes_performance_libretro.dll,Tecmo Super Bowl (USA).sfc,tecmo_super_bowl_usa.dds,#FFFFFF,Console,,Yes
+Tecmo Super NBA Basketball (USA).sfc,bsnes_performance_libretro.dll,Tecmo Super NBA Basketball (USA).sfc,tecmo_super_nba_basketball_usa.dds,#FFFFFF,Console,,Yes
+Teenage Mutant Ninja Turtles - Tournament Fighters (USA).sfc,bsnes_performance_libretro.dll,Teenage Mutant Ninja Turtles - Tournament Fighters (USA).sfc,teenage_mutant_ninja_turtles_-_tournament_fighters_usa.dds,#FFFFFF,Console,,Yes
+Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc,bsnes_performance_libretro.dll,Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc,teenage_mutant_ninja_turtles_iv_-_turtles_in_time_usa.dds,#FFFFFF,Console,,Yes
+Terminator 2 - Judgment Day (USA).sfc,bsnes_performance_libretro.dll,Terminator 2 - Judgment Day (USA).sfc,terminator_2_-_judgment_day_usa.dds,#FFFFFF,Console,,Yes
+"Terminator, The (USA).sfc",bsnes_performance_libretro.dll,"Terminator, The (USA).sfc",terminator_the_usa.dds,#FFFFFF,Console,,Yes
+Terranigma (Europe).sfc,bsnes_performance_libretro.dll,Terranigma (Europe).sfc,terranigma_europe.dds,#FFFFFF,Console,,Yes
+Tetris & Dr. Mario (USA).sfc,bsnes_performance_libretro.dll,Tetris & Dr. Mario (USA).sfc,tetris_&_dr_mario_usa.dds,#FFFFFF,Console,,Yes
+Tetris 2 (USA).sfc,bsnes_performance_libretro.dll,Tetris 2 (USA).sfc,tetris_2_usa_rev_1.dds,#FFFFFF,Console,,Yes
+"Tetris Attack (USA) (En,Ja).sfc",bsnes_performance_libretro.dll,"Tetris Attack (USA) (En,Ja).sfc",tetris_attack_usa.dds,#FFFFFF,Console,,Yes
+"Theme Park (Europe) (En,Fr,De).sfc",bsnes_performance_libretro.dll,"Theme Park (Europe) (En,Fr,De).sfc",theme_park_europe.dds,#FFFFFF,Console,,Yes
+Thomas the Tank Engine and Friends (USA).sfc,bsnes_performance_libretro.dll,Thomas the Tank Engine and Friends (USA).sfc,thomas_the_tank_engine_and_friends_usa.dds,#FFFFFF,Console,,Yes
+Thunder Spirits (USA).sfc,bsnes_performance_libretro.dll,Thunder Spirits (USA).sfc,thunder_spirits_usa.dds,#FFFFFF,Console,,Yes
+"Tick, The (USA).sfc",bsnes_performance_libretro.dll,"Tick, The (USA).sfc",tick_the_usa.dds,#FFFFFF,Console,,Yes
+Timecop (USA).sfc,bsnes_performance_libretro.dll,Timecop (USA).sfc,timecop_usa.dds,#FFFFFF,Console,,Yes
+Time Slip (USA).sfc,bsnes_performance_libretro.dll,Time Slip (USA).sfc,time_slip_usa.dds,#FFFFFF,Console,,Yes
+Time Trax (USA).sfc,bsnes_performance_libretro.dll,Time Trax (USA).sfc,time_trax_usa.dds,#FFFFFF,Console,,Yes
+Timon & Pumbaa's Jungle Games (USA).sfc,bsnes_performance_libretro.dll,Timon & Pumbaa's Jungle Games (USA).sfc,timon_&_pumbaas_jungle_games_usa.dds,#FFFFFF,Console,,Yes
+"Adventures of Tintin, The - Prisoners of the Sun (Europe) (En,Fr,De,Es).sfc",bsnes_performance_libretro.dll,"Adventures of Tintin, The - Prisoners of the Sun (Europe) (En,Fr,De,Es).sfc",tintin_-_prisoners_of_the_sun_europe.dds,#FFFFFF,Console,,Yes
+"Tintin in Tibet (Europe) (En,Fr,De,Nl).sfc",bsnes_performance_libretro.dll,"Tintin in Tibet (Europe) (En,Fr,De,Nl).sfc",tintin_in_tibet_europe.dds,#FFFFFF,Console,,Yes
+Tiny Toon Adventures - Buster Busts Loose! (USA).sfc,bsnes_performance_libretro.dll,Tiny Toon Adventures - Buster Busts Loose! (USA).sfc,tiny_toon_adventures_-_buster_busts_loose_usa.dds,#FFFFFF,Console,,Yes
+Tiny Toon Adventures - Wacky Sports Challenge (USA).sfc,bsnes_performance_libretro.dll,Tiny Toon Adventures - Wacky Sports Challenge (USA).sfc,tiny_toon_adventures_-_wacky_sports_challenge_usa.dds,#FFFFFF,Console,,Yes
+Tin Star (USA).sfc,bsnes_performance_libretro.dll,Tin Star (USA).sfc,tin_star_usa.dds,#FFFFFF,Console,,Yes
+TKO Super Championship Boxing (USA).sfc,bsnes_performance_libretro.dll,TKO Super Championship Boxing (USA).sfc,tko_super_championship_boxing_usa.dds,#FFFFFF,Console,,Yes
+TNN Bass Tournament of Champions (USA).sfc,bsnes_performance_libretro.dll,TNN Bass Tournament of Champions (USA).sfc,tnn_bass_tournament_of_champions_usa.dds,#FFFFFF,Console,,Yes
+Winter Extreme Skiing and Snowboarding (USA).sfc,bsnes_performance_libretro.dll,Winter Extreme Skiing and Snowboarding (USA).sfc,tommy_moes_winter_extreme_-_skiing_and_snowboarding_usa.dds,#FFFFFF,Console,,Yes
+Tom & Jerry (USA).sfc,bsnes_performance_libretro.dll,Tom & Jerry (USA).sfc,tom_&_jerry_usa.dds,#FFFFFF,Console,,Yes
+Tony Meola's Sidekicks Soccer (USA).sfc,bsnes_performance_libretro.dll,Tony Meola's Sidekicks Soccer (USA).sfc,tony_meolas_sidekicks_soccer_usa.dds,#FFFFFF,Console,,Yes
+Top Gear 2 (USA).sfc,bsnes_performance_libretro.dll,Top Gear 2 (USA).sfc,top_gear_2_usa.dds,#FFFFFF,Console,,Yes
+Top Gear 3000 (USA).sfc,bsnes_performance_libretro.dll,Top Gear 3000 (USA).sfc,top_gear_3000_usa.dds,#FFFFFF,Console,,Yes
+Top Gear (USA).sfc,bsnes_performance_libretro.dll,Top Gear (USA).sfc,top_gear_usa.dds,#FFFFFF,Console,,Yes
+Total Carnage (USA).sfc,bsnes_performance_libretro.dll,Total Carnage (USA).sfc,total_carnage_usa.dds,#FFFFFF,Console,,Yes
+Toys (USA).sfc,bsnes_performance_libretro.dll,Toys (USA).sfc,toys_usa.dds,#FFFFFF,Console,,Yes
+Toy Story (USA).sfc,bsnes_performance_libretro.dll,Toy Story (USA).sfc,toy_story_usa.dds,#FFFFFF,Console,,Yes
+Troddlers (USA).sfc,bsnes_performance_libretro.dll,Troddlers (USA).sfc,troddlers_usa.dds,#FFFFFF,Console,,Yes
+Troy Aikman NFL Football (USA).sfc,bsnes_performance_libretro.dll,Troy Aikman NFL Football (USA).sfc,troy_aikman_nfl_football_usa.dds,#FFFFFF,Console,,Yes
+Pebble Beach Golf Links (USA).sfc,bsnes_performance_libretro.dll,Pebble Beach Golf Links (USA).sfc,true_golf_classics_-_pebble_beach_golf_links_usa.dds,#FFFFFF,Console,,Yes
+Waialae Country Club (USA).sfc,bsnes_performance_libretro.dll,Waialae Country Club (USA).sfc,true_golf_classics_-_waialae_country_club_usa.dds,#FFFFFF,Console,,Yes
+Wicked 18 (USA).sfc,bsnes_performance_libretro.dll,Wicked 18 (USA).sfc,true_golf_classics_-_wicked_18_usa.dds,#FFFFFF,Console,,Yes
+True Lies (USA).sfc,bsnes_performance_libretro.dll,True Lies (USA).sfc,true_lies_usa.dds,#FFFFFF,Console,,Yes
+Tuff E Nuff (USA).sfc,bsnes_performance_libretro.dll,Tuff E Nuff (USA).sfc,tuff_e_nuff_usa.dds,#FFFFFF,Console,,Yes
+Hanna Barbera's Turbo Toons (E).smc,bsnes_performance_libretro.dll,Hanna Barbera's Turbo Toons (E).smc,turbo_toons_europe.dds,#FFFFFF,Console,,Yes
+Turn and Burn - No-Fly Zone (USA).sfc,bsnes_performance_libretro.dll,Turn and Burn - No-Fly Zone (USA).sfc,turn_and_burn_-_no-fly_zone_usa.dds,#FFFFFF,Console,,Yes
+"Twisted Tales of Spike McFang, The (USA).sfc",bsnes_performance_libretro.dll,"Twisted Tales of Spike McFang, The (USA).sfc",twisted_tales_of_spike_mcfang_the_usa.dds,#FFFFFF,Console,,Yes
+Ultimate Fighter (USA).sfc,bsnes_performance_libretro.dll,Ultimate Fighter (USA).sfc,ultimate_fighter_usa.dds,#FFFFFF,Console,,Yes
+Ultimate Mortal Kombat 3 (USA).sfc,bsnes_performance_libretro.dll,Ultimate Mortal Kombat 3 (USA).sfc,ultimate_mortal_kombat_3_usa.dds,#FFFFFF,Console,,Yes
+Ultima - Runes of Virtue II (USA).sfc,bsnes_performance_libretro.dll,Ultima - Runes of Virtue II (USA).sfc,ultima_-_runes_of_virtue_ii_usa.dds,#FFFFFF,Console,,Yes
+Ultima VII - The Black Gate (USA).sfc,bsnes_performance_libretro.dll,Ultima VII - The Black Gate (USA).sfc,ultima_vii_-_the_black_gate_usa.dds,#FFFFFF,Console,,Yes
+Ultima VI - The False Prophet (USA).sfc,bsnes_performance_libretro.dll,Ultima VI - The False Prophet (USA).sfc,ultima_vi_-_the_false_prophet_usa.dds,#FFFFFF,Console,,Yes
+Ultraman - Towards the Future (USA).sfc,bsnes_performance_libretro.dll,Ultraman - Towards the Future (USA).sfc,ultraman_-_towards_the_future_usa.dds,#FFFFFF,Console,,Yes
+Uncharted Waters (USA).sfc,bsnes_performance_libretro.dll,Uncharted Waters (USA).sfc,uncharted_waters_usa.dds,#FFFFFF,Console,,Yes
+Uniracers (USA).sfc,bsnes_performance_libretro.dll,Uniracers (USA).sfc,uniracers_usa.dds,#FFFFFF,Console,,Yes
+"Untouchables, The (USA).sfc",bsnes_performance_libretro.dll,"Untouchables, The (USA).sfc",untouchables_the_usa.dds,#FFFFFF,Console,,Yes
+U.N. Squadron (USA).sfc,bsnes_performance_libretro.dll,U.N. Squadron (USA).sfc,un_squadron_usa.dds,#FFFFFF,Console,,Yes
+Urban Strike (USA).sfc,bsnes_performance_libretro.dll,Urban Strike (USA).sfc,urban_strike_usa.dds,#FFFFFF,Console,,Yes
+Utopia - The Creation of a Nation (USA).sfc,bsnes_performance_libretro.dll,Utopia - The Creation of a Nation (USA).sfc,utopia_-_the_creation_of_a_nation_usa.dds,#FFFFFF,Console,,Yes
+Vegas Stakes (USA).sfc,bsnes_performance_libretro.dll,Vegas Stakes (USA).sfc,vegas_stakes_usa.dds,#FFFFFF,Console,,Yes
+Spider-Man & Venom - Separation Anxiety (USA).sfc,bsnes_performance_libretro.dll,Spider-Man & Venom - Separation Anxiety (USA).sfc,venom-spider-man_-_separation_anxiety_usa.dds,#FFFFFF,Console,,Yes
+Virtual Bart (USA).sfc,bsnes_performance_libretro.dll,Virtual Bart (USA).sfc,virtual_bart_usa.dds,#FFFFFF,Console,,Yes
+"Vortex (USA) (En,Es).sfc",bsnes_performance_libretro.dll,"Vortex (USA) (En,Es).sfc",vortex_usa.dds,#FFFFFF,Console,,Yes
+Wario's Woods (USA).sfc,bsnes_performance_libretro.dll,Wario's Woods (USA).sfc,warios_woods_usa.dds,#FFFFFF,Console,,Yes
+Warlock (USA).sfc,bsnes_performance_libretro.dll,Warlock (USA).sfc,warlock_usa.dds,#FFFFFF,Console,,Yes
+Warp Speed (USA).sfc,bsnes_performance_libretro.dll,Warp Speed (USA).sfc,warpspeed_usa.dds,#FFFFFF,Console,,Yes
+War 2410 (USA).sfc,bsnes_performance_libretro.dll,War 2410 (USA).sfc,war_2410_usa.dds,#FFFFFF,Console,,Yes
+War 3010 - The Revolution (USA).sfc,bsnes_performance_libretro.dll,War 3010 - The Revolution (USA).sfc,war_3010_-_the_revolution_usa.dds,#FFFFFF,Console,,Yes
+Waterworld (Europe).sfc,bsnes_performance_libretro.dll,Waterworld (Europe).sfc,waterworld_europe.dds,#FFFFFF,Console,,Yes
+Wayne's World (USA).sfc,bsnes_performance_libretro.dll,Wayne's World (USA).sfc,waynes_world_usa.dds,#FFFFFF,Console,,Yes
+Wayne Gretzky and the NHLPA All-Stars (USA).sfc,bsnes_performance_libretro.dll,Wayne Gretzky and the NHLPA All-Stars (USA).sfc,wayne_gretzky_and_the_nhlpa_all-stars_usa.dds,#FFFFFF,Console,,Yes
+WCW Super Brawl Wrestling (USA).sfc,bsnes_performance_libretro.dll,WCW Super Brawl Wrestling (USA).sfc,wcw_super_brawl_wrestling_usa.dds,#FFFFFF,Console,,Yes
+Weapon Lord (USA).sfc,bsnes_performance_libretro.dll,Weapon Lord (USA).sfc,weaponlord_usa.dds,#FFFFFF,Console,,Yes
+We're Back! - A Dinosaur's Story (USA).sfc,bsnes_performance_libretro.dll,We're Back! - A Dinosaur's Story (USA).sfc,were_back_-_a_dinosaurs_story_usa.dds,#FFFFFF,Console,,Yes
+Wheel of Fortune - Deluxe Edition (USA).sfc,bsnes_performance_libretro.dll,Wheel of Fortune - Deluxe Edition (USA).sfc,wheel_of_fortune_-_deluxe_edition_usa.dds,#FFFFFF,Console,,Yes
+Wheel of Fortune (USA).sfc,bsnes_performance_libretro.dll,Wheel of Fortune (USA).sfc,wheel_of_fortune_usa.dds,#FFFFFF,Console,,Yes
+Where in the World is Carmen Sandiego (USA).sfc,bsnes_performance_libretro.dll,Where in the World is Carmen Sandiego (USA).sfc,where_in_the_world_is_carmen_sandiego_usa.dds,#FFFFFF,Console,,Yes
+Where in Time is Carmen Sandiego (USA).sfc,bsnes_performance_libretro.dll,Where in Time is Carmen Sandiego (USA).sfc,where_in_time_is_carmen_sandiego_usa.dds,#FFFFFF,Console,,Yes
+Whirlo (Europe).sfc,bsnes_performance_libretro.dll,Whirlo (Europe).sfc,whirlo_europe.dds,#FFFFFF,Console,,Yes
+Whizz (USA).sfc,bsnes_performance_libretro.dll,Whizz (USA).sfc,whizz_usa.dds,#FFFFFF,Console,,Yes
+Wild Snake (USA).sfc,bsnes_performance_libretro.dll,Wild Snake (USA).sfc,wildsnake_usa.dds,#FFFFFF,Console,,Yes
+Wild Guns (USA).sfc,bsnes_performance_libretro.dll,Wild Guns (USA).sfc,wild_guns_usa.dds,#FFFFFF,Console,,Yes
+Wings 2 - Aces High (USA).sfc,bsnes_performance_libretro.dll,Wings 2 - Aces High (USA).sfc,wings_2_-_aces_high_usa.dds,#FFFFFF,Console,,Yes
+Wing Commander - The Secret Missions (USA).sfc,bsnes_performance_libretro.dll,Wing Commander - The Secret Missions (USA).sfc,wing_commander_-_the_secret_missions_usa.dds,#FFFFFF,Console,,Yes
+Wing Commander (USA).sfc,bsnes_performance_libretro.dll,Wing Commander (USA).sfc,wing_commander_usa.dds,#FFFFFF,Console,,Yes
+Winter Gold (Europe).sfc,bsnes_performance_libretro.dll,Winter Gold (Europe).sfc,winter_gold_europe.dds,#FFFFFF,Console,,Yes
+"Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No).sfc",bsnes_performance_libretro.dll,"Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No).sfc",winter_olympic_games_-_lillehammer_94_usa.dds,#FFFFFF,Console,,Yes
+Wizardry V - Heart of the Maelstrom (USA).sfc,bsnes_performance_libretro.dll,Wizardry V - Heart of the Maelstrom (USA).sfc,wizardry_v_-_heart_of_the_maelstrom_usa.dds,#FFFFFF,Console,,Yes
+"Wizard of Oz, The (USA).sfc",bsnes_performance_libretro.dll,"Wizard of Oz, The (USA).sfc",wizard_of_oz_the_usa.dds,#FFFFFF,Console,,Yes
+Wolfchild (USA).sfc,bsnes_performance_libretro.dll,Wolfchild (USA).sfc,wolfchild_usa.dds,#FFFFFF,Console,,Yes
+Wolfenstein 3D (USA).sfc,bsnes_performance_libretro.dll,Wolfenstein 3D (USA).sfc,wolfenstein_3d_usa.dds,#FFFFFF,Console,,Yes
+Wolverine - Adamantium Rage (USA).sfc,bsnes_performance_libretro.dll,Wolverine - Adamantium Rage (USA).sfc,wolverine_-_adamantium_rage_usa.dds,#FFFFFF,Console,,Yes
+Wordtris (USA).sfc,bsnes_performance_libretro.dll,Wordtris (USA).sfc,wordtris_usa.dds,#FFFFFF,Console,,Yes
+World Class Rugby (Europe).sfc,bsnes_performance_libretro.dll,World Class Rugby (Europe).sfc,world_class_rugby_europe.dds,#FFFFFF,Console,,Yes
+World Cup USA '94 (USA).sfc,bsnes_performance_libretro.dll,World Cup USA '94 (USA).sfc,world_cup_usa_94_usa.dds,#FFFFFF,Console,,Yes
+World Heroes 2 (USA).sfc,bsnes_performance_libretro.dll,World Heroes 2 (USA).sfc,world_heroes_2_usa.dds,#FFFFFF,Console,,Yes
+World Heroes (USA).sfc,bsnes_performance_libretro.dll,World Heroes (USA).sfc,world_heroes_usa.dds,#FFFFFF,Console,,Yes
+World League Soccer (USA).sfc,bsnes_performance_libretro.dll,World League Soccer (USA).sfc,world_league_soccer_usa.dds,#FFFFFF,Console,,Yes
+World Masters Golf (Europe).sfc,bsnes_performance_libretro.dll,World Masters Golf (Europe).sfc,world_masters_golf_europe.dds,#FFFFFF,Console,,Yes
+World Soccer '94 - Road to Glory (USA).sfc,bsnes_performance_libretro.dll,World Soccer '94 - Road to Glory (USA).sfc,world_soccer_94_-_road_to_glory_usa.dds,#FFFFFF,Console,,Yes
+Worms (Europe).sfc,bsnes_performance_libretro.dll,Worms (Europe).sfc,worms_europe.dds,#FFFFFF,Console,,Yes
+WWF Raw (USA).sfc,bsnes_performance_libretro.dll,WWF Raw (USA).sfc,wwf_raw_usa.dds,#FFFFFF,Console,,Yes
+WWF Royal Rumble (USA).sfc,bsnes_performance_libretro.dll,WWF Royal Rumble (USA).sfc,wwf_royal_rumble_usa.dds,#FFFFFF,Console,,Yes
+WWF Super WrestleMania (USA).sfc,bsnes_performance_libretro.dll,WWF Super WrestleMania (USA).sfc,wwf_super_wrestlemania_usa.dds,#FFFFFF,Console,,Yes
+WWF WrestleMania (USA).sfc,bsnes_performance_libretro.dll,WWF WrestleMania (USA).sfc,wwf_wrestlemania_-_the_arcade_game_usa.dds,#FFFFFF,Console,,Yes
+X-Kaliber 2097 (USA).sfc,bsnes_performance_libretro.dll,X-Kaliber 2097 (USA).sfc,x-kaliber_2097_usa.dds,#FFFFFF,Console,,Yes
+X-Men - Mutant Apocalypse (USA).sfc,bsnes_performance_libretro.dll,X-Men - Mutant Apocalypse (USA).sfc,x-men_-_mutant_apocalypse_usa.dds,#FFFFFF,Console,,Yes
+Xardion (USA).sfc,bsnes_performance_libretro.dll,Xardion (USA).sfc,xardion_usa.dds,#FFFFFF,Console,,Yes
+"X Zone (Japan, USA).sfc",bsnes_performance_libretro.dll,"X Zone (Japan, USA).sfc",x_zone_japan_usa.dds,#FFFFFF,Console,,Yes
+Yoshi's Cookie (USA).sfc,bsnes_performance_libretro.dll,Yoshi's Cookie (USA).sfc,yoshis_cookie_usa.dds,#FFFFFF,Console,,Yes
+Yoshi's Safari (USA).sfc,bsnes_performance_libretro.dll,Yoshi's Safari (USA).sfc,yoshis_safari_usa.dds,#FFFFFF,Console,,Yes
+Young Merlin (USA).sfc,bsnes_performance_libretro.dll,Young Merlin (USA).sfc,young_merlin_usa.dds,#FFFFFF,Console,,Yes
+Ys III - Wanderers from Ys (USA).sfc,bsnes_performance_libretro.dll,Ys III - Wanderers from Ys (USA).sfc,ys_iii_-_wanderers_from_ys_usa.dds,#FFFFFF,Console,,Yes
+Zero the Kamikaze Squirrel (USA).sfc,bsnes_performance_libretro.dll,Zero the Kamikaze Squirrel (USA).sfc,zero_the_kamikaze_squirrel_usa.dds,#FFFFFF,Console,,Yes
+Zombies Ate My Neighbors (USA).sfc,bsnes_performance_libretro.dll,Zombies Ate My Neighbors (USA).sfc,zombies_ate_my_neighbors_usa.dds,#FFFFFF,Console,,Yes
+Zool - Ninja of the Nth Dimension (USA).sfc,bsnes_performance_libretro.dll,Zool - Ninja of the Nth Dimension (USA).sfc,zool_-_ninja_of_the_nth_dimension_usa.dds,#FFFFFF,Console,,Yes
+Zoop (USA).sfc,bsnes_performance_libretro.dll,Zoop (USA).sfc,zoop_usa.dds,#FFFFFF,Console,,Yes

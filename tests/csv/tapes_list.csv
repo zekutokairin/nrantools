@@ -1,0 +1,49 @@
+Name,URL,Type,FixedLocation,Include (Yes/No)
+DCC Radio,dccradio,Tape,Tape1,Yes
+SHAZBOT SYNDICATE,http://108.178.13.122:8311/stream,Tape,Tape2,Yes
+ABNORMALLY DEAD AIR,http://199.101.51.168:8006,Tape,Tape3,Yes
+ALT NATION RADIO,http://listen.radionomy.com:80/AlternativeNationRadio,Tape,,Yes
+CDNX INDIE ROCK,http://216.120.247.102:8136,Tape,,Yes
+SDX SYNTH EXPERIENCE,http://78.70.63.116:8000,Tape,,Yes
+204 THE HITZ,http://206.190.150.92:8329,Tape,,Yes
+181.FM AWESOME 80S,http://198.50.155.189:8005,Tape,,Yes
+DISCOMANIA,http://176.9.39.43:7030,Tape,,Yes
+1.FM ABSOLUTE 90S,http://185.33.21.112:1101,Tape,,Yes
+181.FM ALTERNATIVE 90S,http://108.61.73.115:14052,Tape,,Yes
+BASSDRIVE,http://50.7.70.66:8200,Tape,,Yes
+METAL POWER,http://listen.radionomy.com/MetalPower,Tape,,Yes
+GANKED.ME RADIO,http://ganked.me:8000/stream,Tape,,Yes
+DEATHTHRASH,http://listen.radionomy.com/Death-Thrash--Heavy-Metal,Tape,,Yes
+DEATH.FM,http://162.213.197.52:80,Tape,,Yes
+PROG PALACE,http://206.217.215.59:80,Tape,,Yes
+DRIVERADIO.BE,http://streaming.radionomy.com/DRIVE,Tape,,Yes
+1.FM CLASSIC ROCK,http://185.33.22.15:11093,Tape,,Yes
+MOROW,http://stream.morow.com:8080/morow_med.mp3,Tape,,Yes
+PROGROCK.COM,http://184.154.185.181:8000,Tape,,Yes
+NEW YORK CLASSIC ROCK,http://listen.radionomy.com:80/NewYorkClassicRock,Tape,,Yes
+DNBHEAVEN,http://94.23.23.97:5972,Tape,,Yes
+MUSIK.TRAP,http://95.141.24.35:80,Tape,,Yes
+NOISE.FM,http://noisefm.ru:8000/play,Tape,,Yes
+1 HITS 80S,http://listen.radionomy.com:80/1HITS80s,Tape,,Yes
+EURODANCE,http://172.82.138.34:16470,Tape,,Yes
+DANCEWAVE,http://stream.dancewave.online:8080/dance.mp3,Tape,,Yes
+DARKSYNTHRADIO,http://laut.fm/darksynthradio,Tape,,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape1,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape2,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape3,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape4,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape5,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape6,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape7,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape8,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape9,Yes
+NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape10,Yes
+DCC RADIO,dccradio,RadioStation,RadioStation1,Yes
+DRIVE RADIO,http://streaming.radionomy.com/DRIVE,RadioStation,RadioStation2,Yes
+OUTRUN RADIO,http://streaming.radionomy.com/OUTRUNRadio,RadioStation,RadioStation3,Yes
+RADIO.80S FOREVER,http://192.240.97.67:8085/listen.pls,RadioStation,RadioStation4,Yes
+PANORAMA80,http://laut.fm/panorama80,RadioStation,RadioStation5,Yes
+HEAVY METAL,http://s3.radioheart.ru:8015/radio-metal,RadioStation,RadioStation6,Yes
+INDUSTRIAL DARKWAVE,http://88.198.5.162:8000/listen.pls,RadioStation,RadioStation7,Yes
+MULTI TRANCE,http://stream.easy2manager.com:8004/listen.pls,RadioStation,RadioStation8,Yes
+CLASSICAL,http://streaming.radionomy.com/abacusfm-mozart-symphony,RadioStation,RadioStation9,Yes
