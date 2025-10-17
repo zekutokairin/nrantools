@@ -9,7 +9,7 @@ image_path = os.path.join("tests","spnlbrk.jpg")
 template = Image.open(TEMPLATE_PATH).convert('RGBA')
 marquee = Image.open(image_path).convert('RGBA')
 
-if __name__ == "__main__":
+def cabinetart(basename):
     marquee.thumbnail(size, Image.Resampling.LANCZOS)
     # placement at (512-width of image)/2
     offset = int((512-marquee.size[0])/2)
@@ -28,3 +28,8 @@ if __name__ == "__main__":
     import code
     #code.interact(local=locals())
     template.save("output.png")
+
+
+if __name__ == "__main__":
+    cabinetart("spnlbrk")
+
