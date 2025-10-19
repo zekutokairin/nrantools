@@ -5,6 +5,7 @@ Scripts for importing and maintaining your personal arcade in N:RAN
 - Use `-defaultmap=newretroarcade_neon` in the launch options to skip main menu
 - Copy in Dado Pack
 - Replace `NewRetroArcade\Plugins\VlcMedia\ThirdParty\real-youtube-dl` with 64 bit yt-dlp
+- Add `<picodrive_renderer value="accurate" / >`  to ArcadeEmulatorOptions.xml
 
 - Check if it gets the layout from the .ini file:
 Q: How do I pick a layout as default?
@@ -13,7 +14,7 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 # Notes
 - ArcadeLayout can be None or a specified Layout
-- GameMusicVolume is for the the attract, I think between 0 and 1. BUT, sometimes values in between aren't working right?
+- GameMusicVolume is for the attract movies
 
 ## Tapes
 - The actual XML to load things is the ArcadeTapes.xml
