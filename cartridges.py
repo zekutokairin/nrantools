@@ -2,10 +2,8 @@
 
 import os
 
-NES_CORE = ""
-SNES_CORE = ""
-GEN_CORE = "picodrive_libretro.dll"
-GBA_CORE = "mgba_libretro.dll"
-
-
-romtypes = ["sfc","gba"
+for root, dirs, files in os.walk(start_directory):
+    for 
+    print(f"Current directory: {root}")
+        print(f"Subdirectories: {dirs}")
+            print(f"Files: {files}")
