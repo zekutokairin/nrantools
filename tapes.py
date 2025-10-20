@@ -5,8 +5,10 @@ import tempfile
 import hashlib
 import os
 
-URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
-USERMEDIAFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\UserMedia.json"
+#URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
+URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWRyicpVj3SgmyrSIpp4D42"
+#USERMEDIAFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\UserMedia.json"
+USERMEDIAFILE = "output.json"
 LAYOUTFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\Layouts\\Zeku.layout"
 
 MUSICFILE = os.path.join("tests","radio.txt")
@@ -65,14 +67,14 @@ def writeUserMedia(music_dict,video_dict):
         pass
 
 if __name__ == "__main__":
-    musictapes = parseMusicFile()
-    #vhstapes = parseYTPlaylist(URL)
+    #musictapes = parseMusicFile()
+    vhstapes = parseYTPlaylist(URL)
     usermedia_json = None
     with open(USERMEDIAFILE) as fp:
         usermedia_json = json.load(fp)
     import code
     #code.interact(local=locals())
-    usermedia_json.extend(musictapes)
+    #usermedia_json.extend(musictapes)
     usermedia_json.extend(vhstapes)
     # TODO: sort entries by Tape, VHS
     # TODO: eliminate duplicates
@@ -80,8 +82,10 @@ if __name__ == "__main__":
     with open(USERMEDIAFILE,"w") as fp:
         json.dump(usermedia_json,fp,indent=4,sort_keys=True)
         
+    """
     with open(LAYOUTFILE) as fp:
         a = json.load(fp)
         import code
-        code.interact(local=locals())
+        #code.interact(local=locals())
         tapes = a.get("Tapes")
+    """

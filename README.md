@@ -3,8 +3,17 @@ Scripts for importing and maintaining your personal arcade in N:RAN
 
 # Dev Setup
 - Use `-defaultmap=newretroarcade_neon` in the launch options to skip main menu
+- Copy in ArcadeManager
 - Copy in Dado Pack
 - Replace `NewRetroArcade\Plugins\VlcMedia\ThirdParty\real-youtube-dl` with 64 bit yt-dlp
+
+- Use non-merged ROMs for better performance
+- remember LATEST qsound.zip for CPS2 games
+
+- TODO Things to Check:
+    - NES/Genesis Cartridges
+    - Gameboys
+    - VHS tapes
 
 - Check if it gets the layout from the .ini file:
 Q: How do I pick a layout as default?
