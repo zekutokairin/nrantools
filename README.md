@@ -6,6 +6,7 @@ Scripts for importing and maintaining your personal arcade in N:RAN
 - Copy in ArcadeManager
 - Copy in Dado Pack
 - Replace `NewRetroArcade\Plugins\VlcMedia\ThirdParty\real-youtube-dl` with 64 bit yt-dlp
+- Add `<picodrive_renderer value="accurate" / >`  to ArcadeEmulatorOptions.xml
 
 - Use non-merged ROMs for better performance
 - remember LATEST qsound.zip for CPS2 games
@@ -22,7 +23,7 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 # Notes
 - ArcadeLayout can be None or a specified Layout
-- GameMusicVolume is for the the attract, I think between 0 and 1. BUT, sometimes values in between aren't working right?
+- GameMusicVolume is for the attract movies
 
 ## Tapes
 - The actual XML to load things is the ArcadeTapes.xml
