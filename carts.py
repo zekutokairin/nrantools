@@ -21,13 +21,16 @@ ROMTYPES = ["smc","sfc","gba", "md","nes"]
 IMAGETYPES = ["png","dds"]
 
 def findCartridgeLabel(romname):
+    regex = r"(.*?)(?=\()"
     # At this point, romname is something like 
     #   'Tiny Toon Adventures - Scary Dreams (USA).gba'
+
     rombase,ext = os.path.splitext(romname)
-    basename = re.match(rombase,r".*(?=_[^(]*$")
-    import code
-    code.interact(local=locals())
-    print("Yahh")
+    #   'Tiny Toon Adventures - Scary Dreams (USA)'
+    rombase = "Some Game"
+    match = re.match(regex, rombase)
+    basename = match[0].strip() if match != None else rombase.strip()
+    #   'Tiny Toon Adventures - Scary Dreams'
 
 if __name__ == "__main__":
     # Copy all subdirectories in
