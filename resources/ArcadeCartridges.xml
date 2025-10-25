@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeCartridges>
+	<!--SNES, NES and Genesis Games-->
+	<CartridgeDefault Game="Super Mario World 2 - Yoshi's Island (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Yoshi" Texture="Yoshis Island.png" Colour="#000000" />
+	<CartridgeTable1 Game="Donkey Kong Country (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="DKC" Texture="DKC.png" Colour="#000000" />
+	<CartridgeTable2 Game="Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev A).sfc" Core="bsnes_performance_libretro.dll" GameName="DKC2" Texture="Donkey Kong Country 2 Cart.dds" Colour="#000000" />
+	<CartridgeShelfRight1 Game="Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc" Core="bsnes_performance_libretro.dll" GameName="DKC3" Texture="DKC3.png" Colour="#000000" />
+	<CartridgeShelfRight2 Game="Cool Spot (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Cool Spot" Texture="Coolspot.png" Colour="#000000" />
+	<CartridgeShelfRight3 Game="Super Mario All-Stars + Super Mario World (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Super Mario All-Stars" Texture="Mario All Stars.png" Colour="#000000" />
+	<CartridgeShelfRight4 Game="Earthworm Jim (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Earthworm Jim" Texture="Earthworm.png" Colour="#FFFFFF" />
+	<CartridgeShelfRight5 Game="Megaman X (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Megaman X" Texture="MegamanX.png" Colour="#141414" />
+	<CartridgeShelfRight6 Game="Super Bomberman (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Super Bomberman" Texture="Bomberman.png" Colour="#000000" />
+	<CartridgeShelfRight7 Game="Super Castlevania IV (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Super Castlevania IV" Texture="Castelvania4.png" Colour="#000000" />
+	<CartridgeShelfLeft1 Game="Super Ghouls'n Ghosts (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Super Ghouls'n Ghosts" Texture="ghosts.png" Colour="#000000" />
+	<CartridgeShelfLeft2 Game="Super Mario Kart (USA).sfc" Core="bsnes_performance_libretro.dll" GameName="Super Mario Kart " Texture="mariokart.png" Colour="#808080" />
+	<CartridgeShelfLeft3 Game="supermetroid.smc" Core="bsnes_performance_libretro.dll" GameName="supermetroid" Texture="supermetroid.png" Colour="#C0C0C0" />
+	<CartridgeShelfLeft4 Game="batmanreturns.smc" Core="bsnes_performance_libretro.dll" GameName="batman returns" Texture="batmanreturns.png" Colour="#000000" />
+	<CartridgeShelfLeft5 Game="chronotrigger.smc" Core="bsnes_performance_libretro.dll" GameName="chrono trigger" Texture="Chronotrigger.png" Colour="#FFFFFF" />
+	<CartridgeShelfLeft6 Game="powerrangers.smc" Core="bsnes_performance_libretro.dll" GameName="power rangers" Texture="powerrangrs.png" Colour="#000000" />
+	<CartridgeShelfLeft7 Game="legendzeldalinkpast.smc" Core="bsnes_performance_libretro.dll" GameName="legend zelda link past" Texture="zeldalinkpast.png" Colour="#C0C0C0" />
+	<CartridgeTable Game="" Core="" GameName="Hell Kid" Texture="T_Cartridge_HelKid.dds" Colour="#141414" />
+	<!--Gamebro Games-->
+	<Gamebro1 Game="Donkey Kong Land 2 (UE) [S][!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro2 Game="Donkey Kong Land 3 (U) [S][!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro3 Game="Kirby's Dream Land (U) [!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro4 Game="Kirby's Dream Land 2 (U) [S][!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro5 Game="Mario Tennis (U) [C][!].gbc" Core="gambatte_libretro.dll" />
+	<Gamebro6 Game="Mega Man 3 (U) [t1].gb" Core="gambatte_libretro.dll" />
+	<Gamebro7 Game="Mortal Kombat II (U) [S][b2].gb" Core="gambatte_libretro.dll" />
+	<Gamebro8 Game="Super Mario Land (V1.0) (JUA) [!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro9 Game="Super Mario Land 2 - 6 Golden Coins (V1.0) (UE) [!].gb" Core="gambatte_libretro.dll" />
+	<Gamebro10 Game="Tetris DX (J) [C][!].gb" Core="gambatte_libretro.dll" />
+</ArcadeCartridges>

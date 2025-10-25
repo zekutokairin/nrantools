@@ -29,6 +29,8 @@ def findCartridgeLabel(romname):
     #   'Tiny Toon Adventures - Scary Dreams (USA)'
     rombase = "Some Game"
     match = re.match(regex, rombase)
+
+    # If there's no parentheses in the romname, just use it instead
     basename = match[0].strip() if match != None else rombase.strip()
     #   'Tiny Toon Adventures - Scary Dreams'
 

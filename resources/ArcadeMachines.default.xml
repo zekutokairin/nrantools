@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeMachines>
+	<ArcadeMachineGameConsole>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutDefault</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Colour="#FFFFFF" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineGameConsole>
+	<ArcadeMachineLightgun>
+		<GameVolume>1.0</GameVolume>
+		<GameImage>T_NRAScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<LightgunCalibration>270, 210</LightgunCalibration>
+	</ArcadeMachineLightgun>
+	<ArcadeMachine0>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_KnobsScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutSpaceCabs</ButtonLayout>
+		<ButtonColour AB="#CACA00" XY="#A6A600" SS="#A4A400" />
+		<ArtFrontPanel Texture="T_Knoblings_Board.dds" />
+		<ArtSidePanel Texture="T_Knoblings_Machine.dds" />
+	</ArcadeMachine0>
+	<ArcadeMachine1>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_WarGalaxyScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutSpaceCabs</ButtonLayout>
+		<ButtonColour AB="#0000FF" XY="#0000FF" SS="#0000FF" />
+		<ArtFrontPanel Texture="T_WarGalaxy_Board.dds" />
+		<ArtSidePanel Texture="T_WarGalaxy_Machine.dds" />
+	</ArcadeMachine1>
+	<ArcadeMachine2>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_DubbleScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutDubbleTrubble</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="T_DubbleTrubble_Board.dds" />
+		<ArtSidePanel Colour="#4AA5FF" />
+	</ArcadeMachine2>
+	<ArcadeMachine3>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen3.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRoadSquab</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#FF0000" SS="#400080" />
+		<ArtFrontPanel Texture="T_RoadSquabbler_Board.dds" />
+		<ArtSidePanel Colour="#6300C6" />
+	</ArcadeMachine3>
+	<ArcadeMachine4>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_FraggerScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFragger</ButtonLayout>
+		<ButtonColour AB="#820000" XY="#820000" SS="#820000" />
+		<ArtFrontPanel Texture="T_Fragger_Board.dds" />
+		<ArtSidePanel Texture="T_Fragger_Machine.dds" />
+	</ArcadeMachine4>
+	<ArcadeMachine5>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen2.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutGNG</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#51A8FF" />
+		<ArtFrontPanel Texture="T_Neon_Board.dds" />
+		<ArtSidePanel Colour="#EC00EC" />
+	</ArcadeMachine5>
+	<ArcadeMachine6>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_StonkyScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutAlienSyndrome</ButtonLayout>
+		<ButtonColour AB="#C80000" XY="#C80006" SS="#C80000" />
+		<ArtFrontPanel Texture="T_StonkyDong_Board.dds" />
+		<ArtSidePanel Colour="#060606" />
+	</ArcadeMachine6>
+	<ArcadeMachine7>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_VampScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutSpaceCabs</ButtonLayout>
+		<ButtonColour AB="#804000" XY="#804000" SS="#804000" />
+		<ArtFrontPanel Texture="T_Vampire_Board.dds" />
+		<ArtSidePanel Texture="T_Vampire_Machine.dds" />
+	</ArcadeMachine7>
+	<ArcadeMachine8>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_RocoonPatrolScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRaccoonPatrol</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#FFFF00" SS="#FFFF00" />
+		<ArtFrontPanel Texture="T_RacoonPatrol_Board.dds" />
+		<ArtSidePanel Colour="#DBF059" />
+	</ArcadeMachine8>
+	<ArcadeMachine9>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BluBallsScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutBluBallz</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#0000FF" SS="#000000" />
+		<ArtFrontPanel Texture="T_BluBalls_Board.dds" />
+		<ArtSidePanel Colour="#00006A" />
+	</ArcadeMachine9>
+	<ArcadeMachine10>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen10.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFragger</ButtonLayout>
+		<ButtonColour AB="#FBFB00" XY="#808080" SS="#808080" />
+		<ArtFrontPanel Texture="T_RobertCop_Board.dds" />
+		<ArtSidePanel Texture="T_RobertCop_Machine.dds" />
+	</ArcadeMachine10>
+	<ArcadeMachine11>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutYellowPeople</ButtonLayout>
+		<ButtonColour AB="#FF00FF" XY="#69D200" SS="#000000" />
+		<ArtFrontPanel Texture="T_Neon2_Board.dds" />
+		<ArtSidePanel Colour="#63C600" />
+	</ArcadeMachine11>
+	<ArcadeMachine12>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen11.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutSpaceCabs</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#F20000" SS="#FFFF00" />
+		<ArtFrontPanel Texture="T_AlienBoom_Board.dds" />
+		<ArtSidePanel Texture="T_AlienBoom_Machine.dds" />
+	</ArcadeMachine12>
+	<ArcadeMachine13>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen5.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutYobbo</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="T_Yobbo_Board.dds" />
+		<ArtSidePanel Colour="#FF0000" />
+	</ArcadeMachine13>
+	<ArcadeMachine14>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen11.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFastcar</ButtonLayout>
+		<ButtonColour AB="#271CFF" XY="#FF1C1C" SS="#FF1A1A" />
+		<ArtFrontPanel Texture="T_OnTheCase_Board.dds" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachine14>
+	<ArcadeMachine15>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutChase</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="T_Neon_Board.dds" />
+		<ArtSidePanel Colour="#00DDDD" />
+	</ArcadeMachine15>
+	<ArcadeMachine16>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_FraggerScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFragger</ButtonLayout>
+		<ButtonColour AB="#AA0000" XY="#0EA70A" SS="#2D9E18" />
+		<ArtFrontPanel Texture="T_Fragger2_Board.dds" />
+		<ArtSidePanel Texture="T_Fragger2_Machine.dds" />
+	</ArcadeMachine16>
+	<ArcadeMachine17>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen7.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFragger</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="T_IronSnail_Board.dds" />
+		<ArtSidePanel Colour="#D70000" />
+	</ArcadeMachine17>
+	<ArcadeMachine18>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_GloveScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutYellowPeople</ButtonLayout>
+		<ButtonColour AB="#FF0D0D" XY="#2D15FF" SS="#EADF1C" />
+		<ArtFrontPanel Texture="T_Glove_Board.dds" />
+		<ArtSidePanel Colour="#8000FF" />
+	</ArcadeMachine18>
+	<ArcadeMachine19>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_PorderScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutPhallicOrder</ButtonLayout>
+		<ButtonColour AB="#F8FD1C" XY="#FFFFFF" SS="#D50000" />
+		<ArtFrontPanel Texture="T_PhallicOrder_Board.dds" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachine19>
+	<ArcadeMachine20>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="T_Neon2_Board.dds" />
+		<ArtSidePanel Colour="#99E320" />
+	</ArcadeMachine20>
+	<ArcadeMachine21>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BuildBroScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutGNG</ButtonLayout>
+		<ButtonColour AB="#00BBBB" XY="#9F0000" SS="#93F7FF" />
+		<ArtFrontPanel Texture="T_BuildBro_Board.dds" />
+		<ArtSidePanel Colour="#0000B0" />
+	</ArcadeMachine21>
+	<ArcadeMachine22>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen9.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutAlienSyndrome</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="T_ClockProblems_Board.dds" />
+		<ArtSidePanel Colour="#D26900" />
+	</ArcadeMachine22>
+	<ArcadeMachine23>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_1944Screen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>Layout1944</ButtonLayout>
+		<ButtonColour AB="#C0C0C0" XY="#0080C0" SS="#C0C0C0" />
+		<ArtFrontPanel Texture="T_1944_Board.dds" />
+		<ArtSidePanel Colour="#1899E7" />
+	</ArcadeMachine23>
+	<ArcadeMachineDisabled>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutBlocker</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Colour="#FFFFFF" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineDisabled>
+	<ArcadeMachineSpecial1>
+		<Game>spoopers</Game>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutSpoopers</ButtonLayout>
+		<ButtonColour AB="#8000FF" XY="#400080" SS="#8000FF" />
+		<ArtFrontPanel Texture="T_Spoopers_Board.dds" />
+		<ArtSidePanel Texture="T_Spoopers_Machine.dds" />
+	</ArcadeMachineSpecial1>
+	<ArcadeMachineSpecial2>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_NRATallScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutPacmens</ButtonLayout>
+		<ButtonColour AB="#8000FF" XY="#400080" SS="#8000FF" />
+		<ArtFrontPanel Texture="T_NRA_Board.dds" />
+		<ArtSidePanel Texture="T_NRA_Machine.dds" />
+	</ArcadeMachineSpecial2>
+	<ArcadeMachineSpecial3>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_BrokenScreen1.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutPacmens</ButtonLayout>
+		<ButtonColour AB="#FF8000" XY="#FF8000" SS="#FF8000" />
+		<ArtFrontPanel Texture="T_Starstreet_Board.dds" />
+		<ArtSidePanel Texture="T_Starstreet_Machine.dds" />
+	</ArcadeMachineSpecial3>
+	<ArcadeMachineSpecial4>
+		<Core />
+		<GameVolume>1.5</GameVolume>
+		<GameImage>T_HelKidScreen.png</GameImage>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutPacmens</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#0000FF" SS="#FFFF00" />
+		<ArtFrontPanel Texture="T_HellKid_Board.dds" />
+		<ArtSidePanel Texture="T_HellKid_Machine.dds" />
+	</ArcadeMachineSpecial4>
+
+	<ArcadeMachineFPS1>
+		<Game>fpsgame1</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#B00000" XY="#B00000" SS="#B00000" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS1>
+	<ArcadeMachineFPS2>
+		<Game>fpsgame2</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#001399" XY="#001399" SS="#001399" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS2>
+	<ArcadeMachineFPS3>
+		<Game>fpsgame3</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#27D700" XY="#27D700" SS="#27D700" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS3>
+	<ArcadeMachineFPS4>
+		<Game>fpsgame4</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#B2A900" XY="#B2A900" SS="#B2A900" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS4>
+	<ArcadeMachineFPS5>
+		<Game>fpsgame5</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#B2007C" XY="#B2007C" SS="#B2007C" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS5>
+	<ArcadeMachineFPS6>
+		<Game>fpsgame6</Game>
+		<Core />
+		<GameVolume>1.0</GameVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutRobertCop</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Colour="#000000" />
+		<ArtSidePanel Colour="#000000" />
+	</ArcadeMachineFPS6>
+	
+</ArcadeMachines>

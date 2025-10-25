@@ -1,0 +1,17 @@
+- Figure out why emulators are crashing on launch
+
+Workflow:
+- Have my backlog as a Pack directory
+- Parse CSV
+- List all ROMs in Pack
+    - Create front artwork
+    - Create game image
+    - Create CSV entry
+============
+
+- Verify that a specified file/core exists
+    - Base path of game install
+
+- Read list of youtube playlists, local urls, etc.
+    - Create randomized VHS tape list
+

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeCartridges>
+	<!--Cartridge Games-->
+	<CartridgeDefault Game="" Core="" GameName="Fragger" Texture="T_Cartridge_Fragger.dds" Colour="#FFFFFF" />
+	<CartridgeTable1 Game="" Core="" GameName="War Galaxy" Texture="T_Cartridge_WarGalaxy.dds" Colour="#FFFFFF" />
+	<CartridgeTable2 Game="" Core="" GameName="Starstreet" Texture="T_Cartridge_Startstreet.dds" Colour="#1306FF" />
+	<CartridgeShelfRight1 Game="" Core="" GameName="Fragger II" Texture="T_Cartridge_Fragger2.dds" Colour="#FFFFFF" />
+	<CartridgeShelfRight2 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeShelfRight3 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeShelfRight4 Game="" Core="" GameName="" Texture="T_Cartridge_Knoblings.dds" Colour="#FFFFFF" />
+	<CartridgeShelfRight5 Game="" Core="" GameName="" Texture="" Colour="#141414" />
+	<CartridgeShelfRight6 Game="" Core="" GameName="Alien Boom" Texture="T_Cartridge_AlientBoom.dds" Colour="#FFFFFF" />
+	<CartridgeShelfRight7 Game="" Core="" GameName="" Texture="" Colour="#A80000" />
+	<CartridgeShelfLeft1 Game="" Core="" GameName="Vampire Shenanigans" Texture="T_Cartridge_Vampire.dds" Colour="#FFFFFF" />
+	<CartridgeShelfLeft2 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeShelfLeft3 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeShelfLeft4 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeShelfLeft5 Game="" Core="" GameName="Robert Cop" Texture="T_Cartridge_RobertCop.dds" Colour="#FFFFFF" />
+	<CartridgeShelfLeft6 Game="" Core="" GameName="" Texture="" Colour="#000000" />
+	<CartridgeShelfLeft7 Game="" Core="" GameName="" Texture="" Colour="#FFFFFF" />
+	<CartridgeTable Game="" Core="" GameName="Hell Kid" Texture="T_Cartridge_HelKid.dds" Colour="#141414" />
+	<!--Gamebro Games-->
+	<Gamebro1 Game="" Core="" />
+	<Gamebro2 Game="" Core="" />
+	<Gamebro3 Game="" Core="" />
+	<Gamebro4 Game="" Core="" />
+	<Gamebro5 Game="" Core="" />
+	<Gamebro6 Game="" Core="" />
+	<Gamebro7 Game="" Core="" />
+	<Gamebro8 Game="" Core="" />
+	<Gamebro9 Game="" Core="" />
+</ArcadeCartridges>
