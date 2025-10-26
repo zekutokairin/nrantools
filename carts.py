@@ -5,19 +5,31 @@ import sys
 import shutil
 import re
 
+# TODO: Okay, new plan: we copy all ROMs and Labels and make a new pack directory that's ready to copy in 
+#           to the NRAN COntent directory. Lastly, read the original CSV and append the new one with the 
+#           lines that correspond to our new files we're adding.
+
 DEBUG = os.getenv("NRAN_DEBUG")
 
 #NRAN_CONTENT_DIR = os.getenv("NRAN_CONTENT_DIR")
 NRAN_CONTENT_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content"
-os.getenv("NRAN_CONTENT_DIR")
 
-NRAN_ROMDIR = os.path.join(NRAN_CONTENT_DIR, "Roms")
-NRAN_ARTDIR = os.path.join(NRAN_CONTENT_DIR, "Cartridges")
 
 #PACKDIR = "/Users/user/Sync/Streaming/Games/NRAN/Zekupack/ROMs/cartridges"
 #PACKDIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade"
-PACKDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
-CARTDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
+
+PACKDIR = os.getenv("NRAN_PACK")
+#PACKDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
+#CARTDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
+
+# Where our new, ready to paste into Content/ pack will go
+outputdir = "output"
+romdir = os.path.join(outputdir, "Roms")
+artdir = os.path.join(outputdir, "Cartridges")
+# Make the directories if they don't exist already
+os.makedirs("output", exist_ok=True)
+os.makedirs(romdir, exist_ok=True)
+os.makedirs(artdir, exist_ok=True)
 
 NES_CORE = "bnes_libretro.dll" 
 SNES_CORE = "bsnes_performance_libretro.dll" 
@@ -46,7 +58,7 @@ def findCartridgeLabel(romname):
     basename = match[0].strip() if match != None else rombase.strip()
 
     #   'Tiny Toon Adventures - Scary Dreams'
-    for root, dirs, files in os.walk(NRAN_ARTDIR):
+    for root, dirs, files in os.walk(PACKDIR):
         for name in files:
             if name.lower().startswith(basename.lower()) and os.path.splitext(name)[1][1:].lower() in IMGTYPES:
                 return name
@@ -63,18 +75,21 @@ if __name__ == "__main__":
             extension = os.path.splitext(filename)[1][1:]
             if extension in IMGTYPES:
                 labelpath = os.path.join(dirpath,filename)
-                print("Copying label %s to %s" % (labelpath, NRAN_ARTDIR))
-                shutil.copyfile(labelpath, NRAN_ARTDIR)
+                targetpath = os.path.join(artdir,filename)
+                print("Copying label %s to %s" % (labelpath, targetpath))
+                #shutil.copyfile(labelpath, targetpath)
 
     for dirpath, dirnames, filenames in os.walk(PACKDIR):
         for filename in filenames:
             extension = os.path.splitext(filename)[1][1:]
             if extension in CORE_DICT.keys():
-                romfile = os.path.join(dirpath,filename)
-                print("Copying romfile %s to %s" % (romfile, NRAN_ROMDIR))
+                romfile = os.path.join(dirpath, filename)
+                targetfile = os.path.join(romdir, filename)
+                print("Copying romfile %s to %s" % (romfile, targetfile))
 
                 if not DEBUG:
-                    shutil.copyfile(romfile, NRAN_ROMDIR)
+                    pass
+                    #shutil.copyfile(romfile, romdir)
                     
                 labelpath = findCartridgeLabel(filename)
                 # generate CSV
@@ -89,3 +104,9 @@ if __name__ == "__main__":
 
     # TODO: Read the existing cartridge CSV and add our new stuff at the end
     print(csv)
+
+    original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
+    with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
+        outfile.write(original_csv)
+        outfile.write(csv)
+
