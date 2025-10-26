@@ -87,4 +87,5 @@ if __name__ == "__main__":
                 #print(csvline)
                 csv += csvline + "\n"
 
+    # TODO: Read the existing cartridge CSV and add our new stuff at the end
     print(csv)
