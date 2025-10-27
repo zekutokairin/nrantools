@@ -14,13 +14,10 @@ DEBUG = os.getenv("NRAN_DEBUG")
 #NRAN_CONTENT_DIR = os.getenv("NRAN_CONTENT_DIR")
 NRAN_CONTENT_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content"
 
-
 #PACKDIR = "/Users/user/Sync/Streaming/Games/NRAN/Zekupack/ROMs/cartridges"
 #PACKDIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade"
 
 PACKDIR = os.getenv("NRAN_PACK")
-#PACKDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
-#CARTDIR = "D:\\Streaming\\Games\\NRAN\\Zekupack"
 
 # Where our new, ready to paste into Content/ pack will go
 outputdir = "output"
@@ -98,15 +95,16 @@ if __name__ == "__main__":
                 # D:\Streaming\Games\NRAN\Zekupack\ROMs\cartridges\SNES\Super Star Wars (USA) (Rev 1).sfc,bsnes_performance_libretro.dll,Super Star Wars,super_star_wars_usa_rev_1.dds,#333333,Console,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
                 # TODO: Cartridge Colors
-                csvline = ",".join([romfile,CORE_DICT[extension],"SomeGame",labelpath,"#333333","Console","","Yes"])
+                csvline = ",".join([filename,CORE_DICT[extension],"SomeGame",os.path.split(labelpath)[1],"#333333","Console","","Yes"])
                 #print(csvline)
                 csv += csvline + "\n"
 
-    # TODO: Read the existing cartridge CSV and add our new stuff at the end
-    print(csv)
+    try:
+        original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
+        with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
+            outfile.write(original_csv)
+            outfile.write(csv)
 
-    original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
-    with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
-        outfile.write(original_csv)
-        outfile.write(csv)
+    except Exception:
+        print(csv)
 
