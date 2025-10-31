@@ -11,11 +11,6 @@ Scripts for importing and maintaining your personal arcade in N:RAN
 - Use non-merged ROMs for better performance
 - remember LATEST qsound.zip for CPS2 games
 
-- TODO Things to Check:
-    - NES/Genesis Cartridges
-    - Gameboys
-    - VHS tapes
-
 - Check if it gets the layout from the .ini file:
 Q: How do I pick a layout as default?
 A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HERE] to GameUserSettings.ini or by adding -ArcadeLayout=[LAYOUT NAME HERE] as a launch option. You can also launch directly into a layout in the Arcade Builder by right clicking on it.
@@ -48,16 +43,18 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 # Tested working (After Dado pack)
 - Arcade
-- SNES
-- Gamebro 
-- VHS (Youtube)
-- Music Tapes (http)
-
-# Needs Testing
 - NES
+- SNES
 - Genesis
+- GBA
+- GameGear
+- Gamebro (Gameboy w/backlight)
+- Music Tapes (http)
 - VHS (Local video)
 - VHS (Remote file share)
+
+# Needs Testing
+- VHS
 - Music Tapes (https appears to not work)
 
 # Quality of Life
@@ -71,16 +68,10 @@ A: You can choose a default layout either by adding ArcadeLayout=[LAYOUT NAME HE
 
 ===================================
 # Potential solutions
-# From working clean install, steps to take:
 
 # Download latest retroarch core nightlies
 
 # Need to double check these
-- Latest vlc core to avoid dll warnings?
-    - Just updating yt-dlp was enough for youtube
-    - If we need a newer VLC plugin core, that may require more work
-- Try disabling more ASLR settings
-     - I don't think these are necessary
 - Try Genesis Plus GX core?
 - In GameUserSettings, what is emulatormode = EM_BALANCED? Is there a performance?
 

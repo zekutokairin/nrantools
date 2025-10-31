@@ -2,6 +2,7 @@
 
 import os
 import sys
+import datetime
 import shutil
 import re
 
@@ -23,6 +24,7 @@ PACKDIR = os.getenv("NRAN_PACK")
 outputdir = "output"
 romdir = os.path.join(outputdir, "Roms")
 artdir = os.path.join(outputdir, "Cartridges")
+backupdir = os.path.join(outputdir,"backups")
 # Make the directories if they don't exist already
 os.makedirs("output", exist_ok=True)
 os.makedirs(romdir, exist_ok=True)
@@ -41,6 +43,35 @@ CORE_DICT = {"smc":SNES_CORE,
             "md":GEN_CORE}
 
 IMGTYPES = ["jpg","jpeg","png","dds"]
+
+def backupConfigs():
+    d = datetime.datetime.now()
+    timestamp = "%04d%02d%02d_%02d%02d" % (d.year, d.month, d.day, d.hour, d.minute) 
+    currentbackup = os.path.join(backupdir, timestamp)
+
+    os.makedirs(backupdir, exist_ok = True)
+    os.makedirs(currentbackup, exist_ok = True)
+
+    import code
+    #code.interact(local=locals())
+    for f in os.listdir(NRAN_CONTENT_DIR):
+        extension = os.path.splitext(f)[1].lower()[1:]
+        if extension in ["ini","xml","csv"]:
+            shutil.copyfile(os.path.join(NRAN_CONTENT_DIR,f), os.path.join(currentbackup,f))
+
+def getGameName(romname):
+    # TODO: Refactor this into the findcartridgelabel to eliminate dupe code
+    regex = r"(.*?)(?=\()"
+    # At this point, romname is something like 
+    #   'Tiny Toon Adventures - Scary Dreams (USA).gba'
+
+    rombase,ext = os.path.splitext(romname)
+    #   'Tiny Toon Adventures - Scary Dreams (USA)'
+    match = re.match(regex, rombase)
+
+    # If there's no parentheses in the romname, just use it instead
+    basename = match[0].strip() if match != None else rombase.strip()
+    return basename
 
 def findCartridgeLabel(romname):
     regex = r"(.*?)(?=\()"
@@ -63,10 +94,11 @@ def findCartridgeLabel(romname):
     raise Exception("Did not find artwork for %s" % romname)
 
 if __name__ == "__main__":
-    # Copy all subdirectories in
+    backupConfigs()
 
     csv = ""
     #10yard.zip,mame2014_libretro.dll,1.5,10Yard Splash.dds,HD,LayoutTetris,#000000,#000000,#000000,10Yard Cabinet Normal Front.dds,,10Yard Cabinet Normal Side.dds,,10yard.mp4,,1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    # FIXME: Use quotes to escape ROMs, labels, Game Titles that have commas
     for dirpath, dirnames, filenames in os.walk(PACKDIR):
         for filename in filenames:
             extension = os.path.splitext(filename)[1][1:]
@@ -74,7 +106,7 @@ if __name__ == "__main__":
                 labelpath = os.path.join(dirpath,filename)
                 targetpath = os.path.join(artdir,filename)
                 print("Copying label %s to %s" % (labelpath, targetpath))
-                #shutil.copyfile(labelpath, targetpath)
+                shutil.copyfile(labelpath, targetpath)
 
     for dirpath, dirnames, filenames in os.walk(PACKDIR):
         for filename in filenames:
@@ -85,26 +117,28 @@ if __name__ == "__main__":
                 print("Copying romfile %s to %s" % (romfile, targetfile))
 
                 if not DEBUG:
-                    pass
-                    #shutil.copyfile(romfile, romdir)
+                    shutil.copyfile(romfile, targetfile)
                     
                 labelpath = findCartridgeLabel(filename)
                 # generate CSV
                 # Game,Core,GameName,Texture,Colour,Type,FixedLocation,Include (Yes/No),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 # Mega Man 3 (USA).nes,bnes_libretro.dll,Mega Man 3 (NES),Megaman3.dds,#333333,Console,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-                # D:\Streaming\Games\NRAN\Zekupack\ROMs\cartridges\SNES\Super Star Wars (USA) (Rev 1).sfc,bsnes_performance_libretro.dll,Super Star Wars,super_star_wars_usa_rev_1.dds,#333333,Console,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
                 # TODO: Cartridge Colors
-                csvline = ",".join([filename,CORE_DICT[extension],"SomeGame",os.path.split(labelpath)[1],"#333333","Console","","Yes"])
-                #print(csvline)
-                csv += csvline + "\n"
+                gamename = getGameName(filename)
+                if "," in filename or "," in gamename or "," in labelpath:
+                    raise Exception("Cannot have commas in ROM or artwork name!")
+                csvline = ",".join([filename,CORE_DICT[extension],gamename,os.path.split(labelpath)[1],"#333333","Console","","Yes"])
+                csv += csvline
+                csv += ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+                csv += "\n"
 
     try:
-        original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
+        #original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
         with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
-            outfile.write(original_csv)
+            #outfile.write(original_csv)
             outfile.write(csv)
 
     except Exception:
         print(csv)
-
+        
