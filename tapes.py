@@ -62,30 +62,24 @@ def parseYTPlaylist(playlist_url):
 
     return vhstapes
 
-def writeUserMedia(music_dict,video_dict):
-    with open(MEDIAFILE,'w'):
-        pass
-
 if __name__ == "__main__":
+    csv = ""
+    # NRA NEON,https://www.youtube.com/watch?v=S3ls5BYKmtc,VHSTape,VHSTape1,Yes
+    # Name,URL,Type,FixedLocation,Include (Yes/No)
+
+    # TODO: First get the yt-dlp situation sorted and playing Youtube AND local videos
+    #       THEN add those files to ZekuPack so it's reproducible
     #musictapes = parseMusicFile()
     vhstapes = parseYTPlaylist(URL)
-    usermedia_json = None
-    with open(USERMEDIAFILE) as fp:
-        usermedia_json = json.load(fp)
-    import code
-    #code.interact(local=locals())
-    #usermedia_json.extend(musictapes)
-    usermedia_json.extend(vhstapes)
-    # TODO: sort entries by Tape, VHS
-    # TODO: eliminate duplicates
+    for video in vhstapes:
+        line = ",".join([video['Name'],video['URL'],'VHSTape',"","Yes"])
+        csv += line
+        csv += "\n"
 
-    with open(USERMEDIAFILE,"w") as fp:
-        json.dump(usermedia_json,fp,indent=4,sort_keys=True)
-        
-    """
-    with open(LAYOUTFILE) as fp:
-        a = json.load(fp)
-        import code
-        #code.interact(local=locals())
-        tapes = a.get("Tapes")
-    """
+    
+    print(csv)
+    import code
+    code.interact(local=locals())
+    #Name,URL,Type,FixedLocation,Include (Yes/No)
+
+
