@@ -19,6 +19,8 @@ NRAN_CONTENT_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro
 #PACKDIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade"
 
 PACKDIR = os.getenv("NRAN_PACK")
+if not PACKDIR:
+    raise Exception("Need to define NRAN_PACK environment variable with your pack directory!")
 
 # Where our new, ready to paste into Content/ pack will go
 outputdir = "output"
