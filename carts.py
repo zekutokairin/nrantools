@@ -5,6 +5,8 @@ import sys
 import shutil
 import re
 
+import pandas as pd
+
 # TODO: Okay, new plan: we copy all ROMs and Labels and make a new pack directory that's ready to copy in 
 #           to the NRAN COntent directory. Lastly, read the original CSV and append the new one with the 
 #           lines that correspond to our new files we're adding.
@@ -101,6 +103,15 @@ if __name__ == "__main__":
 
     try:
         original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
+
+        df1 = pd.read(read_csv(original_csv))
+        df2 = pd.read(read_csv(csv))
+        df = pd.concat(df1, df2)
+        df = df.drop_duplicates(keep='first')
+
+        df.to_csv('output.csv')
+        #PACKDIR = "/Users/user/Sync/Streaming/Games/NRAN/Zekupack/ROMs/cartridges"
+        
         with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
             outfile.write(original_csv)
             outfile.write(csv)
