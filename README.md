@@ -2,11 +2,13 @@
 Scripts for importing and maintaining your personal arcade in N:RAN
 
 # Dev Setup
-- Use `-defaultmap=newretroarcade_neon` in the launch options to skip main menu
+- To launch directly into an arcade, add launch options:
+    - `-defaultmap=newretroarcade_neon` or `-defaultmap=newretroarcade`
 - Copy in ArcadeManager
 - Copy in Dado Pack
 - Replace `NewRetroArcade\Plugins\VlcMedia\ThirdParty\real-youtube-dl` with 64 bit yt-dlp
 - Add `<picodrive_renderer value="accurate" / >`  to ArcadeEmulatorOptions.xml
+- Use HOME key to reload arcade in real time? (TODO: Try this)
 
 - Use non-merged ROMs for better performance
 - remember LATEST qsound.zip for CPS2 games
