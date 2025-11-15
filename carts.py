@@ -138,19 +138,13 @@ if __name__ == "__main__":
                 csv += ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
                 csv += "\n"
 
-    original_csv = open(os.path.join(NRAN_CONTENT_DIR, "cartridge_list.csv")).read()
-
-    df1 = pd.read_csv(original_csv)
-    df2 = pd.read_csv(csv)
-    df = pd.concat(df1, df2)
-    df = df.drop_duplicates(keep='first')
-
+    """
+    df = pd.read_csv(csv)
     df.to_csv('output.csv')
+    """
     #PACKDIR = "/Users/user/Sync/Streaming/Games/NRAN/Zekupack/ROMs/cartridges"
     
-    with open(os.path.join(outputdir,"cartridge_list.csv"),"w") as outfile:
-        #outfile.write(original_csv)
+    with open("cartridge_list.csv"),"w") as outfile:
         outfile.write(csv)
-
     #print(csv)
         
