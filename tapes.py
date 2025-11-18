@@ -4,6 +4,7 @@ import json
 import tempfile
 import hashlib
 import os
+import random
 
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWRyicpVj3SgmyrSIpp4D42"
@@ -37,12 +38,6 @@ def parseMusicFile():
     
     return musictapes
         
-    """
-    with open(MEDIAFILE) as fp:
-        music_json = json.load(fp)
-        # TODO: finish returning the dictionary here
-    """
-
 def downloadTape(url):
     #outputPath = os.path.join(VHSDIR)
     return subprocess.run(['yt-dlp','-o', VHSDIR+f'%(id)s', '-f','bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',url])
@@ -53,43 +48,40 @@ def parseYTPlaylist(playlist_url):
     TMPFILE = t.name
     subprocess.run(['yt-dlp','--flat-playlist','-i','--print-to-file','id,title,url',TMPFILE,playlist_url])
 
-    # TODO: Download the videos to output directory, should skip/continue where necessary
-    #subprocess.run(['-f',"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
-
     # Backlog will be a list of dict return
     vhstapes = []
 
-    import code
     with open(TMPFILE, encoding='utf8') as urlfile:
             index = 0 
             lines = urlfile.readlines()
-            print(len(lines))
-            for index in range(0, len(lines)-1):
-                print(index)
-                vid_id = "VHSTape_"+lines[index].strip()
-                title = lines[index+1].strip()
-                url = lines[index+2].strip()
+
+            while len(lines) > 0:
+                vid_id = lines.pop(0).strip()
+                title = lines.pop(0).strip()
+                url = lines.pop(0).strip()
 
                 vhstapes.append({"ID":vid_id,"Name":title,"URL":url})
-                
-                index += 3
-                if index > len(lines)-1:
-                    break
-                else:
-                    continue
 
     return vhstapes
 
 if __name__ == "__main__":
     #musictapes = parseMusicFile()
-    #vhstapes = parseYTPlaylist(URL)
+    vhstapes = parseYTPlaylist(URL)
+    import code
+    code.interact(local=locals())
     
-    # TODO: Download the tapes themselves
+    # TODO: Download the tapes themselves by deleting this and giving download tape the real URL
     tempurl = "https://www.youtube.com/watch?v=PBGQvbwCg60"
-    downloadTape(tempurl)
                           
-    # TODO: Form the XML output, not CSV here
-    for video in vhstapes:
-        line = ",".join([video['Name'],video['URL'],'VHSTape',"","Yes"])
-        csv += line
-        csv += "\n"
+    import code
+    random.shuffle(vhstapes)
+
+    for i in range(0, len(vhsNames)):
+        tape = vhstapes[i]
+        #downloadTape(tempurl)
+        localpath = os.path.join(VHSDIR, tape['ID'])
+        
+        #line = "<VHSTape1 Name=\"" + tape['Name'] + "URL=\"" + localpath + "\" />"
+        line = "<%s Name=\"%s\" URL=\"%s\" />" % (vhsNames[i], tape['Name'],localpath)
+        print(line)
+
