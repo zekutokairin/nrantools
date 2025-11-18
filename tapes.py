@@ -6,6 +6,10 @@ import hashlib
 import os
 import random
 
+import yt_dlp
+
+import code
+
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWRyicpVj3SgmyrSIpp4D42"
 URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWvfz2GHuhCqzx0ddoV6g5-"
@@ -42,7 +46,26 @@ def downloadTape(url):
     #outputPath = os.path.join(VHSDIR)
     return subprocess.run(['yt-dlp','-o', VHSDIR+f'%(id)s', '-f','bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',url])
 
+def yt_dlp_monitor(self, d):
+    final_filename  = d.get('info_dict').get('_filename')
+
+ydl_opts = {
+    "outtmpl": VHSDIR + '%(id)s.%(ext)s',  # this is where you can edit how you'd like the filenames to be formatted
+    "progress_hooks": [yt_dlp_monitor]  # here's the function we just defined
+    }
+
+myopts = {
+    "extract_flat":"True"
+}
+
+def test(playlist_url):
+    with yt_dlp.YoutubeDL(myopts) as ydl:
+        info = ydl.download(playlist_url)
+        code.interact(local=locals())
+
 def parseYTPlaylist(playlist_url):
+    import code
+    
     # With the given Youtube playlist, return a dictionary with keys ID, Name, URL
     t = tempfile.NamedTemporaryFile(delete=False)
     TMPFILE = t.name
@@ -65,10 +88,11 @@ def parseYTPlaylist(playlist_url):
     return vhstapes
 
 if __name__ == "__main__":
+    test(URL)
+    
+    raise Exception("Debugging")
     #musictapes = parseMusicFile()
     vhstapes = parseYTPlaylist(URL)
-    import code
-    code.interact(local=locals())
     
     # TODO: Download the tapes themselves by deleting this and giving download tape the real URL
     tempurl = "https://www.youtube.com/watch?v=PBGQvbwCg60"
