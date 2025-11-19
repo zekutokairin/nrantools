@@ -12,7 +12,10 @@ import code
 
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWRyicpVj3SgmyrSIpp4D42"
-URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWvfz2GHuhCqzx0ddoV6g5-"
+#URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWvfz2GHuhCqzx0ddoV6g5-"
+URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVpyt73l8hqRNQAxTdIqqpQ"
+
+
 #USERMEDIAFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\UserMedia.json"
 USERMEDIAFILE = "output.json"
 LAYOUTFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\Layouts\\Zeku.layout"
@@ -20,6 +23,9 @@ LAYOUTFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcad
 MUSICFILE = os.path.join("tests","radio.txt")
 
 VHSDIR = "D:\\VHS\\"
+
+# This is used to get the name of the file which was saved using the yt-dlp output format
+final_filename = None
 
 tapeNames = ['Tape1', 'Tape2', 'Tape3', 'Tape4', 'Tape5', 'Tape6', 'Tape7', 'Tape8', 'Tape9', 'Tape10', 
  'Tape11', 'Tape12', 'Tape13', 'Tape14', 'Tape16', 'Tape15', 'Tape17', 'Tape18', 'Tape19', 'Tape20', 
@@ -55,13 +61,19 @@ ydl_opts = {
     }
 
 myopts = {
-    "extract_flat":"True"
+    "extract_flat":"True",
+    "outtmpl": VHSDIR + '%(id)s.%(ext)s',  # this is where you can edit how you'd like the filenames to be formatted
+    'format': 'bestvideo+bestaudio/best',
+    'merge_output_format':'mp4'
 }
 
 def test(playlist_url):
+    # Getting the filename described in:
+    #  https://stackoverflow.com/questions/74157935/getting-the-file-name-of-downloaded-video-using-yt-dlp
     with yt_dlp.YoutubeDL(myopts) as ydl:
-        info = ydl.download(playlist_url)
-        code.interact(local=locals())
+        vid = ydl.download(playlist_url)
+        print(final_filename)
+        #code.interact(local=locals())
 
 def parseYTPlaylist(playlist_url):
     import code
@@ -108,4 +120,3 @@ if __name__ == "__main__":
         #line = "<VHSTape1 Name=\"" + tape['Name'] + "URL=\"" + localpath + "\" />"
         line = "<%s Name=\"%s\" URL=\"%s\" />" % (vhsNames[i], tape['Name'],localpath)
         print(line)
-
