@@ -1,10 +1,13 @@
 #!/usr/bin/env python
+import argparse
 import subprocess
 import json
 import tempfile
 import hashlib
 import os
 import random
+
+import pathlib
 
 import yt_dlp
 
@@ -13,7 +16,7 @@ import code
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVCbWHF2bqfSWVLrzFGg3w8"
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWRyicpVj3SgmyrSIpp4D42"
 #URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQWvfz2GHuhCqzx0ddoV6g5-"
-URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVpyt73l8hqRNQAxTdIqqpQ"
+#URL = "https://www.youtube.com/playlist?list=PLBLdlvve0cQVpyt73l8hqRNQAxTdIqqpQ"
 
 
 #USERMEDIAFILE = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content\\UserMedia.json"
@@ -99,19 +102,53 @@ def parseYTPlaylist(playlist_url):
 
     return vhstapes
 
-if __name__ == "__main__":
-    test(URL)
-    
-    raise Exception("Debugging")
-    #musictapes = parseMusicFile()
-    vhstapes = parseYTPlaylist(URL)
-    
-    # TODO: Download the tapes themselves by deleting this and giving download tape the real URL
-    tempurl = "https://www.youtube.com/watch?v=PBGQvbwCg60"
-                          
-    import code
-    random.shuffle(vhstapes)
+def parseMediaDir(path):
+    folder_path = pathlib.Path(path)
+    tape_list = [str(f.resolve()) for f in folder_path.iterdir() if f.is_file()]
 
+    return tape_list
+
+if __name__ == "__main__":
+    # 1. Initialize the parser
+    parser = argparse.ArgumentParser(description="A retro media collector script.")
+
+    # 2. Add arguments
+    # -c for cassette
+    parser.add_argument('-c', '--cassette', type=str, help='Directory full of music files to randomly select into cassettes.')
+    
+    # -v for vhs
+    parser.add_argument('-v', '--vhs', type=str, help='Movie title on the VHS tape')
+
+    # 3. Parse the arguments
+    args = parser.parse_args()
+
+    # 4. Access the variables
+    if args.cassette:
+        print(f"Cassette variable: {args.cassette}")
+        tape_list = parseMediaDir(args.cassette)
+        if len(tape_list) < 29:
+            for n in range(len(tape_list), 29):
+                tape_list.append(tape_list[0])
+
+        for i in range(0, len(tape_list)):
+            line = "<%s Name=\"%s\" URL=\"%s\" />" % (tapeNames[i], pathlib.Path(tape_list[i]).stem,tape_list[i])
+            print(line)
+    
+    if args.vhs:
+        print(f"VHS variable: {args.vhs}")
+        vhs_list = parseMediaDir(args.vhs)
+        if len(vhs_list) < 10:
+            for n in range(len(vhs_list), 10):
+                vhs_list.append(vhs_list[0])
+
+        for i in range(0, len(vhs_list)):
+            line = "<%s Name=\"%s\" URL=\"%s\" />" % (vhsNames[i], pathlib.Path(vhs_list[i]).stem,vhs_list[i])
+            print(line)
+
+    
+    #TODO: Read in the files in the directory to create a list of vhs/tapes
+    #random.shuffle(vhstapes)
+    """
     for i in range(0, len(vhsNames)):
         tape = vhstapes[i]
         #downloadTape(tempurl)
@@ -120,3 +157,4 @@ if __name__ == "__main__":
         #line = "<VHSTape1 Name=\"" + tape['Name'] + "URL=\"" + localpath + "\" />"
         line = "<%s Name=\"%s\" URL=\"%s\" />" % (vhsNames[i], tape['Name'],localpath)
         print(line)
+    """
