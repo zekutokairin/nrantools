@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadePosters>
+	<PosterConsoleWallRight Texture="Poster_RC.dds" />
+	<PosterConsoleWallLeft Texture="Poster_RP.dds" />
+	<PosterBackWall1 Texture="Poster_BR.dds" />
+	<PosterBackWall2 Texture="Poster_AV.dds" />
+	<PosterBackWall3 Texture="Poster_NN.dds" />
+	<PosterBackWall4 Texture="Poster_ROB.dds" />
+	<PosterBackWall5 Texture="Poster_TI.dds" />
+	<PosterLeftWall1 Texture="Poster_WS.dds" />
+	<PosterLeftWall2 Texture="Poster_BT.dds" />
+	<PosterLeftWall3 Texture="Poster_DR.dds" />
+	<PosterHorizontal Texture="Poster_DU.dds" />
+</ArcadePosters>

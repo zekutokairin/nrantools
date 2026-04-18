@@ -1,0 +1,210 @@
+[
+	{
+		"ID": "Cartridge_Super Mario World 2 - Yoshi's Island (USA)",
+		"GameName": "Yoshi",
+		"Game": "Super Mario World 2 - Yoshi's Island (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Yoshis Island.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Donkey Kong Country (USA)",
+		"GameName": "DKC",
+		"Game": "Donkey Kong Country (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "DKC.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev A)",
+		"GameName": "DKC2",
+		"Game": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev A).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Donkey Kong Country 2 Cart.dds",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)",
+		"GameName": "DKC3",
+		"Game": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "DKC3.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Cool Spot (USA)",
+		"GameName": "Cool Spot",
+		"Game": "Cool Spot (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Coolspot.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Super Mario All-Stars + Super Mario World (USA)",
+		"GameName": "Super Mario All-Stars",
+		"Game": "Super Mario All-Stars + Super Mario World (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Mario All Stars.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Earthworm Jim (USA)",
+		"GameName": "Earthworm Jim",
+		"Game": "Earthworm Jim (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "earthwormjim.jpg",
+		"Colour": "#FFFFFF"
+	},
+	{
+		"ID": "Cartridge_Megaman X (USA)",
+		"GameName": "Megaman X",
+		"Game": "Megaman X (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "megamanx.jpg",
+		"Colour": "#141414"
+	},
+	{
+		"ID": "Cartridge_Super Bomberman (USA)",
+		"GameName": "Super Bomberman",
+		"Game": "Super Bomberman (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Bomberman.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Super Castlevania IV (USA)",
+		"GameName": "Super Castlevania IV",
+		"Game": "Super Castlevania IV (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Castelvania4.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Super Ghouls'n Ghosts (USA)",
+		"GameName": "Super Ghouls'n Ghosts",
+		"Game": "Super Ghouls'n Ghosts (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "ghosts.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_Super Mario Kart (USA)",
+		"GameName": "Super Mario Kart ",
+		"Game": "Super Mario Kart (USA).sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "mariokart.png",
+		"Colour": "#808080"
+	},
+	{
+		"ID": "Cartridge_supermetroid",
+		"GameName": "supermetroid",
+		"Game": "supermetroid.smc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "supermetroid.png",
+		"Colour": "#C0C0C0"
+	},
+	{
+		"ID": "Cartridge_batmanreturns",
+		"GameName": "batman returns",
+		"Game": "batmanreturns.smc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "batmanreturns.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_chronotrigger",
+		"GameName": "chrono trigger",
+		"Game": "chronotrigger.smc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Chronotrigger.png",
+		"Colour": "#FFFFFF"
+	},
+	{
+		"ID": "Cartridge_powerrangers",
+		"GameName": "power rangers",
+		"Game": "powerrangers.smc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "powerrangrs.png",
+		"Colour": "#000000"
+	},
+	{
+		"ID": "Cartridge_legendzeldalinkpast",
+		"GameName": "legend zelda link past",
+		"Game": "legendzeldalinkpast.smc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "zeldalinkpast.png",
+		"Colour": "#C0C0C0"
+	},
+	{
+		"ID": "CartridgeFinalFantasy6",
+		"GameName": "Final Fantasy 6",
+		"Game": "GBA/FinalFantasy6.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "ff6.jpg",
+		"Colour": "#D20000"
+	},
+	{
+		"ID": "CartridgeBanjoKazooieGR",
+		"GameName": "Banjo Kazooie: Grunty’s Revenge",
+		"Game": "GBA/BanjoKazooieGruntysRevenge.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "BanjoKazooie.jpg",
+		"Colour": "#0E39D1"
+	},
+	{
+		"ID": "CartridgeHarvestMoonMFOMT",
+		"GameName": "Harvest Moon: MFOMT",
+		"Game": "GBA/HarvestMoonMoreFriendsofMineralTown.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "HarvestMoonMoreFriends.jpg",
+		"Colour": "#188705"
+	},
+	{
+		"ID": "CartridgeMarioLuigiSuperstarSaga",
+		"GameName": "Mario & Luigi: Superstar Saga",
+		"Game": "GBA/MarioLuigiSuperstarSaga.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "MarioLuigiSuperstar.jpg",
+		"Colour": "#053DBE"
+	},
+	{
+		"ID": "CartridgeMetroidFusion",
+		"GameName": "Metroid Fusion",
+		"Game": "GBA/MetroidFusion.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "MetroidFusion.jpg",
+		"Colour": "#01048B"
+	},
+	{
+		"ID": "CartridgeLoZMinishCap",
+		"GameName": "Legend Of Zelda Minish Cap",
+		"Game": "GBA/LegendofZeldaTheMinishCap.gba",
+		"Core": "mednafen_gba_libretro.dll",
+		"Texture": "MinishCap.jpg",
+		"Colour": "#55B002"
+	},
+	{
+		"ID": "CartridgeEarthbound",
+		"GameName": "Earthbound",
+		"Game": "SNES/EarthBound.sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "Earthbound.jpg",
+		"Colour": "#06CEB0"
+	},
+	{
+		"ID": "CartridgeKirbySuperStar",
+		"GameName": "Kirby Super Star",
+		"Game": "SNES/KirbySuperStar.sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "KirbySuperStar.jpg",
+		"Colour": "#F99FFB"
+	},
+	{
+		"ID": "CartridgeTrialsofMana",
+		"GameName": "Trials of Mana",
+		"Game": "SNES/TrialsofMana.sfc",
+		"Core": "bsnes_performance_libretro.dll",
+		"Texture": "TrialsofMana.jpg",
+		"Colour": "#266301"
+	}
+]

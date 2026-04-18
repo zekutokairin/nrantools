@@ -1,0 +1,82 @@
+[
+	{
+		"ID": "Cartridge_Donkey Kong Land 2 (UE) [S][!]",
+		"Game": "Donkey Kong Land 2 (UE) [S][!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Donkey Kong Land 3 (U) [S][!]",
+		"Game": "Donkey Kong Land 3 (U) [S][!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Kirby's Dream Land (U) [!]",
+		"Game": "Kirby's Dream Land (U) [!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Kirby's Dream Land 2 (U) [S][!]",
+		"Game": "Kirby's Dream Land 2 (U) [S][!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Mario Tennis (U) [C][!]",
+		"Game": "Mario Tennis (U) [C][!].gbc",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Mega Man 3 (U) [t1]",
+		"Game": "Mega Man 3 (U) [t1].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Mortal Kombat II (U) [S][b2]",
+		"Game": "Mortal Kombat II (U) [S][b2].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Super Mario Land (V1.0) (JUA) [!]",
+		"Game": "Super Mario Land (V1.0) (JUA) [!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Super Mario Land 2 - 6 Golden Coins (V1.0) (UE) [!]",
+		"Game": "Super Mario Land 2 - 6 Golden Coins (V1.0) (UE) [!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "Cartridge_Tetris DX (J) [C][!]",
+		"Game": "Tetris DX (J) [C][!].gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroZeldaLinksAwakening",
+		"Game": "GBC/LegendOfZeldaLinksAwakeningDX.gbc",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroDonkeyKongLand",
+		"Game": "GB/DonkeyKongLand.gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroDonkeyKong",
+		"Game": "donkeykong.gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroFinalFantasyAdventure",
+		"Game": "GB/FinalFantasyAdventure.gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroMetroid2",
+		"Game": "GB/Metroid2ReturnofSamus.gb",
+		"Core": "gambatte_libretro.dll"
+	},
+	{
+		"ID": "GamebroPokemonPinball",
+		"Game": "GBC/PokemonPinball.gbc",
+		"Core": "gambatte_libretro.dll"
+	}
+]

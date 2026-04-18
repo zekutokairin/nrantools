@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArcadeTapes>
+	<Tape1				Name="DCC Radio"						URL="dccradio"	/>
+	<Tape2				Name="SHAZBOT SYNDICATE"				URL="http://108.178.13.122:8311/stream"	/> <!-- DCC Radio! -->
+	<Tape3				Name="ABNORMALLY DEAD AIR"				URL="http://199.101.51.168:8006"	/> <!-- Goth -->
+	<Tape4				Name="ALT NATION RADIO"					URL="http://listen.radionomy.com:80/AlternativeNationRadio"	/> <!-- Grunge -->
+	<Tape5				Name="DANCEGROOVE.RADIO"				URL="http://server3.digital-webstream.de:12160"	/> <!-- DanceGroove Radio -->
+	<Tape6				Name="CLASSIC ROCK HD"					URL="http://139.162.245.57:8251/stream"	/> <!-- Classic Rock HD -->
+	<Tape7				Name="CLASSIC ROCK FLORIDA"				URL="http://us2.internet-radio.com:8046"	/> <!-- Classic Rock Florida -->
+	<Tape8				Name="DISCOMANIA 80S"					URL="http://176.9.39.43:7000/live"	/> <!-- Discomania 80s -->
+	<Tape9				Name="DISCOMANIA"						URL="http://176.9.39.43:7030"	/> <!-- 80s Disco Generic -->
+	<Tape10				Name="1 FM ABSOLUTE 90S"				URL="http://185.33.21.112:11013"	/> <!-- Assorted 90s -->
+	<Tape11				Name="WIZZ CLASSICS 90S"				URL="http://212.83.138.48:8540/stream"	/> <!-- Alt stuff from the 90s -->
+	<Tape12				Name="BASSDRIVE"						URL="http://50.7.70.66:8200"	/> <!-- D&B -->
+	<Tape13				Name="METAL POWER"						URL="http://listen.radionomy.com/MetalPower"	/> <!-- Prog Metal -->
+	<Tape14				Name="TRANCE ATHENS RADIO"				URL="http://149.202.208.214:8008/stream"	/> <!-- Trance -->
+	<Tape15				Name="DEATHTHRASH"						URL="http://listen.radionomy.com/Death-Thrash--Heavy-Metal"	/> <!-- Metal -->
+	<Tape16				Name="DEATH FM"							URL="http://162.213.197.52:80"	/> <!-- Grindcore -->
+	<Tape17				Name="PROG PALACE"						URL="http://104.251.118.50:8318/stream"	/> <!-- Prog Metal -->
+	<Tape18				Name="DRIVERADIO.BE"					URL="http://streaming.radionomy.com/DRIVE"	/> <!-- Synth/Retro -->
+	<Tape19				Name="1 FM CLASSIC ROCK"				URL="http://185.33.22.15:11093"	/> <!-- Classic Rock -->
+	<Tape20				Name="MOROW"							URL="http://stream.morow.com:8080/morow_med.mp3"	/> <!-- Prog Rock -->
+	<Tape21				Name="RAVEN RADIO"						URL="http://50.7.99.155:7741/stream"	/> <!-- Raven Radio -->
+	<Tape22				Name="NEW YORK CLASSIC ROCK"			URL="http://listen.radionomy.com:80/NewYorkClassicRock"	/> <!-- Rock & Roll -->
+	<Tape23				Name="R N B CHANNEL"					URL="http://192.99.8.192:3132/stream"	/> <!-- RnB Channel -->
+	<Tape24				Name="PULSE EDM"						URL="http://pulseedm.cdnstream1.com:8124/1373_128"	/> <!-- Dubstep/EDM -->
+	<Tape25				Name="NOISE FM"							URL="http://noisefm.ru:8000/play"	/> <!-- Dubstep -->
+	<Tape26				Name="1 HITS 80S"						URL="http://listen.radionomy.com:80/1HITS80s"	/> <!-- 80s -->
+	<Tape27				Name="BEACHGROOVE RADIO"				URL="http://188.165.244.31:8000/stream"	/> <!-- Beachgroove Dance -->
+	<Tape28				Name="C K U T"							URL="http://icecast.ckut.ca/903fm-192-stereo"	/> <!-- CKUT Radio -->
+	<Tape29				Name="DARKSYNTHRADIO"					URL="http://laut.fm/darksynthradio"	/>
+	
+	<RadioStation1		Name="DCC RADIO"						URL="dccradio"	/>
+	<RadioStation2		Name="DRIVE RADIO"						URL="http://streaming.radionomy.com/DRIVE"	/>
+	<RadioStation3		Name="OUTRUN RADIO"						URL="http://streaming.radionomy.com/OUTRUNRadio" />
+	<RadioStation4		Name="LIFE CHILL MUSIC"					URL="http://aska.ru-hoster.com:8053/autodj"	/>
+	<RadioStation5		Name="PANORAMA80"						URL="http://laut.fm/panorama80"	/>
+	<RadioStation6		Name="HEAVY METAL"						URL="http://s3.radioheart.ru:8015/radio-metal"	/>
+	<RadioStation7		Name="C K U T"							URL="http://icecast.ckut.ca/903fm-192-stereo"	/>
+	<RadioStation8		Name="DANCEGROOVE.RADIO"				URL="http://server3.digital-webstream.de:12160"	/>
+	<RadioStation9		Name="CLASSICAL"						URL="http://streaming.radionomy.com/abacusfm-mozart-symphony"	/>
+	
+	<VHSTape1		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape2		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape3		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape4		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape5		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape6		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape7		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape8		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape9		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	<VHSTape10		Name="NRA NEON"								URL="https://www.youtube.com/watch?v=S3ls5BYKmtc"	/>
+	
+</ArcadeTapes>

@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcadeMachines>
+	<ArcadeMachineGameConsole>
+		<ScreenType>HD</ScreenType>
+		<LightgunCalibration>270, 210</LightgunCalibration>
+		<ButtonLayout>LayoutDefault</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Colour="#FFFFFF" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineGameConsole>
+	<ArcadeMachine0>
+		<Game>ddragon.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame35</GameImage>
+		<GameMusic>Double Dragon - Arcade - Attract Mode %2F Intro - 60fps - HD.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#CACA00" XY="#A6A600" SS="#A4A400" />
+		<ArtFrontPanel Texture="Double Dragon Cabinet Front.dds" />
+		<ArtSidePanel Texture="Double Dragon Cabinet Side.dds" />
+	</ArcadeMachine0>
+	<ArcadeMachine1>
+		<Game>tmnt2.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame1</GameImage>
+		<GameMusic>Teenage Mutant Ninja Turtles - Turtles in Time (Konami 1991) Attract Mode 60fps.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutTMNTTurtlesinTime</ButtonLayout>
+		<ButtonColour AB="#008040" XY="#804000" SS="#008040" />
+		<ArtFrontPanel Texture="TMNT - Turtles in Time Cabinet Front.dds" />
+		<ArtSidePanel Texture="TMNT - Turtles in Time Cabinet Side.dds" />
+	</ArcadeMachine1>
+	<ArcadeMachine2>
+		<Game>xmen6pu.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame2</GameImage>
+		<GameMusic>X-Men Arcade Attract.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutTurtles</ButtonLayout>
+		<ButtonColour AB="#808000" XY="#808000" SS="#808000" />
+		<ArtFrontPanel Texture="Xmen Cabinet Front.dds" />
+		<ArtSidePanel Texture="XMen Cabinet Side.dds" />
+	</ArcadeMachine2>
+	<ArcadeMachine3>
+		<Game>ffight.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame3</GameImage>
+		<GameMusic>Final Fight Attract Mode.mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutFinalFight</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#FF0000" SS="#000000" />
+		<ArtFrontPanel Texture="Final Fight Cabinet Front.dds" />
+		<ArtSidePanel Texture="Final Fight Cabinet Side.dds" />
+	</ArcadeMachine3>
+	<ArcadeMachine4>
+		<Game>ddragon2.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame4</GameImage>
+		<GameMusic>Double Dragon II- The Revenge Arcade Attract.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutFinalFight</ButtonLayout>
+		<ButtonColour AB="#820000" XY="#820000" SS="#820000" />
+		<ArtFrontPanel Texture="Double Dragon 2 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Double Dragon 2 Cabinet Side.dds" />
+	</ArcadeMachine4>
+	<ArcadeMachine5>
+		<Game>mwalk.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame5</GameImage>
+		<GameMusic>Michael Jacksons Moonwalker Arcade Game %2F attract mode tribute %2F 1990.mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutMoonwalker</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Michael Jackson's Moonwalker Cabinet Front.dds" />
+		<ArtSidePanel Texture="Michael Jackson's Moonwalker Cabinet Side.dds" />
+	</ArcadeMachine5>
+	<ArcadeMachine6>
+		<Game>ddragon3.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame6</GameImage>
+		<GameMusic>Double Dragon 3 Intro (Arcade Game).mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutFinalFight</ButtonLayout>
+		<ButtonColour AB="#C80000" XY="#C80006" SS="#C80000" />
+		<ArtFrontPanel Texture="Double Dragon 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Double Dragon 3 Cabinet Side.dds" />
+	</ArcadeMachine6>
+	<ArcadeMachine7>
+		<Game>ssideki3.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame7</GameImage>
+		<GameMusic>Intro - Super Sidekicks 3 The Next Glory.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#008000" XY="#008040" SS="#004000" />
+		<ArtFrontPanel Texture="Super Sidekicks 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Super Sidekicks 3 Cabinet Side.dds" />
+	</ArcadeMachine7>
+	<ArcadeMachine8>
+		<Game>superman.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame8</GameImage>
+		<GameMusic>Superman {Taito} - [1988] - Attract Mode.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutSimpsons</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#0000FF" SS="#FFFF00" />
+		<ArtFrontPanel Texture="Superman Cabinet Front.dds" />
+		<ArtSidePanel Texture="Superman Cabinet Side.dds" />
+	</ArcadeMachine8>
+	<ArcadeMachine9>
+		<Game>tmnt.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame9</GameImage>
+		<GameMusic>Teenage Mutant Ninja Turtles - Attract Mode (Arcade).mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutTurtles</ButtonLayout>
+		<ButtonColour AB="#008000" XY="#008000" SS="#804040" />
+		<ArtFrontPanel Texture="TMNT Cabinet Front.dds" />
+		<ArtSidePanel Texture="TMNT Cabinet Side.dds" />
+	</ArcadeMachine9>
+	<ArcadeMachine10>
+		<Game>samsh5sp.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame10</GameImage>
+		<GameMusic>Samurai Shodown V Arcade Attract Mode.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Samurai Shodown 5 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Samurai Shodown 5 Cabinet Side.dds" />
+	</ArcadeMachine10>
+	<ArcadeMachine11>
+		<Game>robocop.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame11</GameImage>
+		<GameMusic>Robocop (Data East 1988) Attract Mode 60fps.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutRobocop</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#0000FF" SS="#000000" />
+		<ArtFrontPanel Texture="Robocop Cabinet Front.dds" />
+		<ArtSidePanel Texture="Robocop Cabinet Side.dds" />
+	</ArcadeMachine11>
+	<ArcadeMachine12>
+		<Game>samsho2.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame12</GameImage>
+		<GameMusic>Samurai Shodown II Arcade Attract Mode.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#00FF00" SS="#0000FF" />
+		<ArtFrontPanel Texture="Samurai Shodown 2 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Samurai Shodown 2 Cabinet Side.dds" />
+	</ArcadeMachine12>
+	<ArcadeMachine13>
+		<Game>samsho4.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame13</GameImage>
+		<GameMusic>Samurai Shodown IV- Amakusas Revenge Arcade Attract Mode.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Samurai Shodown 4 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Samurai Shodown 4 Cabinet Side.dds" />
+	</ArcadeMachine13>
+	<ArcadeMachine14>
+		<Game>punisher.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame14</GameImage>
+		<GameMusic>The Punisher %2F opening intro &amp; attract mode auto demo %2F arcade beat em up 1993.mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutFinalFight</ButtonLayout>
+		<ButtonColour AB="#271CFF" XY="#FF1C1C" SS="#FF1A1A" />
+		<ArtFrontPanel Texture="punisher_front_cab.dds" />
+		<ArtSidePanel Texture="Punisher Cabinet Side.dds" />
+	</ArcadeMachine14>
+	<ArcadeMachine15>
+		<Game>paperboy.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame15</GameImage>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutPaperboy</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Paperboy Cabinet Front.dds" />
+		<ArtSidePanel Texture="Paperboy Cabinet Side.dds" />
+	</ArcadeMachine15>
+	<ArcadeMachine16>
+		<Game>ssideki2.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame16</GameImage>
+		<GameMusic>Super Sidekicks 2 Intro (2 %2F 3).mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#008040" XY="#0EA70A" SS="#2D9E18" />
+		<ArtFrontPanel Texture="Super Sidekicks 2 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Super Sidekicks 2 Cabinet Side.dds" />
+	</ArcadeMachine16>
+	<ArcadeMachine17>
+		<Game>blazstar.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame17</GameImage>
+		<GameMusic>Blazing Star Attract Video.mp3</GameMusic>
+		<GameMusicVolume>0.7</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Blazing Star Cabinet Front.dds" />
+		<ArtSidePanel Texture="Blazing Star Cabinet Side.dds" />
+	</ArcadeMachine17>
+	<ArcadeMachine18>
+		<Game>mslugx.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame18</GameImage>
+		<GameMusic>Metal Slug X- Attract Mode Neo Geo SNK MVS Retro Arcade Terrorists.mp3</GameMusic>
+		<GameMusicVolume>0.7</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#800000" />
+		<ArtFrontPanel Texture="Metal Slug X Cabinet Front.dds" />
+		<ArtSidePanel Texture="Metal Slug X Cabinet Side.dds" />
+	</ArcadeMachine18>
+	<ArcadeMachine19>
+		<Game>nbajamte.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame19</GameImage>
+		<GameMusic>NBA Jam TE (Midway 1994) Attract Mode 60fps.mp3</GameMusic>
+		<GameMusicVolume>0.9</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutDefault</ButtonLayout>
+		<ButtonColour AB="#F8FD1C" XY="#FFFFFF" SS="#D50000" />
+		<ArtFrontPanel Texture="NBA Jam Cabinet Front.dds" />
+		<ArtSidePanel Texture="NBA Jam Cabinet Side.dds" />
+	</ArcadeMachine19>
+	<ArcadeMachine20>
+		<Game>simpsons.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame20</GameImage>
+		<GameMusic>The Simpsons %2F arcade attract mode %2F beat em up game 1991.mp3</GameMusic>
+		<GameMusicVolume>0.6</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutSimpsons</ButtonLayout>
+		<ButtonColour AB="#00FFFF" XY="#00FFFF" SS="#00FFFF" />
+		<ArtFrontPanel Texture="Simpsons Cabinet Front.dds" />
+		<ArtSidePanel Texture="Simpsons Cabinet Side.dds" />
+	</ArcadeMachine20>
+	<ArcadeMachine21>
+		<Game>1942.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame21</GameImage>
+		<GameMusicVolume>0.1</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>Layout1942</ButtonLayout>
+		<ButtonColour AB="#00BBBB" XY="#9F0000" SS="#93F7FF" />
+		<ArtFrontPanel Texture="1942 Cabinet Front.dds" />
+		<ArtSidePanel Texture="1942 Cabinet Side.dds" />
+	</ArcadeMachine21>
+	<ArcadeMachine22>
+		<Game>mslug.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame22</GameImage>
+		<GameMusic>Lets play Metal Slug Intro.mp3</GameMusic>
+		<GameMusicVolume>0.7</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Metal Slug Cabinet Front.dds" />
+		<ArtSidePanel Texture="Metal Slug Cabinet Side.dds" />
+	</ArcadeMachine22>
+	<ArcadeMachine23>
+		<Game>mslug3.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame23</GameImage>
+		<GameMusic>Metal Slug 3 Attract Video.mp3</GameMusic>
+		<GameMusicVolume>0.8</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutNeoGeoMVS-TypeA</ButtonLayout>
+		<ButtonColour AB="#C0C0C0" XY="#0080C0" SS="#C0C0C0" />
+		<ArtFrontPanel Texture="Metal Slug 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Metal Slug 2 Cabinet Side.dds" />
+	</ArcadeMachine23>
+	<ArcadeMachineDisabled>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutAlienSyndrome</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Colour="#FFFFFF" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineDisabled>
+	<ArcadeMachineNewRetroEmulator>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutBasic</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Colour="#FFFFFF" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineNewRetroEmulator>
+	<ArcadeMachineSpecial1>
+		<Game>mspacman.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame24</GameImage>
+		<GameMusicVolume>0.6</GameMusicVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutMsPacMan</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#FFFF00" SS="#FF00FF" />
+		<ArtFrontPanel Texture="Ms Pac-Man Cabinet Front.dds" />
+		<ArtSidePanel Texture="Ms Pac-Man Cabinet Side.dds" />
+	</ArcadeMachineSpecial1>
+	<ArcadeMachineSpecial2>
+		<Game>frogger.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame25</GameImage>
+		<GameMusicVolume>0.1</GameMusicVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutFroggermine</ButtonLayout>
+		<ButtonColour AB="#00FF00" XY="#008000" SS="#00FF00" />
+		<ArtFrontPanel Texture="Frogger Cabinet Front FIXED.dds" />
+		<ArtSidePanel Texture="Frogger Cabinet Side.dds" />
+	</ArcadeMachineSpecial2>
+	<ArcadeMachineSpecial3>
+		<Game>punchout.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame26</GameImage>
+		<GameMusic>Punchout Attract FIXED.mp3</GameMusic>
+		<GameMusicVolume>0.6</GameMusicVolume>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutPunchout_Special</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#0080C0" SS="#0080FF" />
+		<ArtFrontPanel Texture="Punchout Cabinet Front.dds" />
+		<ArtSidePanel Texture="Punchout Cabinet Side.dds" />
+	</ArcadeMachineSpecial3>
+	<ArcadeMachineSpecial4>
+		<Game>qbert.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame27</GameImage>
+		<GameMusic>Q-bert - Classic Arcade Game.mp3</GameMusic>
+		<GameMusicVolume>0.2</GameMusicVolume>
+		<ScreenType>Pixel</ScreenType>
+		<ButtonLayout>LayoutQBert</ButtonLayout>
+		<ButtonColour AB="#FFFF00" XY="#0000FF" SS="#FFFF00" />
+		<ArtFrontPanel Texture="QBert Cabinet Front.dds" />
+		<ArtSidePanel Texture="QBert Cabinet Side.dds" />
+	</ArcadeMachineSpecial4>
+	<ArcadeMachineFPS1>
+		<Game>mk2.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame28</GameImage>
+		<GameMusic>Mortal Kombat II - Attract Mode (Arcade).mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutMortalKombat</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Mortal Kombat 2 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Mortal Kombat 2 Cabinet Side.dds" />
+	</ArcadeMachineFPS1>
+	<ArcadeMachineFPS2>
+		<Game>umk3.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame29</GameImage>
+		<GameMusic>UMK3 Attract mode.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutUMK3</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Ultimate Mortal Kombat 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Ultimate Mortal Kombat 3 Cabinet Side.dds" />
+	</ArcadeMachineFPS2>
+	<ArcadeMachineFPS3>
+		<Game>sf2ce.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame30</GameImage>
+		<GameMusic>Street Fighter II- Champion Edition (Capcom 1992) Attract Mode 60fps.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutStreetFighterII</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="Street Fighter 2 Champion Edition Cabinet Front.dds" />
+		<ArtSidePanel Texture="Street Fighter 2 Cabinet Side.dds" />
+	</ArcadeMachineFPS3>
+	<ArcadeMachineFPS4>
+		<Game>sfiii3.zip</Game>
+		<Core>mame2014_libretro.dll</Core>
+		<GameImage>GridFrame31</GameImage>
+		<GameMusic>Street Fighter Third Strike complete attract video.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutStreetFighterII</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="Street Fighter 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Street Fighter 3 Cabinet Side.dds" />
+	</ArcadeMachineFPS4>
+	<ArcadeMachineFPS5>
+		<Game>mvscu.zip</Game>
+		<Core>mame2015_libretro.dll</Core>
+		<GameImage>GridFrame32</GameImage>
+		<GameMusic>Marvel vs. Capcom %2F arcade attract mode auto demo %2F 1998.mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutStreetFighter</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="mvsc_front_cab.dds" />
+		<ArtSidePanel Texture="mvsc_side_cab.dds" />
+	</ArcadeMachineFPS5>
+	<ArcadeMachineFPS6>
+		<Game>tekken3.zip</Game>
+		<Core>mame2015_libretro.dll</Core>
+		<GameImage>GridFrame33</GameImage>
+		<GameMusic>Tekken 3 - Attract Mode (Arcade).mp3</GameMusic>
+		<ScreenType>HD</ScreenType>
+		<ButtonLayout>LayoutTekken3</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Tekken 3 Cabinet Front.dds" />
+		<ArtSidePanel Texture="Tekken 3 Cabinet Side.dds" />
+	</ArcadeMachineFPS6>
+	<ArcadeMachineLightgun>
+		<Game>timecris.zip</Game>
+		<Core>mamelightgun_libretro.dll</Core>
+		<GameImage>GridFrame34</GameImage>
+		<GameMusic>Time Crisis Namco 1995 Attract Mode 60fps.mp3</GameMusic>
+		<ScreenType>Pixel</ScreenType>
+		<LightgunCalibration>270, 210</LightgunCalibration>
+		<ButtonLayout>LayoutDefault</ButtonLayout>
+		<ButtonColour AB="#000000" XY="#000000" SS="#000000" />
+		<ArtFrontPanel Texture="Time Crisis.dds" />
+		<ArtSidePanel Colour="#FFFFFF" />
+	</ArcadeMachineLightgun>
+</ArcadeMachines>
