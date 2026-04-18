@@ -13,6 +13,7 @@ class ImageConverter:
     
     def __init__(self, template_path=None):
         self.template_path = template_path or os.path.join("resources", "art_templates", "FrontTemplate.png")
+        self.side_art_template_path = os.path.join("resources", "art_templates", "SideArtTemplate.png")
         self.template_size = 512, 120
         
         # Get NRAN_PACK environment variable for base directory
@@ -22,11 +23,13 @@ class ImageConverter:
         
         # Create content subdirectories
         self.marquee_dir = os.path.join(self.nran_pack, "marquees")
+        self.decals_dir = os.path.join(self.nran_pack, "decals")
         self.cabinet_art_dir = os.path.join(self.nran_pack, "cabinet_art")
         self.dds_dir = os.path.join(self.nran_pack, "dds")
         
         # Ensure directories exist
         os.makedirs(self.marquee_dir, exist_ok=True)
+        os.makedirs(self.decals_dir, exist_ok=True)
         os.makedirs(self.cabinet_art_dir, exist_ok=True)
         os.makedirs(self.dds_dir, exist_ok=True)
 
@@ -43,6 +46,8 @@ class ImageConverter:
 
     def create_cabinet_art(self, image_path, output_path="output.png"):
         """Create cabinet art by combining image with template."""
+
+        # Create front art
         template = Image.open(self.template_path).convert('RGBA')
         marquee = Image.open(image_path).convert('RGBA')
         
@@ -54,34 +59,40 @@ class ImageConverter:
         template.save(output_path)
         return output_path
 
-    def download_marquee_art(self, rom_name, filename=None):
+    def create_side_art(self, image_path, output_path="output.png"):
+        # Create side art
+        max_size = (260, 410)
+        template = Image.open(self.side_art_template_path).convert('RGBA')
+        decal = Image.open(image_path).convert('RGBA')
+        
+        # Resize decal to at most 260x410   
+        decal.thumbnail(max_size, Image.Resampling.LANCZOS)
+        
+        # Insert left decal into template image 
+        template.paste(decal, (300, 150), decal)
+        # Insert right decal into template image 
+        template.paste(decal, (300, 450), decal)
+        template.save(output_path)
+        return output_path
+
+    def _download_image(self, url, output_path, rom_name, image_type="image"):
         """
-        Download marquee art from ArcadeItalia for a given ROM name.
+        Helper method to download an image with graceful error handling.
         
         Args:
-            rom_name (str): The ROM name (without extension)
-            filename (str): Custom filename (defaults to rom_name.png)
+            url: URL to download from
+            output_path: Path to save the file
+            rom_name: ROM name for logging
+            image_type: Type of image for logging (marquee/decal)
             
         Returns:
-            str: Path to the downloaded file, or None if download failed
+            str: Path to downloaded file, or None if download failed
         """
-        # URL encode the ROM name for safe URL construction
-        encoded_rom_name = quote(rom_name)
-        url = f"https://adb.arcadeitalia.net/media/mame.current/marquees/{encoded_rom_name}?release=209"
-        
-        # Set default filename if not provided
-        if not filename:
-            filename = f"{rom_name}.png"
-        
-        # Use NRAN_PACK/marquees as output directory
-        output_path = os.path.join(self.marquee_dir, filename)
-        
         try:
-            # Download the image
             response = requests.get(url, timeout=30)
-            response.raise_for_status()  # Raise exception for HTTP errors
+            response.raise_for_status()
             
-            # Check if we actually got image content (not an error page)
+            # Check if we actually got image content
             content_type = response.headers.get('content-type', '')
             if not content_type.startswith('image/'):
                 print(f"Warning: URL did not return image content for {rom_name}")
@@ -91,15 +102,54 @@ class ImageConverter:
             with open(output_path, 'wb') as f:
                 f.write(response.content)
             
-            print(f"Successfully downloaded marquee for {rom_name} to {output_path}")
+            print(f"Successfully downloaded {image_type} for {rom_name} to {output_path}")
             return output_path
             
+        except requests.exceptions.HTTPError as e:
+            # Gracefully handle 404 errors
+            if e.response.status_code == 404:
+                print(f"No {image_type} available for {rom_name} (404)")
+            else:
+                print(f"HTTP error downloading {image_type} for {rom_name}: {e}")
+            return None
         except requests.exceptions.RequestException as e:
-            print(f"Error downloading marquee for {rom_name}: {e}")
+            print(f"Error downloading {image_type} for {rom_name}: {e}")
             return None
         except IOError as e:
-            print(f"Error saving marquee for {rom_name}: {e}")
+            print(f"Error saving {image_type} for {rom_name}: {e}")
             return None
+
+    def download_marquee_art(self, rom_name, filename=None):
+        """
+        Download marquee art and decals from ArcadeItalia for a given ROM name.
+        
+        Args:
+            rom_name (str): The ROM name (without extension)
+            filename (str): Custom filename (defaults to rom_name.png)
+            
+        Returns:
+            str: Path to the downloaded marquee file, or None if download failed
+        """
+        # URL encode the ROM name for safe URL construction
+        encoded_rom_name = quote(rom_name)
+        
+        # Set default filename if not provided
+        if not filename:
+            filename = f"{rom_name}.png"
+        
+        # Download marquee
+        marquee_url = f"https://adb.arcadeitalia.net/media/mame.current/marquees/{encoded_rom_name}.png?release=209"
+        marquee_path = os.path.join(self.marquee_dir, filename)
+        marquee_result = self._download_image(marquee_url, marquee_path, rom_name, "marquee")
+        
+        # Download decal (gracefully ignore 404)
+        decal_filename = filename.replace('.png', '_decal.png')
+        decal_url = f"https://adb.arcadeitalia.net/media/mame.current/decals/{encoded_rom_name}.png?release=209"
+        decal_path = os.path.join(self.decals_dir, decal_filename)
+        decal_result = self._download_image(decal_url, decal_path, rom_name, "decal")
+        
+        # Return the marquee result (primary download)
+        return marquee_result
 
     def interactive_marquee_download(self):
         """
