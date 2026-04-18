@@ -14,6 +14,21 @@ class ImageConverter:
     def __init__(self, template_path=None):
         self.template_path = template_path or os.path.join("resources", "art_templates", "FrontTemplate.png")
         self.template_size = 512, 120
+        
+        # Get NRAN_PACK environment variable for base directory
+        self.nran_pack = os.getenv("NRAN_PACK")
+        if not self.nran_pack:
+            raise Exception("Need to define NRAN_PACK environment variable with your pack directory!")
+        
+        # Create content subdirectories
+        self.marquee_dir = os.path.join(self.nran_pack, "marquees")
+        self.cabinet_art_dir = os.path.join(self.nran_pack, "cabinet_art")
+        self.dds_dir = os.path.join(self.nran_pack, "dds")
+        
+        # Ensure directories exist
+        os.makedirs(self.marquee_dir, exist_ok=True)
+        os.makedirs(self.cabinet_art_dir, exist_ok=True)
+        os.makedirs(self.dds_dir, exist_ok=True)
 
     def convert_to_dds(self, imgpath, output_dir):
         """Convert an image to DDS format."""
@@ -39,13 +54,12 @@ class ImageConverter:
         template.save(output_path)
         return output_path
 
-    def download_marquee_art(self, rom_name, output_dir=".", filename=None):
+    def download_marquee_art(self, rom_name, filename=None):
         """
         Download marquee art from ArcadeItalia for a given ROM name.
         
         Args:
             rom_name (str): The ROM name (without extension)
-            output_dir (str): Directory to save the downloaded image
             filename (str): Custom filename (defaults to rom_name.png)
             
         Returns:
@@ -53,15 +67,14 @@ class ImageConverter:
         """
         # URL encode the ROM name for safe URL construction
         encoded_rom_name = quote(rom_name)
-        url = f"https://adb.arcadeitalia.net/media/mame.current/marquees/{encoded_rom_name}.png?release=209"
+        url = f"https://adb.arcadeitalia.net/media/mame.current/marquees/{encoded_rom_name}?release=209"
         
         # Set default filename if not provided
         if not filename:
             filename = f"{rom_name}.png"
         
-        # Ensure output directory exists
-        os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, filename)
+        # Use NRAN_PACK/marquees as output directory
+        output_path = os.path.join(self.marquee_dir, filename)
         
         try:
             # Download the image
@@ -156,9 +169,8 @@ class ImageConverter:
                                 
                                 print(f"\nDownloading marquee for: {selected_title} ({selected_rom})")
                                 
-                                # Download the marquee
-                                output_dir = "downloaded_marquees"
-                                result = self.download_marquee_art(selected_rom, output_dir)
+                                # Download the marquee to NRAN_PACK/marquees
+                                result = self.download_marquee_art(selected_rom)
                                 
                                 if result:
                                     print(f"Successfully downloaded to: {result}")
@@ -167,7 +179,7 @@ class ImageConverter:
                                     # Ask if user wants to convert to DDS
                                     convert_choice = input("Convert to DDS format? (y/n): ").strip().lower()
                                     if convert_choice in ['y', 'yes']:
-                                        dds_result = self.convert_to_dds(result, output_dir)
+                                        dds_result = self.convert_to_dds(result, self.dds_dir)
                                         print(f"Converted to DDS: {dds_result}")
                                 else:
                                     print(f"Failed to download marquee for: {selected_rom}")
@@ -200,7 +212,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage:")
         print("  python image.py <input_image> <output_dir>           # Convert to DDS")
-        print("  python image.py --download <rom_name> [output_dir] # Download marquee")
+        print("  python image.py --download <rom_name>              # Download marquee to NRAN_PACK/marquees")
         print("  python image.py --interactive                       # Interactive search and download")
         sys.exit(1)
     
@@ -208,12 +220,11 @@ if __name__ == "__main__":
     
     if sys.argv[1] == "--download":
         if len(sys.argv) < 3:
-            print("Usage: python image.py --download <rom_name> [output_dir]")
+            print("Usage: python image.py --download <rom_name>")
             sys.exit(1)
         
         rom_name = sys.argv[2]
-        output_dir = sys.argv[3] if len(sys.argv) > 3 else "."
-        result = converter.download_marquee_art(rom_name, output_dir)
+        result = converter.download_marquee_art(rom_name)
         
         if result:
             print(f"Downloaded marquee to: {result}")

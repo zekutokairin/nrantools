@@ -2,14 +2,17 @@
 
 A Python toolkit for managing New Retro Arcade:Neon content. This package provides utilities for organizing ROM cartridges, converting images, processing media files, and verifying arcade content.
 
-## Installation
 
-### From Source
-```bash
-git clone <repository-url>
-cd nrantools
-pip install -e .
-```
+## Usage:
+
+# Set environment variable
+export NRAN_PACK="/path/to/your/pack"
+
+# Download marquee (automatically goes to NRAN_PACK/marquees/)
+python -m nrantools.image --download chinagat
+
+# Interactive search and download
+python -m nrantools.image --interactive
 
 ### Dependencies
 The package requires the following dependencies:
