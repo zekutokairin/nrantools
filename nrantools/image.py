@@ -151,6 +151,85 @@ class ImageConverter:
         # Return the marquee result (primary download)
         return marquee_result
 
+    def scan_and_create_cabinet_art(self):
+        """
+        Scan NRAN_PACK directory and create cabinet art from all marquees and decals.
+        
+        Creates:
+        - Front art from marquees in NRAN_PACK/marquees/
+        - Side art from decals in NRAN_PACK/decals/
+        - Saves to NRAN_PACK/cabinet_art/
+        """
+        print("Scanning NRAN_PACK directory for artwork...")
+        print(f"Marquee directory: {self.marquee_dir}")
+        print(f"Decals directory: {self.decals_dir}")
+        print(f"Output directory: {self.cabinet_art_dir}")
+        print()
+        
+        front_art_count = 0
+        side_art_count = 0
+        errors = []
+        
+        # Process marquees to create front art
+        if os.path.exists(self.marquee_dir):
+            print("Creating front art from marquees...")
+            for filename in os.listdir(self.marquee_dir):
+                if filename.endswith('.png'):
+                    marquee_path = os.path.join(self.marquee_dir, filename)
+                    rom_name = filename.replace('.png', '')
+                    output_filename = f"{rom_name}_front.png"
+                    output_path = os.path.join(self.cabinet_art_dir, output_filename)
+                    
+                    try:
+                        result = self.create_cabinet_art(marquee_path, output_path)
+                        print(f"  Created front art: {output_filename}")
+                        front_art_count += 1
+                    except Exception as e:
+                        error_msg = f"Error creating front art for {filename}: {e}"
+                        print(f"  ERROR: {error_msg}")
+                        errors.append(error_msg)
+        else:
+            print(f"Marquee directory not found: {self.marquee_dir}")
+        
+        print()
+        
+        # Process decals to create side art
+        if os.path.exists(self.decals_dir):
+            print("Creating side art from decals...")
+            for filename in os.listdir(self.decals_dir):
+                if filename.endswith('.png') and filename.endswith('_decal.png'):
+                    decal_path = os.path.join(self.decals_dir, filename)
+                    rom_name = filename.replace('_decal.png', '')
+                    output_filename = f"{rom_name}_side.png"
+                    output_path = os.path.join(self.cabinet_art_dir, output_filename)
+                    
+                    try:
+                        result = self.create_side_art(decal_path, output_path)
+                        print(f"  Created side art: {output_filename}")
+                        side_art_count += 1
+                    except Exception as e:
+                        error_msg = f"Error creating side art for {filename}: {e}"
+                        print(f"  ERROR: {error_msg}")
+                        errors.append(error_msg)
+        else:
+            print(f"Decals directory not found: {self.decals_dir}")
+        
+        # Summary
+        print()
+        print("Cabinet Art Generation Summary:")
+        print(f"  Front art created: {front_art_count}")
+        print(f"  Side art created: {side_art_count}")
+        print(f"  Total art created: {front_art_count + side_art_count}")
+        
+        if errors:
+            print(f"  Errors encountered: {len(errors)}")
+            for error in errors[:5]:  # Show first 5 errors
+                print(f"    - {error}")
+            if len(errors) > 5:
+                print(f"    ... and {len(errors) - 5} more errors")
+        else:
+            print("  All artwork processed successfully!")
+
     def interactive_marquee_download(self):
         """
         Interactive function that queries user for a game name,
@@ -264,6 +343,7 @@ if __name__ == "__main__":
         print("  python image.py <input_image> <output_dir>           # Convert to DDS")
         print("  python image.py --download <rom_name>              # Download marquee to NRAN_PACK/marquees")
         print("  python image.py --interactive                       # Interactive search and download")
+        print("  python image.py --create-cabinet-art                # Scan NRAN_PACK and create cabinet art")
         sys.exit(1)
     
     converter = ImageConverter()
@@ -282,6 +362,8 @@ if __name__ == "__main__":
             print(f"Failed to download marquee for: {rom_name}")
     elif sys.argv[1] == "--interactive":
         converter.interactive_marquee_download()
+    elif sys.argv[1] == "--create-cabinet-art":
+        converter.scan_and_create_cabinet_art()
     else:
         # Original DDS conversion functionality
         if len(sys.argv) != 3:
