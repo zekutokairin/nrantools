@@ -26,12 +26,15 @@ class ImageConverter:
         self.marquee_dir = os.path.join(self.nran_pack, "marquees")
         # Art to go on the sides of a cabinet
         self.decals_dir = os.path.join(self.nran_pack, "decals")
+        # The title screen
+        self.titles_dir = os.path.join(self.nran_pack, "titles")
         # The finished artwork texture to go into the Arcades directory in Content
         self.cabinet_art_dir = os.path.join(self.nran_pack, "Arcades")
         
         # Ensure directories exist
         os.makedirs(self.marquee_dir, exist_ok=True)
         os.makedirs(self.decals_dir, exist_ok=True)
+        os.makedirs(self.titles_dir, exist_ok=True)
         os.makedirs(self.cabinet_art_dir, exist_ok=True)
         os.makedirs(self.dds_dir, exist_ok=True)
 
@@ -150,6 +153,12 @@ class ImageConverter:
         decal_url = f"https://adb.arcadeitalia.net/media/mame.current/decals/{encoded_rom_name}.png?release=209"
         decal_path = os.path.join(self.decals_dir, decal_filename)
         decal_result = self._download_image(decal_url, decal_path, rom_name, "decal")
+        
+        # Download title screen (gracefully ignore 404)
+        title_filename = filename.replace('.png', '_title.png')
+        title_url = f"https://adb.arcadeitalia.net/media/mame.current/titles/{encoded_rom_name}.png?release=209"
+        title_path = os.path.join(self.titles_dir, title_filename)
+        title_result = self._download_image(title_url, title_path, rom_name, "title")
         
         # Return the marquee result (primary download)
         return marquee_result
@@ -347,6 +356,7 @@ if __name__ == "__main__":
         print("  python image.py --download <rom_name>              # Download marquee to NRAN_PACK/marquees")
         print("  python image.py --interactive                       # Interactive search and download")
         print("  python image.py --create-cabinet-art                # Scan NRAN_PACK and create cabinet art")
+        print("  python image.py --all                               # Scan NRAN_PACK and create all cabinet art")
         sys.exit(1)
     
     converter = ImageConverter()
@@ -366,6 +376,8 @@ if __name__ == "__main__":
     elif sys.argv[1] == "--interactive":
         converter.interactive_marquee_download()
     elif sys.argv[1] == "--create-cabinet-art":
+        converter.scan_and_create_cabinet_art()
+    elif sys.argv[1] == "--all":
         converter.scan_and_create_cabinet_art()
     else:
         # Original DDS conversion functionality
