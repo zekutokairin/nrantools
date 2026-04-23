@@ -30,6 +30,8 @@ class ImageConverter:
         self.titles_dir = os.path.join(self.nran_pack, "titles")
         # The finished artwork texture to go into the Arcades directory in Content
         self.cabinet_art_dir = os.path.join(self.nran_pack, "Arcades")
+        # DDS directory
+        self.dds_dir = os.path.join(self.nran_pack, "dds")
         
         # Ensure directories exist
         os.makedirs(self.marquee_dir, exist_ok=True)
@@ -226,12 +228,55 @@ class ImageConverter:
         else:
             print(f"Decals directory not found: {self.decals_dir}")
         
+        # Generate CSV output
+        print()
+        print("CSV Output:")
+        print("=" * 50)
+        
+        csv_lines = []
+        
+        # Process ROMs that have both front and side art
+        processed_roms = set()
+        
+        # First pass: collect ROM names from front art
+        if os.path.exists(self.marquee_dir):
+            for filename in os.listdir(self.marquee_dir):
+                if filename.endswith('.png'):
+                    rom_name = filename.replace('.png', '')
+                    processed_roms.add(rom_name)
+        
+        # Generate CSV lines for each ROM
+        for rom_name in sorted(processed_roms):
+            # Check if front art exists
+            front_filename = f"{rom_name}_front.png"
+            front_path = os.path.join(self.cabinet_art_dir, front_filename)
+            front_exists = os.path.exists(front_path)
+            
+            # Check if side art exists
+            side_filename = f"{rom_name}_side.png"
+            side_path = os.path.join(self.cabinet_art_dir, side_filename)
+            side_exists = os.path.exists(side_path)
+            
+            # Generate CSV line using template
+            # Template: ddragon.zip,mame2014_libretro.dll,1,DD1 Splash.png,HD,LayoutDoubleDragon,#0B6C9B,#0B7AB0,#FFFFFF,Double Dragon Front 4096.png,,Double Dragon Taito Side 4096.png,,ddragon.mp4,ArcadeMachine18,0,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+            
+            front_image_name = f"{rom_name}_front.png" if front_exists else ""
+            side_image_name = f"{rom_name}_side.png" if side_exists else ""
+            
+            csv_line = f"{rom_name}.zip,mame2014_libretro.dll,1,{rom_name.title()} Splash.png,HD,,#0B6C9B,#0B7AB0,#FFFFFF,{front_image_name},,{side_image_name},,{rom_name}.mp4,,0,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+            csv_lines.append(csv_line)
+            print(csv_line)
+        
+        print()
+        print(f"Generated {len(csv_lines)} CSV lines")
+        
         # Summary
         print()
         print("Cabinet Art Generation Summary:")
         print(f"  Front art created: {front_art_count}")
         print(f"  Side art created: {side_art_count}")
         print(f"  Total art created: {front_art_count + side_art_count}")
+        print(f"  CSV lines generated: {len(csv_lines)}")
         
         if errors:
             print(f"  Errors encountered: {len(errors)}")
