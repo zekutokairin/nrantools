@@ -22,10 +22,12 @@ class ImageConverter:
             raise Exception("Need to define NRAN_PACK environment variable with your pack directory!")
         
         # Create content subdirectories
+        # Art to go on the top of the cabinet display, the marquee
         self.marquee_dir = os.path.join(self.nran_pack, "marquees")
+        # Art to go on the sides of a cabinet
         self.decals_dir = os.path.join(self.nran_pack, "decals")
-        self.cabinet_art_dir = os.path.join(self.nran_pack, "cabinet_art")
-        self.dds_dir = os.path.join(self.nran_pack, "dds")
+        # The finished artwork texture to go into the Arcades directory in Content
+        self.cabinet_art_dir = os.path.join(self.nran_pack, "Arcades")
         
         # Ensure directories exist
         os.makedirs(self.marquee_dir, exist_ok=True)
