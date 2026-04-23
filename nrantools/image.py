@@ -13,7 +13,7 @@ class ImageConverter:
     
     def __init__(self, template_path=None):
         self.template_path = template_path or os.path.join("resources", "art_templates", "FrontTemplate.png")
-        self.side_art_template_path = os.path.join("resources", "art_templates", "SideArtTemplate.png")
+        self.side_art_template_path = os.path.join("resources", "art_templates", "SideTemplate.png")
         self.template_size = 512, 120
         
         # Get NRAN_PACK environment variable for base directory
@@ -69,9 +69,9 @@ class ImageConverter:
         decal.thumbnail(max_size, Image.Resampling.LANCZOS)
         
         # Insert left decal into template image 
-        template.paste(decal, (300, 150), decal)
+        template.paste(decal, (150, 300), decal)
         # Insert right decal into template image 
-        template.paste(decal, (300, 450), decal)
+        template.paste(decal, (450, 300), decal)
         template.save(output_path)
         return output_path
 
