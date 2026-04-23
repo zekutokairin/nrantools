@@ -5,7 +5,7 @@ import sys
 import requests
 from urllib.parse import quote
 from wand import image
-from PIL import Image
+from PIL import Image, ImageOps
 from .mame_db import MAMEDatabase
 
 class ImageConverter:
@@ -51,7 +51,8 @@ class ImageConverter:
         template = Image.open(self.template_path).convert('RGBA')
         marquee = Image.open(image_path).convert('RGBA')
         
-        marquee.thumbnail(self.template_size, Image.Resampling.LANCZOS)
+        marquee = ImageOps.fit(marquee, self.template_size, Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+        #marquee.thumbnail(self.template_size, Image.Resampling.LANCZOS)
         offset = int((512 - marquee.size[0]) / 2)
         
         # Insert into template image at coordinates 0,51:
