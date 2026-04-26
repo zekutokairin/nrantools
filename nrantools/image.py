@@ -3,6 +3,8 @@
 import os
 import sys
 import requests
+import datetime
+import shutil
 from urllib.parse import quote
 from wand import image
 from PIL import Image, ImageOps
@@ -285,7 +287,56 @@ class ImageConverter:
             if len(errors) > 5:
                 print(f"    ... and {len(errors) - 5} more errors")
         else:
-            print("  All artwork processed successfully!")
+            print("All artwork processed successfully!")
+
+    def backup_configs(self):
+        """
+        Backup CSV files from the NRAN Content directory to a new timestamped directory.
+        
+        Creates a timestamped backup directory and copies all .ini, .xml, and .csv files
+        from the NRAN Content directory.
+        """
+        # Get NRAN_CONTENT_DIR environment variable or use default
+        content_dir = os.getenv("NRAN_CONTENT_DIR", 
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\New Retro Arcade Neon\\NewRetroArcade\\Content")
+        
+        if not os.path.exists(content_dir):
+            print(f"NRAN Content directory not found: {content_dir}")
+            print("Please set NRAN_CONTENT_DIR environment variable or ensure NRAN is installed")
+            return None
+        
+        # Create backup directory with timestamp
+        d = datetime.datetime.now()
+        timestamp = "%04d%02d%02d_%02d%02d" % (d.year, d.month, d.day, d.hour, d.minute)
+        backup_dir = os.path.join(self.nran_pack, "backups", timestamp)
+        
+        os.makedirs(backup_dir, exist_ok=True)
+        
+        print(f"Backing up CSV files from: {content_dir}")
+        print(f"Backup directory: {backup_dir}")
+        print()
+        
+        files_backed_up = []
+        
+        # Copy all .ini, .xml, and .csv files
+        for filename in os.listdir(content_dir):
+            extension = os.path.splitext(filename)[1].lower()[1:]
+            if extension in ["ini", "xml", "csv"]:
+                src_path = os.path.join(content_dir, filename)
+                dest_path = os.path.join(backup_dir, filename)
+                
+                try:
+                    shutil.copyfile(src_path, dest_path)
+                    files_backed_up.append(filename)
+                    print(f"  Backed up: {filename}")
+                except Exception as e:
+                    print(f"  ERROR backing up {filename}: {e}")
+        
+        print()
+        print(f"Backup completed! {len(files_backed_up)} files backed up to:")
+        print(f"  {backup_dir}")
+        
+        return backup_dir
 
     def interactive_marquee_download(self):
         """
@@ -402,6 +453,7 @@ if __name__ == "__main__":
         print("  python image.py --interactive                       # Interactive search and download")
         print("  python image.py --create-cabinet-art                # Scan NRAN_PACK and create cabinet art")
         print("  python image.py --all                               # Scan NRAN_PACK and create all cabinet art")
+        print("  python image.py --backup                            # Backup CSV files from NRAN Content directory")
         sys.exit(1)
     
     converter = ImageConverter()
@@ -424,6 +476,8 @@ if __name__ == "__main__":
         converter.scan_and_create_cabinet_art()
     elif sys.argv[1] == "--all":
         converter.scan_and_create_cabinet_art()
+    elif sys.argv[1] == "--backup":
+        converter.backup_configs()
     else:
         # Original DDS conversion functionality
         if len(sys.argv) != 3:
